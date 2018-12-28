@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180414T105007+0100">
+  <Meeting id="95698" country="England" status="Dormant" date="20180414" course="Aintree" revision="3">
+    <Weather>Fine &amp; Dry</Weather>
+    <Going brief="Soft">Soft</Going>
+  </Meeting>
+</HorseRacing>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180414T161507+0100">
+  <Meeting id="97192" country="England" status="Dormant" date="20180414" course="Lingfield" revision="3">
+    <Weather>Sunny</Weather>
+    <Going brief="Standard">Standard</Going>
+    <Race id="798359" date="20180414" time="1615+0100" runners="5" handicap="Yes" showcase="No" trifecta="Yes" stewards="None" status="AtThePost" revision="18">
+      <Weather>Sunny</Weather>
+      <Going brief="Standard">Standard</Going>
+      <BetMarket marketNumber="1" dtFormed="20180414T160848+0100" deduction="0" deductionType="None"/>
+      <Horse id="2259986" name="Highcastle" bred="IRE" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="134" text="9st 8lbs"/>
+	<Jockey id="1151765" name="Oisin Murphy"/>
+	<Trainer id="9404" name="E A L Dunlop"/>
+	<Show timestamp="20180414T160848+0100" marketNumber="1">
+	  <Price numerator="7" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T160926+0100" marketNumber="1">
+	  <Price numerator="11" denominator="4"/>
+	</Show>
+	<Show timestamp="20180414T160933+0100" marketNumber="1">
+	  <Price numerator="5" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T161037+0100" marketNumber="1">
+	  <Price numerator="11" denominator="4"/>
+	</Show>
+	<Show timestamp="20180414T161111+0100" marketNumber="1">
+	  <Price numerator="5" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T161507+0100" marketNumber="1">
+	  <Price numerator="9" denominator="4"/>
+	</Show>
+      </Horse>
+      <Horse id="2259966" name="Dorian Gray" bred="IRE" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="133" text="9st 7lbs"/>
+	<Jockey id="31684" name="James Doyle"/>
+	<Trainer id="11161" name="H Morrison"/>
+	<Show timestamp="20180414T160848+0100" marketNumber="1">
+	  <Price numerator="8" denominator="11"/>
+	</Show>
+	<Show timestamp="20180414T160926+0100" marketNumber="1">
+	  <Price numerator="5" denominator="6"/>
+	</Show>
+	<Show timestamp="20180414T161037+0100" marketNumber="1">
+	  <Price numerator="10" denominator="11"/>
+	</Show>
+	<Show timestamp="20180414T161133+0100" marketNumber="1">
+	  <Price numerator="1" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T161445+0100" marketNumber="1">
+	  <Price numerator="11" denominator="10"/>
+	</Show>
+      </Horse>
+      <Horse id="2295033" name="Sauchiehall Street" bred="IRE" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="132" text="9st 6lbs"/>
+	<Jockey id="11616" name="M Dwyer"/>
+	<Trainer id="14728" name="S Kirk"/>
+	<Show timestamp="20180414T160848+0100" marketNumber="1">
+	  <Price numerator="9" denominator="2"/>
+	</Show>
+      </Horse>
+      <Horse id="2319033" name="Hackbridge" bred="GB" status="NonRunner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="5877" name="Non Runner"/>
+	<Trainer id="3897" name="P Phelan"/>
+      </Horse>
+      <Horse id="2320101" name="Diablery" bred="GB" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="129" text="9st 3lbs"/>
+	<Jockey id="1159559" name="Lewis Edmunds">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="46253" name="W Stone"/>
+	<Show timestamp="20180414T160848+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2298629" name="Rum Ration" bred="GB" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="121" text="8st 9lbs"/>
+	<Jockey id="1138528" name="Harry Bentley"/>
+	<Trainer id="163" name="M H Tompkins"/>
+	<Show timestamp="20180414T160848+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T161037+0100" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T161256+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T161315+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

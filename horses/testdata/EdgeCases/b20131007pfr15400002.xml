@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20131008T161732+0100">
+  <Meeting revision="1" id="57789" country="England" status="Dormant" date="20131007" course="Pontefract">
+    <Weather>Fine</Weather>
+    <Going brief="Good">Good (Good to Soft in places)</Going>
+    <Race revision="2" id="483641" date="20131007" time="1540+0100" runners="4" handicap="No" showcase="No" trifecta="Yes" stewards="None" status="Dormant">
+      <Weather>Fine</Weather>
+      <Going brief=""/>
+      <BetMarket marketNumber="1" dtFormed="20131008T161732+0100" deduction="0" deductionType="None"/>
+      <Horse id="1628428" name="Almagest" bred="GB" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="129" text="9st 3lbs"/>
+	<Jockey id="27114" name="D Tudhope"/>
+	<Trainer id="102897" name="D O'Meara"/>
+	<Show timestamp="20131008T161732+0100" marketNumber="1">
+	  <Price numerator="4" denominator="9"/>
+	</Show>
+      </Horse>
+      <Horse id="1684625" name="Mutual Regard" bred="IRE" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="129" text="9st 3lbs"/>
+	<Jockey id="38940" name="Luke Morris"/>
+	<Trainer id="132" name="Sir Mark Prescott"/>
+	<Show timestamp="20131008T161732+0100" marketNumber="1">
+	  <Price numerator="3" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="744074" name="Riptide" bred="GB" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="129" text="9st 3lbs"/>
+	<Jockey id="9770" name="G Lee"/>
+	<Trainer id="270" name="M Scudamore"/>
+	<Show timestamp="20131008T161732+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1728766" name="Statutory" bred="IRE" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="117" text="8st 5lbs"/>
+	<Jockey id="41905" name="S De Sousa"/>
+	<Trainer id="1883" name="M Johnston"/>
+	<Show timestamp="20131008T161732+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

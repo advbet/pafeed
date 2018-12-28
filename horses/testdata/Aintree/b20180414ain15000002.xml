@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180414T091124+0100">
+  <Meeting id="95698" country="England" status="Dormant" date="20180414" course="Aintree" revision="2">
+    <Weather>Fine &amp; Sunny</Weather>
+    <Going brief="Soft">Soft</Going>
+    <Race id="798436" date="20180414" time="1500+0100" runners="6" handicap="No" showcase="No" trifecta="Yes" stewards="None" status="Dormant" revision="2">
+      <Weather>Fine &amp; Sunny</Weather>
+      <Going brief="Soft">Soft</Going>
+      <Horse id="2095157" name="Delegate" bred="GB" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="41547" name="B Hughes"/>
+	<Trainer id="105622" name="K Dalgleish"/>
+      </Horse>
+      <Horse id="2158168" name="Diego Du Charmil" bred="FR" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="1158179" name="Harry Cobden"/>
+	<Trainer id="4663" name="P F Nicholls"/>
+      </Horse>
+      <Horse id="2136743" name="Kauto Riko" bred="FR" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="31596" name="R T Dunne"/>
+	<Trainer id="100208" name="T R Gretton"/>
+      </Horse>
+      <Horse id="2113518" name="Petit Mouchoir" bred="FR" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="23447" name="D N Russell"/>
+	<Trainer id="13695" name="H de Bromhead"/>
+      </Horse>
+      <Horse id="2204031" name="Shantou Rock" bred="IRE" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="69385" name="Harry Skelton"/>
+	<Trainer id="118277" name="D Skelton"/>
+      </Horse>
+      <Horse id="2016585" name="Lady Buttons" bred="GB" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="151" text="10st 11lbs"/>
+	<Jockey id="45493" name="A Nicol"/>
+	<Trainer id="57045" name="P A Kirby"/>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

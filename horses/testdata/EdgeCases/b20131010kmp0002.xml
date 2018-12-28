@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20131011T155337+0100">
+  <Meeting revision="2" id="57855" country="England" status="Abandoned" date="20131010" course="Kempton">
+    <Abandoned>Fog</Abandoned>
+  </Meeting>
+</HorseRacing>

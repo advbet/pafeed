@@ -1,0 +1,1057 @@
+package horses
+
+import (
+	"encoding/xml"
+	"fmt"
+	"math/big"
+	"time"
+
+	"bitbucket.org/advbet/decimal"
+)
+
+// MeetingStatus is the status of whole meeting.
+type MeetingStatus string
+
+// RaceStatus is an enum of statuses a race can have.
+type RaceStatus string
+
+// StewardsStatus is an enum of allowed stewards involvement statuses for a race.
+type StewardsStatus string
+
+// DeductionType is an enum of rule four deduction types.
+type DeductionType string
+
+// ToteType is an enum of tote retrn types.
+type ToteType string
+
+// BetType is an enum of bet return types.
+type BetType string
+
+// HorseStatus describes horse participation in the race.
+type HorseStatus string
+
+// SellingDetailsType is an enum for horse selling transaction status.
+type SellingDetailsType string
+
+// CasualtyReason is an enum of reasons codes for horse to fail complete the
+// race.
+type CasualtyReason string
+
+// MultiBetType is an enum for multi-race bets types.
+type MultiBetType string
+
+// xmlYesNo is typed boolean with custom XML unmarshaler that converts Yes/No
+// string values to boolean value.
+type xmlYesNo bool
+
+// xmlDate is a date value with cusom XML unmarshaler that reads ISO 8601:1988
+// date value in format yyyymmdd.
+type xmlDate time.Time
+
+// xmlTimeElement is a time value with a custom XML unmarshaler that reads ISO
+// 8601:1988 time value split into Time (yyyymmdd) and Date (hhmmss+/-hhmm)
+// elements.
+type xmlTimeElement time.Time
+
+// xmlDuration is a duration value with custom XML unmashalter that reads ISO
+// 8601:1988 format (mmss.ss)
+type xmlDuration time.Duration
+
+// xmlPrice is a fractional odds value with custom XML unmarshaler that creates
+// it from xml element having numerator and denominator attributes.
+type xmlPrice big.Rat
+
+// Racing is the main object sent via PA horse racing feed. It holds all
+// the information for a single (or more) horse races.
+type Racing struct {
+	Timestamp time.Time
+	Meetings  []Meeting
+}
+
+// Meeting object describes a horse racing meeting with information on zero
+// or more races.
+type Meeting struct {
+	ID         int           // The internal identifier for the meeting
+	Revision   int           // The revision number of the meeting
+	Country    string        // The country in which the meeting is being held
+	Course     string        // The course at which the meeting is being held
+	Date       time.Time     // The date on which the meeting is being held (format ISO 8601:1988 yyyymmdd).
+	Status     MeetingStatus // See HorseMeetingStatus for more details
+	Abandoned  string        // Present if the meeting has been abandoned
+	Delayed    string        // Reason for delay to meeting (if applicable)
+	Weather    string        // The current weather at the meeting
+	GoingBrief string        // Brief description of going e.g. "Good"
+	GoingFull  string        // Element contains full description of going. e.g Good (Good to Soft in places)
+	Races      []Race        // The race(s)
+	//Inspection UNUSED           // Inspection time (if there is one)
+	//Messages   UNUSED           // Any other information about the meeting
+	//MultiBet TODO               // Meeting based bet details (e.g. Jackpot)
+}
+
+// Race holds details of a single race.
+type Race struct {
+	ID        int            // The internal identifier for the race
+	Revision  int            // The revision number of the race
+	StartTime time.Time      // Date and time when race is scheduled to start
+	Runners   int            // Number of runners in race.
+	Handicap  bool           // Whether or not the race is a handicap
+	Showcase  bool           // Whether or not the race is a showcase race
+	Trifecta  bool           // Whether or not the race has a trifecta associated with it
+	Stewards  StewardsStatus // Indicates that the stewards are involved
+	Status    RaceStatus     // Status of the race
+	//PrizeMoney UNUSED      // Prize money awarded for the race
+	Weather           string        // The weather for this race
+	GoingBrief        string        // Brief description of going e.g. "Good"
+	GoingFull         string        // Full description of going. e.g Good (Good to Soft in places)
+	OffTime           time.Time     // The time at which the race started, or zero if unknown
+	WinTime           time.Duration // The time taken for the winner to complete the course, or zero if unknown
+	StewardsInquiry   string        // Stewards details regarding stewards inquiry
+	StewardsObjection string        // Stewards details regarding objection
+	BetMarkets        []BetMarket   // Betting market information (includes Rule Four)
+	//LackFinishers   UNUSED                 // Used if not enough finishers to fill result
+	//Message         UNUSED                 // Any other information about the race
+	Horses []Horse // The horses running in the race
+	//WinningDistance TODO // The distances between the runners on completing the course
+	Returns *Returns `xml:"Returns"` // The returns generated by the result of the race
+	//SellingDetails  TODO // Details of horses sold or claimed after the result
+}
+
+// Returns contains dividends returned for the race
+type Returns struct {
+	Tote []Tote // Tote dividends for the race
+	Bet  []Bet  // Forecast, Tricast etc.
+}
+
+// Tote describes the dividends for tote bets
+type Tote struct {
+	Type         ToteType      // The type of dividend
+	Currency     string        // The currency paid in e.g. GBP
+	Dividend     float64       // The amount paid
+	Stake        int           // Unit stake
+	HorseRef     []HorseRef    // The horse or result combination that the dividend is paid for
+	PoolDetails  *PoolDetails  // Pool details for a Trifecta
+	CarryForward *CarryForward // Details if a Trifecta has not been fully won
+}
+
+// Bet holds dividends for forecast, tricast ect. bets
+type Bet struct {
+	Type     BetType    // The type of dividend
+	Currency string     // The currency paid in e.g. GBP
+	Dividend float64    // The amount paid
+	HorseRef []HorseRef // The horse or result combination that the dividend is paid for
+}
+
+// HorseRef holds the reference to a horse
+type HorseRef struct {
+	ID   int    // The internal identifier for the horse
+	Name string // The name of the referenced horse
+	Bred string // The country of breeding of the referenced horse
+}
+
+// PoolDetails holds the pool details for a Trifecta
+type PoolDetails struct {
+	Currency  string  // The currency paid in e.g. GBP
+	Pool      float64 // The total prize pool.
+	WinStakes float64 // The winning stake (number of winning tickets).
+}
+
+// CarryForward holds the details if a Trifecta has not been fully won
+type CarryForward struct {
+	Currency string  // The currency paid in e.g. GBP
+	Pool     float64 // The prize pool being carried forward.
+	Date     string  // Date carried forward to.
+	Time     string  // The time of race carried forward to (if applicable)
+	Course   string  // The course carried forward to (if applicable)
+	Country  string  // The country of the specified course (if applicable)
+}
+
+// BetMarket holds etting market information (includes Rule Four).
+type BetMarket struct {
+	MarketNumber  int           // The number of this betting market (1, 2, 3 etc)
+	Formed        time.Time     // Date/time when this market was formed (format ISO 8601:1988 yyyymmddThhmmss+/-hhmm).
+	Suspended     time.Time     // Date/time when market was suspended (format ISO 8601:1988 yyyymmddThhmmss+/-hhmm)
+	Deduction     int           // Amount deducted to this market (Rule Four)
+	DeductionType DeductionType // Type of deduction applied
+}
+
+// Horse is data of a single horse participating in the race.
+type Horse struct {
+	ID          int         // The internal identifier for the horse
+	Name        string      // The name of the horse
+	Bred        string      // The country of breeding of the horse
+	Status      HorseStatus // Horse status regarding this race
+	ClothNumber int         // Saddlecloth or racecard number of horse
+	//ClothCoupled UNUSED  string // In races where two or more horses have been "coupled" together, these horses share the same "number" but have an additional letter to be able to tell them apart. For example 1 and 1a.
+	Weight             UnitsValueText // The weight carried by the horse
+	Jockey             Jockey         // The jockey riding the horse
+	Trainer            Trainer        // The trainer of the horse
+	Shows              []Show         // The betting show(s) on the horse
+	StartingPrice      StartingPrice  // The starting price of the horse
+	WithdrawnBetMarket int            // The number of the betting market withdrawn from
+	WithdrawnTime      time.Time      // The time of withdrawal (yyyymmddThhmm+/-hhmm)
+	//PhotoFinish UNUSED      `xml:"PhotoFinish"`   // Indicates horse involved in a photo-finish
+	Result              *Result        `xml:"Result"` // Result details if horse completed the course
+	CasualtyReason      CasualtyReason // Reason horse failed to complete race. A value of "DidNotFinish" is used when the official reason for failing to complete has not yet been announced.
+	CloseUpComment      string         // Description of how horse ran e.g. "held up in touch, ridden before 3 out, weakened"
+	BetMovementsComment string         // Description of odds availability e.g. "op 11/8 tchd 9/4 in places"
+	//BigBets     TODO // Big bet details
+}
+
+// StartingPrice is starting price data for a single horse in a race.
+type StartingPrice struct {
+	Price             big.Rat // The starting price of the horse
+	FavouritePosition int     // Position in market, 1 = favourite, 2 = 2nd favourite etc.
+	FavouriteJoint    int     // Number sharing this position in market (2 = jt, 3 = co etc)
+}
+
+// Jockey contains data about the person riding a horse in a race.
+type Jockey struct {
+	ID            int        // Identifier for jockey
+	Name          string     // The name of the jockey
+	RaceDayChange bool       // Flag to indicate whether the jockey has changed on the race day.
+	Allowance     UnitsValue // Allowance of the jockey units in which allowance value is pecified
+	Overweight    UnitsValue // Overweight information. Present only if the jockey is too heavy
+}
+
+// Trainer holds horse trainer details.
+type Trainer struct {
+	ID   int    // Identifier for trainer
+	Name string // The name of the trainer
+}
+
+// Show is a bet option (market) for horse to finish in 1st, 2nd, or 3rd place.
+type Show struct {
+	Timestamp    time.Time // The time at which the show was recieved (format ISO 8601:1988 yyyymmddThhmmss+/-hhmm). Acts as a unique identifier for the show
+	MarketNumber int       // The number of the betting market in which this show belongs
+	NoOffers     bool      // Whether or not no price is being offered.  If no price is being offered, this has the value "Yes", otherwise the attribute is absent
+	Price        big.Rat   // The price of the show
+}
+
+// Result describes single horse results in a race if horse completed the course
+type Result struct {
+	FinishPos       int    // Initial finishing position (first past post)
+	Disqualified    bool   // Indicates if horse was disqualified
+	AmendedPos      int    // Amended position (after Stewards Inquiry)
+	BetweenDistance string // Distance behind preceding finisher
+}
+
+// MoneyValue is a currency code and money value paid with custom XML
+// unmarshaled to read data from elements having currency and amount fields.
+type MoneyValue struct {
+	Currency string
+	Amount   decimal.Number
+}
+
+// UnitsValue is a helper struct for storing integer values iin weight or
+// length units. This type have a custom XML unmarshaler from elements having
+// units and value attributes.
+type UnitsValue struct {
+	Units string
+	Value int
+}
+
+// UnitsValueText is same type as UnitsValue but with additional text field
+// which contains human readable textual value in untis representation.
+type UnitsValueText struct {
+	Units string
+	Value int
+	Text  string
+}
+
+// List of allowed HorseMeetingStatus values.
+const (
+	MeetingDormant    MeetingStatus = "Dormant"    // the meeting has not yet started
+	MeetingInspection MeetingStatus = "Inspection" // an inspection is taking place
+	MeetingAbandoned  MeetingStatus = "Abandoned"  // the meeting has been abandoned
+	MeetingDelayed    MeetingStatus = "Delayed"    // the meeting is delayed
+	MeetingActive     MeetingStatus = "Active"     // the meeting has started
+	MeetingFinished   MeetingStatus = "Finished"   // the meeting has finished
+)
+
+// List of allowed RaceStatus values.
+const (
+	RaceDormant       RaceStatus = "Dormant"
+	RaceDelayed       RaceStatus = "Delayed"
+	RaceParading      RaceStatus = "Parading"
+	RaceGoingDown     RaceStatus = "GoingDown"
+	RaceAtThePost     RaceStatus = "AtThePost"
+	RaceGoingBehind   RaceStatus = "GoingBehind"
+	RaceGoingInStalls RaceStatus = "GoingInStalls"
+	RaceUnderOrders   RaceStatus = "UnderOrders"
+	RaceOff           RaceStatus = "Off"
+	RaceFinished      RaceStatus = "Finished"
+	RaceFalseStart    RaceStatus = "FalseStart"
+	RacePhotograph    RaceStatus = "Photograph"
+	RaceResult        RaceStatus = "Result"
+	RaceWeighedIn     RaceStatus = "WeighedIn"
+	RaceRaceVoid      RaceStatus = "RaceVoid"
+	RaceAbandoned     RaceStatus = "Abandoned"
+)
+
+// List of allowed StewardStatus values.
+const (
+	StewardsNone                StewardsStatus = "None"
+	StewardsInquiry             StewardsStatus = "Inquiry"
+	StewardsObjection           StewardsStatus = "Objection"
+	StewardsInquiryAndObjection StewardsStatus = "InquiryAndObjection"
+	StewardsAmendedResult       StewardsStatus = "AmendedResult"
+	StewardsResultStands        StewardsStatus = "ResultStands"
+)
+
+// List of allowed DeductionType values.
+const (
+	DeductionNone        DeductionType = "None"
+	DeductionBoardPrices DeductionType = "BoardPrices"
+	DeductionAllBets     DeductionType = "AllBets"
+)
+
+// List of allowed ToteType values.
+const (
+	ToteWin        ToteType = "Win"
+	TotePlace      ToteType = "Place"
+	ToteShow       ToteType = "Show"
+	ToteExacta     ToteType = "Exacta"
+	ToteQuinella   ToteType = "Quinella"
+	ToteTrifecta   ToteType = "Trifecta"
+	ToteSuperfecta ToteType = "Superfecta"
+	ToteSwinger    ToteType = "Swinger"
+)
+
+// List of allowed BetType values.
+const (
+	BetTypeCSF             BetType = "CSF"
+	BetTypeReverseForecast BetType = "ReverseForecast"
+	BetTypeTricast         BetType = "Tricast"
+)
+
+// List of allowed HorseStatus values.
+const (
+	HorseRunner    HorseStatus = "Runner"    // the horse will be competing
+	HorseNonRunner HorseStatus = "NonRunner" // horse is a nonrunner
+	HorseWithdrawn HorseStatus = "Withdrawn" // horse was withdrawn (see Withdrawn element)
+	HorseReserve   HorseStatus = "Reserve"   // the horse is a reserve
+)
+
+// List of allowed CasualtyReason values.
+const (
+	NoCasualty    CasualtyReason = ""
+	Fell          CasualtyReason = "Fell"
+	PulledUp      CasualtyReason = "PulledUp"
+	UnseatedRider CasualtyReason = "UnseatedRider"
+	BroughtDown   CasualtyReason = "BroughtDown"
+	Refused       CasualtyReason = "Refused"
+	CarriedOut    CasualtyReason = "CarriedOut"
+	RanOut        CasualtyReason = "RanOut"
+	SlippedUp     CasualtyReason = "SlippedUp"
+	HitRails      CasualtyReason = "HitRails"
+	RefusedToRace CasualtyReason = "RefusedToRace"
+	DidNotFinish  CasualtyReason = "DidNotFinish"
+)
+
+// List of allowed SellingDetailsType values.
+const (
+	SellingDetailsNoBid    SellingDetailsType = "NoBid"
+	SellingDetailsBoughtIn SellingDetailsType = "BoughtIn"
+	SellingDetailsSold     SellingDetailsType = "Sold"
+	SellingDetailsClaimed  SellingDetailsType = "Claimed"
+)
+
+// List of allowed MultiBetType values.
+const (
+	MultiBetJackpot       MultiBetType = "Jackpot"
+	MultiBetPlacepot      MultiBetType = "Placepot"
+	MultiBetQuadpot       MultiBetType = "Quadpot"
+	MultiBetIrishJackpot  MultiBetType = "IrishJackpot"
+	MultiBetIrishPlacepot MultiBetType = "IrishPlacepot"
+	MultiBetPlaceSix      MultiBetType = "PlaceSix"
+	MultiBetPlaceFive     MultiBetType = "PlaceFive"
+	MultiBetDailyDouble   MultiBetType = "DailyDouble"
+	MultiBetPick3         MultiBetType = "Pick3"
+	MultiBetPick4         MultiBetType = "Pick4"
+	MultiBetPick6         MultiBetType = "Pick6"
+	MultiBetSuper7        MultiBetType = "Super7"
+	MultiBetSuper6        MultiBetType = "Super6"
+	MultiBetSuper5        MultiBetType = "Super5"
+	MultiBetDailyTreble   MultiBetType = "DailyTreble"
+	MultiBetScoop6Win     MultiBetType = "Scoop6Win"
+	MultiBetScoop6Place   MultiBetType = "Scoop6Place"
+	MultiBetScoop6Bonus   MultiBetType = "Scoop6Bonus"
+)
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (r *Racing) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	var data struct {
+		Timestamp xmlTimeElement `xml:"timestamp,attr"`
+		Meetings  []Meeting      `xml:"Meeting"`
+	}
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	*r = Racing{
+		Timestamp: time.Time(data.Timestamp),
+		Meetings:  data.Meetings,
+	}
+	return nil
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (m *Meeting) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	// initial values for fields having non empty defaults
+	data := struct {
+		ID        int           `xml:"id,attr"`       // The internal identifier for the meeting
+		Revision  int           `xml:"revision,attr"` // The revision number of the meeting
+		Country   string        `xml:"country,attr"`  // The country in which the meeting is being held
+		Course    string        `xml:"course,attr"`   // The course at which the meeting is being held
+		Date      xmlDate       `xml:"date,attr"`     // The date on which the meeting is being held (format ISO 8601:1988 yyyymmdd).
+		Status    MeetingStatus `xml:"status,attr"`   // See HorseMeetingStatus for more details
+		Abandoned string        `xml:"Abandoned"`     // Present if the meeting has been abandoned
+		Delayed   string        `xml:"Delayed"`       // Reason for delay to meeting (if applicable)
+		Weather   string        `xml:"Weather"`       // The current weather at the meeting
+		Going     struct {
+			Brief string `xml:"brief,attr"` // Brief description of going e.g. "Good"
+			Full  string `xml:",chardata"`  // Element contains full description of going. e.g Good (Good to Soft in places)
+		} `xml:"Going"` // The current going for the meeting
+		Races []Race `xml:"Race"` // The race(s)
+		//Inspection UNUSED `xml:"Inspection"`    // Inspection details (if there is one)
+		//Message    UNUSED `xml:"Message"` // Any other information about the meeting
+		MultiBet []struct {
+			Type        MultiBetType   `xml:"type,attr"`     // Type of multibet
+			Currency    string         `xml:"currency,attr"` // The currency paid in e.g. GBP
+			Dividend    decimal.Number `xml:"dividend,attr"` // The amount paid. Where a pool is not won the dividend will contain "0.00"
+			Stake       int            `xml:"stake,attr"`    // Unit stake
+			PoolDetails *struct {
+				Currency  string         `xml:"currency,attr"`  // The currency paid in e.g. GBP
+				Pool      decimal.Number `xml:"pool,attr"`      // The total prize pool.
+				WinStakes decimal.Number `xml:"winStakes,attr"` // The winning stake (number of winning tickets).
+			} `xml:"PoolDetails"` // Present for "pool" based bets.
+			CarryForward *struct {
+				Currency string         `xml:"currency,attr"` // The currency paid in e.g. GBP
+				Pool     decimal.Number `xml:"pool,attr"`     // The prize pool being carried forward.
+				Date     string         `xml:"date,attr"`     // Date carried forward to.
+				Time     string         `xml:"time,attr"`     // The time of race carried forward to (if applicable)
+				Course   string         `xml:"course,attr"`   // The course carried forward to (if applicable)
+				Country  string         `xml:"country,attr"`  // The country of the specified course (if applicable)
+			} `xml:"CarryForward"` // Present for "pool" based bets but only if the pool has not been completely won, and is being carried over to a future meeting.
+			MultiBetLeg []struct {
+				Leg      int `xml:"leg,attr"`    // leg number
+				RaceID   int `xml:"raceId,attr"` // id of the race
+				ClothRef []struct {
+					Number int `xml:"number,attr"` // The number of the horse or coupled horses
+				} `xml:"ClothRef"` // Specifies the cloth numbers of horses that are correct selections for each leg of the MultiBet
+			} `xml:"MultiBetLeg"` // Specifies races and leg results
+			//MultiBetConsolation UNUSED `xml:"MultiBetConsolation"` // Details of any bet consolations
+		} `xml:"MultiBet"` // Meeting based bet details (e.g. Jackpot)
+	}{
+		Status: MeetingDormant,
+	}
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	*m = Meeting{
+		ID:         data.ID,
+		Revision:   data.Revision,
+		Country:    data.Country,
+		Course:     data.Course,
+		Date:       time.Time(data.Date),
+		Status:     data.Status,
+		Abandoned:  data.Abandoned,
+		Delayed:    data.Delayed,
+		Weather:    data.Weather,
+		GoingBrief: data.Going.Brief,
+		GoingFull:  data.Going.Full,
+		Races:      data.Races,
+		//Inspection UNUSED
+		//Messages   UNUSED
+		//MultiBet   TODO         // Meeting based bet details (e.g. Jackpot)
+	}
+	return nil
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (r *Race) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	data := struct {
+		ID       int            `xml:"id,attr"`       // The internal identifier for the race
+		Revision int            `xml:"revision,attr"` // The revision number of the race
+		Date     string         `xml:"date,attr"`     // The date of the race (format ISO 8601:1988 yyyymmdd)
+		Time     string         `xml:"time,attr"`     // The time at which the race is scheduled to start (format ISO 8601:1988 hhmm+/-hhmm)
+		Runners  int            `xml:"runners,attr"`  // Number of runners in race.
+		Handicap xmlYesNo       `xml:"handicap,attr"` // Whether or not the race is a handicap
+		Showcase xmlYesNo       `xml:"showcase,attr"` // Whether or not the race is a showcase race
+		Trifecta xmlYesNo       `xml:"trifecta,attr"` // Whether or not the race has a trifecta associated with it
+		Stewards StewardsStatus `xml:"stewards,attr"` // Indicates that the stewards are involved
+		Status   RaceStatus     `xml:"status,attr"`   // Status of the race
+		//PrizeMoney UNUSED     `xml:"PrizeMoney"`    // Prize money awarded for the race
+		Weather string `xml:"Weather"` // The weather for this race
+		Going   struct {
+			Brief string `xml:"brief,attr"` // Brief description of going e.g. "Good"
+			Full  string `xml:",chardata"`  // Element contains full description of going. e.g Good (Good to Soft in places)
+		} `xml:"Going"` // The going for this race
+		OffTime         xmlTimeElement `xml:"OffTime"` // The time at which the race started
+		WinTime         xmlDuration    `xml:"WinTime"` // The time taken for the winner to complete the course
+		StewardsDetails struct {
+			Inquiry struct {
+				Data string `xml:",chardata"`
+			} `xml:"Inquiry"` // Details regarding stewards inquiry
+			Objection struct {
+				Data string `xml:",chardata"`
+			} `xml:"Objection"` // Details regarding objection
+		} `xml:"Stewards"` // Stewards details
+		BetMarkets    []BetMarket `xml:"BetMarket"` // Betting market information (includes Rule Four)
+		LackFinishers *struct {
+			NumFinished  int `xml:"numFinished,attr"` // The number of horses that completed the course.
+			PenaltyValue *struct {
+				Currency string `xml:"currency,attr"` // The currency of the prize money
+				Amount   int    `xml:"amount,attr"`   // Penalty value amount
+			} `xml:"PenaltyValue"` // Holds revised penalty value (where appropriate)
+		} `xml:"LackFinishers"` // Used if not enough finishers to fill result
+		//Message UNUSED // Any other information about the race
+		Horses          []Horse `xml:"Horse"` // The horses running in the race
+		WinningDistance []struct {
+			// The index of the finish position:
+			// 1 = between 1st and 2nd
+			// 2 = between 2nd and 3rd
+			Index       int    `xml:"index,attr"`
+			BtnDistance string `xml:"btnDistance,attr"` // Distance between the two specified finishers
+		} `xml:"WinningDistance"` // The distances between the runners on completing the course
+		Returns        *Returns `xml:"Returns"` // The returns generated by the result of the race
+		SellingDetails []struct {
+			Type     SellingDetailsType `xml:"type,attr"` // The type of transaction
+			HorseRef []struct {
+				ID   int    `xml:"id,attr"`   // The internal identifier for the horse
+				Name string `xml:"name,attr"` // The name of the referenced horse
+				Bred string `xml:"bred,attr"` // The country of breeding of the referenced horse
+			} `xml:"HorseRef"` // The horse being sold or claimed
+			HorseValue *struct {
+				Currency string `xml:"currency,attr"` // The currency paid e.g. GBP
+				Amount   int    `xml:"amount,attr"`   // The value paid
+			} `xml:"HorseValue"` // The value paid for the horse
+			HorseBuyer *struct {
+				Name string `xml:"name,attr"` // Name of purchaser of horse
+			} `xml:"HorseBuyer"` // The buyer of the horse
+		} `xml:"SellingDetails"` // Details of horses sold or claimed after the result
+	}{
+		Status:   RaceDormant,
+		Stewards: StewardsNone,
+	}
+
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	startTime, err := time.Parse("20060102T1504-0700", fmt.Sprintf("%sT%s", data.Date, data.Time))
+	if err != nil {
+		return fmt.Errorf("parsing Race.date and Race.time: %v", err)
+	}
+
+	*r = Race{
+		ID:        data.ID,
+		Revision:  data.Revision,
+		StartTime: startTime,
+		Runners:   data.Runners,
+		Handicap:  bool(data.Handicap),
+		Showcase:  bool(data.Showcase),
+		Trifecta:  bool(data.Trifecta),
+		Stewards:  data.Stewards,
+		Status:    data.Status,
+		//PrizeMoney UNUSED
+		Weather:           data.Weather,
+		GoingBrief:        data.Going.Brief,
+		GoingFull:         data.Going.Full,
+		OffTime:           time.Time(data.OffTime),
+		WinTime:           time.Duration(data.WinTime),
+		StewardsInquiry:   data.StewardsDetails.Inquiry.Data,
+		StewardsObjection: data.StewardsDetails.Objection.Data,
+		BetMarkets:        data.BetMarkets,
+		//LackFinishers   UNUSED // Used if not enough finishers to fill result
+		//Message         UNUSED // Any other information about the race
+		Horses: data.Horses,
+		//WinningDistance TODO // The distances between the runners on completing the course
+		Returns: data.Returns,
+		//SellingDetails  TODO // Details of horses sold or claimed after the result
+	}
+	return nil
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (m *BetMarket) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	data := struct {
+		MarketNumber  int            `xml:"marketNumber,attr"`  // The number of this betting market (1, 2, 3 etc)
+		Formed        xmlTimeElement `xml:"dtFormed,attr"`      // Date/time when this market was formed (format ISO 8601:1988 yyyymmddThhmmss+/-hhmm).
+		Suspended     xmlTimeElement `xml:"dtSuspended,attr"`   // Date/time when market was suspended (format ISO 8601:1988 yyyymmddThhmmss+/-hhmm)
+		Deduction     int            `xml:"deduction,attr"`     // Amount deducted to this market (Rule Four)
+		DeductionType DeductionType  `xml:"deductionType,attr"` // Type of deduction applied
+	}{}
+
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	*m = BetMarket{
+		MarketNumber:  data.MarketNumber,
+		Formed:        time.Time(data.Formed),
+		Suspended:     time.Time(data.Suspended),
+		Deduction:     data.Deduction,
+		DeductionType: data.DeductionType,
+	}
+	return nil
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (h *Horse) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	data := struct {
+		ID     int         `xml:"id,attr"`     // The internal identifier for the horse
+		Name   string      `xml:"name,attr"`   // The name of the horse
+		Bred   string      `xml:"bred,attr"`   // The country of breeding of the horse
+		Status HorseStatus `xml:"status,attr"` // Horse status regarding this race
+		Cloth  struct {
+			Number int `xml:"number,attr"` // Saddlecloth or racecard number of horse
+			// In races where two or more horses have been "coupled" together,
+			// these horses share the same "number" but have an additional letter
+			// to be able to tell them apart. For example 1 and 1a.
+			Coupled string `xml:"coupled,attr"`
+		} `xml:"Cloth"` // The saddlecloth number for the horse
+		Weight        UnitsValueText `xml:"Weight"`        // The weight carried by the horse
+		Jockey        Jockey         `xml:"Jockey"`        // The jockey riding the horse
+		Trainer       Trainer        `xml:"Trainer"`       //  The trainer of the horse
+		Shows         []Show         `xml:"Show"`          // The betting show(s) on the horse
+		StartingPrice StartingPrice  `xml:"StartingPrice"` // The starting price of the horse
+		Withdrawn     struct {
+			BetMarket     int            `xml:"betMarket,attr"`     // The number of the betting market withdrawn from
+			TimeWithdrawn xmlTimeElement `xml:"timeWithdrawn,attr"` // The time of withdrawal (yyyymmddThhmm+/-hhmm)
+			//Price UNUSED xmlPrice     `xml:"Price"`              // The price of the withdrawn horse (if there was one)
+			//Favourite UNUSED *struct {
+			//	Position int `xml:"position,attr"` // Position in market, 1 = favourite, 2 = 2nd favourite etc.
+			//	Joint    int `xml:"joint,attr"`    // Number sharing this position in market (2 = jt, 3 = co etc)
+			//} `xml:"Favourite"` // Indicates withdrawn favourite (where applicable)
+		} `xml:"Withdrawn"` // Details if horse was withdrawn
+		//PhotoFinish   UNUSED      `xml:"PhotoFinish"`   // Indicates horse involved in a photo-finish
+		Result   *Result `xml:"Result"` // Result details if horse completed the course
+		Casualty struct {
+			Reason CasualtyReason `xml:"reason,attr"` // Reason horse failed to complete race. A value of "DidNotFinish" is used when the official reason for failing to complete has not yet been announced.
+		} `xml:"Casualty"` // Casualty details if the horse did not complete the course
+		CloseUp struct {
+			Comment string `xml:"comment,attr"` // Description of how horse ran e.g. "held up in touch, ridden before 3 out, weakened"
+		} `xml:"CloseUp"` // Closeup comment for the horse
+		BetMovements struct {
+			Comment string `xml:"comment,attr"` // Description of odds availability e.g. "op 11/8 tchd 9/4 in places"
+		} `xml:"BetMovements"` // Details of betting movements
+		BigBets *struct {
+			BigBetCash []struct {
+				Type     string `xml:"type,attr"`     // Type of bet placed
+				Currency string `xml:"currency,attr"` // The currency paid in e.g. GBP
+				Stake    int    `xml:"stake,attr"`    // Size of stake involved
+				Win      int    `xml:"win,attr"`      // What the bet would have won
+				Count    int    `xml:"count,attr"`    // Number of times this bet was placed
+			} `xml:"BigBetCash"` // Cash bets placed on the horse
+			BigBetOffice []struct {
+				Type string `xml:"type,attr"` // Type of office money
+			} `xml:"BigBetOffice"` // Office money details for the horse
+		} `xml:"BigBets"` // Big bet details
+	}{}
+
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+
+	*h = Horse{
+		ID:          data.ID,
+		Name:        data.Name,
+		Bred:        data.Bred,
+		Status:      data.Status,
+		ClothNumber: data.Cloth.Number,
+		//ClothCoupled UNUSED
+		Weight:             data.Weight,
+		Jockey:             data.Jockey,
+		Trainer:            data.Trainer,
+		Shows:              data.Shows,
+		StartingPrice:      data.StartingPrice,
+		WithdrawnBetMarket: data.Withdrawn.BetMarket,
+		WithdrawnTime:      time.Time(data.Withdrawn.TimeWithdrawn),
+		//PhotoFinish   UNUSED
+		Result:              data.Result,
+		CasualtyReason:      data.Casualty.Reason,
+		CloseUpComment:      data.CloseUp.Comment,
+		BetMovementsComment: data.BetMovements.Comment,
+		//BigBets TODO
+	}
+	return nil
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (r *Returns) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	data := struct {
+		Tote []Tote `xml:"Tote"` // Tote dividends for the race
+		Bet  []Bet  `xml:"Bet"`  // Forecast, Tricast etc.
+	}{}
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	*r = Returns{
+		Tote: data.Tote,
+		Bet:  data.Bet,
+	}
+	return nil
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (r *Tote) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	data := struct {
+		Type         ToteType      `xml:"type,attr"`     // The type of dividend
+		Currency     string        `xml:"currency,attr"` // The currency paid in e.g. GBP
+		Dividend     float64       `xml:"dividend,attr"` // The amount paid
+		Stake        int           `xml:"stake,attr"`    // Unit stake
+		HorseRef     []HorseRef    `xml:"HorseRef"`      // The horse or result combination that the dividend is paid for.
+		PoolDetails  *PoolDetails  `xml:"PoolDetails"`   // Pool details for a Trifecta
+		CarryForward *CarryForward `xml:"CarryForward"`  // Details if a Trifecta has not been fully won
+	}{}
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	*r = Tote{
+		Type:         data.Type,
+		Currency:     data.Currency,
+		Dividend:     data.Dividend,
+		Stake:        data.Stake,
+		HorseRef:     data.HorseRef,
+		PoolDetails:  data.PoolDetails,
+		CarryForward: data.CarryForward,
+	}
+	return nil
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (r *Bet) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	data := struct {
+		Type     BetType    `xml:"type,attr"`     // The type of dividend
+		Currency string     `xml:"currency,attr"` // The currency paid in e.g. GBP
+		Dividend float64    `xml:"dividend,attr"` // The amount paid
+		HorseRef []HorseRef `xml:"HorseRef"`      // The horse or result combination that the dividend is paid for.
+	}{}
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	*r = Bet{
+		Type:     data.Type,
+		Currency: data.Currency,
+		Dividend: data.Dividend,
+		HorseRef: data.HorseRef,
+	}
+	return nil
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (r *HorseRef) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	data := struct {
+		ID   int    `xml:"id,attr"`   // The internal identifier for the horse
+		Name string `xml:"name,attr"` // The name of the referenced horse
+		Bred string `xml:"bred,attr"` // The country of breeding of the referenced horse
+	}{}
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	*r = HorseRef{
+		ID:   data.ID,
+		Name: data.Name,
+		Bred: data.Bred,
+	}
+	return nil
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (r *PoolDetails) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	data := struct {
+		Currency  string  `xml:"currency,attr"`  // The currency paid in e.g. GBP
+		Pool      float64 `xml:"pool,attr"`      // The total prize pool.
+		WinStakes float64 `xml:"winStakes,attr"` // The winning stake (number of winning tickets).
+	}{}
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	*r = PoolDetails{
+		Currency:  data.Currency,
+		Pool:      data.Pool,
+		WinStakes: data.WinStakes,
+	}
+	return nil
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (r *CarryForward) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	data := struct {
+		Currency string  `xml:"currency,attr"` // The currency paid in e.g. GBP
+		Pool     float64 `xml:"pool,attr"`     // The prize pool being carried forward.
+		Date     string  `xml:"date,attr"`     // Date carried forward to.
+		Time     string  `xml:"time,attr"`     // The time of race carried forward to (if applicable)
+		Course   string  `xml:"course,attr"`   // The course carried forward to (if applicable)
+		Country  string  `xml:"country,attr"`  // The country of the specified course (if applicable)
+	}{}
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	*r = CarryForward{
+		Currency: data.Currency,
+		Pool:     data.Pool,
+		Date:     data.Date,
+		Time:     data.Time,
+		Course:   data.Course,
+		Country:  data.Country,
+	}
+	return nil
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (sp *StartingPrice) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	data := struct {
+		Price     xmlPrice `xml:"Price"` // The starting price of the horse
+		Favourite struct {
+			Position int `xml:"position,attr"` // Position in market, 1 = favourite, 2 = 2nd favourite etc.
+			Joint    int `xml:"joint,attr"`    // Number sharing this position in market (2 = jt, 3 = co etc)
+		} `xml:"Favourite"` // Position of horse within starting price market
+	}{}
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	*sp = StartingPrice{
+		Price:             big.Rat(data.Price),
+		FavouritePosition: data.Favourite.Position,
+		FavouriteJoint:    data.Favourite.Joint,
+	}
+	return nil
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (j *Jockey) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	data := struct {
+		ID            int        `xml:"id,attr"`            // Identifier for jockey
+		Name          string     `xml:"name,attr"`          // The name of the jockey
+		RaceDayChange xmlYesNo   `xml:"raceDayChange,attr"` // Flag to indicate whether the jockey has changed on the race day.
+		Allowance     UnitsValue `xml:"Allowance"`          // The allowance of the jockey
+		Overweight    UnitsValue `xml:"Overweight"`         // Overweight information. Present only if the jockey is too heavy
+	}{}
+
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	*j = Jockey{
+		ID:            data.ID,
+		Name:          data.Name,
+		RaceDayChange: bool(data.RaceDayChange),
+		Allowance:     data.Allowance,
+		Overweight:    data.Overweight,
+	}
+	return nil
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (t *Trainer) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	data := struct {
+		ID   int    `xml:"id,attr"`   // Identifier for trainer
+		Name string `xml:"name,attr"` // The name of the trainer
+	}{}
+
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	*t = Trainer{
+		ID:   data.ID,
+		Name: data.Name,
+	}
+	return nil
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (s *Show) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	data := struct {
+		Timestamp    xmlTimeElement `xml:"timestamp,attr"`    // The time at which the show was recieved (format ISO 8601:1988 yyyymmddThhmmss+/-hhmm). Acts as a unique identifier for the show
+		MarketNumber int            `xml:"marketNumber,attr"` // The number of the betting market in which this show belongs
+		NoOffers     xmlYesNo       `xml:"noOffers"`          // Whether or not no price is being offered.  If no price is being offered, this has the value "Yes", otherwise the attribute is absent
+		Price        xmlPrice       `xml:"Price"`             // The price of the show
+	}{}
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	*s = Show{
+		Timestamp:    time.Time(data.Timestamp),
+		MarketNumber: data.MarketNumber,
+		NoOffers:     bool(data.NoOffers),
+		Price:        big.Rat(data.Price),
+	}
+	return nil
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (r *Result) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	data := struct {
+		FinishPos       int      `xml:"finishPos,attr"`    // Initial finishing position (first past post)
+		Disqualified    xmlYesNo `xml:"disqualified,attr"` // Indicates if horse was disqualified
+		AmendedPos      int      `xml:"amendedPos,attr"`   // Amended position (after Stewards Inquiry)
+		BetweenDistance string   `xml:"btnDistance,attr"`  // Distance behind preceding finisher
+	}{}
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	*r = Result{
+		FinishPos:       data.FinishPos,
+		Disqualified:    bool(data.Disqualified),
+		AmendedPos:      data.AmendedPos,
+		BetweenDistance: data.BetweenDistance,
+	}
+	return nil
+}
+
+// UnmarshalXMLAttr implements xml.UnmarshalerAttr intrface.
+func (s *MeetingStatus) UnmarshalXMLAttr(attr xml.Attr) error {
+	switch v := MeetingStatus(attr.Value); v {
+	case MeetingDormant,
+		MeetingInspection,
+		MeetingAbandoned,
+		MeetingDelayed,
+		MeetingActive,
+		MeetingFinished:
+		*s = v
+		return nil
+	default:
+		return fmt.Errorf("parsing %s attribute as HorseMeetingStatus field, unexpected value: %s", attr.Name, attr.Value)
+	}
+}
+
+// UnmarshalXMLAttr implements xml.UnmarshalerAttr intrface.
+func (b *xmlYesNo) UnmarshalXMLAttr(attr xml.Attr) error {
+	switch attr.Value {
+	case "yes", "Yes":
+		*b = true
+		return nil
+	case "no", "No":
+		*b = false
+		return nil
+	default:
+		return fmt.Errorf("parsing %s attribute as Yes/No field, unexpected value: %s", attr.Name, attr.Value)
+	}
+}
+
+// UnmarshalXMLAttr implements xml.UnmarshalerAttr intrface.
+func (t *xmlDate) UnmarshalXMLAttr(attr xml.Attr) error {
+	tm, err := time.Parse("20060102", attr.Value)
+	if err != nil {
+		return fmt.Errorf("parsing %v attribute (%s): %v", attr.Name, attr.Value, err)
+	}
+	*t = xmlDate(tm)
+	return nil
+
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (t *xmlTimeElement) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	var data struct {
+		Date string `xml:"date,attr"` // Format ISO 8601:1988 yyyymmdd
+		Time string `xml:"time,attr"` // Format ISO 8601:1988 hhmm+/-hhmm
+	}
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	tm, err := time.Parse("20060102T150405-0700", fmt.Sprintf("%sT%s", data.Date, data.Time))
+	if err != nil {
+		return fmt.Errorf("parsing DateTime element: %v", err)
+	}
+	*t = xmlTimeElement(tm)
+	return nil
+}
+
+// UnmarshalXMLAttr implements xml.UnmarshalerAttr intrface.
+func (t *xmlTimeElement) UnmarshalXMLAttr(attr xml.Attr) error {
+	tm, err := time.Parse("20060102T150405-0700", attr.Value)
+	if err != nil {
+		return fmt.Errorf("parsing %v attribute (%s): %v", attr.Name, attr.Value, err)
+	}
+	*t = xmlTimeElement(tm)
+	return nil
+}
+
+// parseDudation converts ISO 8601:1988 mmss.ss formated string to golang
+// time.Duration value.
+func parseDuration(s string) (time.Duration, error) {
+	if s == "" {
+		return 0, nil
+	}
+	n, err := decimal.FromString(s)
+	if err != nil {
+		return 0, err
+	}
+	hour := n.ScaledVal(4) % 100
+	mins := n.ScaledVal(2) % 100
+	secs := n.ScaledVal(0) % 100
+	mils := n.ScaledVal(-3) % 1000
+	return time.Hour*time.Duration(hour) +
+		time.Minute*time.Duration(mins) +
+		time.Second*time.Duration(secs) +
+		time.Millisecond*time.Duration(mils), err
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (t *xmlDuration) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	var data struct {
+		Time string `xml:"time,attr"` // Time taken (format ISO 8601:1988 mmss.ss)
+	}
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	duration, err := parseDuration(data.Time)
+	if err != nil {
+		return fmt.Errorf("parsing xmlDuration element (%s): %v", data.Time, err)
+	}
+	*t = xmlDuration(duration)
+	return nil
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (f *xmlPrice) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	var data struct {
+		Numerator   int `xml:"numerator,attr"`   // The numerator of the price
+		Denominator int `xml:"denominator,attr"` // The denominator of the price
+	}
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	var tmp big.Rat
+	tmp.SetFrac64(int64(data.Numerator), int64(data.Denominator))
+	*f = xmlPrice(tmp)
+	return nil
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (t *MoneyValue) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	data := struct {
+		Currency string         `xml:"currency,attr"` // The currency of the money value
+		Amount   decimal.Number `xml:"amount,attr"`   // Amount of money in a give currency
+	}{}
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	*t = MoneyValue(data)
+	return nil
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (v *UnitsValue) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	data := struct {
+		Units string `xml:"units,attr"` // The units in which the value is specified
+		Value int    `xml:"value,attr"` // The value in the specified units
+	}{}
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	*v = UnitsValue(data)
+	return nil
+}
+
+// UnmarshalXML implements xml.Unmarshaler interface.
+func (v *UnitsValueText) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+	data := struct {
+		Units string `xml:"units,attr"` // The units in which the value is specified
+		Value int    `xml:"value,attr"` // The value in the specified units
+		Text  string `xml:"text,attr"`  // Textual representation of the value
+	}{}
+	if err := d.DecodeElement(&data, &start); err != nil {
+		return err
+	}
+	*v = UnitsValueText(data)
+	return nil
+}

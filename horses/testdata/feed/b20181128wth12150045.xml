@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20181128T125014+0000">
+  <Meeting id="104930" country="England" status="Dormant" date="20181128" course="Wetherby" revision="3">
+    <Weather>Overcast &amp; Showers</Weather>
+    <Going brief="Good to Soft">Good to Soft</Going>
+    <Race id="854412" date="20181128" time="1215+0000" runners="10" handicap="No" showcase="No" trifecta="Yes" stewards="None" status="WeighedIn" revision="45">
+      <Weather>Overcast &amp; Showers</Weather>
+      <Going brief="Good to Soft">Good to Soft</Going>
+      <OffTime date="20181128" time="121549+0000"/>
+      <WinTime time="0403.10"/>
+      <BetMarket marketNumber="1" dtFormed="20181128T120615+0000" deduction="0" deductionType="None"/>
+      <Horse id="2358957" name="Alexanderthegreat" bred="FR" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="152" text="10st 12lbs"/>
+	<Jockey id="41547" name="B S Hughes"/>
+	<Trainer id="9243" name="J J Quinn"/>
+	<Show timestamp="20181128T120615+0000" marketNumber="1">
+	  <Price numerator="5" denominator="4"/>
+	</Show>
+	<Show timestamp="20181128T121140+0000" marketNumber="1">
+	  <Price numerator="11" denominator="8"/>
+	</Show>
+	<Show timestamp="20181128T121308+0000" marketNumber="1">
+	  <Price numerator="6" denominator="4"/>
+	</Show>
+	<Show timestamp="20181128T121415+0000" marketNumber="1">
+	  <Price numerator="13" denominator="8"/>
+	</Show>
+	<Show timestamp="20181128T121514+0000" marketNumber="1">
+	  <Price numerator="7" denominator="4"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="13" denominator="8"/>
+	  <Favourite position="1" joint="1"/>
+	</StartingPrice>
+	<Casualty reason="UnseatedRider"/>
+	<CloseUp comment="tracked leaders, tracked winner soon after 6th, ridden 3 out, weakened next, stumbled on landing and unseated rider last"/>
+	<BetMovements comment="op 5/4 tchd 7/4"/>
+      </Horse>
+      <Horse id="2342636" name="Alliteration" bred="GB" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="152" text="10st 12lbs"/>
+	<Jockey id="83305" name="Danny Cook"/>
+	<Trainer id="107851" name="J Hughes"/>
+	<Show timestamp="20181128T120615+0000" marketNumber="1">
+	  <Price numerator="11" denominator="2"/>
+	</Show>
+	<Show timestamp="20181128T121157+0000" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<Show timestamp="20181128T121415+0000" marketNumber="1">
+	  <Price numerator="9" denominator="2"/>
+	</Show>
+	<Show timestamp="20181128T121505+0000" marketNumber="1">
+	  <Price numerator="4" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="4" denominator="1"/>
+	  <Favourite position="3" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="2" disqualified="No" btnDistance="17 lengths"/>
+	<CloseUp comment="held up, headway 6th, chased winner when hit 3 out, plugged on"/>
+	<BetMovements comment="op 11/2"/>
+      </Horse>
+      <Horse id="2298225" name="Burnieboozle" bred="IRE" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="152" text="10st 12lbs"/>
+	<Jockey id="1148952" name="C R King"/>
+	<Trainer id="9243" name="J J Quinn"/>
+	<Show timestamp="20181128T120615+0000" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+	<Show timestamp="20181128T121403+0000" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<Show timestamp="20181128T121455+0000" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<Show timestamp="20181128T121514+0000" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="16" denominator="1"/>
+	  <Favourite position="6" joint="1"/>
+	</StartingPrice>
+	<Casualty reason="Fell"/>
+	<CloseUp comment="keen, held up, over jumped and fell 4th"/>
+	<BetMovements comment="op 33/1"/>
+      </Horse>
+      <Horse id="2295288" name="Keynote" bred="IRE" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="152" text="10st 12lbs"/>
+	<Jockey id="1164129" name="Mr P Armson">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="9194" name="R J Armson"/>
+	<Show timestamp="20181128T120615+0000" marketNumber="1">
+	  <Price numerator="200" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="200" denominator="1"/>
+	  <Favourite position="10" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="4" disqualified="No" btnDistance="30 lengths"/>
+	<CloseUp comment="towards rear, ridden 6th, never on terms"/>
+      </Horse>
+      <Horse id="2310027" name="Astrofire" bred="GB" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="145" text="10st 5lbs"/>
+	<Jockey id="1154755" name="Mr Alex Chadwick">
+	  <Allowance units="lbs" value="7"/>
+	  <Overweight units="lbs" value="2"/>
+	</Jockey>
+	<Trainer id="163" name="M H Tompkins"/>
+	<Show timestamp="20181128T120615+0000" marketNumber="1">
+	  <Price numerator="200" denominator="1"/>
+	</Show>
+	<Show timestamp="20181128T121012+0000" marketNumber="1">
+	  <Price numerator="150" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="150" denominator="1"/>
+	  <Favourite position="9" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="6" disqualified="No" btnDistance="13 lengths"/>
+	<CloseUp comment="keen headway to lead 2nd, soon clear, reduced lead and headed soon after 6th, weakened quickly"/>
+	<BetMovements comment="op 200/1"/>
+      </Horse>
+      <Horse id="2402973" name="Don't Fence Me In" bred="IRE" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="145" text="10st 5lbs"/>
+	<Jockey id="75251" name="R P McLernon"/>
+	<Trainer id="9710" name="P R Webber"/>
+	<Show timestamp="20181128T120615+0000" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20181128T121140+0000" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+	<Show timestamp="20181128T121308+0000" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="14" denominator="1"/>
+	  <Favourite position="5" joint="1"/>
+	</StartingPrice>
+	<Casualty reason="PulledUp"/>
+	<CloseUp comment="green in rear and not fluent, blundered and nearly unseated rider and lost irons 5th, pulled up next"/>
+	<BetMovements comment="tchd 16/1"/>
+      </Horse>
+      <Horse id="2338916" name="Fabianski" bred="IRE" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="145" text="10st 5lbs"/>
+	<Jockey id="55809" name="C O'Farrell"/>
+	<Trainer id="118739" name="Rebecca Menzies"/>
+	<Show timestamp="20181128T120615+0000" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+	<Show timestamp="20181128T120850+0000" marketNumber="1">
+	  <Price numerator="28" denominator="1"/>
+	</Show>
+	<Show timestamp="20181128T121140+0000" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<Show timestamp="20181128T121329+0000" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<Show timestamp="20181128T121403+0000" marketNumber="1">
+	  <Price numerator="18" denominator="1"/>
+	</Show>
+	<Show timestamp="20181128T121518+0000" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="20" denominator="1"/>
+	  <Favourite position="7" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="1" disqualified="No"/>
+	<CloseUp comment="led and bumped 1st, headed 2nd, led again soon after 6th, clear 2 out, ridden and ran on"/>
+	<BetMovements comment="op 33/1 tchd 18/1"/>
+      </Horse>
+      <Horse id="2279152" name="Kheleyf's Girl" bred="GB" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="145" text="10st 5lbs"/>
+	<Jockey id="1150129" name="Harrison Beswick">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="125032" name="Clare Ellam"/>
+	<Show timestamp="20181128T120615+0000" marketNumber="1">
+	  <Price numerator="150" denominator="1"/>
+	</Show>
+	<Show timestamp="20181128T120719+0000" marketNumber="1">
+	  <Price numerator="100" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="100" denominator="1"/>
+	  <Favourite position="8" joint="1"/>
+	</StartingPrice>
+	<Casualty reason="PulledUp"/>
+	<CloseUp comment="keen, tracked winner when bumped 1st, weakened 6th, tailed off when pulled up next"/>
+	<BetMovements comment="op 150/1"/>
+      </Horse>
+      <Horse id="2298615" name="Pepper Street" bred="IRE" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="145" text="10st 5lbs"/>
+	<Jockey id="80831" name="Jack Quinlan"/>
+	<Trainer id="128567" name="Miss Amy Murphy"/>
+	<Show timestamp="20181128T120615+0000" marketNumber="1">
+	  <Price numerator="9" denominator="4"/>
+	</Show>
+	<Show timestamp="20181128T121230+0000" marketNumber="1">
+	  <Price numerator="2" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="2" denominator="1"/>
+	  <Favourite position="2" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="3" disqualified="No" btnDistance="1 1/4 length"/>
+	<CloseUp comment="keen close up, tracked leaders when ridden 3 out, weakened next"/>
+	<BetMovements comment="op 9/4"/>
+      </Horse>
+      <Horse id="2370895" name="Sweet Marmalade" bred="IRE" status="Runner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="145" text="10st 5lbs"/>
+	<Jockey id="1142033" name="Jamie Hamilton"/>
+	<Trainer id="61138" name="L A Mullaney"/>
+	<Show timestamp="20181128T120615+0000" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20181128T120850+0000" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+	<Show timestamp="20181128T121012+0000" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20181128T121056+0000" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+	<Show timestamp="20181128T121140+0000" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="12" denominator="1"/>
+	  <Favourite position="4" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="5" disqualified="No" btnDistance="33 lengths"/>
+	<CloseUp comment="tracked leaders, ridden and lost place 6th"/>
+	<BetMovements comment="tchd 11/1"/>
+      </Horse>
+      <WinningDistance index="1" btnDistance="17 lengths"/>
+      <WinningDistance index="2" btnDistance="1 1/4 length"/>
+      <WinningDistance index="3" btnDistance="30 lengths"/>
+      <WinningDistance index="4" btnDistance="33 lengths"/>
+      <WinningDistance index="5" btnDistance="13 lengths"/>
+      <Returns>
+	<Tote type="Win" currency="GBP" dividend="19.20" stake="1">
+	  <HorseRef id="2338916" name="Fabianski" bred="IRE"/>
+	</Tote>
+	<Tote type="Place" currency="GBP" dividend="3.70" stake="1">
+	  <HorseRef id="2338916" name="Fabianski" bred="IRE"/>
+	</Tote>
+	<Tote type="Place" currency="GBP" dividend="1.60" stake="1">
+	  <HorseRef id="2342636" name="Alliteration" bred="GB"/>
+	</Tote>
+	<Tote type="Place" currency="GBP" dividend="1.20" stake="1">
+	  <HorseRef id="2298615" name="Pepper Street" bred="IRE"/>
+	</Tote>
+	<Tote type="Exacta" currency="GBP" dividend="137.70" stake="1">
+	  <HorseRef id="2338916" name="Fabianski" bred="IRE"/>
+	  <HorseRef id="2342636" name="Alliteration" bred="GB"/>
+	</Tote>
+	<Tote type="Trifecta" currency="GBP" dividend="336.50" stake="1">
+	  <HorseRef id="2338916" name="Fabianski" bred="IRE"/>
+	  <HorseRef id="2342636" name="Alliteration" bred="GB"/>
+	  <HorseRef id="2298615" name="Pepper Street" bred="IRE"/>
+	</Tote>
+	<Tote type="Swinger" currency="GBP" dividend="4.10" stake="1">
+	  <HorseRef id="2342636" name="Alliteration" bred="GB"/>
+	  <HorseRef id="2338916" name="Fabianski" bred="IRE"/>
+	</Tote>
+	<Tote type="Swinger" currency="GBP" dividend="2.00" stake="1">
+	  <HorseRef id="2342636" name="Alliteration" bred="GB"/>
+	  <HorseRef id="2298615" name="Pepper Street" bred="IRE"/>
+	</Tote>
+	<Tote type="Swinger" currency="GBP" dividend="4.20" stake="1">
+	  <HorseRef id="2338916" name="Fabianski" bred="IRE"/>
+	  <HorseRef id="2298615" name="Pepper Street" bred="IRE"/>
+	</Tote>
+	<Bet type="CSF" currency="GBP" dividend="101.18">
+	  <HorseRef id="2338916" name="Fabianski" bred="IRE"/>
+	  <HorseRef id="2342636" name="Alliteration" bred="GB"/>
+	</Bet>
+      </Returns>
+    </Race>
+  </Meeting>
+</HorseRacing>

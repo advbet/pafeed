@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180414T192755+0100">
+  <Meeting id="95698" country="England" status="Dormant" date="20180414" course="Aintree" revision="8">
+    <Weather>Fine &amp; Dry</Weather>
+    <Going brief="Soft">Soft</Going>
+    <MultiBet type="Jackpot" currency="GBP" dividend="0.00">
+      <PoolDetails currency="GBP" pool="24955.09" winStakes="0.00"/>
+      <CarryForward currency="GBP" pool="24955.09" date="20180415" course="Plumpton" country="England"/>
+    </MultiBet>
+    <MultiBet type="Placepot" currency="GBP" dividend="61.20">
+      <PoolDetails currency="GBP" pool="532760.62" winStakes="6350.85"/>
+    </MultiBet>
+    <MultiBet type="Quadpot" currency="GBP" dividend="12.40">
+      <PoolDetails currency="GBP" pool="43245.77" winStakes="2562.32"/>
+    </MultiBet>
+    <MultiBet type="PlaceSix" currency="GBP" dividend="134.47"/>
+    <MultiBet type="PlaceFive" currency="GBP" dividend="48.28"/>
+  </Meeting>
+</HorseRacing>

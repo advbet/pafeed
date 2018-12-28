@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacingCard SYSTEM "HorseRacingCard.dtd">
+<HorseRacingCard>
+  <Meeting status="Dormant" id="97044" country="England" course="Hexham" date="20180410">
+    <AdvancedGoing>Heavy</AdvancedGoing>
+    <Race trifecta="Yes" id="797312" date="20180410" time="1420+0100" raceType="Hurdle" trackType="Turf" handicap="No" class="4" showcase="No" maxRunners="5" numFences="12">
+      <Title>Read Noel Fehily At 188Bet Novices' Hurdle</Title>
+      <AddedMoney currency="GBP" amount="7400"/>
+      <PenaltyValue currency="GBP" amount="4809"/>
+      <Prizes currency="GBP">
+        <Prize position="1" amount="4809"/>
+        <Prize position="2" amount="1412"/>
+        <Prize position="3" amount="706"/>
+        <Prize position="4" amount="353"/>
+      </Prizes>
+      <Eligibility type="4YO plus"/>
+      <Distance units="yards" value="5123" text="2m 7f 63y"/>
+      <LastWinner year="2017" noRace="No corresponding race"/>
+      <Tote type="Trifecta" currency="GBP" stake="1"/>
+      <Horse id="2175979" name="Piri Massini" bred="IRE">
+        <Cloth number="1"/>
+        <FormFigures figures="P1/153" type="JumpSix"/>
+        <LastRunDays type="Jump" days="24"/>
+        <RaceHistoryStat type="Distance" value="1"/>
+        <Age years="7"/>
+        <Weight text="11 6" units="pounds" value="160"/>
+        <Trainer id="130349" name="Olly Murphy" nationality="GB" location="Wilmcote"/>
+        <Owner name="Mr C J Haughey"/>
+        <Breeder name="Paul McArdle"/>
+        <Jockey id="1158653" name="Fergus Gregory">
+          <Allowance units="pounds" value="7"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex142001.png" description="Orange, white seams, grey sleeves, white stars, orange cap, white stars"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Pierre" bred="UK"/>
+        <Breeding type="Dam" name="Lady Doctor" bred="IRE"/>
+        <Breeding type="DamSire" name="Dr Massini" bred="IRE" yearBorn="1993"/>
+        <FoalDate date="20110427"/>
+        <ForecastPrice>
+          <Price numerator="6" denominator="4"/>
+        </ForecastPrice>
+        <Rating type="Official" value="130"/>
+        <Travelled units="miles" value="246"/>
+      </Horse>
+      <Horse id="2259271" name="Teescomponents Lad" bred="GB">
+        <Cloth number="2"/>
+        <FormFigures figures="322133" type="JumpSix"/>
+        <LastRunDays type="Jump" days="26"/>
+        <Age years="5"/>
+        <Weight text="11 6" units="pounds" value="160"/>
+        <Trainer id="111413" name="G Boanas" nationality="GB" location="Saltburn"/>
+        <Owner name="Tees Components Ltd"/>
+        <Breeder name="Tees Components Ltd"/>
+        <Jockey id="1136090" name="Miss E Todd">
+          <Allowance units="pounds" value="7"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex142002.png" description="Royal blue and white diabolo, royal blue sleeves, white stars, white and royal blue quartered cap"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Midnight Legend" bred="UK" yearBorn="1991"/>
+        <Breeding type="Dam" name="Northern Native" bred="IRE" yearBorn="1996"/>
+        <Breeding type="DamSire" name="Be My Native" bred="USA" yearBorn="1979"/>
+        <FoalDate date="20130201"/>
+        <ForecastPrice>
+          <Price numerator="6" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="119"/>
+        <Travelled units="miles" value="65"/>
+      </Horse>
+      <Horse id="2273669" name="Behindthelines" bred="IRE">
+        <Cloth number="3"/>
+        <FormFigures figures="P-2322" type="JumpSix"/>
+        <LastRunDays type="Jump" days="26"/>
+        <RaceHistoryStat type="BeatenFavourite" value="1"/>
+        <Age years="6"/>
+        <Weight text="11 0" units="pounds" value="154"/>
+        <Trainer id="17180" name="Miss Lucinda V Russell" nationality="GB" location="Kinross"/>
+        <Owner name="London Scots For Doddie"/>
+        <Breeder name="Mrs Lesley Fennessy"/>
+        <Jockey id="1150759" name="Blair Campbell">
+          <Allowance units="pounds" value="5"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex142003.png" description="Dark blue, red seams, checked sleeves, red cap"/>
+        <Tackle type="Tongue strap" count="4"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Milan" bred="UK" yearBorn="1998"/>
+        <Breeding type="Dam" name="Sunset Leader" bred="IRE"/>
+        <Breeding type="DamSire" name="Supreme Leader" bred="UK" yearBorn="1982"/>
+        <FoalDate date="20120623"/>
+        <ForecastPrice>
+          <Price numerator="11" denominator="10"/>
+        </ForecastPrice>
+        <Rating type="Official" value="120"/>
+        <Travelled units="miles" value="126"/>
+      </Horse>
+      <Horse id="1494066" name="Portrait King" bred="IRE">
+        <Cloth number="4"/>
+        <FormFigures figures="P56433" type="JumpSix"/>
+        <LastRunDays type="Jump" days="26"/>
+        <Age years="13"/>
+        <Weight text="11 0" units="pounds" value="154"/>
+        <Trainer id="5191" name="P Griffin" nationality="IRE" location="Ireland"/>
+        <Owner name="D G Pryde/james Beaumont"/>
+        <Breeder name="Seamus Byrne"/>
+        <Jockey id="1157220" name="A W Short">
+          <Allowance units="pounds" value="5"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex142004.png" description="Royal blue, yellow diamond, checked sleeves, royal blue cap, yellow diamond"/>
+        <Tackle type="Cheek pieces" count="13"/>
+        <Colour type="gr"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Portrait Gallery" bred="IRE" yearBorn="1990"/>
+        <Breeding type="Dam" name="Storm Queen" bred="IRE" yearBorn="1991"/>
+        <Breeding type="DamSire" name="Le Bavard" bred="FR" yearBorn="1971"/>
+        <FoalDate date="20050328"/>
+        <ForecastPrice>
+          <Price numerator="12" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="107"/>
+      </Horse>
+      <Horse id="2213475" name="Dolly's Dot" bred="IRE">
+        <Cloth number="5"/>
+        <FormFigures figures="864941" type="JumpSix"/>
+        <LastRunDays type="Jump" days="18"/>
+        <Age years="7"/>
+        <Weight text="10 13" units="pounds" value="153"/>
+        <Trainer id="314" name="V Thompson" nationality="GB" location="Alnwick"/>
+        <Owner name="Mr V Thompson"/>
+        <Breeder name="Mrs Ann O'Neill"/>
+        <Jockey id="1156760" name="Thomas Dowson">
+          <Allowance units="pounds" value="3"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex142005.png" description="Red, yellow sash, hooped sleeves and cap"/>
+        <Colour type="b"/>
+        <Sex type="m"/>
+        <Breeding type="Sire" name="Vertical Speed" bred="FR" yearBorn="1994"/>
+        <Breeding type="Dam" name="Our Dot" bred="IRE" yearBorn="2003"/>
+        <Breeding type="DamSire" name="Supreme Leader" bred="UK" yearBorn="1982"/>
+        <FoalDate date="20110404"/>
+        <ForecastPrice>
+          <Price numerator="50" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="78"/>
+        <Travelled units="miles" value="45"/>
+      </Horse>
+    </Race>
+    <Race trifecta="Yes" id="797313" date="20180410" time="1450+0100" raceType="Hurdle" trackType="Turf" handicap="Yes" class="4" showcase="No" maxRunners="5" numFences="8">
+      <Title>Enhanced Place Odds At 188Bet Novices' Handicap Hurdle</Title>
+      <AddedMoney currency="GBP" amount="8800"/>
+      <PenaltyValue currency="GBP" amount="4809"/>
+      <Prizes currency="GBP">
+        <Prize position="1" amount="4809"/>
+        <Prize position="2" amount="1412"/>
+        <Prize position="3" amount="706"/>
+        <Prize position="4" amount="353"/>
+        <Prize position="5" amount="350"/>
+        <Prize position="6" amount="350"/>
+        <Prize position="7" amount="350"/>
+        <Prize position="8" amount="350"/>
+      </Prizes>
+      <Eligibility type="4YO plus"/>
+      <Distance units="yards" value="3568" text="2m 0f 48y"/>
+      <LastWinner year="2017" noRace="No corresponding race"/>
+      <Tote type="Trifecta" currency="GBP" stake="1"/>
+      <Horse id="2257812" name="Chasseur De Tete" bred="FR">
+        <Cloth number="1"/>
+        <FormFigures figures="755392" type="JumpSix"/>
+        <LastRunDays type="Jump" days="32"/>
+        <Age years="6"/>
+        <Weight text="11 12" units="pounds" value="166"/>
+        <Trainer id="17180" name="Miss Lucinda V Russell" nationality="GB" location="Kinross"/>
+        <Owner name="Skye Larks"/>
+        <Breeder name="S.C.E.A. Haras de Saint Voir"/>
+        <Jockey id="1161924" name="Thomas Willmott">
+          <Allowance units="pounds" value="10"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex145001.png" description="White, black chevron, black and white striped sleeves, white cap, black diamonds"/>
+        <Tackle type="Tongue strap" count="3"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Coastal Path" bred="UK" yearBorn="2004"/>
+        <Breeding type="Dam" name="Escomptee" bred="FR" yearBorn="1994"/>
+        <Breeding type="DamSire" name="Roi De Rome" bred="USA" yearBorn="1987"/>
+        <FoalDate date="20120326"/>
+        <ForecastPrice>
+          <Price numerator="5" denominator="2"/>
+        </ForecastPrice>
+        <Rating type="Official" value="114"/>
+        <Rating type="Adjusted" value="111"/>
+        <Travelled units="miles" value="126"/>
+      </Horse>
+      <Horse id="2323994" name="Snougar" bred="IRE">
+        <Cloth number="2"/>
+        <FormFigures figures="0314" type="JumpSix"/>
+        <LastRunDays type="Jump" days="20"/>
+        <RaceHistoryStat type="Distance" value="1"/>
+        <Age years="5"/>
+        <Weight text="11 12" units="pounds" value="166"/>
+        <Trainer id="19719" name="D McCain Jnr" nationality="GB" location="Cholmondeley"/>
+        <Owner name="Tim &amp; Miranda Johnson"/>
+        <Breeder name="Ballyhane Stud"/>
+        <Jockey id="41547" name="B Hughes"/>
+        <JockeyColours filename="20180410hex145002.png" description="Light blue, white braces and sleeves"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Arakan" bred="USA" yearBorn="2000"/>
+        <Breeding type="Dam" name="Thorbella" bred="UK" yearBorn="1999"/>
+        <Breeding type="DamSire" name="Deploy" bred="UK" yearBorn="1987"/>
+        <FoalDate date="20130424"/>
+        <ForecastPrice>
+          <Price numerator="7" denominator="4"/>
+        </ForecastPrice>
+        <Rating type="Official" value="114"/>
+        <Rating type="Adjusted" value="111"/>
+        <Travelled units="miles" value="168"/>
+      </Horse>
+      <Horse id="2100760" name="Rajapur" bred="GB">
+        <Cloth number="3"/>
+        <FormFigures figures="2-438" type="JumpSix"/>
+        <LastRunDays type="Flat" days="24"/>
+        <LastRunDays type="Jump" days="12"/>
+        <Age years="5"/>
+        <Weight text="11 8" units="pounds" value="162"/>
+        <Trainer id="996" name="D Thompson" nationality="GB" location="Darlington"/>
+        <Owner name="Mr B Lapham"/>
+        <Breeder name="J. &amp; W. Hoyer"/>
+        <Jockey id="71998" name="Nathan Moscrop">
+          <Allowance units="pounds" value="5"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex145003.png" description="Black, yellow disc, yellow sleeves, black stars, yellow cap, purple star"/>
+        <Tackle type="Cheek pieces" count="10"/>
+        <Colour type="gr"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Dalakhani" bred="IRE" yearBorn="2000"/>
+        <Breeding type="Dam" name="A Beautiful Mind" bred="GER" yearBorn="2002"/>
+        <Breeding type="DamSire" name="Winged Love" bred="IRE" yearBorn="1992"/>
+        <FoalDate date="20130331"/>
+        <ForecastPrice>
+          <Price numerator="16" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="110"/>
+        <Rating type="Adjusted" value="107"/>
+        <Travelled units="miles" value="46"/>
+      </Horse>
+      <Horse id="2139490" name="Walkers Point" bred="IRE">
+        <Cloth number="4"/>
+        <FormFigures figures="4P7400" type="JumpSix"/>
+        <LastRunDays type="Jump" days="146"/>
+        <RaceHistoryStat type="Distance" value="1"/>
+        <Age years="7"/>
+        <Weight text="11 1" units="pounds" value="155"/>
+        <Trainer id="12109" name="S McParlan" nationality="IRE" location="Ireland"/>
+        <Owner name="G McGurgan"/>
+        <Breeder name="P. O'Connell"/>
+        <Jockey id="21924" name="Mr N McParlan">
+          <Allowance units="pounds" value="3"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex145004.png" description="Orange, white star, sleeves and star on cap"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Golan" bred="IRE" yearBorn="1998"/>
+        <Breeding type="Dam" name="Don't Wait" bred="IRE" yearBorn="2001"/>
+        <Breeding type="DamSire" name="Oscar" bred="IRE" yearBorn="1994"/>
+        <FoalDate date="20110506"/>
+        <ForecastPrice>
+          <Price numerator="6" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="103"/>
+        <Rating type="Adjusted" value="100"/>
+      </Horse>
+      <Horse id="2217775" name="Pc Dixon" bred="GB">
+        <Cloth number="5"/>
+        <FormFigures figures="242212" type="JumpSix"/>
+        <LastRunDays type="Flat" days="327"/>
+        <LastRunDays type="Jump" days="16"/>
+        <RaceHistoryStat type="CourseDistance" value="1"/>
+        <Age years="5"/>
+        <Weight text="10 12" units="pounds" value="152"/>
+        <Trainer id="314" name="V Thompson" nationality="GB" location="Alnwick"/>
+        <Owner name="Mr V Thompson"/>
+        <Breeder name="Mike Channon Bloodstock Ltd"/>
+        <Jockey id="1156760" name="Thomas Dowson">
+          <Allowance units="pounds" value="3"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex145005.png" description="Red, yellow sash, hooped sleeves and cap"/>
+        <Colour type="ch"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Sixties Icon" bred="UK" yearBorn="2003"/>
+        <Breeding type="Dam" name="Lakaam" bred="UK" yearBorn="2001"/>
+        <Breeding type="DamSire" name="Danzero" bred="AUS"/>
+        <FoalDate date="20130521"/>
+        <ForecastPrice>
+          <Price numerator="3" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="100"/>
+        <Rating type="Adjusted" value="97"/>
+        <Travelled units="miles" value="45"/>
+      </Horse>
+    </Race>
+    <Race trifecta="Yes" id="797314" date="20180410" time="1520+0100" raceType="Chase" trackType="Turf" handicap="Yes" class="5" showcase="No" maxRunners="8" numFences="15">
+      <Title>188Bet Up To 75 Cash Bonus Handicap Chase</Title>
+      <AddedMoney currency="GBP" amount="8606"/>
+      <PenaltyValue currency="GBP" amount="4679"/>
+      <Prizes currency="GBP">
+        <Prize position="1" amount="4679"/>
+        <Prize position="2" amount="1374"/>
+        <Prize position="3" amount="687"/>
+        <Prize position="4" amount="350"/>
+        <Prize position="5" amount="350"/>
+        <Prize position="6" amount="350"/>
+        <Prize position="7" amount="350"/>
+        <Prize position="8" amount="350"/>
+      </Prizes>
+      <Eligibility type="5YO plus"/>
+      <Distance units="yards" value="4415" text="2m 4f 15y"/>
+      <LastWinner year="2017" ran="9">
+        <Horse id="2174758" name="Orioninverness" bred="IRE">
+          <Cloth number="6"/>
+          <Age years="6"/>
+          <Weight text="11 4" units="pounds" value="158"/>
+          <Trainer id="17180" name="Miss Lucinda V Russell" nationality="GB" location="Kinross"/>
+          <Jockey id="1138238" name="S Mulqueen">
+            <Allowance units="pounds" value="5"/>
+          </Jockey>
+          <StartingPrice>
+            <Price numerator="5" denominator="1"/>
+          </StartingPrice>
+        </Horse>
+      </LastWinner>
+      <Tote type="Trifecta" currency="GBP" stake="1"/>
+      <Horse id="1612603" name="Tikkandemickey" bred="IRE">
+        <Cloth number="1"/>
+        <FormFigures figures="30-5543" type="JumpSix"/>
+        <LastRunDays type="Jump" days="128"/>
+        <RaceHistoryStat type="Course" value="3"/>
+        <RaceHistoryStat type="Distance" value="1"/>
+        <RaceHistoryStat type="CourseDistance" value="1"/>
+        <Age years="12"/>
+        <Weight text="12 7" units="pounds" value="175"/>
+        <Trainer id="697" name="R Shiels" nationality="GB" location="Jedburgh"/>
+        <Owner name="Mr R Shiels"/>
+        <Breeder name="Alistair Thompson"/>
+        <Jockey id="1154606" name="Harry Reed">
+          <Allowance units="pounds" value="5"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex152001.png" description="Royal blue, white hoops, royal blue cap, white star"/>
+        <Tackle type="Cheek pieces" count="8"/>
+        <Colour type="gr"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Tikkanen" bred="USA" yearBorn="1991"/>
+        <Breeding type="Dam" name="Miss Vikki" bred="IRE" yearBorn="1999"/>
+        <Breeding type="DamSire" name="Needle Gun" bred="IRE" yearBorn="1990"/>
+        <FoalDate date="20060429"/>
+        <ForecastPrice>
+          <Price numerator="11" denominator="4"/>
+        </ForecastPrice>
+        <Rating type="Official" value="108"/>
+        <Rating type="Adjusted" value="102"/>
+        <Travelled units="miles" value="49"/>
+      </Horse>
+      <Horse id="2174758" name="Orioninverness" bred="IRE">
+        <Cloth number="2"/>
+        <FormFigures figures="614-F84" type="JumpSix"/>
+        <LastRunDays type="Jump" days="26"/>
+        <RaceHistoryStat type="CourseDistance" value="1"/>
+        <Age years="7"/>
+        <Weight text="11 7" units="pounds" value="161"/>
+        <Trainer id="17180" name="Miss Lucinda V Russell" nationality="GB" location="Kinross"/>
+        <Owner name="Tay Valley Chasers Racing Club"/>
+        <Breeder name="Raymond Cahalane"/>
+        <Jockey id="1138238" name="S Mulqueen">
+          <Allowance units="pounds" value="3"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex152002.png" description="Emerald green, yellow epaulets, striped sleeves, yellow cap"/>
+        <Tackle type="Tongue strap" count="15"/>
+        <Tackle type="Cheek pieces" count="8"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Brian Boru" bred="UK" yearBorn="2000"/>
+        <Breeding type="Dam" name="Woodville Leader" bred="IRE"/>
+        <Breeding type="DamSire" name="Supreme Leader" bred="UK" yearBorn="1982"/>
+        <FoalDate date="20110514"/>
+        <ForecastPrice>
+          <Price numerator="9" denominator="2"/>
+        </ForecastPrice>
+        <Rating type="Official" value="94"/>
+        <Rating type="Adjusted" value="88"/>
+        <Travelled units="miles" value="126"/>
+      </Horse>
+      <Horse id="2120204" name="Scorpo" bred="IRE">
+        <Cloth number="3"/>
+        <FormFigures figures="U3546P" type="JumpSix"/>
+        <LastRunDays type="Jump" days="10"/>
+        <Age years="7"/>
+        <Weight text="11 2" units="pounds" value="156"/>
+        <Trainer id="314" name="V Thompson" nationality="GB" location="Alnwick"/>
+        <Owner name="Mr V Thompson"/>
+        <Breeder name="James Hennessy"/>
+        <Jockey id="1156760" name="Thomas Dowson">
+          <Allowance units="pounds" value="3"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex152003.png" description="Red, yellow sash, hooped sleeves and cap"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Scorpion" bred="IRE" yearBorn="2002"/>
+        <Breeding type="Dam" name="Maltesse" bred="IRE" yearBorn="1995"/>
+        <Breeding type="DamSire" name="Never So Bold" bred="UK" yearBorn="1980"/>
+        <FoalDate date="20110224"/>
+        <ForecastPrice>
+          <Price numerator="33" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="89"/>
+        <Rating type="Adjusted" value="83"/>
+        <Travelled units="miles" value="45"/>
+      </Horse>
+      <Horse id="2033025" name="Major Ridge" bred="IRE">
+        <Cloth number="4"/>
+        <FormFigures figures="FPPU-96" type="JumpSix"/>
+        <LastRunDays type="Jump" days="76"/>
+        <Age years="9"/>
+        <Weight text="10 11" units="pounds" value="151"/>
+        <Trainer id="56495" name="Micky Hammond" nationality="GB" location="Middleham"/>
+        <Owner name="Oakwood Minions"/>
+        <Breeder name="T. M. Curtis"/>
+        <Jockey id="1140518" name="Joe Colliver"/>
+        <JockeyColours filename="20180410hex152004.png" description="Yellow, royal blue seams, royal blue sleeves, yellow armlets, yellow cap"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Indian Danehill" bred="IRE" yearBorn="1996"/>
+        <Breeding type="Dam" name="Native Novel" bred="IRE" yearBorn="1994"/>
+        <Breeding type="DamSire" name="Be My Native" bred="USA" yearBorn="1979"/>
+        <FoalDate date="20090521"/>
+        <ForecastPrice>
+          <Price numerator="10" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="84"/>
+        <Rating type="Adjusted" value="78"/>
+        <Travelled units="miles" value="58"/>
+      </Horse>
+      <Horse id="1852382" name="Silverton" bred="GB">
+        <Cloth number="5"/>
+        <FormFigures figures="P4P-932" type="JumpSix"/>
+        <LastRunDays type="Jump" days="26"/>
+        <RaceHistoryStat type="Distance" value="1"/>
+        <Age years="11"/>
+        <Weight text="10 11" units="pounds" value="151"/>
+        <Trainer id="14323" name="Mrs L B Normile" nationality="GB" location="Glenfarg"/>
+        <Owner name="Twentys Plenty"/>
+        <Breeder name="Mrs M. Morrison (Camp Farm Racing)"/>
+        <Jockey id="1137026" name="Grant Cockburn">
+          <Allowance units="pounds" value="3"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex152005.png" description="Light blue, dark blue cross of lorraine, sleeves and cap"/>
+        <Colour type="gr"/>
+        <Sex type="m"/>
+        <Breeding type="Sire" name="Silver Patriarch" bred="IRE" yearBorn="1994"/>
+        <Breeding type="Dam" name="Gretton" bred="UK" yearBorn="1997"/>
+        <Breeding type="DamSire" name="Terimon" bred="UK" yearBorn="1986"/>
+        <FoalDate date="20070308"/>
+        <ForecastPrice>
+          <Price numerator="3" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="84"/>
+        <Rating type="Adjusted" value="78"/>
+        <Travelled units="miles" value="133"/>
+      </Horse>
+      <Horse id="2133041" name="Kilcullen Lady" bred="IRE">
+        <Cloth number="6"/>
+        <FormFigures figures="P9664P" type="JumpSix"/>
+        <LastRunDays type="Jump" days="26"/>
+        <Age years="8"/>
+        <Weight text="10 9" units="pounds" value="149"/>
+        <Trainer id="16029" name="H Hogarth" nationality="GB" location="Stillington"/>
+        <Owner name="Hogarth Racing"/>
+        <Breeder name="Patrick McGrath"/>
+        <Jockey id="1142033" name="Jamie Hamilton"/>
+        <JockeyColours filename="20180410hex152006.png" description="Royal blue and yellow stripes, white sleeves"/>
+        <Tackle type="Blinkers" count="3"/>
+        <Colour type="b"/>
+        <Sex type="m"/>
+        <Breeding type="Sire" name="Scorpion" bred="IRE" yearBorn="2002"/>
+        <Breeding type="Dam" name="Glittering Star" bred="IRE"/>
+        <Breeding type="DamSire" name="Good Thyne" bred="USA" yearBorn="1977"/>
+        <FoalDate date="20100607"/>
+        <ForecastPrice>
+          <Price numerator="12" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="82"/>
+        <Rating type="Adjusted" value="76"/>
+        <Travelled units="miles" value="88"/>
+      </Horse>
+      <Horse id="2127058" name="Mcginty's Dream" bred="IRE">
+        <Cloth number="7"/>
+        <FormFigures figures="825732" type="JumpSix"/>
+        <LastRunDays type="Jump" days="26"/>
+        <Age years="7"/>
+        <Weight text="10 8" units="pounds" value="148"/>
+        <Trainer id="5372" name="N W Alexander" nationality="GB" location="Kinneston"/>
+        <Owner name="Mr Brian Castle"/>
+        <Breeder name="R. McCarthy &amp; Nicholas W. Alexander's"/>
+        <Jockey id="70664" name="Lucy Alexander"/>
+        <JockeyColours filename="20180410hex152007.png" description="Light green, purple star, chevrons on sleeves, light green cap, purple star"/>
+        <Tackle type="Blinkers" count="1"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Flemensfirth" bred="USA" yearBorn="1992"/>
+        <Breeding type="Dam" name="Laboc" bred="UK" yearBorn="1994"/>
+        <Breeding type="DamSire" name="Rymer" bred="UK"/>
+        <FoalDate date="20110610"/>
+        <ForecastPrice>
+          <Price numerator="4" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="81"/>
+        <Rating type="Adjusted" value="75"/>
+        <Travelled units="miles" value="140"/>
+      </Horse>
+      <Horse id="2012796" name="Under The Red Sky" bred="IRE">
+        <Cloth number="8"/>
+        <FormFigures figures="873256" type="JumpSix"/>
+        <LastRunDays type="Jump" days="33"/>
+        <Age years="11"/>
+        <Weight text="10 5" units="pounds" value="145"/>
+        <Trainer id="124102" name="Kenny Johnson" nationality="GB" location="Newcastle Upon Tyne"/>
+        <Owner name="Mr Robert C Whitelock/mr Kenny Johnso"/>
+        <Breeder name="Niall O'Loughlin"/>
+        <Jockey id="80351" name="Henry Brooke"/>
+        <JockeyColours filename="20180410hex152008.png" description="Yellow, dark blue epaulets, striped sleeves"/>
+        <Tackle type="Blinkers" count="6"/>
+        <Colour type="ch"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Insatiable" bred="IRE" yearBorn="1993"/>
+        <Breeding type="Dam" name="Official Secret" bred="UK"/>
+        <Breeding type="DamSire" name="Polish Patriot" bred="USA" yearBorn="1988"/>
+        <FoalDate date="20070507"/>
+        <ForecastPrice>
+          <Price numerator="14" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="78"/>
+        <Rating type="Adjusted" value="72"/>
+        <Travelled units="miles" value="24"/>
+      </Horse>
+    </Race>
+    <Race trifecta="Yes" id="797315" date="20180410" time="1555+0100" raceType="Hurdle" trackType="Turf" handicap="Yes" class="4" showcase="No" maxRunners="7" numFences="10">
+      <Title>Best Odds Guaranteed At 188Bet Handicap Hurdle</Title>
+      <AddedMoney currency="GBP" amount="11800"/>
+      <PenaltyValue currency="GBP" amount="6758"/>
+      <Prizes currency="GBP">
+        <Prize position="1" amount="6758"/>
+        <Prize position="2" amount="1984"/>
+        <Prize position="3" amount="992"/>
+        <Prize position="4" amount="496"/>
+        <Prize position="5" amount="350"/>
+        <Prize position="6" amount="350"/>
+        <Prize position="7" amount="350"/>
+        <Prize position="8" amount="350"/>
+      </Prizes>
+      <Eligibility type="4YO plus"/>
+      <Distance units="yards" value="4428" text="2m 4f 28y"/>
+      <LastWinner year="2017" ran="10">
+        <Horse id="2110635" name="Modulus" bred="GB">
+          <Cloth number="7"/>
+          <Age years="8"/>
+          <Weight text="11 0" units="pounds" value="154"/>
+          <Trainer id="5256" name="P Winks" nationality="GB" location="Barnsley"/>
+          <Jockey id="1139328" name="Ryan Winks">
+            <Allowance units="pounds" value="7"/>
+          </Jockey>
+          <StartingPrice>
+            <Price numerator="6" denominator="1"/>
+          </StartingPrice>
+        </Horse>
+      </LastWinner>
+      <Tote type="Trifecta" currency="GBP" stake="1"/>
+      <Horse id="2251995" name="Arctic Vodka" bred="GB">
+        <Cloth number="1"/>
+        <FormFigures figures="8232P1" type="JumpSix"/>
+        <LastRunDays type="Jump" days="26"/>
+        <RaceHistoryStat type="CourseDistance" value="1"/>
+        <Age years="6"/>
+        <Weight text="11 12" units="pounds" value="166"/>
+        <Trainer id="18815" name="Mrs S A Watt" nationality="GB" location="Richmond"/>
+        <Owner name="Rosey Hill Partnership"/>
+        <Breeder name="Major E. J. Watt"/>
+        <Jockey id="1141018" name="Finian O'Toole">
+          <Allowance units="pounds" value="3"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex155501.png" description="Black, yellow chevron, hooped sleeves, yellow cap"/>
+        <Colour type="gr"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Black Sam Bellamy" bred="IRE" yearBorn="1999"/>
+        <Breeding type="Dam" name="Auntie Kathleen" bred="UK" yearBorn="1999"/>
+        <Breeding type="DamSire" name="Terimon" bred="UK" yearBorn="1986"/>
+        <FoalDate date="20120413"/>
+        <ForecastPrice>
+          <Price numerator="9" denominator="4"/>
+        </ForecastPrice>
+        <Rating type="Official" value="120"/>
+        <Rating type="Adjusted" value="120"/>
+        <Travelled units="miles" value="57"/>
+      </Horse>
+      <Horse id="1601527" name="Dedigout" bred="IRE">
+        <Cloth number="2"/>
+        <FormFigures figures="864225" type="JumpSix"/>
+        <LastRunDays type="Jump" days="21"/>
+        <RaceHistoryStat type="BeatenFavourite" value="8"/>
+        <RaceHistoryStat type="Distance" value="7"/>
+        <Age years="12"/>
+        <Weight text="11 11" units="pounds" value="165"/>
+        <Trainer id="56495" name="Micky Hammond" nationality="GB" location="Middleham"/>
+        <Owner name="Masters Of The Hall 3"/>
+        <Breeder name="Stone Electrical Ltd"/>
+        <Jockey id="1140518" name="Joe Colliver"/>
+        <JockeyColours filename="20180410hex155502.png" description="Black and yellow stripes, white sleeves"/>
+        <Tackle type="Tongue strap" count="34"/>
+        <Tackle type="Cheek pieces" count="7"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Bob Back" bred="USA" yearBorn="1981"/>
+        <Breeding type="Dam" name="Dainty Daisy" bred="IRE" yearBorn="1993"/>
+        <Breeding type="DamSire" name="Buckskin" bred="FR" yearBorn="1973"/>
+        <FoalDate date="20060425"/>
+        <ForecastPrice>
+          <Price numerator="3" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="119"/>
+        <Rating type="Adjusted" value="119"/>
+        <Travelled units="miles" value="58"/>
+      </Horse>
+      <Horse id="2036315" name="Tomkevi" bred="FR">
+        <Cloth number="3"/>
+        <FormFigures figures="U55315" type="JumpSix"/>
+        <LastRunDays type="Jump" days="16"/>
+        <RaceHistoryStat type="Course" value="1"/>
+        <RaceHistoryStat type="Distance" value="1"/>
+        <Age years="7"/>
+        <Weight text="11 10" units="pounds" value="164"/>
+        <Trainer id="118739" name="Rebecca Menzies" nationality="GB" location="Sedgefield"/>
+        <Owner name="Mr P J Howe &amp; Mr R G Oliver"/>
+        <Breeder name="Mr Yvan Molliere"/>
+        <Jockey id="41547" name="B Hughes"/>
+        <JockeyColours filename="20180410hex155503.png" description="Purple, red star, diabolo on sleeves and star on cap"/>
+        <Tackle type="Tongue strap" count="11"/>
+        <Tackle type="Cheek pieces" count="13"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Khalkevi" bred="IRE" yearBorn="1999"/>
+        <Breeding type="Dam" name="Tamsna" bred="FR" yearBorn="2001"/>
+        <Breeding type="DamSire" name="Smadoun" bred="FR" yearBorn="1990"/>
+        <FoalDate date="20110516"/>
+        <ForecastPrice>
+          <Price numerator="5" denominator="2"/>
+        </ForecastPrice>
+        <Rating type="Official" value="118"/>
+        <Rating type="Adjusted" value="118"/>
+        <Travelled units="miles" value="43"/>
+      </Horse>
+      <Horse id="1955904" name="Man With Van" bred="IRE">
+        <Cloth number="4"/>
+        <FormFigures figures="374055" type="JumpSix"/>
+        <LastRunDays type="Jump" days="32"/>
+        <RaceHistoryStat type="Distance" value="2"/>
+        <RaceHistoryStat type="CourseDistance" value="1"/>
+        <Age years="12"/>
+        <Weight text="11 7" units="pounds" value="161"/>
+        <Trainer id="5191" name="P Griffin" nationality="IRE" location="Ireland"/>
+        <Owner name="Mr Robert J Claydon"/>
+        <Breeder name="Ms Siobhan Mackinnon"/>
+        <Jockey id="1157220" name="A W Short">
+          <Allowance units="pounds" value="5"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex155504.png" description="White, emerald green seams, white sleeves, emerald green and grey quartered cap"/>
+        <Tackle type="Visor" count="7"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Milan" bred="UK" yearBorn="1998"/>
+        <Breeding type="Dam" name="Delibonne" bred="IRE" yearBorn="1995"/>
+        <Breeding type="DamSire" name="Erdelistan" bred="FR" yearBorn="1987"/>
+        <FoalDate date="20060409"/>
+        <ForecastPrice>
+          <Price numerator="14" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="115"/>
+        <Rating type="Adjusted" value="115"/>
+      </Horse>
+      <Horse id="1737657" name="Pistol" bred="IRE">
+        <Cloth number="5"/>
+        <FormFigures figures="672713" type="JumpSix"/>
+        <LastRunDays type="Flat" days="1621"/>
+        <LastRunDays type="Jump" days="16"/>
+        <Age years="9"/>
+        <Weight text="11 4" units="pounds" value="158"/>
+        <Trainer id="875" name="J E Dixon" nationality="GB" location="Carlisle"/>
+        <Owner name="Mrs S F Dixon"/>
+        <Breeder name="Mrs Eleanor Commins"/>
+        <Jockey id="1144956" name="Mr J Dixon">
+          <Allowance units="pounds" value="7"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex155505.png" description="Yellow, brown and yellow quartered cap"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="High Chaparral" bred="IRE" yearBorn="1999"/>
+        <Breeding type="Dam" name="Alinea" bred="USA"/>
+        <Breeding type="DamSire" name="Kingmambo" bred="USA" yearBorn="1990"/>
+        <FoalDate date="20090428"/>
+        <ForecastPrice>
+          <Price numerator="9" denominator="2"/>
+        </ForecastPrice>
+        <Rating type="Official" value="112"/>
+        <Rating type="Adjusted" value="112"/>
+        <Travelled units="miles" value="39"/>
+      </Horse>
+      <Horse id="2259273" name="War Joey" bred="IRE">
+        <Cloth number="6"/>
+        <FormFigures figures="75P740" type="JumpSix"/>
+        <LastRunDays type="Jump" days="16"/>
+        <Age years="5"/>
+        <Weight text="10 0" units="pounds" value="140"/>
+        <Trainer id="6358" name="Mrs A Hamilton" nationality="GB" location="Newcastle Upon Tyne"/>
+        <Owner name="Mr Ian Hamilton"/>
+        <Breeder name="Mrs Ann Eustace"/>
+        <JockeyColours filename="20180410hex155506.png" description="Emerald green, red chevrons, quartered cap"/>
+        <Tackle type="Tongue strap" count="4"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Primary" bred="USA" yearBorn="2003"/>
+        <Breeding type="Dam" name="Wake Me Gently" bred="IRE"/>
+        <Breeding type="DamSire" name="Be My Native" bred="USA" yearBorn="1979"/>
+        <FoalDate date="20130219"/>
+        <ForecastPrice>
+          <Price numerator="25" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="94"/>
+        <Rating type="Adjusted" value="94"/>
+        <Travelled units="miles" value="24"/>
+      </Horse>
+      <Horse id="1689196" name="Rinnagree Rosie" bred="GB">
+        <Cloth number="7"/>
+        <FormFigures figures="026-P93" type="JumpSix"/>
+        <LastRunDays type="Jump" days="26"/>
+        <RaceHistoryStat type="Distance" value="1"/>
+        <Age years="12"/>
+        <Weight text="10 0" units="pounds" value="140"/>
+        <Trainer id="14323" name="Mrs L B Normile" nationality="GB" location="Glenfarg"/>
+        <Owner name="The Silver Tops"/>
+        <Breeder name="Mrs M. Morrison (Camp Farm Racing)"/>
+        <Jockey id="1137026" name="Grant Cockburn">
+          <Allowance units="pounds" value="3"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex155507.png" description="Dark blue, light blue and dark blue striped sleeves, white cap"/>
+        <Tackle type="Cheek pieces" count="11"/>
+        <Colour type="gr"/>
+        <Sex type="m"/>
+        <Breeding type="Sire" name="Silver Patriarch" bred="IRE" yearBorn="1994"/>
+        <Breeding type="Dam" name="Gretton" bred="UK" yearBorn="1997"/>
+        <Breeding type="DamSire" name="Terimon" bred="UK" yearBorn="1986"/>
+        <FoalDate date="20060304"/>
+        <ForecastPrice>
+          <Price numerator="50" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="78"/>
+        <Rating type="Adjusted" value="78"/>
+        <LongHandicap>
+          <Weight text="8 12" units="pounds" value="124"/>
+        </LongHandicap>
+        <Travelled units="miles" value="133"/>
+      </Horse>
+    </Race>
+    <Race trifecta="Yes" id="797316" date="20180410" time="1625+0100" raceType="Chase" trackType="Turf" handicap="Yes" class="5" showcase="No" maxRunners="10" numFences="19">
+      <Title>Download The App At 188Bet Handicap Chase</Title>
+      <AddedMoney currency="GBP" amount="8606"/>
+      <PenaltyValue currency="GBP" amount="4679"/>
+      <Prizes currency="GBP">
+        <Prize position="1" amount="4679"/>
+        <Prize position="2" amount="1374"/>
+        <Prize position="3" amount="687"/>
+        <Prize position="4" amount="350"/>
+        <Prize position="5" amount="350"/>
+        <Prize position="6" amount="350"/>
+        <Prize position="7" amount="350"/>
+        <Prize position="8" amount="350"/>
+      </Prizes>
+      <Eligibility type="5YO plus"/>
+      <Distance units="yards" value="5321" text="3m 0f 41y"/>
+      <LastWinner year="2017" ran="8">
+        <Horse id="2014411" name="Hattons Hill" bred="IRE">
+          <Cloth number="7"/>
+          <Age years="8"/>
+          <Weight text="10 12" units="pounds" value="152"/>
+          <Trainer id="16029" name="H Hogarth" nationality="GB" location="Stillington"/>
+          <Jockey id="1142033" name="Jamie Hamilton">
+            <Allowance units="pounds" value="3"/>
+          </Jockey>
+          <StartingPrice>
+            <Price numerator="11" denominator="4"/>
+            <Favourite position="1" joint="1"/>
+          </StartingPrice>
+        </Horse>
+      </LastWinner>
+      <Tote type="Trifecta" currency="GBP" stake="1"/>
+      <Horse id="2014411" name="Hattons Hill" bred="IRE">
+        <Cloth number="1"/>
+        <FormFigures figures="111PPP" type="JumpSix"/>
+        <LastRunDays type="Jump" days="59"/>
+        <RaceHistoryStat type="CourseDistance" value="5"/>
+        <Age years="9"/>
+        <Weight text="12 7" units="pounds" value="175"/>
+        <Trainer id="16029" name="H Hogarth" nationality="GB" location="Stillington"/>
+        <Owner name="Hogarth Racing"/>
+        <Breeder name="John Doyle"/>
+        <Jockey id="1142033" name="Jamie Hamilton"/>
+        <JockeyColours filename="20180410hex162501.png" description="Royal blue and yellow stripes, white sleeves"/>
+        <Tackle type="Cheek pieces" count="9"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Pierre" bred="UK"/>
+        <Breeding type="Dam" name="Cluain Chaoin" bred="IRE" yearBorn="1996"/>
+        <Breeding type="DamSire" name="Phardante" bred="FR" yearBorn="1982"/>
+        <FoalDate date="20090505"/>
+        <ForecastPrice>
+          <Price numerator="14" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="104"/>
+        <Rating type="Adjusted" value="102"/>
+        <Travelled units="miles" value="88"/>
+      </Horse>
+      <Horse id="2120192" name="Bertalus" bred="IRE">
+        <Cloth number="2"/>
+        <FormFigures figures="6P-9P53" type="JumpSix"/>
+        <LastRunDays type="Jump" days="31"/>
+        <RaceHistoryStat type="Distance" value="3"/>
+        <Age years="9"/>
+        <Weight text="11 12" units="pounds" value="166"/>
+        <Trainer id="5372" name="N W Alexander" nationality="GB" location="Kinneston"/>
+        <Owner name="Quandt &amp; Cochrane"/>
+        <Breeder name="David Lalor"/>
+        <Jockey id="1137026" name="Grant Cockburn">
+          <Allowance units="pounds" value="3"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex162502.png" description="White, red cross of lorraine, red sleeves, white stars, red cap"/>
+        <Tackle type="Blinkers" count="2"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="City Honours" bred="USA" yearBorn="1995"/>
+        <Breeding type="Dam" name="Deep Dalus" bred="IRE"/>
+        <Breeding type="DamSire" name="Mandalus" bred="UK"/>
+        <FoalDate date="20090511"/>
+        <ForecastPrice>
+          <Price numerator="13" denominator="2"/>
+        </ForecastPrice>
+        <Rating type="Official" value="95"/>
+        <Rating type="Adjusted" value="93"/>
+        <Travelled units="miles" value="140"/>
+      </Horse>
+      <Horse id="1917027" name="Onderun" bred="IRE">
+        <Cloth number="3"/>
+        <FormFigures figures="5P-7P55" type="JumpSix"/>
+        <LastRunDays type="Jump" days="10"/>
+        <RaceHistoryStat type="Distance" value="1"/>
+        <Age years="9"/>
+        <Weight text="11 10" units="pounds" value="164"/>
+        <Trainer id="14198" name="G Bewley" nationality="GB" location="Colby"/>
+        <Owner name="Southdean Racing Club"/>
+        <Breeder name="Joan and John Ronayne"/>
+        <Jockey id="51326" name="Jonathon Bewley">
+          <Allowance units="pounds" value="3"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex162503.png" description="Purple, pink cross of lorraine, chevrons on sleeves, pink cap"/>
+        <Tackle type="Cheek pieces" count="4"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Flemensfirth" bred="USA" yearBorn="1992"/>
+        <Breeding type="Dam" name="Warts And All" bred="IRE"/>
+        <Breeding type="DamSire" name="Commanche Run" bred="UK" yearBorn="1981"/>
+        <FoalDate date="20090520"/>
+        <ForecastPrice>
+          <Price numerator="10" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="93"/>
+        <Rating type="Adjusted" value="91"/>
+      </Horse>
+      <Horse id="2018037" name="Purple Harry" bred="GB">
+        <Cloth number="4"/>
+        <FormFigures figures="P1-PRP6" type="JumpSix"/>
+        <LastRunDays type="Jump" days="49"/>
+        <RaceHistoryStat type="Distance" value="1"/>
+        <Age years="10"/>
+        <Weight text="11 6" units="pounds" value="160"/>
+        <Trainer id="15948" name="Miss T Jackson" nationality="GB" location="Loftus"/>
+        <Owner name="Mr H L Thompson"/>
+        <Breeder name="H. L. Thompson"/>
+        <Jockey id="41547" name="B Hughes"/>
+        <JockeyColours filename="20180410hex162504.png" description="Light blue, yellow sash, yellow sleeves, light blue armlets, yellow cap"/>
+        <Colour type="gr"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Sir Harry Lewis" bred="USA" yearBorn="1984"/>
+        <Breeding type="Dam" name="Ellfiedick" bred="UK" yearBorn="1991"/>
+        <Breeding type="DamSire" name="Alfie Dickins" bred="UK" yearBorn="1978"/>
+        <FoalDate date="20080601"/>
+        <ForecastPrice>
+          <Price numerator="12" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="89"/>
+        <Rating type="Adjusted" value="87"/>
+        <Travelled units="miles" value="74"/>
+      </Horse>
+      <Horse id="1592185" name="Gibbstown" bred="IRE">
+        <Cloth number="5"/>
+        <FormFigures figures="588436" type="JumpSix"/>
+        <LastRunDays type="Jump" days="32"/>
+        <RaceHistoryStat type="Course" value="2"/>
+        <RaceHistoryStat type="Distance" value="1"/>
+        <RaceHistoryStat type="CourseDistance" value="1"/>
+        <Age years="12"/>
+        <Weight text="11 5" units="pounds" value="159"/>
+        <Trainer id="40012" name="P Stafford" nationality="IRE" location="Ireland"/>
+        <Owner name="Mrs L Skelly"/>
+        <Breeder name="John and Ann Goold"/>
+        <Jockey id="1157220" name="A W Short"/>
+        <JockeyColours filename="20180410hex162505.png" description="Royal blue, white stripe, purple cap"/>
+        <Tackle type="Cheek pieces" count="42"/>
+        <Colour type="b"/>
+        <Sex type="m"/>
+        <Breeding type="Sire" name="Bob Back" bred="USA" yearBorn="1981"/>
+        <Breeding type="Dam" name="Kitty Maher" bred="IRE" yearBorn="1996"/>
+        <Breeding type="DamSire" name="Posen" bred="USA"/>
+        <FoalDate date="20060411"/>
+        <ForecastPrice>
+          <Price numerator="12" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="88"/>
+        <Rating type="Adjusted" value="86"/>
+      </Horse>
+      <Horse id="2275664" name="Beau Sancy" bred="FR">
+        <Cloth number="6"/>
+        <FormFigures figures="470666" type="JumpSix"/>
+        <LastRunDays type="Jump" days="10"/>
+        <Age years="6"/>
+        <Weight text="11 4" units="pounds" value="158"/>
+        <Trainer id="124102" name="Kenny Johnson" nationality="GB" location="Newcastle Upon Tyne"/>
+        <Owner name="Mr L Armstrong &amp; Partner"/>
+        <Breeder name="J. Liberge, J. Haimet &amp; T. Beaudoin"/>
+        <Jockey id="65353" name="Alison Clarke">
+          <Allowance units="pounds" value="7"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex162506.png" description="Yellow, royal blue diamond, royal blue and yellow hooped sleeves, yellow cap, royal blue diamond"/>
+        <Tackle type="Tongue strap" count="8"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Blue Bresil" bred="FR" yearBorn="2005"/>
+        <Breeding type="Dam" name="Touquette" bred="FR" yearBorn="2003"/>
+        <Breeding type="DamSire" name="Phantom Breeze" bred="IRE" yearBorn="1986"/>
+        <FoalDate date="20120603"/>
+        <ForecastPrice>
+          <Price numerator="33" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="87"/>
+        <Rating type="Adjusted" value="85"/>
+        <Travelled units="miles" value="24"/>
+      </Horse>
+      <Horse id="2119258" name="Massini's Lady" bred="GB">
+        <Cloth number="7"/>
+        <FormFigures figures="522214" type="JumpSix"/>
+        <LastRunDays type="Jump" days="32"/>
+        <Age years="7"/>
+        <Weight text="11 2" units="pounds" value="156"/>
+        <Trainer id="5372" name="N W Alexander" nationality="GB" location="Kinneston"/>
+        <Owner name="Mr Mark Fleming"/>
+        <Breeder name="Mark Fleming &amp; Jane Cameron"/>
+        <Jockey id="70664" name="Lucy Alexander"/>
+        <JockeyColours filename="20180410hex162507.png" description="Dark blue, emerald green hoop and armlets, check cap"/>
+        <Colour type="b"/>
+        <Sex type="m"/>
+        <Breeding type="Sire" name="Dr Massini" bred="IRE" yearBorn="1993"/>
+        <Breeding type="Dam" name="Lady Du Bost" bred="FR" yearBorn="1999"/>
+        <Breeding type="DamSire" name="Royal Charter" bred="FR"/>
+        <FoalDate date="20110502"/>
+        <ForecastPrice>
+          <Price numerator="3" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="85"/>
+        <Rating type="Adjusted" value="83"/>
+        <Travelled units="miles" value="140"/>
+      </Horse>
+      <Horse id="2049539" name="Moorstown" bred="IRE">
+        <Cloth number="8"/>
+        <FormFigures figures="6-P4P27" type="JumpSix"/>
+        <LastRunDays type="Jump" days="17"/>
+        <RaceHistoryStat type="Distance" value="2"/>
+        <Age years="8"/>
+        <Weight text="11 1" units="pounds" value="155"/>
+        <Trainer id="17180" name="Miss Lucinda V Russell" nationality="GB" location="Kinross"/>
+        <Owner name="The County Set And Team Kirkton"/>
+        <Breeder name="Lorcan Allen"/>
+        <Jockey id="1150759" name="Blair Campbell">
+          <Allowance units="pounds" value="5"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex162508.png" description="White, red seams, red sleeves, white armlets, red cap"/>
+        <Tackle type="Tongue strap" count="4"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Oscar" bred="IRE" yearBorn="1994"/>
+        <Breeding type="Dam" name="Glacial Princess" bred="IRE" yearBorn="1993"/>
+        <Breeding type="DamSire" name="Glacial Storm" bred="USA" yearBorn="1985"/>
+        <FoalDate date="20100531"/>
+        <ForecastPrice>
+          <Price numerator="8" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="84"/>
+        <Rating type="Adjusted" value="82"/>
+        <Travelled units="miles" value="126"/>
+      </Horse>
+      <Horse id="2259664" name="Sounds Of Italy" bred="IRE">
+        <Cloth number="9"/>
+        <FormFigures figures="000432" type="JumpSix"/>
+        <LastRunDays type="Jump" days="29"/>
+        <RaceHistoryStat type="BeatenFavourite" value="1"/>
+        <RaceHistoryStat type="Distance" value="2"/>
+        <Age years="9"/>
+        <Weight text="10 6" units="pounds" value="146"/>
+        <Trainer id="270" name="M Scudamore" nationality="GB" location="Bromsash"/>
+        <Owner name="The Whippetears"/>
+        <Breeder name="Mr Aaron Collins"/>
+        <Jockey id="20683" name="T Scudamore"/>
+        <JockeyColours filename="20180410hex162509.png" description="Dark blue, grey cross belts"/>
+        <Tackle type="Blinkers" count="1"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Milan" bred="UNR"/>
+        <Breeding type="Dam" name="Sound Hill" bred="FR"/>
+        <Breeding type="DamSire" name="Green Tune" bred="USA" yearBorn="1991"/>
+        <FoalDate date="20090501"/>
+        <ForecastPrice>
+          <Price numerator="5" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="75"/>
+        <Rating type="Adjusted" value="73"/>
+        <Travelled units="miles" value="282"/>
+      </Horse>
+      <Horse id="1733626" name="Nelly La Rue" bred="IRE">
+        <Cloth number="10"/>
+        <FormFigures figures="U62313" type="JumpSix"/>
+        <LastRunDays type="Jump" days="18"/>
+        <RaceHistoryStat type="Distance" value="1"/>
+        <RaceHistoryStat type="CourseDistance" value="1"/>
+        <Age years="11"/>
+        <Weight text="10 5" units="pounds" value="145"/>
+        <Trainer id="314" name="V Thompson" nationality="GB" location="Alnwick"/>
+        <Owner name="Mr V Thompson"/>
+        <Breeder name="Brendan Murphy"/>
+        <Jockey id="1156760" name="Thomas Dowson">
+          <Allowance units="pounds" value="3"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex162510.png" description="Red, yellow sash, hooped sleeves and cap"/>
+        <Tackle type="Cheek pieces" count="17"/>
+        <Colour type="b"/>
+        <Sex type="m"/>
+        <Breeding type="Sire" name="Flemensfirth" bred="USA" yearBorn="1992"/>
+        <Breeding type="Dam" name="Desperately Hoping" bred="IRE" yearBorn="1998"/>
+        <Breeding type="DamSire" name="Un Desperado" bred="FR" yearBorn="1983"/>
+        <FoalDate date="20070426"/>
+        <ForecastPrice>
+          <Price numerator="4" denominator="1"/>
+        </ForecastPrice>
+        <Rating type="Official" value="74"/>
+        <Rating type="Adjusted" value="72"/>
+        <Travelled units="miles" value="45"/>
+      </Horse>
+    </Race>
+    <Race trifecta="Yes" id="797317" date="20180410" time="1655+0100" raceType="N_H_Flat" trackType="Turf" handicap="No" class="5" showcase="No" maxRunners="6">
+      <Title>Champions League Betting At 188Bet Maiden Open NH Flat Race</Title>
+      <AddedMoney currency="GBP" amount="3500"/>
+      <PenaltyValue currency="GBP" amount="2274"/>
+      <Prizes currency="GBP">
+        <Prize position="1" amount="2274"/>
+        <Prize position="2" amount="668"/>
+        <Prize position="3" amount="334"/>
+        <Prize position="4" amount="167"/>
+      </Prizes>
+      <Eligibility type="4YO to 6YO"/>
+      <Distance units="yards" value="3568" text="2m 0f 48y"/>
+      <LastWinner year="2017" ran="9">
+        <Horse id="2081216" name="Baracalu" bred="FR">
+          <Cloth number="1"/>
+          <Age years="6"/>
+          <Weight text="11 4" units="pounds" value="158"/>
+          <Trainer id="97735" name="A M Thomson" nationality="GB" location="Greenlaw"/>
+          <Jockey id="1141110" name="Mr Ryan Nichol">
+            <Allowance units="pounds" value="7"/>
+          </Jockey>
+          <StartingPrice>
+            <Price numerator="4" denominator="1"/>
+          </StartingPrice>
+        </Horse>
+      </LastWinner>
+      <Tote type="Trifecta" currency="GBP" stake="1"/>
+      <Horse id="2322940" name="Pieceoftheaction" bred="IRE">
+        <Cloth number="1"/>
+        <FormFigures figures="3P1113" type="JumpSix"/>
+        <LastRunDays type="Jump" days="17"/>
+        <Age years="5"/>
+        <Weight text="11 4" units="pounds" value="158"/>
+        <Trainer id="10999" name="C Grant" nationality="GB" location="Billingham"/>
+        <Owner name="Mr G F White"/>
+        <Breeder name="Barry O'Connor"/>
+        <Jockey id="41547" name="B Hughes"/>
+        <JockeyColours filename="20180410hex165501.png" description="Yellow, brown sleeves, black cap, yellow star"/>
+        <Colour type="br"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Oscar" bred="IRE" yearBorn="1994"/>
+        <Breeding type="Dam" name="Homebird" bred="IRE" yearBorn="1997"/>
+        <Breeding type="DamSire" name="Be My Native" bred="USA" yearBorn="1979"/>
+        <FoalDate date="20130325"/>
+        <ForecastPrice>
+          <Price numerator="11" denominator="4"/>
+        </ForecastPrice>
+        <Travelled units="miles" value="56"/>
+      </Horse>
+      <Horse id="2350810" name="Sullivan" bred="IRE">
+        <Cloth number="2"/>
+        <FormFigures figures="" type="JumpSix"/>
+        <Age years="6"/>
+        <Weight text="11 4" units="pounds" value="158"/>
+        <Trainer id="19719" name="D McCain Jnr" nationality="GB" location="Cholmondeley"/>
+        <Owner name="Mrs Sian McCain"/>
+        <Breeder name="Paddy Ryan"/>
+        <Jockey id="1156874" name="Mr T Gillard">
+          <Allowance units="pounds" value="7"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex165502.png" description="Pink, purple diamond and diamond on cap"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Oscar" bred="IRE" yearBorn="1994"/>
+        <Breeding type="Dam" name="Courtain" bred="USA"/>
+        <Breeding type="DamSire" name="Diesis" bred="UK" yearBorn="1980"/>
+        <FoalDate date="20120406"/>
+        <ForecastPrice>
+          <Price numerator="15" denominator="8"/>
+        </ForecastPrice>
+        <Travelled units="miles" value="168"/>
+      </Horse>
+      <Horse id="2340712" name="Akarita Lights" bred="IRE">
+        <Cloth number="3"/>
+        <FormFigures figures="2" type="JumpSix"/>
+        <LastRunDays type="Jump" days="38"/>
+        <Age years="4"/>
+        <Weight text="10 12" units="pounds" value="152"/>
+        <Trainer id="9243" name="J J Quinn" nationality="GB" location="Malton"/>
+        <Owner name="Mr Allan Stennett And Mickley Stud"/>
+        <Breeder name="Ian Hannon"/>
+        <Jockey id="1148952" name="C R King"/>
+        <JockeyColours filename="20180410hex165503.png" description="Beige and emerald green check, beige sleeves"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Arctic Cosmos" bred="USA" yearBorn="2007"/>
+        <Breeding type="Dam" name="Akarita" bred="IRE" yearBorn="1995"/>
+        <Breeding type="DamSire" name="Akarad" bred="FR" yearBorn="1978"/>
+        <FoalDate date="20140401"/>
+        <ForecastPrice>
+          <Price numerator="6" denominator="4"/>
+        </ForecastPrice>
+        <Travelled units="miles" value="96"/>
+      </Horse>
+      <Horse id="2341999" name="Getaway Gerry" bred="GB">
+        <Cloth number="4"/>
+        <FormFigures figures="" type="JumpSix"/>
+        <Age years="4"/>
+        <Weight text="10 12" units="pounds" value="152"/>
+        <Trainer id="57707" name="Katie Scott" nationality="GB" location="Galashiels"/>
+        <Owner name="Edward Cassie, Mark Hay And Murray Sco"/>
+        <Breeder name="Distillery Stud"/>
+        <JockeyColours filename="20180410hex165504.png" description="Black, white chevrons, white and black hooped sleeves, white cap"/>
+        <Colour type="b"/>
+        <Sex type="g"/>
+        <Breeding type="Sire" name="Getaway" bred="GER" yearBorn="2003"/>
+        <Breeding type="Dam" name="Loch Dhu" bred="IRE" yearBorn="2004"/>
+        <Breeding type="DamSire" name="Oscar" bred="IRE" yearBorn="1994"/>
+        <FoalDate date="20140312"/>
+        <ForecastPrice>
+          <Price numerator="25" denominator="1"/>
+        </ForecastPrice>
+        <Travelled units="miles" value="66"/>
+      </Horse>
+      <Horse id="2287153" name="Dollys Destination" bred="IRE">
+        <Cloth number="5"/>
+        <FormFigures figures="5364" type="JumpSix"/>
+        <LastRunDays type="Jump" days="158"/>
+        <Age years="5"/>
+        <Weight text="10 11" units="pounds" value="151"/>
+        <Trainer id="49658" name="N C Kelly" nationality="IRE" location="Northern Ireland"/>
+        <Owner name="Gary McGill"/>
+        <Breeder name="Matthew Crosse"/>
+        <Jockey id="21924" name="Mr N McParlan">
+          <Allowance units="pounds" value="5"/>
+        </Jockey>
+        <JockeyColours filename="20180410hex165505.png" description="Emerald green, white sleeves, pink cap"/>
+        <Colour type="b"/>
+        <Sex type="m"/>
+        <Breeding type="Sire" name="Dubai Destination" bred="USA" yearBorn="1999"/>
+        <Breeding type="Dam" name="Rehill Lass" bred="IRE" yearBorn="2001"/>
+        <Breeding type="DamSire" name="Shernazar" bred="GER"/>
+        <FoalDate date="20130318"/>
+        <ForecastPrice>
+          <Price numerator="16" denominator="1"/>
+        </ForecastPrice>
+      </Horse>
+      <Horse id="2338911" name="Miss Hamda" bred="IRE">
+        <Cloth number="6"/>
+        <FormFigures figures="6" type="JumpSix"/>
+        <LastRunDays type="Jump" days="49"/>
+        <Age years="4"/>
+        <Weight text="10 5" units="pounds" value="145"/>
+        <Trainer id="1995" name="B Ellison" nationality="GB" location="Malton"/>
+        <Owner name="Cedars Two"/>
+        <Breeder name="Dr D. Harron"/>
+        <Jockey id="80351" name="Henry Brooke"/>
+        <JockeyColours filename="20180410hex165506.png" description="Black, emerald green stripe, red cap"/>
+        <Colour type="gr"/>
+        <Sex type="f"/>
+        <Breeding type="Sire" name="Mastercraftsman" bred="IRE" yearBorn="2006"/>
+        <Breeding type="Dam" name="Erstwhile" bred="FR" yearBorn="2000"/>
+        <Breeding type="DamSire" name="Desert Prince" bred="IRE" yearBorn="1995"/>
+        <FoalDate date="20140114"/>
+        <ForecastPrice>
+          <Price numerator="25" denominator="1"/>
+        </ForecastPrice>
+        <Travelled units="miles" value="96"/>
+      </Horse>
+    </Race>
+    <MultiBet type="Placepot" currency="GBP" stake="1">
+      <MultiBetLeg leg="1" raceId="797312"/>
+      <MultiBetLeg leg="2" raceId="797313"/>
+      <MultiBetLeg leg="3" raceId="797314"/>
+      <MultiBetLeg leg="4" raceId="797315"/>
+      <MultiBetLeg leg="5" raceId="797316"/>
+      <MultiBetLeg leg="6" raceId="797317"/>
+    </MultiBet>
+    <MultiBet type="Quadpot" currency="GBP" stake="1">
+      <MultiBetLeg leg="1" raceId="797314"/>
+      <MultiBetLeg leg="2" raceId="797315"/>
+      <MultiBetLeg leg="3" raceId="797316"/>
+      <MultiBetLeg leg="4" raceId="797317"/>
+    </MultiBet>
+  </Meeting>
+</HorseRacingCard>

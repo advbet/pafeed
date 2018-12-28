@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180419T182214+0100">
+  <Meeting id="97344" country="England" status="Dormant" date="20180419" course="Newcastle" revision="2">
+    <Weather>Fine &amp; Sunny</Weather>
+    <Going brief="Standard">Standard</Going>
+    <Race id="799490" date="20180419" time="1740+0100" runners="12" handicap="Yes" showcase="No" trifecta="Yes" stewards="None" status="WeighedIn" revision="61">
+      <Weather>Fine &amp; Sunny</Weather>
+      <Going brief="Standard">Standard</Going>
+      <OffTime date="20180419" time="174648+0100"/>
+      <WinTime time="0335.43"/>
+      <BetMarket marketNumber="1" dtFormed="20180419T173213+0100" deduction="20" deductionType="AllBets" dtSuspended="20180419T174719+0100"/>
+      <Horse id="2156757" name="Jassas" bred="FR" status="Withdrawn">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="136" text="9st 10lbs"/>
+	<Jockey id="13854" name="G Mosse" raceDayChange="Yes"/>
+	<Trainer id="45584" name="J Ewart"/>
+	<Show timestamp="20180419T173213+0100" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T173322+0100" marketNumber="1">
+	  <Price numerator="9" denominator="2"/>
+	</Show>
+	<Show timestamp="20180419T173616+0100" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T174252+0100" marketNumber="1">
+	  <Price numerator="9" denominator="2"/>
+	</Show>
+	<Show timestamp="20180419T174329+0100" marketNumber="1">
+	  <Price numerator="4" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T174422+0100" marketNumber="1">
+	  <Price numerator="9" denominator="2"/>
+	</Show>
+	<Show timestamp="20180419T174451+0100" marketNumber="1">
+	  <Price numerator="4" denominator="1"/>
+	</Show>
+	<Withdrawn betMarket="1" timeWithdrawn="20180419T174718+0100">
+	  <Price numerator="4" denominator="1"/>
+	</Withdrawn>
+	<CloseUp comment="Withdrawn"/>
+      </Horse>
+      <Horse id="2151209" name="Dance Rock" bred="GB" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="136" text="9st 10lbs"/>
+	<Jockey id="17888" name="D C Costello"/>
+	<Trainer id="61060" name="N P Mulholland"/>
+	<Show timestamp="20180419T173213+0100" marketNumber="1">
+	  <Price numerator="3" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T173837+0100" marketNumber="1">
+	  <Price numerator="10" denominator="3"/>
+	</Show>
+	<Show timestamp="20180419T173941+0100" marketNumber="1">
+	  <Price numerator="3" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="3" denominator="1"/>
+	  <Favourite position="2" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="7" disqualified="No" btnDistance="3 1/4 lengths"/>
+	<CloseUp comment="led 2f, remained prominent, rallied well over 2f out, weakened over 1f out"/>
+	<BetMovements comment="tchd 10/3"/>
+      </Horse>
+      <Horse id="2137253" name="Smooth Operator" bred="GB" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="134" text="9st 8lbs"/>
+	<Jockey id="73733" name="T E Whelan"/>
+	<Trainer id="5158" name="F O'Brien"/>
+	<Show timestamp="20180419T173213+0100" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T173616+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T173715+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="12" denominator="1"/>
+	  <Favourite position="5" joint="2"/>
+	</StartingPrice>
+	<Result finishPos="8" disqualified="No" btnDistance="9 lengths"/>
+	<CloseUp comment="chased leaders, under pressure over 3f out, weakened over 2f out"/>
+	<BetMovements comment="op 16/1"/>
+      </Horse>
+      <Horse id="2160180" name="St Andrews" bred="IRE" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="129" text="9st 3lbs"/>
+	<Jockey id="1166382" name="Oliver Stammers">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="111413" name="G Boanas"/>
+	<Show timestamp="20180419T173213+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T173616+0100" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T173941+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T174133+0100" marketNumber="1">
+	  <Price numerator="9" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T174218+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T174609+0100" marketNumber="1">
+	  <Price numerator="9" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="9" denominator="1"/>
+	  <Favourite position="4" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="2" disqualified="No" btnDistance="18 lengths"/>
+	<CloseUp comment="prominent, led after 2f, headed over 2f out, one pace"/>
+	<BetMovements comment="op 12/1"/>
+      </Horse>
+      <Horse id="2209786" name="Hediddodinthe" bred="IRE" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="128" text="9st 2lbs"/>
+	<Jockey id="1153264" name="Jamie Gormley">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="98137" name="I Jardine"/>
+	<Show timestamp="20180419T173213+0100" marketNumber="1">
+	  <Price numerator="13" denominator="8"/>
+	</Show>
+	<Show timestamp="20180419T173322+0100" marketNumber="1">
+	  <Price numerator="7" denominator="4"/>
+	</Show>
+	<Show timestamp="20180419T173616+0100" marketNumber="1">
+	  <Price numerator="13" denominator="8"/>
+	</Show>
+	<Show timestamp="20180419T173715+0100" marketNumber="1">
+	  <Price numerator="7" denominator="4"/>
+	</Show>
+	<Show timestamp="20180419T173837+0100" marketNumber="1">
+	  <Price numerator="13" denominator="8"/>
+	</Show>
+	<Show timestamp="20180419T174252+0100" marketNumber="1">
+	  <Price numerator="6" denominator="4"/>
+	</Show>
+	<Show timestamp="20180419T174357+0100" marketNumber="1">
+	  <Price numerator="7" denominator="4"/>
+	</Show>
+	<Show timestamp="20180419T174451+0100" marketNumber="1">
+	  <Price numerator="13" denominator="8"/>
+	</Show>
+	<Show timestamp="20180419T174521+0100" marketNumber="1">
+	  <Price numerator="7" denominator="4"/>
+	</Show>
+	<Show timestamp="20180419T174543+0100" marketNumber="1">
+	  <Price numerator="13" denominator="8"/>
+	</Show>
+	<Show timestamp="20180419T174609+0100" marketNumber="1">
+	  <Price numerator="7" denominator="4"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="7" denominator="4"/>
+	  <Favourite position="1" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="1" disqualified="No"/>
+	<CloseUp comment="in touch, headway over 4f out, led over 2f out, ridden clear approaching final furlong, very easily"/>
+	<BetMovements comment="op 13/8 tchd 6/4"/>
+      </Horse>
+      <Horse id="2276997" name="Leodis" bred="IRE" status="NonRunner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="128" text="9st 2lbs"/>
+	<Jockey id="2107" name="D Nolan"/>
+	<Trainer id="1212" name="T P Tate"/>
+	<CloseUp comment="NonRunner"/>
+      </Horse>
+      <Horse id="1662706" name="Lord Franklin" bred="GB" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="124" text="8st 12lbs"/>
+	<Jockey id="1155404" name="C Lee">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="15362" name="A Crook"/>
+	<Show timestamp="20180419T173213+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T173532+0100" marketNumber="1">
+	  <Price numerator="40" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T173715+0100" marketNumber="1">
+	  <Price numerator="66" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T173837+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T173941+0100" marketNumber="1">
+	  <Price numerator="66" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T174218+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T174252+0100" marketNumber="1">
+	  <Price numerator="66" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T174543+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T174554+0100" marketNumber="1">
+	  <Price numerator="66" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="66" denominator="1"/>
+	  <Favourite position="11" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="12" disqualified="No" btnDistance="99 lengths"/>
+	<CloseUp comment="chased leaders, under pressure halfway, soon lost place and in rear, eased over 2f out"/>
+	<BetMovements comment="op 33/1"/>
+      </Horse>
+      <Horse id="2281801" name="Cecilator" bred="GB" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="120" text="8st 8lbs"/>
+	<Jockey id="20363" name="P Aspell"/>
+	<Trainer id="113867" name="Noel Williams"/>
+	<Show timestamp="20180419T173213+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="33" denominator="1"/>
+	  <Favourite position="8" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="9" disqualified="No" btnDistance="26 lengths"/>
+	<CloseUp comment="held up, never dangerous"/>
+      </Horse>
+      <Horse id="2061195" name="Pantomime" bred="IRE" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="120" text="8st 8lbs"/>
+	<Jockey id="1160146" name="Aled Beech">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="118739" name="Rebecca Menzies"/>
+	<Show timestamp="20180419T173213+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="12" denominator="1"/>
+	  <Favourite position="5" joint="2"/>
+	</StartingPrice>
+	<Result finishPos="4" disqualified="No" btnDistance="Short Head"/>
+	<CloseUp comment="mid-division, headway over 1f out, never on terms"/>
+      </Horse>
+      <Horse id="2129661" name="Simply Clever" bred="GB" status="Runner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="120" text="8st 8lbs"/>
+	<Jockey id="31657" name="K T O'Neill"/>
+	<Trainer id="5204" name="D H Brown"/>
+	<Show timestamp="20180419T173213+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="50" denominator="1"/>
+	  <Favourite position="9" joint="2"/>
+	</StartingPrice>
+	<Result finishPos="5" disqualified="No" btnDistance="3 1/4 lengths"/>
+	<CloseUp comment="mid-division, headway over 2f out, never troubled leaders"/>
+      </Horse>
+      <Horse id="2143666" name="Kazoey" bred="GB" status="Runner">
+	<Cloth number="11"/>
+	<Weight units="lbs" value="120" text="8st 8lbs"/>
+	<Jockey id="25650" name="D Fentiman"/>
+	<Trainer id="6967" name="C W Fairhurst"/>
+	<Show timestamp="20180419T173213+0100" marketNumber="1">
+	  <Price numerator="80" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T174133+0100" marketNumber="1">
+	  <Price numerator="100" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="100" denominator="1"/>
+	  <Favourite position="13" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="6" disqualified="No" btnDistance="13 lengths"/>
+	<CloseUp comment="behind, headway over 1f out, soon no impression"/>
+	<BetMovements comment="op 80/1"/>
+      </Horse>
+      <Horse id="2220735" name="Anna's Legacy" bred="GB" status="Runner">
+	<Cloth number="12"/>
+	<Weight units="lbs" value="120" text="8st 8lbs"/>
+	<Jockey id="5994" name="Phil Dennis">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="6168" name="J S Goldie"/>
+	<Show timestamp="20180419T173213+0100" marketNumber="1">
+	  <Price numerator="80" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="80" denominator="1"/>
+	  <Favourite position="12" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="11" disqualified="No" btnDistance="2 lengths"/>
+	<CloseUp comment="always in rear"/>
+      </Horse>
+      <Horse id="2220256" name="Urban Spirit" bred="IRE" status="Runner">
+	<Cloth number="13"/>
+	<Weight units="lbs" value="119" text="8st 7lbs"/>
+	<Jockey id="1151773" name="Cam Hardie"/>
+	<Trainer id="61138" name="L A Mullaney"/>
+	<Show timestamp="20180419T173213+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T173616+0100" marketNumber="1">
+	  <Price numerator="28" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T173715+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="25" denominator="1"/>
+	  <Favourite position="7" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="3" disqualified="No" btnDistance="2 lengths"/>
+	<CloseUp comment="held up towards rear, headway over 2f out, stayed on well inside final furlong, never a threat"/>
+	<BetMovements comment="op 33/1"/>
+      </Horse>
+      <Horse id="2240984" name="Saint Cuthberts" bred="GB" status="Runner">
+	<Cloth number="14"/>
+	<Weight units="lbs" value="118" text="8st 6lbs"/>
+	<Jockey id="1154869" name="Hollie Doyle"/>
+	<Trainer id="101338" name="B Haslam"/>
+	<Show timestamp="20180419T173213+0100" marketNumber="1">
+	  <Price numerator="40" denominator="1"/>
+	</Show>
+	<Show timestamp="20180419T173322+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="50" denominator="1"/>
+	  <Favourite position="9" joint="2"/>
+	</StartingPrice>
+	<Result finishPos="10" disqualified="No" btnDistance="23 lengths"/>
+	<CloseUp comment="always behind"/>
+	<BetMovements comment="op 40/1"/>
+      </Horse>
+      <WinningDistance index="1" btnDistance="18 lengths"/>
+      <WinningDistance index="2" btnDistance="2 lengths"/>
+      <WinningDistance index="3" btnDistance="Short Head"/>
+      <WinningDistance index="4" btnDistance="3 1/4 lengths"/>
+      <WinningDistance index="5" btnDistance="13 lengths"/>
+      <WinningDistance index="6" btnDistance="3 1/4 lengths"/>
+      <WinningDistance index="7" btnDistance="9 lengths"/>
+      <WinningDistance index="8" btnDistance="26 lengths"/>
+      <WinningDistance index="9" btnDistance="23 lengths"/>
+      <WinningDistance index="10" btnDistance="2 lengths"/>
+      <WinningDistance index="11" btnDistance="99 lengths"/>
+      <Returns>
+	<Tote type="Win" currency="GBP" dividend="2.20" stake="1">
+	  <HorseRef id="2209786" name="Hediddodinthe" bred="IRE"/>
+	</Tote>
+	<Tote type="Place" currency="GBP" dividend="1.30" stake="1">
+	  <HorseRef id="2209786" name="Hediddodinthe" bred="IRE"/>
+	</Tote>
+	<Tote type="Place" currency="GBP" dividend="1.80" stake="1">
+	  <HorseRef id="2160180" name="St Andrews" bred="IRE"/>
+	</Tote>
+	<Tote type="Place" currency="GBP" dividend="4.60" stake="1">
+	  <HorseRef id="2220256" name="Urban Spirit" bred="IRE"/>
+	</Tote>
+	<Tote type="Exacta" currency="GBP" dividend="14.00" stake="1">
+	  <HorseRef id="2209786" name="Hediddodinthe" bred="IRE"/>
+	  <HorseRef id="2160180" name="St Andrews" bred="IRE"/>
+	</Tote>
+	<Tote type="Trifecta" currency="GBP" dividend="118.00" stake="1">
+	  <HorseRef id="2209786" name="Hediddodinthe" bred="IRE"/>
+	  <HorseRef id="2160180" name="St Andrews" bred="IRE"/>
+	  <HorseRef id="2220256" name="Urban Spirit" bred="IRE"/>
+	</Tote>
+	<Tote type="Swinger" currency="GBP" dividend="2.70" stake="1">
+	  <HorseRef id="2160180" name="St Andrews" bred="IRE"/>
+	  <HorseRef id="2209786" name="Hediddodinthe" bred="IRE"/>
+	</Tote>
+	<Tote type="Swinger" currency="GBP" dividend="14.20" stake="1">
+	  <HorseRef id="2160180" name="St Andrews" bred="IRE"/>
+	  <HorseRef id="2220256" name="Urban Spirit" bred="IRE"/>
+	</Tote>
+	<Tote type="Swinger" currency="GBP" dividend="6.00" stake="1">
+	  <HorseRef id="2209786" name="Hediddodinthe" bred="IRE"/>
+	  <HorseRef id="2220256" name="Urban Spirit" bred="IRE"/>
+	</Tote>
+	<Bet type="CSF" currency="GBP" dividend="11.91">
+	  <HorseRef id="2209786" name="Hediddodinthe" bred="IRE"/>
+	  <HorseRef id="2160180" name="St Andrews" bred="IRE"/>
+	</Bet>
+	<Bet type="Tricast" currency="GBP" dividend="148.73">
+	  <HorseRef id="2209786" name="Hediddodinthe" bred="IRE"/>
+	  <HorseRef id="2160180" name="St Andrews" bred="IRE"/>
+	  <HorseRef id="2220256" name="Urban Spirit" bred="IRE"/>
+	</Bet>
+      </Returns>
+    </Race>
+  </Meeting>
+</HorseRacing>

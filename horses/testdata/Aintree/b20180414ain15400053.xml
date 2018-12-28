@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180414T161326+0100">
+  <Meeting id="95698" country="England" status="Dormant" date="20180414" course="Aintree" revision="3">
+    <Weather>Fine &amp; Dry</Weather>
+    <Going brief="Soft">Soft</Going>
+    <Race id="798437" date="20180414" time="1540+0100" runners="16" handicap="Yes" showcase="No" trifecta="Yes" stewards="None" status="WeighedIn" revision="53">
+      <Weather>Fine &amp; Dry</Weather>
+      <Going brief="Soft">Soft</Going>
+      <OffTime date="20180414" time="154118+0100"/>
+      <WinTime time="0644.75"/>
+      <BetMarket marketNumber="1" dtFormed="20180414T152009+0100" deduction="0" deductionType="None"/>
+      <Horse id="1613481" name="Hammersly Lake" bred="FR" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="166" text="11st 12lbs"/>
+	<Jockey id="41547" name="B Hughes"/>
+	<Trainer id="55653" name="C E Longsdon"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="33" denominator="1"/>
+	  <Favourite position="14" joint="2"/>
+	</StartingPrice>
+	<Casualty reason="PulledUp"/>
+	<CloseUp comment="towards rear, effort before 3 out, never dangerous, pulled up before last"/>
+      </Horse>
+      <Horse id="1868691" name="Wakanda" bred="IRE" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="159" text="11st 5lbs"/>
+	<Jockey id="80351" name="Henry Brooke"/>
+	<Trainer id="3430" name="Mrs S J Smith"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="14" denominator="1"/>
+	  <Favourite position="7" joint="7"/>
+	</StartingPrice>
+	<Result finishPos="11" disqualified="No" btnDistance="6 lengths"/>
+	<CloseUp comment="always towards rear, ridden after 4 out, never dangerous"/>
+	<BetMovements comment="tchd 16/1 early in a places"/>
+	<BigBets>
+	  <BigBetCash type="EachWay" currency="GBP" stake="250" win="4000" count="1"/>
+	</BigBets>
+      </Horse>
+      <Horse id="2118066" name="Oldgrangewood" bred="GB" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="157" text="11st 3lbs"/>
+	<Jockey id="69385" name="Harry Skelton"/>
+	<Trainer id="118277" name="D Skelton"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="14" denominator="1"/>
+	  <Favourite position="7" joint="7"/>
+	</StartingPrice>
+	<Result finishPos="4" disqualified="No" btnDistance="5 lengths"/>
+	<CloseUp comment="held up mid-division, headway before 5 out, ridden and weakened before last"/>
+      </Horse>
+      <Horse id="2126650" name="Rocklander" bred="IRE" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="156" text="11st 2lbs"/>
+	<Jockey id="82636" name="A P Heskin"/>
+	<Trainer id="6854" name="T R George"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="7" denominator="1"/>
+	  <Favourite position="2" joint="2"/>
+	</StartingPrice>
+	<Casualty reason="Fell"/>
+	<CloseUp comment="mid-division, fell 8th"/>
+	<BetMovements comment="tchd 17/2 early in a places"/>
+	<BigBets>
+	  <BigBetCash type="EachWay" currency="GBP" stake="500" win="4250" count="1"/>
+	</BigBets>
+      </Horse>
+      <Horse id="1731533" name="Viconte Du Noyer" bred="FR" status="NonRunner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="155" text="11st 1lbs"/>
+	<Jockey id="20948" name="R M Power"/>
+	<Trainer id="10607" name="C L Tizzard"/>
+	<CloseUp comment="NonRunner"/>
+      </Horse>
+      <Horse id="2037520" name="Ibis Du Rheu" bred="FR" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="151" text="10st 11lbs"/>
+	<Jockey id="1106000" name="Sam Twiston-Davies"/>
+	<Trainer id="4663" name="P F Nicholls"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="8" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152637+0100" marketNumber="1">
+	  <Price numerator="15" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T152859+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T153241+0100" marketNumber="1">
+	  <Price numerator="13" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T153921+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="7" denominator="1"/>
+	  <Favourite position="2" joint="2"/>
+	</StartingPrice>
+	<Result finishPos="5" disqualified="No" btnDistance="Neck"/>
+	<CloseUp comment="mid-division, headway before 4 out, no impression"/>
+	<BetMovements comment="op 8/1 tchd 13/2"/>
+      </Horse>
+      <Horse id="2211773" name="Thomas Patrick" bred="IRE" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="150" text="10st 10lbs"/>
+	<Jockey id="13961" name="R Johnson"/>
+	<Trainer id="122148" name="Tom Lacey"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="7" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T153728+0100" marketNumber="1">
+	  <Price numerator="10" denominator="3"/>
+	</Show>
+	<Show timestamp="20180414T153811+0100" marketNumber="1">
+	  <Price numerator="3" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="3" denominator="1"/>
+	  <Favourite position="1" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="1" disqualified="No"/>
+	<CloseUp comment="made all, ridden and clear before last, kept on well"/>
+	<BetMovements comment="op 7/2"/>
+	<BigBets>
+	  <BigBetCash type="Win" currency="GBP" stake="300" win="1050" count="1"/>
+	</BigBets>
+      </Horse>
+      <Horse id="2152921" name="Casse Tete" bred="FR" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="149" text="10st 9lbs"/>
+	<Jockey id="78714" name="Joshua Moore"/>
+	<Trainer id="6170" name="G L Moore"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152243+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152831+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T153921+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T154031+0100" marketNumber="1">
+	  <Price numerator="9" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="9" denominator="1"/>
+	  <Favourite position="4" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="9" disqualified="No" btnDistance="2 1/2 lengths"/>
+	<CloseUp comment="mid-division, pushed along 5 out, soon weakened"/>
+	<BetMovements comment="op 12/1 tchd 14/1"/>
+      </Horse>
+      <Horse id="1950219" name="On Tour" bred="IRE" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="148" text="10st 8lbs"/>
+	<Jockey id="77406" name="Adam Wedge"/>
+	<Trainer id="12856" name="Evan Williams"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152831+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="14" denominator="1"/>
+	  <Favourite position="7" joint="7"/>
+	</StartingPrice>
+	<Result finishPos="2" disqualified="No" btnDistance="4 lengths"/>
+	<CloseUp comment="held up towards rear, headway 4 out, chased winner before last, kept on and always held"/>
+	<BetMovements comment="op 12/1"/>
+      </Horse>
+      <Horse id="2113347" name="Holly Bush Henry" bred="IRE" status="Runner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="146" text="10st 6lbs"/>
+	<Jockey id="1164405" name="James Bowen">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="94045" name="P W Middleton"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="14" denominator="1"/>
+	  <Favourite position="7" joint="7"/>
+	</StartingPrice>
+	<Result finishPos="6" disqualified="No" btnDistance="3 3/4 lengths"/>
+	<CloseUp comment="tracked leaders, one pace in 4th when blundered badly last, not recover"/>
+	<BetMovements comment="tchd 16/1 in a place"/>
+	<BigBets>
+	  <BigBetCash type="EachWay" currency="GBP" stake="10000" win="150000" count="1"/>
+	</BigBets>
+      </Horse>
+      <Horse id="1581319" name="Pearl Swan" bred="FR" status="Runner">
+	<Cloth number="11"/>
+	<Weight units="lbs" value="145" text="10st 5lbs"/>
+	<Jockey id="1156014" name="Sean Bowen"/>
+	<Trainer id="2982" name="P Bowen"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152222+0100" marketNumber="1">
+	  <Price numerator="9" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152243+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T153728+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T153955+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="14" denominator="1"/>
+	  <Favourite position="7" joint="7"/>
+	</StartingPrice>
+	<Result finishPos="8" disqualified="No" btnDistance="1 length"/>
+	<CloseUp comment="tracked leaders, outpaced before 3 out"/>
+	<BetMovements comment="op 10/1 tchd 9/1"/>
+      </Horse>
+      <Horse id="1968791" name="Heist" bred="IRE" status="Runner">
+	<Cloth number="12"/>
+	<Weight units="lbs" value="144" text="10st 4lbs"/>
+	<Jockey id="1157220" name="A W Short">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="5191" name="P Griffin"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="33" denominator="1"/>
+	  <Favourite position="14" joint="2"/>
+	</StartingPrice>
+	<Result finishPos="7" disqualified="No" btnDistance="4 lengths"/>
+	<CloseUp comment="always towards rear"/>
+      </Horse>
+      <Horse id="2087824" name="Paper Lantern" bred="IRE" status="Runner">
+	<Cloth number="13"/>
+	<Weight units="lbs" value="144" text="10st 4lbs"/>
+	<Jockey id="1149430" name="D Meyler">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="73740" name="K Thornton"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T153955+0100" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T154031+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="10" denominator="1"/>
+	  <Favourite position="5" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="3" disqualified="No" btnDistance="4 1/2 lengths"/>
+	<CloseUp comment="held up in touch, in 3rd before 3 out, ridden before 2 out, kept on same pace"/>
+	<BetMovements comment="op 12/1"/>
+      </Horse>
+      <Horse id="2083667" name="Very First Time" bred="GB" status="Runner">
+	<Cloth number="14"/>
+	<Weight units="lbs" value="143" text="10st 3lbs"/>
+	<Jockey id="83305" name="Danny Cook"/>
+	<Trainer id="10380" name="T D Easterby"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152222+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152243+0100" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152551+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T153505+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T153811+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="14" denominator="1"/>
+	  <Favourite position="7" joint="7"/>
+	</StartingPrice>
+	<Result finishPos="10" disqualified="No" btnDistance="7 lengths"/>
+	<CloseUp comment="tracked leaders, ridden and weakened before 2 out"/>
+	<BetMovements comment="op 12/1 tchd 16/1"/>
+      </Horse>
+      <Horse id="2114667" name="Bells Of Ailsworth" bred="IRE" status="Runner">
+	<Cloth number="15"/>
+	<Weight units="lbs" value="143" text="10st 3lbs"/>
+	<Jockey id="1136412" name="Alan Johns"/>
+	<Trainer id="44392" name="Tim Vaughan"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152257+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="12" denominator="1"/>
+	  <Favourite position="6" joint="1"/>
+	</StartingPrice>
+	<Casualty reason="PulledUp"/>
+	<CloseUp comment="always behind, pulled up before 3 out"/>
+	<BetMovements comment="op 10/1"/>
+      </Horse>
+      <Horse id="2114805" name="Clondaw Cian" bred="IRE" status="Runner">
+	<Cloth number="16"/>
+	<Weight units="lbs" value="142" text="10st 2lbs"/>
+	<Jockey id="1138364" name="G Sheehan"/>
+	<Trainer id="5356" name="Miss S Smith"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152740+0100" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T153826+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="14" denominator="1"/>
+	  <Favourite position="7" joint="7"/>
+	</StartingPrice>
+	<Casualty reason="PulledUp"/>
+	<CloseUp comment="held up mid-division, lost place from 8th, pulled up after 11th"/>
+	<BetMovements comment="op 20/1"/>
+      </Horse>
+      <Horse id="1619039" name="Bearly Legal" bred="IRE" status="Runner">
+	<Cloth number="17"/>
+	<Weight units="lbs" value="140" text="10st 0lbs"/>
+	<Jockey id="38999" name="A E Lynch"/>
+	<Trainer id="73740" name="K Thornton"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152243+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152740+0100" marketNumber="1">
+	  <Price numerator="40" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T153032+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="50" denominator="1"/>
+	  <Favourite position="16" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="12" disqualified="No" btnDistance="6 lengths"/>
+	<CloseUp comment="held up mid-division, headway 11th to chase leaders, ridden before 2 out, soon weakened"/>
+	<BetMovements comment="op 25/1"/>
+      </Horse>
+      <WinningDistance index="1" btnDistance="4 lengths"/>
+      <WinningDistance index="2" btnDistance="4 1/2 lengths"/>
+      <WinningDistance index="3" btnDistance="5 lengths"/>
+      <WinningDistance index="4" btnDistance="Neck"/>
+      <WinningDistance index="5" btnDistance="3 3/4 lengths"/>
+      <WinningDistance index="6" btnDistance="4 lengths"/>
+      <WinningDistance index="7" btnDistance="1 length"/>
+      <WinningDistance index="8" btnDistance="2 1/2 lengths"/>
+      <WinningDistance index="9" btnDistance="7 lengths"/>
+      <WinningDistance index="10" btnDistance="6 lengths"/>
+      <WinningDistance index="11" btnDistance="6 lengths"/>
+      <Returns>
+	<Tote type="Win" currency="GBP" dividend="3.40" stake="1">
+	  <HorseRef id="2211773" name="Thomas Patrick" bred="IRE"/>
+	</Tote>
+	<Tote type="Place" currency="GBP" dividend="1.50" stake="1">
+	  <HorseRef id="2211773" name="Thomas Patrick" bred="IRE"/>
+	</Tote>
+	<Tote type="Place" currency="GBP" dividend="3.30" stake="1">
+	  <HorseRef id="1950219" name="On Tour" bred="IRE"/>
+	</Tote>
+	<Tote type="Place" currency="GBP" dividend="2.40" stake="1">
+	  <HorseRef id="2087824" name="Paper Lantern" bred="IRE"/>
+	</Tote>
+	<Tote type="Place" currency="GBP" dividend="3.70" stake="1">
+	  <HorseRef id="2118066" name="Oldgrangewood" bred="GB"/>
+	</Tote>
+	<Tote type="Exacta" currency="GBP" dividend="60.00" stake="1">
+	  <HorseRef id="2211773" name="Thomas Patrick" bred="IRE"/>
+	  <HorseRef id="1950219" name="On Tour" bred="IRE"/>
+	</Tote>
+	<Tote type="Trifecta" currency="GBP" dividend="575.20" stake="1">
+	  <HorseRef id="2211773" name="Thomas Patrick" bred="IRE"/>
+	  <HorseRef id="1950219" name="On Tour" bred="IRE"/>
+	  <HorseRef id="2087824" name="Paper Lantern" bred="IRE"/>
+	</Tote>
+	<Tote type="Swinger" currency="GBP" dividend="9.80" stake="1">
+	  <HorseRef id="2211773" name="Thomas Patrick" bred="IRE"/>
+	  <HorseRef id="1950219" name="On Tour" bred="IRE"/>
+	</Tote>
+	<Tote type="Swinger" currency="GBP" dividend="6.80" stake="1">
+	  <HorseRef id="2211773" name="Thomas Patrick" bred="IRE"/>
+	  <HorseRef id="2087824" name="Paper Lantern" bred="IRE"/>
+	</Tote>
+	<Tote type="Swinger" currency="GBP" dividend="30.00" stake="1">
+	  <HorseRef id="1950219" name="On Tour" bred="IRE"/>
+	  <HorseRef id="2087824" name="Paper Lantern" bred="IRE"/>
+	</Tote>
+	<Bet type="CSF" currency="GBP" dividend="48.62">
+	  <HorseRef id="2211773" name="Thomas Patrick" bred="IRE"/>
+	  <HorseRef id="1950219" name="On Tour" bred="IRE"/>
+	</Bet>
+	<Bet type="Tricast" currency="GBP" dividend="404.71">
+	  <HorseRef id="2211773" name="Thomas Patrick" bred="IRE"/>
+	  <HorseRef id="1950219" name="On Tour" bred="IRE"/>
+	  <HorseRef id="2087824" name="Paper Lantern" bred="IRE"/>
+	</Bet>
+      </Returns>
+    </Race>
+  </Meeting>
+</HorseRacing>

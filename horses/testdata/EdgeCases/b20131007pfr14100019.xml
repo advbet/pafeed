@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20131008T150217+0100">
+  <Meeting revision="1" id="57789" country="England" status="Dormant" date="20131007" course="Pontefract">
+    <Weather>Fine</Weather>
+    <Going brief="Good">Good (Good to Soft in places)</Going>
+    <Race revision="19" id="483555" date="20131007" time="1410+0100" runners="9" handicap="No" showcase="No" trifecta="Yes" stewards="None" status="Dormant">
+      <Weather>Fine</Weather>
+      <Going brief=""/>
+      <Horse id="1968792" name="Calrissian" bred="IRE" status="Withdrawn">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="132" text="9st 6lbs"/>
+	<Jockey id="3196" name="K Fallon" raceDayChange="Yes">
+	  <Allowance units="lbs" value="3"/>
+	  <Overweight units="lbs" value="1"/>
+	</Jockey>
+	<Trainer id="4359" name="A P Jarvis"/>
+      </Horse>
+      <Horse id="1965757" name="Dullingham" bred="GB" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="129" text="9st 3lbs"/>
+	<Jockey id="60455" name="Billy Cray" raceDayChange="Yes">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="118050" name="C Appleby"/>
+      </Horse>
+      <Horse id="1854436" name="Fun Mac" bred="GER" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="9770" name="G Lee" raceDayChange="Yes">
+	  <Overweight units="lbs" value="4"/>
+	</Jockey>
+	<Trainer id="11161" name="H Morrison"/>
+      </Horse>
+      <Horse id="1980520" name="Liberty Red" bred="GER" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="28874" name="A Elliott" raceDayChange="Yes">
+	  <Overweight units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="9404" name="E A L Dunlop"/>
+      </Horse>
+      <Horse id="2003630" name="Walk Like A Giant" bred="GB" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="8664" name="R Havlin" raceDayChange="Yes"/>
+	<Trainer id="1212" name="T P Tate"/>
+      </Horse>
+      <Horse id="1990066" name="Connexion Francais" bred="GB" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="126" text="9st 0lbs"/>
+	<Jockey id="1138334" name="Adam Beschizza"/>
+	<Trainer id="876" name="T J Etherington"/>
+      </Horse>
+      <Horse id="1984052" name="Crafty Spell" bred="GB" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="126" text="9st 0lbs"/>
+	<Jockey id="15475" name="Adrian Nicholls"/>
+	<Trainer id="1883" name="M Johnston"/>
+      </Horse>
+      <Horse id="2003628" name="Mambo Rhythm" bred="GB" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="126" text="9st 0lbs"/>
+	<Jockey id="38940" name="Luke Morris"/>
+	<Trainer id="1883" name="M Johnston"/>
+      </Horse>
+      <Horse id="2002137" name="Petite Madame" bred="IRE" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="126" text="9st 0lbs"/>
+	<Jockey id="16400" name="P McDonald"/>
+	<Trainer id="3907" name="Mrs A Duffield"/>
+      </Horse>
+      <Horse id="1955954" name="Slinky Mcvelvet" bred="GB" status="Runner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="126" text="9st 0lbs"/>
+	<Jockey id="27114" name="D Tudhope" raceDayChange="Yes"/>
+	<Trainer id="58830" name="G Moss"/>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

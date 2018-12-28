@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180414T145936+0100">
+  <Meeting id="95698" country="England" status="Dormant" date="20180414" course="Aintree" revision="3">
+    <Weather>Fine &amp; Dry</Weather>
+    <Going brief="Soft">Soft</Going>
+    <Race id="798436" date="20180414" time="1500+0100" runners="6" handicap="No" showcase="No" trifecta="Yes" stewards="None" status="Dormant" revision="23">
+      <Weather>Fine &amp; Dry</Weather>
+      <Going brief="Soft">Soft</Going>
+      <BetMarket marketNumber="1" dtFormed="20180414T144037+0100" deduction="0" deductionType="None"/>
+      <Horse id="2095157" name="Delegate" bred="GB" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="41547" name="B Hughes"/>
+	<Trainer id="105622" name="K Dalgleish"/>
+	<Show timestamp="20180414T144036+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T144437+0100" marketNumber="1">
+	  <Price numerator="40" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T144614+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T145825+0100" marketNumber="1">
+	  <Price numerator="40" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2158168" name="Diego Du Charmil" bred="FR" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="1158179" name="Harry Cobden"/>
+	<Trainer id="4663" name="P F Nicholls"/>
+	<Show timestamp="20180414T144036+0100" marketNumber="1">
+	  <Price numerator="8" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T144145+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T144400+0100" marketNumber="1">
+	  <Price numerator="13" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T144527+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T145707+0100" marketNumber="1">
+	  <Price numerator="13" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T145728+0100" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T145825+0100" marketNumber="1">
+	  <Price numerator="13" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T145907+0100" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T145936+0100" marketNumber="1">
+	  <Price numerator="11" denominator="2"/>
+	</Show>
+      </Horse>
+      <Horse id="2136743" name="Kauto Riko" bred="FR" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="31596" name="R T Dunne"/>
+	<Trainer id="100208" name="T R Gretton"/>
+	<Show timestamp="20180414T144036+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T144145+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2113518" name="Petit Mouchoir" bred="FR" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="23447" name="D N Russell"/>
+	<Trainer id="13695" name="H de Bromhead"/>
+	<Show timestamp="20180414T144036+0100" marketNumber="1">
+	  <Price numerator="8" denominator="13"/>
+	</Show>
+	<Show timestamp="20180414T144706+0100" marketNumber="1">
+	  <Price numerator="4" denominator="6"/>
+	</Show>
+	<Show timestamp="20180414T145119+0100" marketNumber="1">
+	  <Price numerator="8" denominator="11"/>
+	</Show>
+	<Show timestamp="20180414T145319+0100" marketNumber="1">
+	  <Price numerator="4" denominator="6"/>
+	</Show>
+	<Show timestamp="20180414T145927+0100" marketNumber="1">
+	  <Price numerator="8" denominator="11"/>
+	</Show>
+      </Horse>
+      <Horse id="2204031" name="Shantou Rock" bred="IRE" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="69385" name="Harry Skelton"/>
+	<Trainer id="118277" name="D Skelton"/>
+	<Show timestamp="20180414T144036+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T145049+0100" marketNumber="1">
+	  <Price numerator="13" denominator="2"/>
+	</Show>
+      </Horse>
+      <Horse id="2016585" name="Lady Buttons" bred="GB" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="151" text="10st 11lbs"/>
+	<Jockey id="45493" name="A Nicol"/>
+	<Trainer id="57045" name="P A Kirby"/>
+	<Show timestamp="20180414T144036+0100" marketNumber="1">
+	  <Price numerator="9" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T145728+0100" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T145845+0100" marketNumber="1">
+	  <Price numerator="9" denominator="2"/>
+	</Show>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

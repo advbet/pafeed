@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180414T134931+0100">
+  <Meeting id="97192" country="England" status="Dormant" date="20180414" course="Lingfield" revision="3">
+    <Weather>Sunny</Weather>
+    <Going brief="Standard">Standard</Going>
+    <Race id="798355" date="20180414" time="1355+0100" runners="5" handicap="Yes" showcase="No" trifecta="Yes" stewards="None" status="Dormant" revision="14">
+      <Weather>Sunny</Weather>
+      <Going brief="Standard">Standard</Going>
+      <BetMarket marketNumber="1" dtFormed="20180414T134545+0100" deduction="0" deductionType="None"/>
+      <Horse id="2279062" name="Pride Of Angels" bred="GB" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="133" text="9st 7lbs"/>
+	<Jockey id="1152160" name="Hector Crouch"/>
+	<Trainer id="6170" name="G L Moore"/>
+	<Show timestamp="20180414T134545+0100" marketNumber="1">
+	  <Price numerator="7" denominator="4"/>
+	</Show>
+	<Show timestamp="20180414T134724+0100" marketNumber="1">
+	  <Price numerator="15" denominator="8"/>
+	</Show>
+	<Show timestamp="20180414T134836+0100" marketNumber="1">
+	  <Price numerator="2" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2288578" name="Sonnet Rose" bred="IRE" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="133" text="9st 7lbs"/>
+	<Jockey id="1164272" name="Sebastian Woods">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="2329" name="C Allen"/>
+	<Show timestamp="20180414T134545+0100" marketNumber="1">
+	  <Price numerator="3" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T134724+0100" marketNumber="1">
+	  <Price numerator="11" denominator="4"/>
+	</Show>
+	<Show timestamp="20180414T134930+0100" marketNumber="1">
+	  <Price numerator="3" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2227520" name="The Lacemaker" bred="GB" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="130" text="9st 4lbs"/>
+	<Jockey id="41905" name="S De Sousa"/>
+	<Trainer id="3414" name="C A Dwyer"/>
+	<Show timestamp="20180414T134545+0100" marketNumber="1">
+	  <Price numerator="7" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T134836+0100" marketNumber="1">
+	  <Price numerator="10" denominator="3"/>
+	</Show>
+      </Horse>
+      <Horse id="2250156" name="Good Business" bred="IRE" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="127" text="9st 1lbs"/>
+	<Jockey id="14394" name="Fran Berry"/>
+	<Trainer id="122875" name="H Spiller"/>
+	<Show timestamp="20180414T134545+0100" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T134724+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T134930+0100" marketNumber="1">
+	  <Price numerator="13" denominator="2"/>
+	</Show>
+      </Horse>
+      <Horse id="2175835" name="Emily Goldfinch" bred="GB" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="121" text="8st 9lbs"/>
+	<Jockey id="1153103" name="Nicola Currie">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="11912" name="P S McEntee"/>
+	<Show timestamp="20180414T134545+0100" marketNumber="1">
+	  <Price numerator="8" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T134724+0100" marketNumber="1">
+	  <Price numerator="15" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T134805+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T134856+0100" marketNumber="1">
+	  <Price numerator="15" denominator="2"/>
+	</Show>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

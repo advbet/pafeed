@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20131010T123513+0100">
+  <Meeting revision="2" id="57861" country="Scotland" status="Dormant" date="20131010" course="Ayr">
+    <Weather>Bright</Weather>
+    <Going brief="Good">Good</Going>
+    <Race revision="12" id="484166" date="20131010" time="1340+0100" runners="6" handicap="No" showcase="No" trifecta="Yes" stewards="None" status="Result">
+      <Weather>Bright</Weather>
+      <Going brief=""/>
+      <OffTime date="20131010" time="123324+0100"/>
+      <BetMarket marketNumber="1" dtFormed="20131010T123206+0100" deduction="0" deductionType="None"/>
+      <Horse id="1973267" name="El Beau" bred="IRE" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="23659" name="M O'Connell"/>
+	<Trainer id="9243" name="J J Quinn"/>
+	<Show timestamp="20131010T123206+0100" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="5" denominator="1"/>
+	  <Favourite position="2" joint="5"/>
+	</StartingPrice>
+	<Result finishPos="1" disqualified="No"/>
+      </Horse>
+      <Horse id="1947744" name="Greenbury" bred="IRE" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="16400" name="P McDonald"/>
+	<Trainer id="3907" name="Mrs A Duffield"/>
+	<Show timestamp="20131010T123206+0100" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="5" denominator="1"/>
+	  <Favourite position="2" joint="5"/>
+	</StartingPrice>
+	<Result finishPos="2" disqualified="No" btnDistance="Head"/>
+      </Horse>
+      <Horse id="1968814" name="Rainbow Rock" bred="IRE" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="15475" name="Adrian Nicholls"/>
+	<Trainer id="1883" name="M Johnston"/>
+	<Show timestamp="20131010T123206+0100" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="5" denominator="1"/>
+	  <Favourite position="2" joint="5"/>
+	</StartingPrice>
+	<Result finishPos="3" disqualified="No" btnDistance="1 length"/>
+      </Horse>
+      <Horse id="1994013" name="Scurr Mist" bred="IRE" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="16340" name="T Eaves"/>
+	<Trainer id="105622" name="K Dalgleish"/>
+	<Show timestamp="20131010T123206+0100" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="5" denominator="1"/>
+	  <Favourite position="2" joint="5"/>
+	</StartingPrice>
+	<Result finishPos="4" disqualified="No"/>
+      </Horse>
+      <Horse id="1917752" name="The Grumpy Gnome" bred="IRE" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="18673" name="T Hamilton"/>
+	<Trainer id="6827" name="R A Fahey"/>
+	<Show timestamp="20131010T123206+0100" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="5" denominator="1"/>
+	  <Favourite position="2" joint="5"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1996933" name="Thorntoun Care" bred="GB" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="9770" name="G Lee"/>
+	<Trainer id="6168" name="J S Goldie"/>
+	<Show timestamp="20131010T123206+0100" marketNumber="1">
+	  <Price numerator="2" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="2" denominator="1"/>
+	  <Favourite position="1" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <WinningDistance index="1" btnDistance="Head"/>
+      <WinningDistance index="2" btnDistance="1 length"/>
+      <Returns>
+	<Bet type="CSF" currency="GBP" dividend="30.72">
+	  <HorseRef id="1973267" name="El Beau" bred="IRE"/>
+	  <HorseRef id="1947744" name="Greenbury" bred="IRE"/>
+	</Bet>
+      </Returns>
+    </Race>
+  </Meeting>
+</HorseRacing>

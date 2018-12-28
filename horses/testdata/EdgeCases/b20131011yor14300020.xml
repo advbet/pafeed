@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20131011T153257+0100">
+  <Meeting revision="1" id="57885" country="England" status="Dormant" date="20131011" course="York">
+    <Race revision="20" id="484389" date="20131011" time="1430+0100" runners="14" handicap="Yes" showcase="No" trifecta="Yes" stewards="None" status="Result">
+      <Weather> </Weather>
+      <Going brief=""/>
+      <OffTime date="20131011" time="151049+0100"/>
+      <BetMarket marketNumber="1" dtFormed="20131011T151041+0100" deduction="0" deductionType="None"/>
+      <Horse id="1581726" name="Jamaican Bolt" bred="IRE" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="133" text="9st 7lbs"/>
+	<Jockey id="9770" name="G Lee"/>
+	<Trainer id="395" name="G R Oldroyd"/>
+	<Show timestamp="20131011T151041+0100" marketNumber="1">
+	  <Price numerator="3" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="3" denominator="1"/>
+	  <Favourite position="1" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="1" disqualified="No"/>
+      </Horse>
+      <Horse id="739709" name="Doctor Parkes" bred="GB" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="133" text="9st 7lbs"/>
+	<Jockey id="23923" name="J-P Guillambert"/>
+	<Trainer id="8756" name="S C Williams"/>
+	<Show timestamp="20131011T151041+0100" marketNumber="1">
+	  <Price numerator="4" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="4" denominator="1"/>
+	  <Favourite position="2" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="2" disqualified="No"/>
+      </Horse>
+      <Horse id="1757838" name="Bern Me Baby" bred="USA" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="132" text="9st 6lbs"/>
+	<Jockey id="31725" name="A Kirby"/>
+	<Trainer id="16665" name="M Botti"/>
+	<Show timestamp="20131011T151041+0100" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="5" denominator="1"/>
+	  <Favourite position="3" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="3" disqualified="No"/>
+      </Horse>
+      <Horse id="1728735" name="Polski Max" bred="GB" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="132" text="9st 6lbs"/>
+	<Jockey id="16510" name="P Hanagan"/>
+	<Trainer id="6827" name="R A Fahey"/>
+	<Show timestamp="20131011T151041+0100" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="6" denominator="1"/>
+	  <Favourite position="4" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="4" disqualified="No"/>
+      </Horse>
+      <Horse id="768357" name="Cheviot" bred="USA" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="132" text="9st 6lbs"/>
+	<Jockey id="1141554" name="Jason Hart">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="1993" name="I Semple"/>
+	<Show timestamp="20131011T151041+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="7" denominator="1"/>
+	  <Favourite position="5" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="4" disqualified="No" btnDistance="Dead Heat"/>
+      </Horse>
+      <Horse id="1452782" name="Dungannon" bred="GB" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="132" text="9st 6lbs"/>
+	<Jockey id="1151765" name="Oisin Murphy">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="19540" name="A M Balding"/>
+	<Show timestamp="20131011T151041+0100" marketNumber="1">
+	  <Price numerator="8" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="8" denominator="1"/>
+	  <Favourite position="6" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1571906" name="Pearl Blue" bred="IRE" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="130" text="9st 4lbs"/>
+	<Jockey id="1138528" name="Harry Bentley"/>
+	<Trainer id="1307" name="C F Wall"/>
+	<Show timestamp="20131011T151041+0100" marketNumber="1">
+	  <Price numerator="9" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="9" denominator="1"/>
+	  <Favourite position="7" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1539951" name="Pabusar" bred="GB" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="130" text="9st 4lbs"/>
+	<Jockey id="13937" name="J P Spencer"/>
+	<Trainer id="13712" name="J A Osborne"/>
+	<Show timestamp="20131011T151041+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="10" denominator="1"/>
+	  <Favourite position="8" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1680881" name="Take Cover" bred="GB" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="130" text="9st 4lbs"/>
+	<Jockey id="65282" name="David Probert"/>
+	<Trainer id="101808" name="D C Griffiths"/>
+	<Show timestamp="20131011T151041+0100" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="16" denominator="1"/>
+	  <Favourite position="9" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1640648" name="Kyleakin Lass" bred="GB" status="Runner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="129" text="9st 3lbs"/>
+	<Jockey id="1764" name="R Hughes"/>
+	<Trainer id="11774" name="J G Portman"/>
+	<Show timestamp="20131011T151041+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="20" denominator="1"/>
+	  <Favourite position="10" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1628703" name="Elusive Flame" bred="GB" status="Runner">
+	<Cloth number="11"/>
+	<Weight units="lbs" value="129" text="9st 3lbs"/>
+	<Jockey id="41905" name="S De Sousa"/>
+	<Trainer id="54" name="D R C Elsworth"/>
+	<Show timestamp="20131011T151041+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="25" denominator="1"/>
+	  <Favourite position="11" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1439923" name="Singeur" bred="IRE" status="Runner">
+	<Cloth number="12"/>
+	<Weight units="lbs" value="128" text="9st 2lbs"/>
+	<Jockey id="1138334" name="Adam Beschizza"/>
+	<Trainer id="1040" name="R Bastiman"/>
+	<Show timestamp="20131011T151041+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="33" denominator="1"/>
+	  <Favourite position="12" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1619604" name="Higher Court" bred="USA" status="Runner">
+	<Cloth number="13"/>
+	<Weight units="lbs" value="128" text="9st 2lbs"/>
+	<Jockey id="15412" name="P M Quinn"/>
+	<Trainer id="7015" name="D Nicholls"/>
+	<Show timestamp="20131011T151041+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="50" denominator="1"/>
+	  <Favourite position="13" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1631080" name="Lady Gibraltar" bred="GB" status="Runner">
+	<Cloth number="14"/>
+	<Weight units="lbs" value="127" text="9st 1lbs"/>
+	<Jockey id="3196" name="K Fallon"/>
+	<Trainer id="4359" name="A P Jarvis"/>
+	<Show timestamp="20131011T151041+0100" marketNumber="1">
+	  <Price numerator="100" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="100" denominator="1"/>
+	  <Favourite position="14" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1628692" name="Dick Bos" bred="GB" status="NonRunner">
+	<Cloth number="15"/>
+	<Weight units="lbs" value="126" text="9st 0lbs"/>
+	<Jockey id="1143616" name="D H Bergin">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="102897" name="D O'Meara"/>
+      </Horse>
+      <Horse id="1623662" name="Bop It" bred="GB" status="NonRunner">
+	<Cloth number="16"/>
+	<Weight units="lbs" value="126" text="9st 0lbs"/>
+	<Jockey id="27114" name="D Tudhope"/>
+	<Trainer id="102897" name="D O'Meara"/>
+      </Horse>
+      <Horse id="744030" name="Fitz Flyer" bred="IRE" status="NonRunner">
+	<Cloth number="17"/>
+	<Weight units="lbs" value="126" text="9st 0lbs"/>
+	<Jockey id="1142745" name="Jordan Nason">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="7015" name="D Nicholls"/>
+      </Horse>
+      <Horse id="1616401" name="Imperial Legend" bred="IRE" status="NonRunner">
+	<Cloth number="18"/>
+	<Weight units="lbs" value="125" text="8st 13lbs"/>
+	<Jockey id="18614" name="T P Queally"/>
+	<Trainer id="7015" name="D Nicholls"/>
+      </Horse>
+      <Horse id="1628675" name="Bapak Chinta" bred="USA" status="NonRunner">
+	<Cloth number="19"/>
+	<Weight units="lbs" value="125" text="8st 13lbs"/>
+	<Jockey id="18854" name="R L Moore"/>
+	<Trainer id="955" name="K A Ryan"/>
+      </Horse>
+      <Horse id="1620210" name="Above Standard" bred="IRE" status="NonRunner">
+	<Cloth number="20"/>
+	<Weight units="lbs" value="125" text="8st 13lbs"/>
+	<Jockey id="18303" name="G Gibbons"/>
+	<Trainer id="51" name="M W Easterby"/>
+      </Horse>
+      <Returns>
+	<Bet type="CSF" currency="GBP" dividend="16.63">
+	  <HorseRef id="1581726" name="Jamaican Bolt" bred="IRE"/>
+	  <HorseRef id="739709" name="Doctor Parkes" bred="GB"/>
+	</Bet>
+	<Bet type="Tricast" currency="GBP" dividend="68.13">
+	  <HorseRef id="1581726" name="Jamaican Bolt" bred="IRE"/>
+	  <HorseRef id="739709" name="Doctor Parkes" bred="GB"/>
+	  <HorseRef id="1757838" name="Bern Me Baby" bred="USA"/>
+	</Bet>
+      </Returns>
+    </Race>
+  </Meeting>
+</HorseRacing>

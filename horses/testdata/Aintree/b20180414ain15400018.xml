@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180414T152833+0100">
+  <Meeting id="95698" country="England" status="Dormant" date="20180414" course="Aintree" revision="3">
+    <Weather>Fine &amp; Dry</Weather>
+    <Going brief="Soft">Soft</Going>
+    <Race id="798437" date="20180414" time="1540+0100" runners="16" handicap="Yes" showcase="No" trifecta="Yes" stewards="None" status="Dormant" revision="18">
+      <Weather>Fine &amp; Dry</Weather>
+      <Going brief="Soft">Soft</Going>
+      <BetMarket marketNumber="1" dtFormed="20180414T152009+0100" deduction="0" deductionType="None"/>
+      <Horse id="1613481" name="Hammersly Lake" bred="FR" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="166" text="11st 12lbs"/>
+	<Jockey id="41547" name="B Hughes"/>
+	<Trainer id="55653" name="C E Longsdon"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1868691" name="Wakanda" bred="IRE" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="159" text="11st 5lbs"/>
+	<Jockey id="80351" name="Henry Brooke"/>
+	<Trainer id="3430" name="Mrs S J Smith"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2118066" name="Oldgrangewood" bred="GB" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="157" text="11st 3lbs"/>
+	<Jockey id="69385" name="Harry Skelton"/>
+	<Trainer id="118277" name="D Skelton"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2126650" name="Rocklander" bred="IRE" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="156" text="11st 2lbs"/>
+	<Jockey id="82636" name="A P Heskin"/>
+	<Trainer id="6854" name="T R George"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1731533" name="Viconte Du Noyer" bred="FR" status="NonRunner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="155" text="11st 1lbs"/>
+	<Jockey id="20948" name="R M Power"/>
+	<Trainer id="10607" name="C L Tizzard"/>
+      </Horse>
+      <Horse id="2037520" name="Ibis Du Rheu" bred="FR" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="151" text="10st 11lbs"/>
+	<Jockey id="1106000" name="Sam Twiston-Davies"/>
+	<Trainer id="4663" name="P F Nicholls"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="8" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152637+0100" marketNumber="1">
+	  <Price numerator="15" denominator="2"/>
+	</Show>
+      </Horse>
+      <Horse id="2211773" name="Thomas Patrick" bred="IRE" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="150" text="10st 10lbs"/>
+	<Jockey id="13961" name="R Johnson"/>
+	<Trainer id="122148" name="Tom Lacey"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="7" denominator="2"/>
+	</Show>
+      </Horse>
+      <Horse id="2152921" name="Casse Tete" bred="FR" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="149" text="10st 9lbs"/>
+	<Jockey id="78714" name="Joshua Moore"/>
+	<Trainer id="6170" name="G L Moore"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152243+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152831+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1950219" name="On Tour" bred="IRE" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="148" text="10st 8lbs"/>
+	<Jockey id="77406" name="Adam Wedge"/>
+	<Trainer id="12856" name="Evan Williams"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152831+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2113347" name="Holly Bush Henry" bred="IRE" status="Runner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="146" text="10st 6lbs"/>
+	<Jockey id="1164405" name="James Bowen">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="94045" name="P W Middleton"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1581319" name="Pearl Swan" bred="FR" status="Runner">
+	<Cloth number="11"/>
+	<Weight units="lbs" value="145" text="10st 5lbs"/>
+	<Jockey id="1156014" name="Sean Bowen"/>
+	<Trainer id="2982" name="P Bowen"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152222+0100" marketNumber="1">
+	  <Price numerator="9" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152243+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1968791" name="Heist" bred="IRE" status="Runner">
+	<Cloth number="12"/>
+	<Weight units="lbs" value="144" text="10st 4lbs"/>
+	<Jockey id="1157220" name="A W Short">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="5191" name="P Griffin"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2087824" name="Paper Lantern" bred="IRE" status="Runner">
+	<Cloth number="13"/>
+	<Weight units="lbs" value="144" text="10st 4lbs"/>
+	<Jockey id="1149430" name="D Meyler">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="73740" name="K Thornton"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2083667" name="Very First Time" bred="GB" status="Runner">
+	<Cloth number="14"/>
+	<Weight units="lbs" value="143" text="10st 3lbs"/>
+	<Jockey id="83305" name="Danny Cook"/>
+	<Trainer id="10380" name="T D Easterby"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152222+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152243+0100" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152551+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2114667" name="Bells Of Ailsworth" bred="IRE" status="Runner">
+	<Cloth number="15"/>
+	<Weight units="lbs" value="143" text="10st 3lbs"/>
+	<Jockey id="1136412" name="Alan Johns"/>
+	<Trainer id="44392" name="Tim Vaughan"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152257+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2114805" name="Clondaw Cian" bred="IRE" status="Runner">
+	<Cloth number="16"/>
+	<Weight units="lbs" value="142" text="10st 2lbs"/>
+	<Jockey id="1138364" name="G Sheehan"/>
+	<Trainer id="5356" name="Miss S Smith"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152740+0100" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1619039" name="Bearly Legal" bred="IRE" status="Runner">
+	<Cloth number="17"/>
+	<Weight units="lbs" value="140" text="10st 0lbs"/>
+	<Jockey id="38999" name="A E Lynch"/>
+	<Trainer id="73740" name="K Thornton"/>
+	<Show timestamp="20180414T152009+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152243+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T152740+0100" marketNumber="1">
+	  <Price numerator="40" denominator="1"/>
+	</Show>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

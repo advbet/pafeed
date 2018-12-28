@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180410T095452+0100">
+  <Meeting id="97044" country="England" status="Abandoned" date="20180410" course="Hexham" revision="3">
+    <Abandoned>Waterlogged</Abandoned>
+    <Weather>Raining</Weather>
+    <Going brief="Heavy">Heavy</Going>
+  </Meeting>
+</HorseRacing>

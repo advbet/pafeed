@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20181201T085627+0000">
+  <Meeting id="105171" country="Australia" status="Dormant" date="20181201" course="Toowoomba" revision="2">
+    <Weather>Fine</Weather>
+    <Going brief="Good">Good</Going>
+    <Race id="856191" date="20181201" time="0820+0000" runners="7" handicap="No" showcase="No" trifecta="No" stewards="AmendedResult" status="WeighedIn" revision="23">
+      <Weather>Fine</Weather>
+      <Going brief="Good">Good</Going>
+      <OffTime date="20181201" time="082046+0000"/>
+      <Stewards>
+	<Inquiry>Amended Result</Inquiry>
+      </Stewards>
+      <BetMarket marketNumber="1" dtFormed="20181201T081613+0000" deduction="0" deductionType="None"/>
+      <Horse id="2331741" name="Dreamscope" bred="AUS" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="136" text="9st 10lbs"/>
+	<Jockey id="1166428" name="Clayton Gallagher">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="100770" name="Ben Currie"/>
+	<Show timestamp="20181201T081613+0000" marketNumber="1">
+	  <Price numerator="4" denominator="1"/>
+	</Show>
+	<Show timestamp="20181201T082014+0000" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="5" denominator="1"/>
+	  <Favourite position="3" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="5" disqualified="No" amendedPos="4"/>
+      </Horse>
+      <Horse id="2327611" name="The Real Boss" bred="AUS" status="NonRunner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="132" text="9st 6lbs"/>
+	<Trainer id="60072" name="T J Sears"/>
+      </Horse>
+      <Horse id="2315442" name="Mishani Rainman" bred="AUS" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="79206" name="N Tomizawa"/>
+	<Trainer id="100770" name="Ben Currie"/>
+	<Show timestamp="20181201T081613+0000" marketNumber="1">
+	  <Price numerator="5" denominator="6"/>
+	</Show>
+	<Show timestamp="20181201T082017+0000" marketNumber="1">
+	  <Price numerator="4" denominator="5"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="4" denominator="5"/>
+	  <Favourite position="1" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="2" disqualified="No" amendedPos="2"/>
+      </Horse>
+      <Horse id="2339399" name="Timetus" bred="AUS" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="130" text="9st 4lbs"/>
+	<Jockey id="79209" name="S Apthorpe"/>
+	<Trainer id="40835" name="C Smith"/>
+	<Show timestamp="20181201T081613+0000" marketNumber="1">
+	  <Price numerator="22" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="25" denominator="1"/>
+	  <Favourite position="5" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="3" disqualified="No" amendedPos="3"/>
+      </Horse>
+      <Horse id="2277109" name="Dream Of Ascot" bred="AUS" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="128" text="9st 2lbs"/>
+	<Jockey id="1152396" name="Leslie Tilley"/>
+	<Trainer id="60059" name="L J Hatch"/>
+	<Show timestamp="20181201T081613+0000" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<Show timestamp="20181201T082021+0000" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="13" denominator="2"/>
+	  <Favourite position="4" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="2324578" name="Okanagan Miss" bred="AUS" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="126" text="9st 0lbs"/>
+	<Jockey id="74749" name="Ms S Bogenhuber"/>
+	<Trainer id="60056" name="M A Kropp"/>
+	<Show timestamp="20181201T081613+0000" marketNumber="1">
+	  <Price numerator="11" denominator="4"/>
+	</Show>
+	<Show timestamp="20181201T082023+0000" marketNumber="1">
+	  <Price numerator="3" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="3" denominator="1"/>
+	  <Favourite position="2" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="1" disqualified="No" amendedPos="1"/>
+      </Horse>
+      <Horse id="2198266" name="Tin's Pocket" bred="AUS" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="125" text="8st 13lbs"/>
+	<Jockey id="1140701" name="Ms R Williams"/>
+	<Trainer id="60061" name="B J Hudson"/>
+	<Show timestamp="20181201T081613+0000" marketNumber="1">
+	  <Price numerator="80" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="80" denominator="1"/>
+	  <Favourite position="7" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="2320003" name="Back Chat" bred="AUS" status="NonRunner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="121" text="8st 9lbs"/>
+	<Trainer id="132015" name="Beau Gorman"/>
+      </Horse>
+      <Horse id="2181404" name="Applause A Star" bred="AUS" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="119" text="8st 7lbs"/>
+	<Jockey id="1143851" name="N Nishio"/>
+	<Trainer id="61782" name="Donald Baker"/>
+	<Show timestamp="20181201T081613+0000" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<Show timestamp="20181201T082025+0000" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="40" denominator="1"/>
+	  <Favourite position="6" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="4" disqualified="Yes" amendedPos="7"/>
+      </Horse>
+      <Returns>
+	<Bet type="CSF" currency="AUD" dividend="6.04">
+	  <HorseRef id="2324578" name="Okanagan Miss" bred="AUS"/>
+	  <HorseRef id="2315442" name="Mishani Rainman" bred="AUS"/>
+	</Bet>
+      </Returns>
+    </Race>
+  </Meeting>
+</HorseRacing>

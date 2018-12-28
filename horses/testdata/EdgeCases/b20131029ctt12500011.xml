@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20131029T123859+0000">
+  <Meeting revision="2" id="58231" country="England" status="Dormant" date="20131029" course="Catterick">
+    <Weather>Fine</Weather>
+    <Going brief="Heavy">Heavy</Going>
+    <Race revision="11" id="487385" date="20131029" time="1250+0000" runners="6" handicap="No" showcase="No" trifecta="Yes" stewards="None" status="Off">
+      <Weather>Fine</Weather>
+      <Going brief="Heavy">Heavy</Going>
+      <OffTime date="20131029" time="123856+0000"/>
+      <BetMarket marketNumber="1" dtFormed="20131029T122549+0000" deduction="0" deductionType="None"/>
+      <Horse id="1967769" name="Brownsville" bred="USA" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="2616" name="J Fanning"/>
+	<Trainer id="1883" name="M Johnston"/>
+	<Show timestamp="20131029T122549+0000" marketNumber="1">
+	  <Price numerator="1" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1996934" name="Cahal" bred="IRE" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="15475" name="Adrian Nicholls"/>
+	<Trainer id="7015" name="D Nicholls"/>
+	<Show timestamp="20131029T122549+0000" marketNumber="1">
+	  <Price numerator="4" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1986190" name="Captain Joe" bred="GB" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="20746" name="J P Sullivan"/>
+	<Trainer id="51" name="M W Easterby"/>
+	<Show timestamp="20131029T122549+0000" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1917906" name="The Hooded Claw" bred="IRE" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="25650" name="D Fentiman"/>
+	<Trainer id="10380" name="T D Easterby"/>
+	<Show timestamp="20131029T122549+0000" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2008966" name="Vale Mentor" bred="IRE" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="17843" name="D Allan"/>
+	<Trainer id="10380" name="T D Easterby"/>
+	<Show timestamp="20131029T122549+0000" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2003641" name="Angel Flores" bred="IRE" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="126" text="9st 0lbs"/>
+	<Jockey id="18673" name="T Hamilton"/>
+	<Trainer id="6827" name="R A Fahey"/>
+	<Show timestamp="20131029T122549+0000" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2006812" name="Helen's Armada" bred="IRE" status="NonRunner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="126" text="9st 0lbs"/>
+	<Jockey id="31271" name="C D Hayes"/>
+	<Trainer id="113165" name="J P Shanahan"/>
+      </Horse>
+      <Horse id="2009250" name="Oriental Maid" bred="GB" status="NonRunner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="126" text="9st 0lbs"/>
+	<Jockey id="37226" name="P Pickard">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="1995" name="B Ellison"/>
+      </Horse>
+      <Horse id="1984511" name="Penny Pursuits" bred="GB" status="NonRunner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="126" text="9st 0lbs"/>
+	<Jockey id="9770" name="G Lee"/>
+	<Trainer id="13699" name="A Berry"/>
+      </Horse>
+      <Horse id="1957662" name="Tricksome" bred="IRE" status="NonRunner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="126" text="9st 0lbs"/>
+	<Jockey id="16400" name="P McDonald"/>
+	<Trainer id="3907" name="Mrs A Duffield"/>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

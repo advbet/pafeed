@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180410T083338+0100">
+  <Meeting id="97044" country="England" status="Dormant" date="20180410" course="Hexham" revision="2">
+    <Weather>Raining</Weather>
+    <Going brief="Heavy">Heavy</Going>
+    <Race id="797316" date="20180410" time="1625+0100" runners="10" handicap="Yes" showcase="No" trifecta="Yes" stewards="None" status="Dormant" revision="2">
+      <Weather>Raining</Weather>
+      <Going brief="Heavy">Heavy</Going>
+      <Horse id="2014411" name="Hattons Hill" bred="IRE" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="175" text="12st 7lbs"/>
+	<Jockey id="1142033" name="Jamie Hamilton"/>
+	<Trainer id="16029" name="H Hogarth"/>
+      </Horse>
+      <Horse id="2120192" name="Bertalus" bred="IRE" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="166" text="11st 12lbs"/>
+	<Jockey id="1137026" name="Grant Cockburn">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="5372" name="N W Alexander"/>
+      </Horse>
+      <Horse id="1917027" name="Onderun" bred="IRE" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="164" text="11st 10lbs"/>
+	<Jockey id="51326" name="Jonathon Bewley">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="14198" name="G Bewley"/>
+      </Horse>
+      <Horse id="2018037" name="Purple Harry" bred="GB" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="160" text="11st 6lbs"/>
+	<Jockey id="41547" name="B Hughes"/>
+	<Trainer id="15948" name="Miss T Jackson"/>
+      </Horse>
+      <Horse id="1592185" name="Gibbstown" bred="IRE" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="159" text="11st 5lbs"/>
+	<Jockey id="1157220" name="A W Short">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="40012" name="P Stafford"/>
+      </Horse>
+      <Horse id="2275664" name="Beau Sancy" bred="FR" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="65353" name="Alison Clarke">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="124102" name="Kenny Johnson"/>
+      </Horse>
+      <Horse id="2119258" name="Massini's Lady" bred="GB" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="156" text="11st 2lbs"/>
+	<Jockey id="70664" name="Lucy Alexander"/>
+	<Trainer id="5372" name="N W Alexander"/>
+      </Horse>
+      <Horse id="2049539" name="Moorstown" bred="IRE" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="155" text="11st 1lbs"/>
+	<Jockey id="1150759" name="Blair Campbell">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="17180" name="Miss Lucinda V Russell"/>
+      </Horse>
+      <Horse id="2259664" name="Sounds Of Italy" bred="IRE" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="146" text="10st 6lbs"/>
+	<Jockey id="20683" name="T Scudamore"/>
+	<Trainer id="270" name="M Scudamore"/>
+      </Horse>
+      <Horse id="1733626" name="Nelly La Rue" bred="IRE" status="Runner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="145" text="10st 5lbs"/>
+	<Jockey id="1156760" name="Thomas Dowson">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="314" name="V Thompson"/>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

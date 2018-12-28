@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180414T143102+0100">
+  <Meeting id="95698" country="England" status="Dormant" date="20180414" course="Aintree" revision="3">
+    <Weather>Fine &amp; Dry</Weather>
+    <Going brief="Soft">Soft</Going>
+    <Race id="798435" date="20180414" time="1425+0100" runners="12" handicap="No" showcase="No" trifecta="Yes" stewards="None" status="Finished" revision="39">
+      <Weather>Fine &amp; Dry</Weather>
+      <Going brief="Soft">Soft</Going>
+      <OffTime date="20180414" time="142542+0100"/>
+      <BetMarket marketNumber="1" dtFormed="20180414T140512+0100" deduction="0" deductionType="None"/>
+      <Horse id="2197825" name="Aye Aye Charlie" bred="GB" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="16180" name="P J Brennan"/>
+	<Trainer id="5158" name="F O'Brien"/>
+	<Show timestamp="20180414T140512+0100" marketNumber="1">
+	  <Price numerator="28" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T140655+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T141301+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T141622+0100" marketNumber="1">
+	  <Price numerator="22" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T141644+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="25" denominator="1"/>
+	  <Favourite position="7" joint="2"/>
+	</StartingPrice>
+	<BetMovements comment="op 28/1 tchd 20/1"/>
+      </Horse>
+      <Horse id="2109689" name="Bedrock" bred="GB" status="NonRunner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="80351" name="Henry Brooke"/>
+	<Trainer id="98137" name="I Jardine"/>
+      </Horse>
+      <Horse id="2182748" name="Better Getalong" bred="IRE" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="23447" name="D N Russell"/>
+	<Trainer id="12026" name="N G Richards"/>
+	<Show timestamp="20180414T140512+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T141541+0100" marketNumber="1">
+	  <Price numerator="40" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T141644+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T141846+0100" marketNumber="1">
+	  <Price numerator="40" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="40" denominator="1"/>
+	  <Favourite position="11" joint="1"/>
+	</StartingPrice>
+	<BetMovements comment="op 33/1"/>
+      </Horse>
+      <Horse id="2204108" name="Black Op" bred="IRE" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="17893" name="N D Fehily"/>
+	<Trainer id="6854" name="T R George"/>
+	<Show timestamp="20180414T140512+0100" marketNumber="1">
+	  <Price numerator="11" denominator="4"/>
+	</Show>
+	<Show timestamp="20180414T142156+0100" marketNumber="1">
+	  <Price numerator="3" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="3" denominator="1"/>
+	  <Favourite position="2" joint="1"/>
+	</StartingPrice>
+	<BetMovements comment="op 11/4"/>
+      </Horse>
+      <Horse id="2211994" name="Brianstorm" bred="IRE" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="1138364" name="G Sheehan"/>
+	<Trainer id="99903" name="W Greatrex"/>
+	<Show timestamp="20180414T140512+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="33" denominator="1"/>
+	  <Favourite position="10" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="2270186" name="Chosen Path" bred="IRE" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="16293" name="Wayne Hutchinson"/>
+	<Trainer id="13645" name="A King"/>
+	<Show timestamp="20180414T140512+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T141935+0100" marketNumber="1">
+	  <Price numerator="22" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T142404+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="20" denominator="1"/>
+	  <Favourite position="6" joint="1"/>
+	</StartingPrice>
+	<BetMovements comment="op 25/1"/>
+      </Horse>
+      <Horse id="2203613" name="Count Meribel" bred="GB" status="NonRunner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="22173" name="M D Grant"/>
+	<Trainer id="579" name="N A Twiston-Davies"/>
+      </Horse>
+      <Horse id="2318821" name="Euxton Lane" bred="IRE" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="893016" name="Aidan Coleman"/>
+	<Trainer id="403" name="O Sherwood"/>
+	<Show timestamp="20180414T140512+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T142217+0100" marketNumber="1">
+	  <Price numerator="28" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="28" denominator="1"/>
+	  <Favourite position="9" joint="1"/>
+	</StartingPrice>
+	<BetMovements comment="op 25/1"/>
+      </Horse>
+      <Horse id="2204098" name="Kildisart" bred="IRE" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="28681" name="D A Jacob"/>
+	<Trainer id="118611" name="B Pauling"/>
+	<Show timestamp="20180414T140512+0100" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T140655+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T141124+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="25" denominator="1"/>
+	  <Favourite position="7" joint="2"/>
+	</StartingPrice>
+	<BetMovements comment="op 16/1"/>
+      </Horse>
+      <Horse id="2255544" name="Lostintranslation" bred="IRE" status="Runner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="20948" name="R M Power"/>
+	<Trainer id="10607" name="C L Tizzard"/>
+	<Show timestamp="20180414T140512+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="12" denominator="1"/>
+	  <Favourite position="5" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="2267138" name="On The Blind Side" bred="IRE" status="Runner">
+	<Cloth number="11"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="82252" name="Nico de Boinville"/>
+	<Trainer id="488" name="N J Henderson"/>
+	<Show timestamp="20180414T140512+0100" marketNumber="1">
+	  <Price numerator="7" denominator="4"/>
+	</Show>
+	<Show timestamp="20180414T141301+0100" marketNumber="1">
+	  <Price numerator="13" denominator="8"/>
+	</Show>
+	<Show timestamp="20180414T141846+0100" marketNumber="1">
+	  <Price numerator="7" denominator="4"/>
+	</Show>
+	<Show timestamp="20180414T141857+0100" marketNumber="1">
+	  <Price numerator="13" denominator="8"/>
+	</Show>
+	<Show timestamp="20180414T142109+0100" marketNumber="1">
+	  <Price numerator="6" denominator="4"/>
+	</Show>
+	<Show timestamp="20180414T142343+0100" marketNumber="1">
+	  <Price numerator="11" denominator="8"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="11" denominator="8"/>
+	  <Favourite position="1" joint="1"/>
+	</StartingPrice>
+	<BetMovements comment="op 7/4"/>
+      </Horse>
+      <Horse id="1568441" name="Silver Concorde" bred="GB" status="Runner">
+	<Cloth number="12"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="41547" name="B Hughes"/>
+	<Trainer id="105622" name="K Dalgleish"/>
+	<Show timestamp="20180414T140512+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T141301+0100" marketNumber="1">
+	  <Price numerator="40" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T141515+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T141935+0100" marketNumber="1">
+	  <Price numerator="40" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T142006+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T142044+0100" marketNumber="1">
+	  <Price numerator="40" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T142343+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="50" denominator="1"/>
+	  <Favourite position="12" joint="1"/>
+	</StartingPrice>
+	<BetMovements comment="op 33/1"/>
+      </Horse>
+      <Horse id="2218513" name="Western Ryder" bred="IRE" status="Runner">
+	<Cloth number="13"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="13961" name="R Johnson"/>
+	<Trainer id="99903" name="W Greatrex"/>
+	<Show timestamp="20180414T140512+0100" marketNumber="1">
+	  <Price numerator="13" denominator="2"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="13" denominator="2"/>
+	  <Favourite position="3" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="2263578" name="Momella" bred="IRE" status="Runner">
+	<Cloth number="14"/>
+	<Weight units="lbs" value="151" text="10st 11lbs"/>
+	<Jockey id="69385" name="Harry Skelton"/>
+	<Trainer id="118277" name="D Skelton"/>
+	<Show timestamp="20180414T140512+0100" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T140948+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T141009+0100" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T141622+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="10" denominator="1"/>
+	  <Favourite position="4" joint="1"/>
+	</StartingPrice>
+	<BetMovements comment="op 11/1 tchd 12/1"/>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180405T141400+0100">
+  <Meeting id="97020" country="South Africa" status="Dormant" date="20180405" course="Vaal" revision="2">
+    <Weather>Cloudy</Weather>
+    <Going brief="Good">Good</Going>
+    <Race id="797156" date="20180405" time="1425+0100" runners="10" handicap="Yes" showcase="No" trifecta="No" stewards="None" status="Dormant" revision="7">
+      <Weather>Cloudy</Weather>
+      <Going brief="Good">Good</Going>
+      <BetMarket marketNumber="1" dtFormed="20180405T141400+0100" deduction="0" deductionType="None"/>
+      <Horse id="2167690" name="Angelic Appeal" bred="SAF" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="136" text="9st 10lbs"/>
+	<Jockey id="28082" name="Marco V'Rensburg"/>
+	<Trainer id="15533" name="D Gray St John"/>
+	<Show timestamp="20180405T141400+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2294377" name="Candy Kisses" bred="SAF" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="28018" name="C Maujean"/>
+	<Trainer id="41175" name="Gary Alexander"/>
+	<Show timestamp="20180405T141400+0100" marketNumber="1">
+	  <Price numerator="28" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2309943" name="Angelic" bred="SAF" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="129" text="9st 3lbs"/>
+	<Jockey id="1140412" name="K De Melo"/>
+	<Trainer id="101933" name="Paul Peter"/>
+	<Show timestamp="20180405T141400+0100" marketNumber="1">
+	  <Price numerator="10" denominator="3"/>
+	</Show>
+      </Horse>
+      <Horse id="2304235" name="Curbstone Shuffle" bred="SAF" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="129" text="9st 3lbs"/>
+	<Jockey id="28101" name="R Danielson"/>
+	<Trainer id="15533" name="D Gray St John"/>
+	<Show timestamp="20180405T141400+0100" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2184707" name="Sim-alley Bank" bred="SAF" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="129" text="9st 3lbs"/>
+	<Jockey id="21795" name="G Lerena"/>
+	<Trainer id="41305" name="Erico Verdonese"/>
+	<Show timestamp="20180405T141400+0100" marketNumber="1">
+	  <Price numerator="4" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2274382" name="Melinda's Garden" bred="SAF" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="128" text="9st 2lbs"/>
+	<Jockey id="1145772" name="Craig Zackey"/>
+	<Trainer id="41163" name="Corne Spies"/>
+	<Show timestamp="20180405T141400+0100" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2177760" name="Flowing Gown" bred="SAF" status="NonRunner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="128" text="9st 2lbs"/>
+	<Jockey id="1148875" name="Ryan Munger"/>
+	<Trainer id="45720" name="David Nieuwenhuizen"/>
+      </Horse>
+      <Horse id="2331648" name="Jamra" bred="SAF" status="NonRunner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="127" text="9st 1lbs"/>
+	<Jockey id="1152127" name="Lyle Hewitson"/>
+	<Trainer id="41306" name="Sean Tarry"/>
+      </Horse>
+      <Horse id="2182157" name="Silver Duchess" bred="SAF" status="NonRunner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="127" text="9st 1lbs"/>
+	<Jockey id="28125" name="R Simons"/>
+	<Trainer id="41164" name="Terry Lowe"/>
+      </Horse>
+      <Horse id="2297631" name="African Dynasty" bred="SAF" status="NonRunner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="126" text="9st 0lbs"/>
+	<Jockey id="31261" name="A Delpech"/>
+	<Trainer id="57838" name="Gavin Van Zyl"/>
+      </Horse>
+      <Horse id="2243048" name="Written" bred="SAF" status="Runner">
+	<Cloth number="11"/>
+	<Weight units="lbs" value="121" text="8st 9lbs"/>
+	<Jockey id="1161743" name="Dennis Schwarz">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="41306" name="Sean Tarry"/>
+	<Show timestamp="20180405T141400+0100" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2295815" name="Serendipity" bred="SAF" status="Runner">
+	<Cloth number="12"/>
+	<Weight units="lbs" value="120" text="8st 8lbs"/>
+	<Jockey id="28799" name="K Zechner"/>
+	<Trainer id="55813" name="Michael Nicholas Houdalakis"/>
+	<Show timestamp="20180405T141400+0100" marketNumber="1">
+	  <Price numerator="15" denominator="2"/>
+	</Show>
+      </Horse>
+      <Horse id="2252629" name="Quebec Queen" bred="SAF" status="Runner">
+	<Cloth number="13"/>
+	<Weight units="lbs" value="120" text="8st 8lbs"/>
+	<Jockey id="1154115" name="Calvin Habib"/>
+	<Trainer id="101933" name="Paul Peter"/>
+	<Show timestamp="20180405T141400+0100" marketNumber="1">
+	  <Price numerator="4" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2242904" name="Cutey Me" bred="SAF" status="Runner">
+	<Cloth number="14"/>
+	<Weight units="lbs" value="115" text="8st 3lbs"/>
+	<Jockey id="1143216" name="Jarryd Penny"/>
+	<Trainer id="41163" name="Corne Spies"/>
+	<Show timestamp="20180405T141400+0100" marketNumber="1">
+	  <Price numerator="40" denominator="1"/>
+	</Show>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

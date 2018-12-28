@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180304T152137+0000">
+  <Meeting id="96160" country="South Africa" status="Dormant" date="20180304" course="Greyville" revision="2">
+    <Weather>Sunny</Weather>
+    <Going brief="Good">Good</Going>
+    <Race id="790671" date="20180304" time="1515+0000" runners="15" handicap="Yes" showcase="No" trifecta="No" stewards="None" status="Result" revision="45">
+      <Weather>Sunny</Weather>
+      <Going brief="Good">Good</Going>
+      <OffTime date="20180304" time="151633+0000"/>
+      <BetMarket marketNumber="1" dtFormed="20180304T151229+0000" deduction="0" deductionType="None"/>
+      <Horse id="2301808" name="Samsonite" bred="SAF" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="132" text="9st 6lbs"/>
+	<Jockey id="32017" name="B Lerena"/>
+	<Trainer id="41359" name="Dennis Bosch"/>
+	<Show timestamp="20180304T151229+0000" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<Show timestamp="20180304T151521+0000" marketNumber="1">
+	  <Price numerator="28" denominator="1"/>
+	</Show>
+	<Show timestamp="20180304T151530+0000" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="33" denominator="1"/>
+	  <Favourite position="13" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="2222957" name="Iced Up" bred="SAF" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="132" text="9st 6lbs"/>
+	<Jockey id="1140412" name="K De Melo" raceDayChange="Yes"/>
+	<Trainer id="41359" name="Dennis Bosch"/>
+	<Show timestamp="20180304T151229+0000" marketNumber="1">
+	  <Price numerator="18" denominator="1"/>
+	</Show>
+	<Show timestamp="20180304T151313+0000" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<Show timestamp="20180304T151526+0000" marketNumber="1">
+	  <Price numerator="18" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="18" denominator="1"/>
+	  <Favourite position="9" joint="2"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="2137715" name="The Money Man" bred="SAF" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="1161743" name="Dennis Schwarz">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="55804" name="Craig Eudey"/>
+	<Show timestamp="20180304T151229+0000" marketNumber="1">
+	  <Price numerator="17" denominator="2"/>
+	</Show>
+	<Show timestamp="20180304T151319+0000" marketNumber="1">
+	  <Price numerator="9" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="9" denominator="1"/>
+	  <Favourite position="4" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="3" disqualified="No"/>
+      </Horse>
+      <Horse id="2267726" name="Wind Belle" bred="SAF" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="130" text="9st 4lbs"/>
+	<Jockey id="81354" name="G Wright"/>
+	<Trainer id="114010" name="Garth Puller"/>
+	<Show timestamp="20180304T151229+0000" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="25" denominator="1"/>
+	  <Favourite position="12" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1911777" name="Emperor Niarchos" bred="SAF" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="130" text="9st 4lbs"/>
+	<Jockey id="1152127" name="Lyle Hewitson"/>
+	<Trainer id="116126" name="Frank Robinson"/>
+	<Show timestamp="20180304T151229+0000" marketNumber="1">
+	  <Price numerator="13" denominator="2"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="13" denominator="2"/>
+	  <Favourite position="3" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="4" disqualified="No"/>
+      </Horse>
+      <Horse id="2269608" name="Silvan Saint" bred="SAF" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="130" text="9st 4lbs"/>
+	<Jockey id="31261" name="A Delpech"/>
+	<Trainer id="41306" name="Sean Tarry"/>
+	<Show timestamp="20180304T151229+0000" marketNumber="1">
+	  <Price numerator="5" denominator="2"/>
+	</Show>
+	<Show timestamp="20180304T151326+0000" marketNumber="1">
+	  <Price numerator="9" denominator="4"/>
+	</Show>
+	<Show timestamp="20180304T151539+0000" marketNumber="1">
+	  <Price numerator="5" denominator="2"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="5" denominator="2"/>
+	  <Favourite position="1" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="2" disqualified="No"/>
+      </Horse>
+      <Horse id="2224082" name="Siyakwamukela" bred="SAF" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="128" text="9st 2lbs"/>
+	<Jockey id="28036" name="Warren Kennedy"/>
+	<Trainer id="57838" name="Gavin Van Zyl"/>
+	<Show timestamp="20180304T151229+0000" marketNumber="1">
+	  <Price numerator="18" denominator="1"/>
+	</Show>
+	<Show timestamp="20180304T151331+0000" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<Show timestamp="20180304T151544+0000" marketNumber="1">
+	  <Price numerator="18" denominator="1"/>
+	</Show>
+	<Show timestamp="20180304T151547+0000" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+	<Show timestamp="20180304T151555+0000" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="14" denominator="1"/>
+	  <Favourite position="7" joint="2"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="2245712" name="Obvious Child" bred="SAF" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="127" text="9st 1lbs"/>
+	<Jockey id="22000" name="S Veale"/>
+	<Trainer id="41168" name="Dennis Drier"/>
+	<Show timestamp="20180304T151229+0000" marketNumber="1">
+	  <Price numerator="10" denominator="3"/>
+	</Show>
+	<Show timestamp="20180304T151335+0000" marketNumber="1">
+	  <Price numerator="7" denominator="2"/>
+	</Show>
+	<Show timestamp="20180304T151552+0000" marketNumber="1">
+	  <Price numerator="10" denominator="3"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="10" denominator="3"/>
+	  <Favourite position="2" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="1" disqualified="No"/>
+      </Horse>
+      <Horse id="1879447" name="Night Lock" bred="SAF" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="125" text="8st 13lbs"/>
+	<Jockey id="1047368" name="A Mgudlwa"/>
+	<Trainer id="55804" name="Craig Eudey"/>
+	<Show timestamp="20180304T151229+0000" marketNumber="1">
+	  <Price numerator="17" denominator="2"/>
+	</Show>
+	<Show timestamp="20180304T151343+0000" marketNumber="1">
+	  <Price numerator="9" denominator="1"/>
+	</Show>
+	<Show timestamp="20180304T151601+0000" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Show timestamp="20180304T151604+0000" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="11" denominator="1"/>
+	  <Favourite position="6" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="2245715" name="Scotch Briar" bred="SAF" status="Runner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="125" text="8st 13lbs"/>
+	<Jockey id="42898" name="S Brown"/>
+	<Trainer id="41167" name="Wendy Whitehead"/>
+	<Show timestamp="20180304T151229+0000" marketNumber="1">
+	  <Price numerator="18" denominator="1"/>
+	</Show>
+	<Show timestamp="20180304T151349+0000" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<Show timestamp="20180304T151608+0000" marketNumber="1">
+	  <Price numerator="18" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="18" denominator="1"/>
+	  <Favourite position="9" joint="2"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="2141449" name="Fangia" bred="SAF" status="Runner">
+	<Cloth number="11"/>
+	<Weight units="lbs" value="123" text="8st 11lbs"/>
+	<Jockey id="1151579" name="Diego De Gouveia">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="41174" name="Duncan Howells"/>
+	<Show timestamp="20180304T151229+0000" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+	<Show timestamp="20180304T151356+0000" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Show timestamp="20180304T151423+0000" marketNumber="1">
+	  <Price numerator="9" denominator="1"/>
+	</Show>
+	<Show timestamp="20180304T151613+0000" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="10" denominator="1"/>
+	  <Favourite position="5" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="2170461" name="Secret Service" bred="SAF" status="Runner">
+	<Cloth number="12"/>
+	<Weight units="lbs" value="123" text="8st 11lbs"/>
+	<Jockey id="28019" name="S Randolph"/>
+	<Trainer id="41167" name="Wendy Whitehead"/>
+	<Show timestamp="20180304T151229+0000" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<Show timestamp="20180304T151616+0000" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="20" denominator="1"/>
+	  <Favourite position="11" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="2271793" name="Hit And Run" bred="SAF" status="Withdrawn">
+	<Cloth number="13"/>
+	<Weight units="lbs" value="120" text="8st 8lbs"/>
+	<Jockey id="1163398" name="Khanya Sakayi" raceDayChange="Yes"/>
+	<Trainer id="114217" name="Robbie Hill"/>
+	<Withdrawn betMarket="1" timeWithdrawn="20180304T150943+0000"/>
+      </Horse>
+      <Horse id="2193452" name="What A Scorcher" bred="SAF" status="Runner">
+	<Cloth number="14"/>
+	<Weight units="lbs" value="120" text="8st 8lbs"/>
+	<Jockey id="1158580" name="Eric Saziso Ngwane" raceDayChange="Yes"/>
+	<Trainer id="41177" name="Jeff Freedman"/>
+	<Show timestamp="20180304T151229+0000" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="14" denominator="1"/>
+	  <Favourite position="7" joint="2"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="2261318" name="Goldings" bred="SAF" status="Runner">
+	<Cloth number="15"/>
+	<Weight units="lbs" value="116" text="8st 4lbs"/>
+	<Jockey id="1143217" name="Mandla Ntuli"/>
+	<Trainer id="114010" name="Garth Puller"/>
+	<Show timestamp="20180304T151229+0000" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+	<Show timestamp="20180304T151403+0000" marketNumber="1">
+	  <Price numerator="66" denominator="1"/>
+	</Show>
+	<Show timestamp="20180304T151621+0000" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="50" denominator="1"/>
+	  <Favourite position="14" joint="2"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="2210549" name="Sweet Refrain" bred="SAF" status="Runner">
+	<Cloth number="16"/>
+	<Weight units="lbs" value="116" text="8st 4lbs"/>
+	<Jockey id="32087" name="J Samuel"/>
+	<Trainer id="120177" name="Lezeanne Forbes"/>
+	<Show timestamp="20180304T151229+0000" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+	<Show timestamp="20180304T151432+0000" marketNumber="1">
+	  <Price numerator="66" denominator="1"/>
+	</Show>
+	<Show timestamp="20180304T151624+0000" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="50" denominator="1"/>
+	  <Favourite position="14" joint="2"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="2285725" name="Magesh's Jet" bred="SAF" status="NonRunner">
+	<Cloth number="17"/>
+	<Weight units="lbs" value="115" text="8st 3lbs"/>
+	<Jockey id="28041" name="Reserve 1"/>
+	<Trainer id="56190" name="Kumaran Naidoo"/>
+      </Horse>
+      <Horse id="2087044" name="Beluga Berry" bred="SAF" status="NonRunner">
+	<Cloth number="18"/>
+	<Weight units="lbs" value="115" text="8st 3lbs"/>
+	<Jockey id="28060" name="Reserve 2"/>
+	<Trainer id="41177" name="Jeff Freedman"/>
+      </Horse>
+      <Returns>
+	<Tote type="Win" currency="ZAR" dividend="4.90" stake="1">
+	  <HorseRef id="2245712" name="Obvious Child" bred="SAF"/>
+	</Tote>
+	<Tote type="Place" currency="ZAR" dividend="2.00" stake="1">
+	  <HorseRef id="2245712" name="Obvious Child" bred="SAF"/>
+	</Tote>
+	<Tote type="Place" currency="ZAR" dividend="2.00" stake="1">
+	  <HorseRef id="2269608" name="Silvan Saint" bred="SAF"/>
+	</Tote>
+	<Tote type="Place" currency="ZAR" dividend="2.80" stake="1">
+	  <HorseRef id="2137715" name="The Money Man" bred="SAF"/>
+	</Tote>
+	<Tote type="Exacta" currency="ZAR" dividend="16.80" stake="1">
+	  <HorseRef id="2245712" name="Obvious Child" bred="SAF"/>
+	  <HorseRef id="2269608" name="Silvan Saint" bred="SAF"/>
+	</Tote>
+	<Bet type="CSF" currency="ZAR" dividend="12.58">
+	  <HorseRef id="2245712" name="Obvious Child" bred="SAF"/>
+	  <HorseRef id="2269608" name="Silvan Saint" bred="SAF"/>
+	</Bet>
+	<Bet type="Tricast" currency="ZAR" dividend="75.05">
+	  <HorseRef id="2245712" name="Obvious Child" bred="SAF"/>
+	  <HorseRef id="2269608" name="Silvan Saint" bred="SAF"/>
+	  <HorseRef id="2137715" name="The Money Man" bred="SAF"/>
+	</Bet>
+      </Returns>
+    </Race>
+  </Meeting>
+</HorseRacing>

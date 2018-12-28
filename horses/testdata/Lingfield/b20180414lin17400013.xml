@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180414T173547+0100">
+  <Meeting id="97192" country="England" status="Dormant" date="20180414" course="Lingfield" revision="4">
+    <Weather>Sunny</Weather>
+    <Going brief="Standard">Standard</Going>
+    <Race id="798361" date="20180414" time="1740+0100" runners="10" handicap="Yes" showcase="No" trifecta="Yes" stewards="None" status="GoingDown" revision="13">
+      <Weather>Sunny</Weather>
+      <Going brief="Standard">Standard</Going>
+      <BetMarket marketNumber="1" dtFormed="20180414T173320+0100" deduction="0" deductionType="None"/>
+      <Horse id="1961454" name="Officer Drivel" bred="IRE" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="135" text="9st 9lbs"/>
+	<Jockey id="1150396" name="Harry Burns">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="131079" name="Suzi Best"/>
+	<Show timestamp="20180414T173320+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T173435+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2102945" name="Zephyros" bred="GER" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="135" text="9st 9lbs"/>
+	<Jockey id="1156790" name="Poppy Bridgwater">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="12102" name="D G Bridgwater"/>
+	<Show timestamp="20180414T173320+0100" marketNumber="1">
+	  <Price numerator="7" denominator="2"/>
+	</Show>
+      </Horse>
+      <Horse id="2166053" name="Hatem" bred="FR" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="133" text="9st 7lbs"/>
+	<Jockey id="14394" name="Fran Berry"/>
+	<Trainer id="9237" name="N P Littmoden"/>
+	<Show timestamp="20180414T173320+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T173448+0100" marketNumber="1">
+	  <Price numerator="22" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T173546+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1713481" name="Ready" bred="IRE" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="76191" name="Kieren Fox"/>
+	<Trainer id="129102" name="Mark Pattinson"/>
+	<Show timestamp="20180414T173320+0100" marketNumber="1">
+	  <Price numerator="4" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T173435+0100" marketNumber="1">
+	  <Price numerator="9" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T173448+0100" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T173546+0100" marketNumber="1">
+	  <Price numerator="11" denominator="2"/>
+	</Show>
+      </Horse>
+      <Horse id="2214710" name="Oceanus" bred="IRE" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="130" text="9st 4lbs"/>
+	<Jockey id="1140493" name="Shelley Birkett">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="14707" name="Miss J Feilden"/>
+	<Show timestamp="20180414T173320+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2234307" name="Presence Process" bred="GB" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="129" text="9st 3lbs"/>
+	<Jockey id="1149121" name="Paddy Bradley">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="3897" name="P Phelan"/>
+	<Show timestamp="20180414T173320+0100" marketNumber="1">
+	  <Price numerator="3" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1556290" name="Karam Albaari" bred="IRE" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="127" text="9st 1lbs"/>
+	<Jockey id="1157192" name="Tom Marquand"/>
+	<Trainer id="103" name="J R Jenkins"/>
+	<Show timestamp="20180414T173320+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2033610" name="Maraakib" bred="IRE" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="121" text="8st 9lbs"/>
+	<Jockey id="31657" name="K T O'Neill"/>
+	<Trainer id="111091" name="A Dunn"/>
+	<Show timestamp="20180414T173320+0100" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2234195" name="Amadeus Rox" bred="FR" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="120" text="8st 8lbs"/>
+	<Jockey id="74413" name="J P Fahy"/>
+	<Trainer id="111091" name="A Dunn"/>
+	<Show timestamp="20180414T173320+0100" marketNumber="1">
+	  <Price numerator="22" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T173435+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2196756" name="Feel The Vibes" bred="GB" status="Runner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="119" text="8st 7lbs"/>
+	<Jockey id="65282" name="David Probert"/>
+	<Trainer id="8436" name="M Blanshard"/>
+	<Show timestamp="20180414T173320+0100" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T173546+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+      </Horse>
+    </Race>
+    <MultiBet type="Placepot" currency="GBP" dividend="59.60">
+      <PoolDetails currency="GBP" pool="47509.27" winStakes="581.21"/>
+    </MultiBet>
+    <MultiBet type="Quadpot" currency="GBP" dividend="35.60">
+      <PoolDetails currency="GBP" pool="4123.78" winStakes="85.50"/>
+    </MultiBet>
+    <MultiBet type="PlaceSix" currency="GBP" dividend="18.91"/>
+    <MultiBet type="PlaceFive" currency="GBP" dividend="13.11"/>
+  </Meeting>
+</HorseRacing>

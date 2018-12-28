@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180410T083330+0100">
+  <Meeting id="97044" country="England" status="Dormant" date="20180410" course="Hexham" revision="2">
+    <Weather>Raining</Weather>
+    <Going brief="Heavy">Heavy</Going>
+    <Race id="797317" date="20180410" time="1655+0100" runners="6" handicap="No" showcase="No" trifecta="Yes" stewards="None" status="Dormant" revision="2">
+      <Weather>Raining</Weather>
+      <Going brief="Heavy">Heavy</Going>
+      <Horse id="2322940" name="Pieceoftheaction" bred="IRE" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="41547" name="B Hughes"/>
+	<Trainer id="10999" name="C Grant"/>
+      </Horse>
+      <Horse id="2350810" name="Sullivan" bred="IRE" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="1156874" name="Mr T Gillard">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="19719" name="D McCain Jnr"/>
+      </Horse>
+      <Horse id="2340712" name="Akarita Lights" bred="IRE" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="152" text="10st 12lbs"/>
+	<Jockey id="1148952" name="C R King"/>
+	<Trainer id="9243" name="J J Quinn"/>
+      </Horse>
+      <Horse id="2341999" name="Getaway Gerry" bred="GB" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="152" text="10st 12lbs"/>
+	<Jockey id="1156760" name="Thomas Dowson">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="57707" name="Katie Scott"/>
+      </Horse>
+      <Horse id="2287153" name="Dollys Destination" bred="IRE" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="151" text="10st 11lbs"/>
+	<Jockey id="21924" name="Mr N McParlan">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="49658" name="N C Kelly"/>
+      </Horse>
+      <Horse id="2338911" name="Miss Hamda" bred="IRE" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="145" text="10st 5lbs"/>
+	<Jockey id="80351" name="Henry Brooke"/>
+	<Trainer id="1995" name="B Ellison"/>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180414T151010+0100">
+  <Meeting id="97192" country="England" status="Dormant" date="20180414" course="Lingfield" revision="3">
+    <Weather>Sunny</Weather>
+    <Going brief="Standard">Standard</Going>
+    <Race id="798357" date="20180414" time="1505+0100" runners="9" handicap="Yes" showcase="No" trifecta="Yes" stewards="None" status="Result" revision="54">
+      <Weather>Sunny</Weather>
+      <Going brief="Standard">Standard</Going>
+      <OffTime date="20180414" time="150723+0100"/>
+      <BetMarket marketNumber="1" dtFormed="20180414T145715+0100" deduction="0" deductionType="None"/>
+      <Horse id="2045763" name="Wink Oliver" bred="GB" status="NonRunner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="134" text="9st 8lbs"/>
+	<Jockey id="17888" name="D C Costello"/>
+	<Trainer id="107851" name="J Hughes"/>
+      </Horse>
+      <Horse id="2068719" name="Tangramm" bred="GB" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="133" text="9st 7lbs"/>
+	<Jockey id="10428" name="Dane O'Neill"/>
+	<Trainer id="16071" name="D K Ivory"/>
+	<Show timestamp="20180414T145715+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T145922+0100" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T150115+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T150204+0100" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T150231+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T150256+0100" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T150311+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="10" denominator="1"/>
+	  <Favourite position="9" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="1" disqualified="No"/>
+      </Horse>
+      <Horse id="2220163" name="Mouille Point" bred="GB" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="132" text="9st 6lbs"/>
+	<Jockey id="1157192" name="Tom Marquand"/>
+	<Trainer id="119622" name="R Hannon"/>
+	<Show timestamp="20180414T145715+0100" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T145844+0100" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T145922+0100" marketNumber="1">
+	  <Price numerator="11" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T150038+0100" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T150204+0100" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T150311+0100" marketNumber="1">
+	  <Price numerator="13" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T150409+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="7" denominator="1"/>
+	  <Favourite position="4" joint="3"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="2033836" name="Miss Minuty" bred="GB" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="130" text="9st 4lbs"/>
+	<Jockey id="1153103" name="Nicola Currie">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="43765" name="J Scott"/>
+	<Show timestamp="20180414T145715+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T150231+0100" marketNumber="1">
+	  <Price numerator="8" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T150454+0100" marketNumber="1">
+	  <Price numerator="15" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T150556+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T150614+0100" marketNumber="1">
+	  <Price numerator="13" denominator="2"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="13" denominator="2"/>
+	  <Favourite position="3" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="2156016" name="Maestro Mac" bred="IRE" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="130" text="9st 4lbs"/>
+	<Jockey id="17562" name="P Cosgrave"/>
+	<Trainer id="129088" name="Tom Clover"/>
+	<Show timestamp="20180414T145715+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T145844+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T150038+0100" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T150204+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T150256+0100" marketNumber="1">
+	  <Price numerator="9" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T150628+0100" marketNumber="1">
+	  <Price numerator="8" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="8" denominator="1"/>
+	  <Favourite position="7" joint="2"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="2248690" name="Arctic Sea" bred="GB" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="128" text="9st 2lbs"/>
+	<Jockey id="1151765" name="Oisin Murphy"/>
+	<Trainer id="39" name="P F I Cole"/>
+	<Show timestamp="20180414T145715+0100" marketNumber="1">
+	  <Price numerator="9" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T145844+0100" marketNumber="1">
+	  <Price numerator="11" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T145922+0100" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T150204+0100" marketNumber="1">
+	  <Price numerator="11" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T150256+0100" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T150349+0100" marketNumber="1">
+	  <Price numerator="11" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T150454+0100" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="6" denominator="1"/>
+	  <Favourite position="2" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="3" disqualified="No"/>
+      </Horse>
+      <Horse id="2307864" name="Secret Return" bred="IRE" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="125" text="8st 13lbs"/>
+	<Jockey id="1148955" name="Rhiain Ingram">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="54666" name="Karen George"/>
+	<Show timestamp="20180414T145715+0100" marketNumber="1">
+	  <Price numerator="11" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T145844+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T145922+0100" marketNumber="1">
+	  <Price numerator="15" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T145948+0100" marketNumber="1">
+	  <Price numerator="8" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T150349+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="7" denominator="1"/>
+	  <Favourite position="4" joint="3"/>
+	</StartingPrice>
+	<Result finishPos="4" disqualified="No"/>
+      </Horse>
+      <Horse id="2109953" name="Boycie" bred="GB" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="125" text="8st 13lbs"/>
+	<Jockey id="1163718" name="Rossa Ryan">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="119622" name="R Hannon"/>
+	<Show timestamp="20180414T145715+0100" marketNumber="1">
+	  <Price numerator="8" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T145844+0100" marketNumber="1">
+	  <Price numerator="15" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T145948+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T150311+0100" marketNumber="1">
+	  <Price numerator="15" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T150324+0100" marketNumber="1">
+	  <Price numerator="8" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="8" denominator="1"/>
+	  <Favourite position="7" joint="2"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1005183" name="Music Major" bred="GB" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="123" text="8st 11lbs"/>
+	<Jockey id="76191" name="Kieren Fox"/>
+	<Trainer id="44734" name="M J Attwater"/>
+	<Show timestamp="20180414T145715+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T145844+0100" marketNumber="1">
+	  <Price numerator="9" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T145948+0100" marketNumber="1">
+	  <Price numerator="17" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T150038+0100" marketNumber="1">
+	  <Price numerator="15" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T150115+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="7" denominator="1"/>
+	  <Favourite position="4" joint="3"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="2267994" name="Abel Tasman" bred="GB" status="Runner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="121" text="8st 9lbs"/>
+	<Jockey id="20113" name="L P Keniry"/>
+	<Trainer id="104412" name="Ed Walker"/>
+	<Show timestamp="20180414T145715+0100" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T145844+0100" marketNumber="1">
+	  <Price numerator="9" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T150324+0100" marketNumber="1">
+	  <Price numerator="4" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="4" denominator="1"/>
+	  <Favourite position="1" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="2" disqualified="No"/>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

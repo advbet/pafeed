@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180304T150944+0000">
+  <Meeting id="96160" country="South Africa" status="Dormant" date="20180304" course="Greyville" revision="2">
+    <Weather>Sunny</Weather>
+    <Going brief="Good">Good</Going>
+    <Race id="790671" date="20180304" time="1515+0000" runners="15" handicap="Yes" showcase="No" trifecta="No" stewards="None" status="Dormant" revision="9">
+      <Weather>Sunny</Weather>
+      <Going brief="Good">Good</Going>
+      <Horse id="2301808" name="Samsonite" bred="SAF" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="132" text="9st 6lbs"/>
+	<Jockey id="32017" name="B Lerena"/>
+	<Trainer id="41359" name="Dennis Bosch"/>
+      </Horse>
+      <Horse id="2222957" name="Iced Up" bred="SAF" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="132" text="9st 6lbs"/>
+	<Jockey id="1140412" name="K De Melo" raceDayChange="Yes"/>
+	<Trainer id="41359" name="Dennis Bosch"/>
+      </Horse>
+      <Horse id="2137715" name="The Money Man" bred="SAF" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="1161743" name="Dennis Schwarz">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="55804" name="Craig Eudey"/>
+      </Horse>
+      <Horse id="2267726" name="Wind Belle" bred="SAF" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="130" text="9st 4lbs"/>
+	<Jockey id="81354" name="G Wright"/>
+	<Trainer id="114010" name="Garth Puller"/>
+      </Horse>
+      <Horse id="1911777" name="Emperor Niarchos" bred="SAF" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="130" text="9st 4lbs"/>
+	<Jockey id="1152127" name="Lyle Hewitson"/>
+	<Trainer id="116126" name="Frank Robinson"/>
+      </Horse>
+      <Horse id="2269608" name="Silvan Saint" bred="SAF" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="130" text="9st 4lbs"/>
+	<Jockey id="31261" name="A Delpech"/>
+	<Trainer id="41306" name="Sean Tarry"/>
+      </Horse>
+      <Horse id="2224082" name="Siyakwamukela" bred="SAF" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="128" text="9st 2lbs"/>
+	<Jockey id="28036" name="Warren Kennedy"/>
+	<Trainer id="57838" name="Gavin Van Zyl"/>
+      </Horse>
+      <Horse id="2245712" name="Obvious Child" bred="SAF" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="127" text="9st 1lbs"/>
+	<Jockey id="22000" name="S Veale"/>
+	<Trainer id="41168" name="Dennis Drier"/>
+      </Horse>
+      <Horse id="1879447" name="Night Lock" bred="SAF" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="125" text="8st 13lbs"/>
+	<Jockey id="1047368" name="A Mgudlwa"/>
+	<Trainer id="55804" name="Craig Eudey"/>
+      </Horse>
+      <Horse id="2245715" name="Scotch Briar" bred="SAF" status="Runner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="125" text="8st 13lbs"/>
+	<Jockey id="42898" name="S Brown"/>
+	<Trainer id="41167" name="Wendy Whitehead"/>
+      </Horse>
+      <Horse id="2141449" name="Fangia" bred="SAF" status="Runner">
+	<Cloth number="11"/>
+	<Weight units="lbs" value="123" text="8st 11lbs"/>
+	<Jockey id="1151579" name="Diego De Gouveia">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="41174" name="Duncan Howells"/>
+      </Horse>
+      <Horse id="2170461" name="Secret Service" bred="SAF" status="Runner">
+	<Cloth number="12"/>
+	<Weight units="lbs" value="123" text="8st 11lbs"/>
+	<Jockey id="28019" name="S Randolph"/>
+	<Trainer id="41167" name="Wendy Whitehead"/>
+      </Horse>
+      <Horse id="2271793" name="Hit And Run" bred="SAF" status="Withdrawn">
+	<Cloth number="13"/>
+	<Weight units="lbs" value="120" text="8st 8lbs"/>
+	<Jockey id="1163398" name="Khanya Sakayi" raceDayChange="Yes"/>
+	<Trainer id="114217" name="Robbie Hill"/>
+	<Withdrawn betMarket="1" timeWithdrawn="20180304T150943+0000"/>
+      </Horse>
+      <Horse id="2193452" name="What A Scorcher" bred="SAF" status="Runner">
+	<Cloth number="14"/>
+	<Weight units="lbs" value="120" text="8st 8lbs"/>
+	<Jockey id="1158580" name="Eric Saziso Ngwane" raceDayChange="Yes"/>
+	<Trainer id="41177" name="Jeff Freedman"/>
+      </Horse>
+      <Horse id="2261318" name="Goldings" bred="SAF" status="Runner">
+	<Cloth number="15"/>
+	<Weight units="lbs" value="116" text="8st 4lbs"/>
+	<Jockey id="1143217" name="Mandla Ntuli"/>
+	<Trainer id="114010" name="Garth Puller"/>
+      </Horse>
+      <Horse id="2210549" name="Sweet Refrain" bred="SAF" status="Runner">
+	<Cloth number="16"/>
+	<Weight units="lbs" value="116" text="8st 4lbs"/>
+	<Jockey id="32087" name="J Samuel"/>
+	<Trainer id="120177" name="Lezeanne Forbes"/>
+      </Horse>
+      <Horse id="2285725" name="Magesh's Jet" bred="SAF" status="NonRunner">
+	<Cloth number="17"/>
+	<Weight units="lbs" value="115" text="8st 3lbs"/>
+	<Jockey id="28041" name="Reserve 1"/>
+	<Trainer id="56190" name="Kumaran Naidoo"/>
+      </Horse>
+      <Horse id="2087044" name="Beluga Berry" bred="SAF" status="NonRunner">
+	<Cloth number="18"/>
+	<Weight units="lbs" value="115" text="8st 3lbs"/>
+	<Jockey id="28060" name="Reserve 2"/>
+	<Trainer id="41177" name="Jeff Freedman"/>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

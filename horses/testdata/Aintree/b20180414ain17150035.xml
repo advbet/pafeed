@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180414T171720+0100">
+  <Meeting id="95698" country="England" status="Dormant" date="20180414" course="Aintree" revision="3">
+    <Weather>Fine &amp; Dry</Weather>
+    <Going brief="Soft">Soft</Going>
+    <Race id="787263" date="20180414" time="1715+0100" runners="38" handicap="Yes" showcase="No" trifecta="Yes" stewards="None" status="AtThePost" revision="35">
+      <Weather>Fine &amp; Dry</Weather>
+      <Going brief="Heavy">Heavy (Soft in places)</Going>
+      <BetMarket marketNumber="1" dtFormed="20180414T165448+0100" deduction="0" deductionType="None"/>
+      <Horse id="1732289" name="Thunder And Roses" bred="IRE" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="145" text="10st 5lbs"/>
+	<Jockey id="1136205" name="J J Slevin"/>
+	<Trainer id="918" name="M F Morris"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T170306+0100" marketNumber="1">
+	  <Price numerator="40" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T170948+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1958701" name="Blaklion" bred="GB" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="164" text="11st 10lbs"/>
+	<Jockey id="1106000" name="Sam Twiston-Davies"/>
+	<Trainer id="579" name="N A Twiston-Davies"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2104005" name="Anibale Fly" bred="FR" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="162" text="11st 8lbs"/>
+	<Jockey id="14652" name="B J Geraghty"/>
+	<Trainer id="5982" name="A J Martin"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T170148+0100" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T171528+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1873331" name="The Last Samuri" bred="IRE" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="162" text="11st 8lbs"/>
+	<Jockey id="60732" name="David Bass"/>
+	<Trainer id="346" name="K C Bailey"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="22" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T170055+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T170457+0100" marketNumber="1">
+	  <Price numerator="22" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T170739+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T171257+0100" marketNumber="1">
+	  <Price numerator="22" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T171314+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T171528+0100" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1813351" name="Valseur Lido" bred="FR" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="1137739" name="K M Donoghue"/>
+	<Trainer id="13695" name="H de Bromhead"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="66" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2018459" name="Total Recall" bred="IRE" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="159" text="11st 5lbs"/>
+	<Jockey id="72810" name="P Townend"/>
+	<Trainer id="1171" name="W P Mullins"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="8" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T171430+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2033115" name="Alpha Des Obeaux" bred="FR" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="1139202" name="Rachael Blackmore"/>
+	<Trainer id="918" name="M F Morris"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1831510" name="Perfect Candidate" bred="IRE" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="157" text="11st 3lbs"/>
+	<Jockey id="31701" name="A P Cawley"/>
+	<Trainer id="5158" name="F O'Brien"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2027515" name="Shantou Flyer" bred="IRE" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="156" text="11st 2lbs"/>
+	<Jockey id="1164405" name="James Bowen"/>
+	<Trainer id="116172" name="Richard Hobson"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1565014" name="Tenor Nivernais" bred="FR" status="Runner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="155" text="11st 1lbs"/>
+	<Jockey id="45964" name="T J O'Brien"/>
+	<Trainer id="10130" name="Miss V Williams"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="66" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1629964" name="Carlingford Lough" bred="IRE" status="Runner">
+	<Cloth number="11"/>
+	<Weight units="lbs" value="155" text="11st 1lbs"/>
+	<Jockey id="2837" name="M P Walsh"/>
+	<Trainer id="1688" name="J E Kiely"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2108392" name="Delusionofgrandeur" bred="IRE" status="Runner">
+	<Cloth number="12"/>
+	<Weight units="lbs" value="145" text="10st 5lbs"/>
+	<Jockey id="80351" name="Henry Brooke"/>
+	<Trainer id="3430" name="Mrs S J Smith"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1728769" name="Tiger Roll" bred="IRE" status="Runner">
+	<Cloth number="13"/>
+	<Weight units="lbs" value="153" text="10st 13lbs"/>
+	<Jockey id="23447" name="D N Russell"/>
+	<Trainer id="50463" name="G Elliott"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1692343" name="Regal Encore" bred="IRE" status="NonRunner">
+	<Cloth number="14"/>
+	<Weight units="lbs" value="153" text="10st 13lbs"/>
+	<Jockey id="75251" name="R P McLernon"/>
+	<Trainer id="55623" name="A J Honeyball"/>
+      </Horse>
+      <Horse id="1852619" name="Vieux Lion Rouge" bred="FR" status="Runner">
+	<Cloth number="15"/>
+	<Weight units="lbs" value="153" text="10st 13lbs"/>
+	<Jockey id="20683" name="T Scudamore"/>
+	<Trainer id="12912" name="D Pipe"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T171708+0100" marketNumber="1">
+	  <Price numerator="28" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1868709" name="Chase The Spud" bred="GB" status="Runner">
+	<Cloth number="16"/>
+	<Weight units="lbs" value="152" text="10st 12lbs"/>
+	<Jockey id="16180" name="P J Brennan"/>
+	<Trainer id="5158" name="F O'Brien"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T171257+0100" marketNumber="1">
+	  <Price numerator="22" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T171608+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2010150" name="Warriors Tale" bred="GB" status="Runner">
+	<Cloth number="17"/>
+	<Weight units="lbs" value="152" text="10st 12lbs"/>
+	<Jockey id="1156014" name="Sean Bowen"/>
+	<Trainer id="4663" name="P F Nicholls"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1912127" name="Seeyouatmidnight" bred="GB" status="Runner">
+	<Cloth number="18"/>
+	<Weight units="lbs" value="152" text="10st 12lbs"/>
+	<Jockey id="41547" name="B Hughes"/>
+	<Trainer id="97735" name="A M Thomson"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T170245+0100" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T171418+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T171528+0100" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1739125" name="Gas Line Boy" bred="IRE" status="Runner">
+	<Cloth number="19"/>
+	<Weight units="lbs" value="151" text="10st 11lbs"/>
+	<Jockey id="31596" name="R T Dunne"/>
+	<Trainer id="10798" name="Ian Williams"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T171608+0100" marketNumber="1">
+	  <Price numerator="22" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2105540" name="The Dutchman" bred="IRE" status="Runner">
+	<Cloth number="20"/>
+	<Weight units="lbs" value="151" text="10st 11lbs"/>
+	<Jockey id="1158179" name="Harry Cobden"/>
+	<Trainer id="10607" name="C L Tizzard"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1946952" name="Pleasant Company" bred="IRE" status="Runner">
+	<Cloth number="21"/>
+	<Weight units="lbs" value="151" text="10st 11lbs"/>
+	<Jockey id="1157554" name="D J Mullins"/>
+	<Trainer id="1171" name="W P Mullins"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="28" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T170245+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1633991" name="Ucello Conti" bred="FR" status="Runner">
+	<Cloth number="22"/>
+	<Weight units="lbs" value="150" text="10st 10lbs"/>
+	<Jockey id="28681" name="D A Jacob"/>
+	<Trainer id="50463" name="G Elliott"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1547854" name="Saint Are" bred="FR" status="Runner">
+	<Cloth number="23"/>
+	<Weight units="lbs" value="150" text="10st 10lbs"/>
+	<Jockey id="1145701" name="C Gethings" raceDayChange="Yes"/>
+	<Trainer id="6854" name="T R George"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2099754" name="Walk In The Mill" bred="FR" status="NonRunner">
+	<Cloth number="24"/>
+	<Weight units="lbs" value="144" text="10st 4lbs"/>
+	<Jockey id="177" name="Mr S Waley-Cohen"/>
+	<Trainer id="114727" name="R Walford"/>
+      </Horse>
+      <Horse id="1517108" name="Raz De Maree" bred="FR" status="Runner">
+	<Cloth number="25"/>
+	<Weight units="lbs" value="149" text="10st 9lbs"/>
+	<Jockey id="20948" name="R M Power"/>
+	<Trainer id="48807" name="G P Cromwell"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2125267" name="I Just Know" bred="IRE" status="Runner">
+	<Cloth number="26"/>
+	<Weight units="lbs" value="148" text="10st 8lbs"/>
+	<Jockey id="83305" name="Danny Cook"/>
+	<Trainer id="3430" name="Mrs S J Smith"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1968300" name="Virgilio" bred="FR" status="Runner">
+	<Cloth number="27"/>
+	<Weight units="lbs" value="148" text="10st 8lbs"/>
+	<Jockey id="69385" name="Harry Skelton"/>
+	<Trainer id="118277" name="D Skelton"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2041105" name="Baie Des Iles" bred="FR" status="Runner">
+	<Cloth number="28"/>
+	<Weight units="lbs" value="148" text="10st 8lbs"/>
+	<Jockey id="42151" name="Ms K Walsh"/>
+	<Trainer id="97389" name="Ross O'Sullivan"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T170948+0100" marketNumber="1">
+	  <Price numerator="18" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T171159+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T171708+0100" marketNumber="1">
+	  <Price numerator="18" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1401969" name="Maggio" bred="FR" status="Runner">
+	<Cloth number="29"/>
+	<Weight units="lbs" value="148" text="10st 8lbs"/>
+	<Jockey id="1141749" name="Brendan Powell"/>
+	<Trainer id="5191" name="P Griffin"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1726102" name="Pendra" bred="IRE" status="Runner">
+	<Cloth number="30"/>
+	<Weight units="lbs" value="148" text="10st 8lbs"/>
+	<Jockey id="893016" name="Aidan Coleman"/>
+	<Trainer id="55653" name="C E Longsdon"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="66" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T170457+0100" marketNumber="1">
+	  <Price numerator="80" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T171257+0100" marketNumber="1">
+	  <Price numerator="66" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T171418+0100" marketNumber="1">
+	  <Price numerator="80" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1854357" name="Buywise" bred="IRE" status="Runner">
+	<Cloth number="31"/>
+	<Weight units="lbs" value="148" text="10st 8lbs"/>
+	<Jockey id="77406" name="Adam Wedge"/>
+	<Trainer id="12856" name="Evan Williams"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2028694" name="Childrens List" bred="IRE" status="Runner">
+	<Cloth number="32"/>
+	<Weight units="lbs" value="148" text="10st 8lbs"/>
+	<Jockey id="1155825" name="J J Burke"/>
+	<Trainer id="1171" name="W P Mullins"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="66" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1691918" name="Lord Windermere" bred="IRE" status="Runner">
+	<Cloth number="33"/>
+	<Weight units="lbs" value="147" text="10st 7lbs"/>
+	<Jockey id="38999" name="A E Lynch"/>
+	<Trainer id="50142" name="J H Culloty"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1936228" name="Captain Redbeard" bred="IRE" status="Runner">
+	<Cloth number="34"/>
+	<Weight units="lbs" value="147" text="10st 7lbs"/>
+	<Jockey id="1157284" name="Sam Coltherd"/>
+	<Trainer id="13656" name="W Coltherd"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1528066" name="Houblon Des Obeaux" bred="FR" status="Runner">
+	<Cloth number="35"/>
+	<Weight units="lbs" value="147" text="10st 7lbs"/>
+	<Jockey id="1152482" name="Charlie Deutsch"/>
+	<Trainer id="10130" name="Miss V Williams"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1497432" name="Bless The Wings" bred="IRE" status="Runner">
+	<Cloth number="36"/>
+	<Weight units="lbs" value="146" text="10st 6lbs"/>
+	<Jockey id="1158909" name="J W Kennedy"/>
+	<Trainer id="50463" name="G Elliott"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="40" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1616087" name="Milansbar" bred="IRE" status="Runner">
+	<Cloth number="37"/>
+	<Weight units="lbs" value="146" text="10st 6lbs"/>
+	<Jockey id="1142725" name="Bryony Frost"/>
+	<Trainer id="42197" name="N B King"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1901888" name="Final Nudge" bred="IRE" status="Runner">
+	<Cloth number="38"/>
+	<Weight units="lbs" value="146" text="10st 6lbs"/>
+	<Jockey id="1138364" name="G Sheehan"/>
+	<Trainer id="111407" name="David Dennis"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1533413" name="Double Ross" bred="IRE" status="Runner">
+	<Cloth number="39"/>
+	<Weight units="lbs" value="146" text="10st 6lbs"/>
+	<Jockey id="1141078" name="Thomas Bellamy"/>
+	<Trainer id="579" name="N A Twiston-Davies"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="66" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1743277" name="Road To Riches" bred="IRE" status="Runner">
+	<Cloth number="40"/>
+	<Weight units="lbs" value="145" text="10st 5lbs"/>
+	<Jockey id="66717" name="S W Flanagan"/>
+	<Trainer id="97365" name="N Meade"/>
+	<Show timestamp="20180414T165448+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

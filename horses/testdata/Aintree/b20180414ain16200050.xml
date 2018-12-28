@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180414T163917+0100">
+  <Meeting id="95698" country="England" status="Dormant" date="20180414" course="Aintree" revision="3">
+    <Weather>Fine &amp; Dry</Weather>
+    <Going brief="Soft">Soft</Going>
+    <Race id="798438" date="20180414" time="1620+0100" runners="10" handicap="No" showcase="No" trifecta="Yes" stewards="None" status="WeighedIn" revision="50">
+      <Weather>Fine &amp; Dry</Weather>
+      <Going brief="Soft">Soft</Going>
+      <OffTime date="20180414" time="162129+0100"/>
+      <BetMarket marketNumber="1" dtFormed="20180414T160030+0100" deduction="0" deductionType="None"/>
+      <Horse id="2133045" name="Coole Cody" bred="IRE" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="20683" name="T Scudamore"/>
+	<Trainer id="14122" name="M Blake"/>
+	<Show timestamp="20180414T160030+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T160457+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T161118+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="25" denominator="1"/>
+	  <Favourite position="8" joint="1"/>
+	</StartingPrice>
+	<BetMovements comment="tchd 20/1, 28/1 in a place"/>
+      </Horse>
+      <Horse id="2097563" name="Identity Thief" bred="IRE" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="66717" name="S W Flanagan"/>
+	<Trainer id="13695" name="H de Bromhead"/>
+	<Show timestamp="20180414T160030+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T160640+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="14" denominator="1"/>
+	  <Favourite position="6" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="1" disqualified="No"/>
+	<BetMovements comment="op 12/1"/>
+      </Horse>
+      <Horse id="1995414" name="L'Ami Serge" bred="IRE" status="NonRunner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="893016" name="Aidan Coleman"/>
+	<Trainer id="488" name="N J Henderson"/>
+      </Horse>
+      <Horse id="2011662" name="Lil Rockerfeller" bred="USA" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="73733" name="T E Whelan"/>
+	<Trainer id="42197" name="N B King"/>
+	<Show timestamp="20180414T160030+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T160759+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T161022+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T161118+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="12" denominator="1"/>
+	  <Favourite position="4" joint="2"/>
+	</StartingPrice>
+	<BetMovements comment="op 14/1"/>
+      </Horse>
+      <Horse id="2044912" name="Old Guard" bred="GB" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="1158179" name="Harry Cobden"/>
+	<Trainer id="4663" name="P F Nicholls"/>
+	<Show timestamp="20180414T160030+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T160230+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T161022+0100" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T162059+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T162104+0100" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T162120+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="12" denominator="1"/>
+	  <Favourite position="4" joint="2"/>
+	</StartingPrice>
+	<Result finishPos="7" disqualified="No" btnDistance="50 lengths"/>
+	<BetMovements comment="op 14/1"/>
+      </Horse>
+      <Horse id="2191390" name="Sam Spinner" bred="GB" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="1140518" name="Joe Colliver"/>
+	<Trainer id="14431" name="Jedd O'Keeffe"/>
+	<Show timestamp="20180414T160030+0100" marketNumber="1">
+	  <Price numerator="6" denominator="5"/>
+	</Show>
+	<Show timestamp="20180414T160133+0100" marketNumber="1">
+	  <Price numerator="5" denominator="4"/>
+	</Show>
+	<Show timestamp="20180414T160640+0100" marketNumber="1">
+	  <Price numerator="11" denominator="8"/>
+	</Show>
+	<Show timestamp="20180414T161924+0100" marketNumber="1">
+	  <Price numerator="5" denominator="4"/>
+	</Show>
+	<Show timestamp="20180414T162028+0100" marketNumber="1">
+	  <Price numerator="6" denominator="5"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="6" denominator="5"/>
+	  <Favourite position="1" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="3" disqualified="No" btnDistance="10 lengths"/>
+	<BetMovements comment="tchd 11/8, 6/4 in places"/>
+	<BigBets>
+	  <BigBetCash type="Win" currency="GBP" stake="500" win="750" count="1"/>
+	  <BigBetCash type="Win" currency="GBP" stake="50000" win="60000" count="1"/>
+	</BigBets>
+      </Horse>
+      <Horse id="1577474" name="Serienschock" bred="GER" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="1167273" name="Ludovic Philipperon"/>
+	<Trainer id="111738" name="Miss Alexandra Rosa"/>
+	<Show timestamp="20180414T160030+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T160133+0100" marketNumber="1">
+	  <Price numerator="66" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="66" denominator="1"/>
+	  <Favourite position="9" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="5" disqualified="No" btnDistance="Neck"/>
+	<BetMovements comment="op 50/1"/>
+      </Horse>
+      <Horse id="1747232" name="Shelford" bred="IRE" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="69385" name="Harry Skelton"/>
+	<Trainer id="118277" name="D Skelton"/>
+	<Show timestamp="20180414T160030+0100" marketNumber="1">
+	  <Price numerator="66" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T161941+0100" marketNumber="1">
+	  <Price numerator="80" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="80" denominator="1"/>
+	  <Favourite position="10" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="6" disqualified="No" btnDistance="6 lengths"/>
+	<BetMovements comment="op 66/1"/>
+      </Horse>
+      <Horse id="2178390" name="The Worlds End" bred="IRE" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="16180" name="P J Brennan" raceDayChange="Yes"/>
+	<Trainer id="6854" name="T R George"/>
+	<Show timestamp="20180414T160030+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T160230+0100" marketNumber="1">
+	  <Price numerator="13" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T160759+0100" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T161720+0100" marketNumber="1">
+	  <Price numerator="11" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T161924+0100" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T161941+0100" marketNumber="1">
+	  <Price numerator="11" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T162019+0100" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="6" denominator="1"/>
+	  <Favourite position="3" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="4" disqualified="No" btnDistance="8 lengths"/>
+	<BetMovements comment="op 7/1 tchd 11/2"/>
+      </Horse>
+      <Horse id="2190271" name="Thomas Campbell" bred="GB" status="Runner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="82252" name="Nico de Boinville"/>
+	<Trainer id="488" name="N J Henderson"/>
+	<Show timestamp="20180414T160030+0100" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T160759+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T162038+0100" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="16" denominator="1"/>
+	  <Favourite position="7" joint="1"/>
+	</StartingPrice>
+	<BetMovements comment="tchd 14/1"/>
+      </Horse>
+      <Horse id="2147179" name="Wholestone" bred="IRE" status="Runner">
+	<Cloth number="11"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="28681" name="D A Jacob"/>
+	<Trainer id="579" name="N A Twiston-Davies"/>
+	<Show timestamp="20180414T160030+0100" marketNumber="1">
+	  <Price numerator="3" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T160133+0100" marketNumber="1">
+	  <Price numerator="10" denominator="3"/>
+	</Show>
+	<Show timestamp="20180414T160457+0100" marketNumber="1">
+	  <Price numerator="7" denominator="2"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="7" denominator="2"/>
+	  <Favourite position="2" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="2" disqualified="No" btnDistance="5 lengths"/>
+	<BetMovements comment="op 3/1 tchd 4/1 in places"/>
+	<BigBets>
+	  <BigBetCash type="Win" currency="GBP" stake="800" win="3200" count="1"/>
+	</BigBets>
+      </Horse>
+      <WinningDistance index="1" btnDistance="5 lengths"/>
+      <WinningDistance index="2" btnDistance="10 lengths"/>
+      <WinningDistance index="3" btnDistance="8 lengths"/>
+      <WinningDistance index="4" btnDistance="Neck"/>
+      <WinningDistance index="5" btnDistance="6 lengths"/>
+      <WinningDistance index="6" btnDistance="50 lengths"/>
+      <Returns>
+	<Tote type="Win" currency="GBP" dividend="10.20" stake="1">
+	  <HorseRef id="2097563" name="Identity Thief" bred="IRE"/>
+	</Tote>
+	<Tote type="Place" currency="GBP" dividend="2.70" stake="1">
+	  <HorseRef id="2097563" name="Identity Thief" bred="IRE"/>
+	</Tote>
+	<Tote type="Place" currency="GBP" dividend="1.40" stake="1">
+	  <HorseRef id="2147179" name="Wholestone" bred="IRE"/>
+	</Tote>
+	<Tote type="Place" currency="GBP" dividend="1.20" stake="1">
+	  <HorseRef id="2191390" name="Sam Spinner" bred="GB"/>
+	</Tote>
+	<Tote type="Exacta" currency="GBP" dividend="70.30" stake="1">
+	  <HorseRef id="2097563" name="Identity Thief" bred="IRE"/>
+	  <HorseRef id="2147179" name="Wholestone" bred="IRE"/>
+	</Tote>
+	<Tote type="Trifecta" currency="GBP" dividend="179.80" stake="1">
+	  <HorseRef id="2097563" name="Identity Thief" bred="IRE"/>
+	  <HorseRef id="2147179" name="Wholestone" bred="IRE"/>
+	  <HorseRef id="2191390" name="Sam Spinner" bred="GB"/>
+	</Tote>
+	<Tote type="Swinger" currency="GBP" dividend="4.90" stake="1">
+	  <HorseRef id="2097563" name="Identity Thief" bred="IRE"/>
+	  <HorseRef id="2191390" name="Sam Spinner" bred="GB"/>
+	</Tote>
+	<Tote type="Swinger" currency="GBP" dividend="5.80" stake="1">
+	  <HorseRef id="2097563" name="Identity Thief" bred="IRE"/>
+	  <HorseRef id="2147179" name="Wholestone" bred="IRE"/>
+	</Tote>
+	<Tote type="Swinger" currency="GBP" dividend="1.60" stake="1">
+	  <HorseRef id="2191390" name="Sam Spinner" bred="GB"/>
+	  <HorseRef id="2147179" name="Wholestone" bred="IRE"/>
+	</Tote>
+	<Bet type="CSF" currency="GBP" dividend="63.37">
+	  <HorseRef id="2097563" name="Identity Thief" bred="IRE"/>
+	  <HorseRef id="2147179" name="Wholestone" bred="IRE"/>
+	</Bet>
+	<Bet type="Tricast" currency="GBP" dividend="105.25">
+	  <HorseRef id="2097563" name="Identity Thief" bred="IRE"/>
+	  <HorseRef id="2147179" name="Wholestone" bred="IRE"/>
+	  <HorseRef id="2191390" name="Sam Spinner" bred="GB"/>
+	</Bet>
+      </Returns>
+    </Race>
+  </Meeting>
+</HorseRacing>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacingCard SYSTEM "HorseRacingCard.dtd">
+<HorseRacingCard>
+  <Meeting status="Abandoned" id="96804" country="England" course="Newton Abbot" date="20180331">
+    <Abandoned>Waterlogged</Abandoned>
+    <Race trifecta="No" id="795547" date="20180331" time="1345+0100" raceType="Hurdle" trackType="Turf" handicap="No" class="4" showcase="No" maxRunners="16" numFences="8">
+    </Race>
+    <Race trifecta="No" id="795548" date="20180331" time="1420+0100" raceType="Hurdle" trackType="Turf" handicap="Yes" class="4" showcase="No" maxRunners="14" numFences="12">
+    </Race>
+    <Race trifecta="No" id="795549" date="20180331" time="1455+0100" raceType="Chase" trackType="Turf" handicap="Yes" class="3" showcase="No" maxRunners="14" numFences="20">
+    </Race>
+    <Race trifecta="No" id="795550" date="20180331" time="1530+0100" raceType="Hurdle" trackType="Turf" handicap="No" class="4" showcase="No" maxRunners="21" numFences="9">
+    </Race>
+    <Race trifecta="No" id="795551" date="20180331" time="1605+0100" raceType="Chase" trackType="Turf" handicap="Yes" class="4" showcase="No" maxRunners="18" numFences="16">
+    </Race>
+    <Race trifecta="No" id="795552" date="20180331" time="1640+0100" raceType="Hurdle" trackType="Turf" handicap="Yes" class="5" showcase="No" maxRunners="27" numFences="8">
+    </Race>
+    <Race trifecta="No" id="795553" date="20180331" time="1715+0100" raceType="Chase" trackType="Turf" handicap="No" class="6" showcase="No" maxRunners="11" numFences="20">
+    </Race>
+  </Meeting>
+</HorseRacingCard>

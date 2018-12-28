@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20131029T110036+0000">
+  <Meeting revision="2" id="58204" country="Wales" status="Dormant" date="20131028" course="Bangor">
+    <Weather>Fine</Weather>
+    <Going brief="Good">Good</Going>
+    <Race revision="9" id="487155" date="20131028" time="1350+0000" runners="5" handicap="No" showcase="No" trifecta="Yes" stewards="None" status="Dormant">
+      <Weather>Fine</Weather>
+      <Going brief="Good">Good</Going>
+      <BetMarket marketNumber="1" dtFormed="20131029T102519+0000" deduction="5" deductionType="BoardPrices" dtSuspended="20131029T104636+0000"/>
+      <BetMarket marketNumber="2" dtFormed="20131029T105522+0000" deduction="0" deductionType="None"/>
+      <Horse id="1868709" name="Chase The Spud" bred="GB" status="Withdrawn">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="154" text="11st 0lbs"/>
+	<Jockey id="16180" name="P J Brennan"/>
+	<Trainer id="5158" name="F O'Brien"/>
+	<Show timestamp="20131029T102519+0000" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+	<Withdrawn betMarket="1" timeWithdrawn="20131029T102702+0000">
+	  <Price numerator="14" denominator="1"/>
+	</Withdrawn>
+      </Horse>
+      <Horse id="1684782" name="Hunky Dorey" bred="GB" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="154" text="11st 0lbs"/>
+	<Jockey id="81156" name="Nick Scholfield"/>
+	<Trainer id="19597" name="Marc Barber"/>
+	<Show timestamp="20131029T102519+0000" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20131029T105522+0000" marketNumber="2">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1862945" name="Over My Head" bred="GB" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="154" text="11st 0lbs"/>
+	<Jockey id="1136938" name="Gerald Quinn">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="9556" name="Miss C Dyson"/>
+	<Show timestamp="20131029T102519+0000" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20131029T105522+0000" marketNumber="2">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1901011" name="Rocky Island" bred="IRE" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="154" text="11st 0lbs"/>
+	<Jockey id="41974" name="S Quinlan"/>
+	<Trainer id="97243" name="Jennie Candlish"/>
+	<Show timestamp="20131029T102519+0000" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<Show timestamp="20131029T105522+0000" marketNumber="2">
+	  <Price numerator="9" denominator="2"/>
+	</Show>
+      </Horse>
+      <Horse id="1894876" name="Royal Palladium" bred="FR" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="154" text="11st 0lbs"/>
+	<Jockey id="893016" name="Aidan Coleman"/>
+	<Trainer id="10130" name="Miss V Williams"/>
+	<Show timestamp="20131029T102519+0000" marketNumber="1">
+	  <Price numerator="3" denominator="1"/>
+	</Show>
+	<Show timestamp="20131029T105522+0000" marketNumber="2">
+	  <Price numerator="11" denominator="4"/>
+	</Show>
+      </Horse>
+      <Horse id="1848298" name="Sealous Scout" bred="IRE" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="154" text="11st 0lbs"/>
+	<Jockey id="41" name="J M Maguire"/>
+	<Trainer id="19719" name="D McCain Jnr"/>
+	<Show timestamp="20131029T102519+0000" marketNumber="1">
+	  <Price numerator="1" denominator="1"/>
+	</Show>
+	<Show timestamp="20131029T105522+0000" marketNumber="2">
+	  <Price numerator="10" denominator="11"/>
+	</Show>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

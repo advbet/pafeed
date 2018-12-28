@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180410T095356+0100">
+  <Meeting id="97044" country="England" status="Dormant" date="20180410" course="Hexham" revision="2">
+    <Weather>Raining</Weather>
+    <Going brief="Heavy">Heavy</Going>
+    <Race id="797314" date="20180410" time="1520+0100" runners="8" handicap="Yes" showcase="No" trifecta="Yes" stewards="None" status="Abandoned" revision="3">
+      <Weather>Raining</Weather>
+      <Going brief="Heavy">Heavy</Going>
+      <Horse id="1612603" name="Tikkandemickey" bred="IRE" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="175" text="12st 7lbs"/>
+	<Jockey id="1154606" name="Harry Reed">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="697" name="R Shiels"/>
+      </Horse>
+      <Horse id="2174758" name="Orioninverness" bred="IRE" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="1138238" name="S Mulqueen">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="17180" name="Miss Lucinda V Russell"/>
+      </Horse>
+      <Horse id="2120204" name="Scorpo" bred="IRE" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="156" text="11st 2lbs"/>
+	<Jockey id="1156760" name="Thomas Dowson">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="314" name="V Thompson"/>
+      </Horse>
+      <Horse id="2033025" name="Major Ridge" bred="IRE" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="151" text="10st 11lbs"/>
+	<Jockey id="1140518" name="Joe Colliver"/>
+	<Trainer id="56495" name="Micky Hammond"/>
+      </Horse>
+      <Horse id="1852382" name="Silverton" bred="GB" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="151" text="10st 11lbs"/>
+	<Jockey id="1137026" name="Grant Cockburn">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="14323" name="Mrs L B Normile"/>
+      </Horse>
+      <Horse id="2133041" name="Kilcullen Lady" bred="IRE" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="149" text="10st 9lbs"/>
+	<Jockey id="1142033" name="Jamie Hamilton"/>
+	<Trainer id="16029" name="H Hogarth"/>
+      </Horse>
+      <Horse id="2127058" name="Mcginty's Dream" bred="IRE" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="148" text="10st 8lbs"/>
+	<Jockey id="70664" name="Lucy Alexander"/>
+	<Trainer id="5372" name="N W Alexander"/>
+      </Horse>
+      <Horse id="2012796" name="Under The Red Sky" bred="IRE" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="145" text="10st 5lbs"/>
+	<Jockey id="65353" name="Alison Clarke">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="124102" name="Kenny Johnson"/>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

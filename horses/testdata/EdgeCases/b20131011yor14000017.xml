@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20131011T143839+0100">
+  <Meeting revision="1" id="57885" country="England" status="Dormant" date="20131011" course="York">
+    <Race revision="17" id="484388" date="20131011" time="1400+0100" runners="18" handicap="Yes" showcase="No" trifecta="Yes" stewards="InquiryAndObjection" status="Result">
+      <Weather> </Weather>
+      <Going brief=""/>
+      <OffTime date="20131011" time="142536+0100"/>
+      <Stewards>
+	<Inquiry>Stewards Inquiry</Inquiry>
+	<Objection>Objection</Objection>
+      </Stewards>
+      <BetMarket marketNumber="1" dtFormed="20131011T141757+0100" deduction="10" deductionType="BoardPrices" dtSuspended="20131011T141837+0100"/>
+      <BetMarket marketNumber="2" dtFormed="20131011T142025+0100" deduction="10" deductionType="AllBets"/>
+      <Horse id="1963707" name="Storm Trooper" bred="IRE" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="133" text="9st 7lbs"/>
+	<Jockey id="18854" name="R L Moore"/>
+	<Trainer id="73" name="R Hannon"/>
+	<Show timestamp="20131011T141757+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<Show timestamp="20131011T142025+0100" marketNumber="2">
+	  <Price numerator="18" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="18" denominator="1"/>
+	  <Favourite position="9" joint="3"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1978168" name="Aeolus" bred="GB" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="18303" name="G Gibbons"/>
+	<Trainer id="46065" name="E S McMahon"/>
+	<Show timestamp="20131011T141757+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Show timestamp="20131011T142025+0100" marketNumber="2">
+	  <Price numerator="8" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="8" denominator="1"/>
+	  <Favourite position="5" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="2" disqualified="No" btnDistance="1/2 length"/>
+      </Horse>
+      <Horse id="1874423" name="Captain Midnight" bred="IRE" status="Withdrawn">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="9770" name="G Lee"/>
+	<Trainer id="5204" name="D H Brown"/>
+	<Show timestamp="20131011T141757+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Withdrawn betMarket="1" timeWithdrawn="20131011T141834+0100">
+	  <Price numerator="10" denominator="1"/>
+	  <Favourite position="1" joint="1"/>
+	</Withdrawn>
+      </Horse>
+      <Horse id="1942509" name="Musical Comedy" bred="GB" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="1764" name="R Hughes"/>
+	<Trainer id="73" name="R Hannon"/>
+	<Show timestamp="20131011T141757+0100" marketNumber="1">
+	  <Price numerator="11" denominator="2"/>
+	</Show>
+	<Show timestamp="20131011T142025+0100" marketNumber="2">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="5" denominator="1"/>
+	  <Favourite position="1" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="1" disqualified="No"/>
+      </Horse>
+      <Horse id="1949124" name="Mr Matthews" bred="IRE" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="130" text="9st 4lbs"/>
+	<Jockey id="27114" name="D Tudhope"/>
+	<Trainer id="3408" name="K R Burke"/>
+	<Show timestamp="20131011T141757+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<Show timestamp="20131011T142025+0100" marketNumber="2">
+	  <Price numerator="18" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="18" denominator="1"/>
+	  <Favourite position="9" joint="3"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1984315" name="Sandra's Diamond" bred="IRE" status="Withdrawn">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="129" text="9st 3lbs"/>
+	<Jockey id="16340" name="T Eaves"/>
+	<Trainer id="105622" name="K Dalgleish"/>
+	<Show timestamp="20131011T141757+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Show timestamp="20131011T142025+0100" marketNumber="2">
+	  <Price numerator="9" denominator="1"/>
+	</Show>
+	<Withdrawn betMarket="2" timeWithdrawn="20131011T142234+0100">
+	  <Price numerator="9" denominator="1"/>
+	  <Favourite position="6" joint="2"/>
+	</Withdrawn>
+      </Horse>
+      <Horse id="1874431" name="Iftaar" bred="IRE" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="125" text="8st 13lbs"/>
+	<Jockey id="16510" name="P Hanagan"/>
+	<Trainer id="108593" name="C Hills"/>
+	<Show timestamp="20131011T141757+0100" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+	<Show timestamp="20131011T142025+0100" marketNumber="2">
+	  <Price numerator="11" denominator="2"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="11" denominator="2"/>
+	  <Favourite position="2" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1917886" name="Kickboxer" bred="IRE" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="125" text="8st 13lbs"/>
+	<Jockey id="18904" name="S Hitchcott"/>
+	<Trainer id="3294" name="M R Channon"/>
+	<Show timestamp="20131011T141757+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20131011T142025+0100" marketNumber="2">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="12" denominator="1"/>
+	  <Favourite position="8" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1968429" name="Smart Salute" bred="GB" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="125" text="8st 13lbs"/>
+	<Jockey id="10909" name="T G McLaughlin"/>
+	<Trainer id="104412" name="Ed Walker"/>
+	<Show timestamp="20131011T141757+0100" marketNumber="1">
+	  <Price numerator="8" denominator="1"/>
+	</Show>
+	<Show timestamp="20131011T142025+0100" marketNumber="2">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="7" denominator="1"/>
+	  <Favourite position="4" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1917906" name="The Hooded Claw" bred="IRE" status="Runner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="123" text="8st 11lbs"/>
+	<Jockey id="25650" name="D Fentiman"/>
+	<Trainer id="10380" name="T D Easterby"/>
+	<Show timestamp="20131011T141757+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<Show timestamp="20131011T142025+0100" marketNumber="2">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="6" denominator="1"/>
+	  <Favourite position="3" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1980514" name="Makin The Rules" bred="IRE" status="Runner">
+	<Cloth number="11"/>
+	<Weight units="lbs" value="123" text="8st 11lbs"/>
+	<Jockey id="1151765" name="Oisin Murphy">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="9243" name="J J Quinn"/>
+	<Show timestamp="20131011T141757+0100" marketNumber="1">
+	  <Price numerator="22" denominator="1"/>
+	</Show>
+	<Show timestamp="20131011T142025+0100" marketNumber="2">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="20" denominator="1"/>
+	  <Favourite position="12" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1947781" name="Spiceupyourlife" bred="IRE" status="Runner">
+	<Cloth number="12"/>
+	<Weight units="lbs" value="122" text="8st 10lbs"/>
+	<Jockey id="72688" name="Lee Topliss"/>
+	<Trainer id="6827" name="R A Fahey"/>
+	<Show timestamp="20131011T141757+0100" marketNumber="1">
+	  <Price numerator="80" denominator="1"/>
+	</Show>
+	<Show timestamp="20131011T142025+0100" marketNumber="2">
+	  <Price numerator="66" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="66" denominator="1"/>
+	  <Favourite position="19" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1874427" name="Disclosure" bred="GB" status="Runner">
+	<Cloth number="13"/>
+	<Weight units="lbs" value="122" text="8st 10lbs"/>
+	<Jockey id="17843" name="D Allan"/>
+	<Trainer id="1029" name="B Smart"/>
+	<Show timestamp="20131011T141757+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Show timestamp="20131011T142025+0100" marketNumber="2">
+	  <Price numerator="9" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="9" denominator="1"/>
+	  <Favourite position="6" joint="2"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1937768" name="Pennine Warrior" bred="GB" status="Runner">
+	<Cloth number="14"/>
+	<Weight units="lbs" value="119" text="8st 7lbs"/>
+	<Jockey id="1148533" name="Jordan Vaughan">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="110563" name="S Dixon"/>
+	<Show timestamp="20131011T141757+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<Show timestamp="20131011T142025+0100" marketNumber="2">
+	  <Price numerator="22" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="22" denominator="1"/>
+	  <Favourite position="13" joint="3"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1953524" name="Sherston" bred="GB" status="Runner">
+	<Cloth number="15"/>
+	<Weight units="lbs" value="119" text="8st 7lbs"/>
+	<Jockey id="41905" name="S De Sousa"/>
+	<Trainer id="1883" name="M Johnston"/>
+	<Show timestamp="20131011T141757+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<Show timestamp="20131011T142025+0100" marketNumber="2">
+	  <Price numerator="22" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="22" denominator="1"/>
+	  <Favourite position="13" joint="3"/>
+	</StartingPrice>
+	<Result finishPos="3" disqualified="No" btnDistance="1/2 length"/>
+      </Horse>
+      <Horse id="1917623" name="Bahamian C" bred="GB" status="Runner">
+	<Cloth number="16"/>
+	<Weight units="lbs" value="118" text="8st 6lbs"/>
+	<Jockey id="18079" name="Barry McHugh"/>
+	<Trainer id="6827" name="R A Fahey"/>
+	<Show timestamp="20131011T141757+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<Show timestamp="20131011T142025+0100" marketNumber="2">
+	  <Price numerator="22" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="22" denominator="1"/>
+	  <Favourite position="13" joint="3"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1958144" name="Tancred" bred="IRE" status="Runner">
+	<Cloth number="17"/>
+	<Weight units="lbs" value="118" text="8st 6lbs"/>
+	<Jockey id="31358" name="Martin Lane"/>
+	<Trainer id="4026" name="P W Chapple-Hyam"/>
+	<Show timestamp="20131011T141757+0100" marketNumber="1">
+	  <Price numerator="18" denominator="1"/>
+	</Show>
+	<Show timestamp="20131011T142025+0100" marketNumber="2">
+	  <Price numerator="18" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="18" denominator="1"/>
+	  <Favourite position="9" joint="3"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1996538" name="Rozene" bred="IRE" status="Runner">
+	<Cloth number="18"/>
+	<Weight units="lbs" value="116" text="8st 4lbs"/>
+	<Jockey id="21791" name="A Mullen"/>
+	<Trainer id="16" name="T D Barron"/>
+	<Show timestamp="20131011T141757+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<Show timestamp="20131011T142025+0100" marketNumber="2">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="25" denominator="1"/>
+	  <Favourite position="16" joint="3"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1942206" name="Neighbother" bred="GB" status="Runner">
+	<Cloth number="19"/>
+	<Weight units="lbs" value="115" text="8st 3lbs"/>
+	<Jockey id="22033" name="P Mathers"/>
+	<Trainer id="6827" name="R A Fahey"/>
+	<Show timestamp="20131011T141757+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<Show timestamp="20131011T142025+0100" marketNumber="2">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="25" denominator="1"/>
+	  <Favourite position="16" joint="3"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1936251" name="Penina" bred="IRE" status="Runner">
+	<Cloth number="20"/>
+	<Weight units="lbs" value="112" text="8st 0lbs"/>
+	<Jockey id="1143284" name="Raul Da Silva"/>
+	<Trainer id="1995" name="B Ellison"/>
+	<Show timestamp="20131011T141757+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<Show timestamp="20131011T142025+0100" marketNumber="2">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="25" denominator="1"/>
+	  <Favourite position="16" joint="3"/>
+	</StartingPrice>
+	<Result finishPos="4" disqualified="No"/>
+      </Horse>
+      <WinningDistance index="1" btnDistance="1/2 length"/>
+      <WinningDistance index="2" btnDistance="1/2 length"/>
+      <Returns>
+	<Bet type="CSF" currency="GBP" dividend="39.23">
+	  <HorseRef id="1942509" name="Musical Comedy" bred="GB"/>
+	  <HorseRef id="1978168" name="Aeolus" bred="GB"/>
+	</Bet>
+	<Bet type="Tricast" currency="GBP" dividend="667.90">
+	  <HorseRef id="1942509" name="Musical Comedy" bred="GB"/>
+	  <HorseRef id="1978168" name="Aeolus" bred="GB"/>
+	  <HorseRef id="1953524" name="Sherston" bred="GB"/>
+	</Bet>
+      </Returns>
+    </Race>
+  </Meeting>
+</HorseRacing>

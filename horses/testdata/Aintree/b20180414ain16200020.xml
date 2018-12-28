@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180414T161024+0100">
+  <Meeting id="95698" country="England" status="Dormant" date="20180414" course="Aintree" revision="3">
+    <Weather>Fine &amp; Dry</Weather>
+    <Going brief="Soft">Soft</Going>
+    <Race id="798438" date="20180414" time="1620+0100" runners="10" handicap="No" showcase="No" trifecta="Yes" stewards="None" status="Dormant" revision="20">
+      <Weather>Fine &amp; Dry</Weather>
+      <Going brief="Soft">Soft</Going>
+      <BetMarket marketNumber="1" dtFormed="20180414T160030+0100" deduction="0" deductionType="None"/>
+      <Horse id="2133045" name="Coole Cody" bred="IRE" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="20683" name="T Scudamore"/>
+	<Trainer id="14122" name="M Blake"/>
+	<Show timestamp="20180414T160030+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T160457+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2097563" name="Identity Thief" bred="IRE" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="66717" name="S W Flanagan"/>
+	<Trainer id="13695" name="H de Bromhead"/>
+	<Show timestamp="20180414T160030+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T160640+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1995414" name="L'Ami Serge" bred="IRE" status="NonRunner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="893016" name="Aidan Coleman"/>
+	<Trainer id="488" name="N J Henderson"/>
+      </Horse>
+      <Horse id="2011662" name="Lil Rockerfeller" bred="USA" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="73733" name="T E Whelan"/>
+	<Trainer id="42197" name="N B King"/>
+	<Show timestamp="20180414T160030+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T160759+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T161022+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2044912" name="Old Guard" bred="GB" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="1158179" name="Harry Cobden"/>
+	<Trainer id="4663" name="P F Nicholls"/>
+	<Show timestamp="20180414T160030+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T160230+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T161022+0100" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2191390" name="Sam Spinner" bred="GB" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="1140518" name="Joe Colliver"/>
+	<Trainer id="14431" name="Jedd O'Keeffe"/>
+	<Show timestamp="20180414T160030+0100" marketNumber="1">
+	  <Price numerator="6" denominator="5"/>
+	</Show>
+	<Show timestamp="20180414T160133+0100" marketNumber="1">
+	  <Price numerator="5" denominator="4"/>
+	</Show>
+	<Show timestamp="20180414T160640+0100" marketNumber="1">
+	  <Price numerator="11" denominator="8"/>
+	</Show>
+      </Horse>
+      <Horse id="1577474" name="Serienschock" bred="GER" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="1167273" name="Ludovic Philipperon"/>
+	<Trainer id="111738" name="Miss Alexandra Rosa"/>
+	<Show timestamp="20180414T160030+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T160133+0100" marketNumber="1">
+	  <Price numerator="66" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1747232" name="Shelford" bred="IRE" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="69385" name="Harry Skelton"/>
+	<Trainer id="118277" name="D Skelton"/>
+	<Show timestamp="20180414T160030+0100" marketNumber="1">
+	  <Price numerator="66" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2178390" name="The Worlds End" bred="IRE" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="16180" name="P J Brennan" raceDayChange="Yes"/>
+	<Trainer id="6854" name="T R George"/>
+	<Show timestamp="20180414T160030+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T160230+0100" marketNumber="1">
+	  <Price numerator="13" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T160759+0100" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2190271" name="Thomas Campbell" bred="GB" status="Runner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="82252" name="Nico de Boinville"/>
+	<Trainer id="488" name="N J Henderson"/>
+	<Show timestamp="20180414T160030+0100" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T160759+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2147179" name="Wholestone" bred="IRE" status="Runner">
+	<Cloth number="11"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="28681" name="D A Jacob"/>
+	<Trainer id="579" name="N A Twiston-Davies"/>
+	<Show timestamp="20180414T160030+0100" marketNumber="1">
+	  <Price numerator="3" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T160133+0100" marketNumber="1">
+	  <Price numerator="10" denominator="3"/>
+	</Show>
+	<Show timestamp="20180414T160457+0100" marketNumber="1">
+	  <Price numerator="7" denominator="2"/>
+	</Show>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180414T134535+0100">
+  <Meeting id="95698" country="England" status="Dormant" date="20180414" course="Aintree" revision="3">
+    <Weather>Fine &amp; Dry</Weather>
+    <Going brief="Soft">Soft</Going>
+    <Race id="798434" date="20180414" time="1345+0100" runners="20" handicap="Yes" showcase="No" trifecta="Yes" stewards="None" status="Off" revision="22">
+      <Weather>Fine &amp; Dry</Weather>
+      <Going brief="Soft">Soft</Going>
+      <OffTime date="20180414" time="134534+0100"/>
+      <BetMarket marketNumber="1" dtFormed="20180414T132518+0100" deduction="0" deductionType="None"/>
+      <Horse id="2190822" name="Louis' Vac Pouch" bred="IRE" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="166" text="11st 12lbs"/>
+	<Jockey id="13961" name="R Johnson"/>
+	<Trainer id="382" name="P J Hobbs"/>
+	<Show timestamp="20180414T132518+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T133332+0100" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="1925091" name="Knight Of Noir" bred="IRE" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="166" text="11st 12lbs"/>
+	<Jockey id="1141078" name="Thomas Bellamy"/>
+	<Trainer id="14122" name="M Blake"/>
+	<Show timestamp="20180414T132518+0100" marketNumber="1">
+	  <Price numerator="40" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T132830+0100" marketNumber="1">
+	  <Price numerator="50" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2051693" name="Dream Berry" bred="FR" status="NonRunner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="164" text="11st 10lbs"/>
+	<Jockey id="14652" name="B J Geraghty"/>
+	<Trainer id="1578" name="Jonjo O'Neill"/>
+      </Horse>
+      <Horse id="2256290" name="Tikkanbar" bred="IRE" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="163" text="11st 9lbs"/>
+	<Jockey id="17893" name="N D Fehily"/>
+	<Trainer id="61060" name="N P Mulholland"/>
+	<Show timestamp="20180414T132518+0100" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T132830+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2023674" name="Sykes" bred="IRE" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="163" text="11st 9lbs"/>
+	<Jockey id="1139922" name="Matt Griffiths"/>
+	<Trainer id="102330" name="Nicky Martin"/>
+	<Show timestamp="20180414T132518+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2268197" name="Golan Fortune" bred="IRE" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="162" text="11st 8lbs"/>
+	<Jockey id="1154780" name="Richard Patrick">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="94045" name="P W Middleton"/>
+	<Show timestamp="20180414T132518+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T134042+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2133457" name="Debece" bred="GB" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="162" text="11st 8lbs"/>
+	<Jockey id="1136412" name="Alan Johns"/>
+	<Trainer id="44392" name="Tim Vaughan"/>
+	<Show timestamp="20180414T132518+0100" marketNumber="1">
+	  <Price numerator="8" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2276730" name="Shannon Bridge" bred="IRE" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="69385" name="Harry Skelton"/>
+	<Trainer id="118277" name="D Skelton"/>
+	<Show timestamp="20180414T132518+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T133725+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T134504+0100" marketNumber="1">
+	  <Price numerator="11" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T134521+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2165319" name="Prime Venture" bred="IRE" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="161" text="11st 7lbs"/>
+	<Jockey id="1161203" name="Miss Isabel Williams">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="12856" name="Evan Williams"/>
+	<Show timestamp="20180414T132518+0100" marketNumber="1">
+	  <Price numerator="20" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T134147+0100" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T134445+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2184699" name="Red Indian" bred="GB" status="Runner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="160" text="11st 6lbs"/>
+	<Jockey id="60732" name="David Bass"/>
+	<Trainer id="118611" name="B Pauling"/>
+	<Show timestamp="20180414T132518+0100" marketNumber="1">
+	  <Price numerator="8" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2130569" name="Jeannot De Nonant" bred="FR" status="Runner">
+	<Cloth number="11"/>
+	<Weight units="lbs" value="160" text="11st 6lbs"/>
+	<Jockey id="1156014" name="Sean Bowen"/>
+	<Trainer id="2982" name="P Bowen"/>
+	<Show timestamp="20180414T132518+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2196360" name="Mr Big Shot" bred="IRE" status="Runner">
+	<Cloth number="12"/>
+	<Weight units="lbs" value="159" text="11st 5lbs"/>
+	<Jockey id="20683" name="T Scudamore"/>
+	<Trainer id="12912" name="D Pipe"/>
+	<Show timestamp="20180414T132518+0100" marketNumber="1">
+	  <Price numerator="15" denominator="2"/>
+	</Show>
+	<Show timestamp="20180414T134218+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2200274" name="No Hassle Hoff" bred="IRE" status="Runner">
+	<Cloth number="13"/>
+	<Weight units="lbs" value="159" text="11st 5lbs"/>
+	<Jockey id="1138728" name="Bridget Andrews">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="118277" name="D Skelton"/>
+	<Show timestamp="20180414T132518+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T134454+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2118592" name="Fixe Le Kap" bred="FR" status="Runner">
+	<Cloth number="14"/>
+	<Weight units="lbs" value="159" text="11st 5lbs"/>
+	<Jockey id="28681" name="D A Jacob"/>
+	<Trainer id="488" name="N J Henderson"/>
+	<Show timestamp="20180414T132518+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T134147+0100" marketNumber="1">
+	  <Price numerator="16" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2128031" name="Connetable" bred="FR" status="Runner">
+	<Cloth number="15"/>
+	<Weight units="lbs" value="159" text="11st 5lbs"/>
+	<Jockey id="1158179" name="Harry Cobden"/>
+	<Trainer id="4663" name="P F Nicholls"/>
+	<Show timestamp="20180414T132518+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2075917" name="Jaleo" bred="GER" status="Runner">
+	<Cloth number="16"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="1152569" name="Mr Alex Ferguson">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="118611" name="B Pauling"/>
+	<Show timestamp="20180414T132518+0100" marketNumber="1">
+	  <Price numerator="40" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2191809" name="Now Mcginty" bred="IRE" status="Runner">
+	<Cloth number="17"/>
+	<Weight units="lbs" value="156" text="11st 2lbs"/>
+	<Jockey id="45964" name="T J O'Brien"/>
+	<Trainer id="122938" name="Stuart Edmunds"/>
+	<Show timestamp="20180414T132518+0100" marketNumber="1">
+	  <Price numerator="14" denominator="1"/>
+	</Show>
+	<Show timestamp="20180414T133301+0100" marketNumber="1">
+	  <Price numerator="12" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2203048" name="The Mighty Don" bred="IRE" status="Runner">
+	<Cloth number="18"/>
+	<Weight units="lbs" value="156" text="11st 2lbs"/>
+	<Jockey id="80638" name="Tom Cannon"/>
+	<Trainer id="13810" name="N J Gifford"/>
+	<Show timestamp="20180414T132518+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2111479" name="Ah Littleluck" bred="IRE" status="Runner">
+	<Cloth number="19"/>
+	<Weight units="lbs" value="156" text="11st 2lbs"/>
+	<Jockey id="38999" name="A E Lynch"/>
+	<Trainer id="58401" name="T Gibney"/>
+	<Show timestamp="20180414T132518+0100" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2103102" name="Fortunate George" bred="IRE" status="Runner">
+	<Cloth number="20"/>
+	<Weight units="lbs" value="156" text="11st 2lbs"/>
+	<Jockey id="77406" name="Adam Wedge"/>
+	<Trainer id="47988" name="Miss E C Lavelle"/>
+	<Show timestamp="20180414T132518+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+      </Horse>
+      <Horse id="2194311" name="Stamp Your Feet" bred="IRE" status="NonRunner">
+	<Cloth number="21"/>
+	<Weight units="lbs" value="156" text="11st 2lbs"/>
+	<Jockey id="2837" name="M P Walsh"/>
+	<Trainer id="6854" name="T R George"/>
+      </Horse>
+      <Horse id="1841535" name="Sir Mangan" bred="IRE" status="Runner">
+	<Cloth number="22"/>
+	<Weight units="lbs" value="155" text="11st 1lbs"/>
+	<Jockey id="1158653" name="Fergus Gregory">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="118277" name="D Skelton"/>
+	<Show timestamp="20180414T132518+0100" marketNumber="1">
+	  <Price numerator="33" denominator="1"/>
+	</Show>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

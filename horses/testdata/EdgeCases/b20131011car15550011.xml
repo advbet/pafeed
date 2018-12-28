@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20131011T154222+0100">
+  <Meeting revision="1" id="57883" country="England" status="Dormant" date="20131011" course="Carlisle">
+    <Race revision="11" id="484377" date="20131011" time="1555+0100" runners="1" handicap="No" showcase="No" trifecta="Yes" stewards="None" status="WeighedIn">
+      <Weather> </Weather>
+      <Going brief=""/>
+      <OffTime date="20131011" time="154159+0100"/>
+      <Horse id="1699899" name="Bracken House" bred="IRE" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="165" text="11st 11lbs"/>
+	<Jockey id="79779" name="Paul Moloney"/>
+	<Trainer id="56059" name="G McPherson"/>
+	<Result finishPos="1" disqualified="No"/>
+      </Horse>
+      <Horse id="1699005" name="Beeves" bred="IRE" status="NonRunner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="41" name="J M Maguire"/>
+	<Trainer id="19719" name="D McCain Jnr"/>
+      </Horse>
+      <Horse id="1621481" name="Book'em Danno" bred="IRE" status="NonRunner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="27385" name="J E Moore"/>
+	<Trainer id="2982" name="P Bowen"/>
+      </Horse>
+      <Horse id="1617234" name="Have You Had Yours" bred="IRE" status="NonRunner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="29935" name="Alistair Findlay">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="57128" name="Mrs J Walton"/>
+      </Horse>
+      <Horse id="587276" name="Hunting Tower" bred="GB" status="NonRunner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="18882" name="K Renwick"/>
+	<Trainer id="44392" name="Tim Vaughan"/>
+      </Horse>
+      <Horse id="1490293" name="Reef Dancer" bred="IRE" status="NonRunner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="9344" name="K Johnson"/>
+	<Trainer id="447" name="R Johnson"/>
+      </Horse>
+      <Horse id="1586040" name="Superior Quality" bred="IRE" status="NonRunner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="158" text="11st 4lbs"/>
+	<Jockey id="17893" name="N Fehily"/>
+	<Trainer id="55653" name="C E Longsdon"/>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

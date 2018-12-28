@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20131029T132747+0000">
+  <Meeting revision="2" id="58231" country="England" status="Dormant" date="20131029" course="Catterick">
+    <Weather>Fine</Weather>
+    <Going brief="Heavy">Heavy</Going>
+    <Race revision="5" id="487389" date="20131029" time="1520+0000" runners="12" handicap="Yes" showcase="No" trifecta="Yes" stewards="None" status="Off">
+      <Weather>Fine</Weather>
+      <Going brief="Heavy">Heavy</Going>
+      <OffTime date="20131029" time="132711+0000"/>
+      <BetMarket marketNumber="1" dtFormed="20131029T132659+0000" deduction="0" deductionType="None"/>
+      <Horse id="1725104" name="Naburn" bred="GB" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="140" text="10st 0lbs"/>
+	<Jockey id="45085" name="B A Curtis"/>
+	<Trainer id="14789" name="G A Swinbank"/>
+	<Show timestamp="20131029T132659+0000" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="5" denominator="1"/>
+	  <Favourite position="1" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1552712" name="Harrison's Cave" bred="GB" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="139" text="9st 13lbs"/>
+	<Jockey id="41547" name="B Hughes"/>
+	<Trainer id="10999" name="C Grant"/>
+	<Show timestamp="20131029T132659+0000" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="6" denominator="1"/>
+	  <Favourite position="2" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1560219" name="Song Of The Siren" bred="GB" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="138" text="9st 12lbs"/>
+	<Jockey id="27114" name="D Tudhope"/>
+	<Trainer id="102897" name="D O'Meara"/>
+	<Show timestamp="20131029T132659+0000" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="7" denominator="1"/>
+	  <Favourite position="3" joint="2"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1432466" name="Toughness Danon" bred="GB" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="135" text="9st 9lbs"/>
+	<Jockey id="9373" name="R Fitzpatrick"/>
+	<Trainer id="10798" name="Ian Williams"/>
+	<Show timestamp="20131029T132659+0000" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="7" denominator="1"/>
+	  <Favourite position="3" joint="2"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="747919" name="Becausewecan" bred="USA" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="135" text="9st 9lbs"/>
+	<Jockey id="18079" name="Barry McHugh"/>
+	<Trainer id="1995" name="B Ellison"/>
+	<Show timestamp="20131029T132659+0000" marketNumber="1">
+	  <Price numerator="8" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="8" denominator="1"/>
+	  <Favourite position="5" joint="2"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1688387" name="Underwritten" bred="GB" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="133" text="9st 7lbs"/>
+	<Jockey id="16340" name="T Eaves"/>
+	<Trainer id="13781" name="J R Weymes"/>
+	<Show timestamp="20131029T132659+0000" marketNumber="1">
+	  <Price numerator="8" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="8" denominator="1"/>
+	  <Favourite position="5" joint="2"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="767324" name="Wee Giant" bred="USA" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="129" text="9st 3lbs"/>
+	<Jockey id="1141033" name="Laura Barry">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="108099" name="T Coyle"/>
+	<Show timestamp="20131029T132659+0000" marketNumber="1">
+	  <Price numerator="9" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="9" denominator="1"/>
+	  <Favourite position="7" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1743020" name="Generous Dream" bred="GB" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="129" text="9st 3lbs"/>
+	<Jockey id="17843" name="D Allan"/>
+	<Trainer id="217" name="M Brittain"/>
+	<Show timestamp="20131029T132659+0000" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="10" denominator="1"/>
+	  <Favourite position="8" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1731329" name="Iron Butterfly" bred="GB" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="128" text="9st 2lbs"/>
+	<Jockey id="9770" name="G Lee"/>
+	<Trainer id="3398" name="J M P Eustace"/>
+	<Show timestamp="20131029T132659+0000" marketNumber="1">
+	  <Price numerator="100" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="100" denominator="1"/>
+	  <Favourite position="9" joint="4"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1666324" name="Stickleback" bred="GB" status="Runner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="127" text="9st 1lbs"/>
+	<Jockey id="16400" name="P McDonald"/>
+	<Trainer id="56495" name="Micky Hammond"/>
+	<Show timestamp="20131029T132659+0000" marketNumber="1">
+	  <Price numerator="100" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="100" denominator="1"/>
+	  <Favourite position="9" joint="4"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1748903" name="Joyful Motive" bred="GB" status="Runner">
+	<Cloth number="11"/>
+	<Weight units="lbs" value="122" text="8st 10lbs"/>
+	<Jockey id="20746" name="J P Sullivan"/>
+	<Trainer id="1212" name="T P Tate"/>
+	<Show timestamp="20131029T132659+0000" marketNumber="1">
+	  <Price numerator="100" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="100" denominator="1"/>
+	  <Favourite position="9" joint="4"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1476558" name="Dubara Reef" bred="IRE" status="Runner">
+	<Cloth number="12"/>
+	<Weight units="lbs" value="122" text="8st 10lbs"/>
+	<Jockey id="1142745" name="Jordan Nason">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="5859" name="Paul Green"/>
+	<Show timestamp="20131029T132659+0000" marketNumber="1">
+	  <Price numerator="100" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="100" denominator="1"/>
+	  <Favourite position="9" joint="4"/>
+	</StartingPrice>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

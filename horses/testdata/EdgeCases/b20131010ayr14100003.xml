@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20131010T131041+0100">
+  <Meeting revision="2" id="57861" country="Scotland" status="Dormant" date="20131010" course="Ayr">
+    <Weather>Bright</Weather>
+    <Going brief="Good">Good</Going>
+    <Race revision="3" id="484167" date="20131010" time="1410+0100" runners="10" handicap="Yes" showcase="No" trifecta="Yes" stewards="None" status="Abandoned">
+      <Weather>Bright</Weather>
+      <Going brief=""/>
+      <Horse id="1947768" name="Kenny The Captain" bred="IRE" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="133" text="9st 7lbs"/>
+	<Jockey id="25650" name="D Fentiman"/>
+	<Trainer id="10380" name="T D Easterby"/>
+      </Horse>
+      <Horse id="1959956" name="Pensax Lad" bred="IRE" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="132" text="9st 6lbs"/>
+	<Jockey id="14748" name="R Winston"/>
+	<Trainer id="6048" name="R Harris"/>
+      </Horse>
+      <Horse id="1937768" name="Pennine Warrior" bred="GB" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="18614" name="T P Queally"/>
+	<Trainer id="110563" name="S Dixon"/>
+      </Horse>
+      <Horse id="1968795" name="Straits Of Malacca" bred="GB" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="16340" name="T Eaves"/>
+	<Trainer id="955" name="K A Ryan"/>
+      </Horse>
+      <Horse id="1953551" name="False Witness" bred="IRE" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="129" text="9st 3lbs"/>
+	<Jockey id="15475" name="Adrian Nicholls"/>
+	<Trainer id="7015" name="D Nicholls"/>
+      </Horse>
+      <Horse id="1942206" name="Neighbother" bred="GB" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="127" text="9st 1lbs"/>
+	<Jockey id="18673" name="T Hamilton"/>
+	<Trainer id="6827" name="R A Fahey"/>
+      </Horse>
+      <Horse id="1957659" name="Arabda" bred="GB" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="127" text="9st 1lbs"/>
+	<Jockey id="9770" name="G Lee"/>
+	<Trainer id="1883" name="M Johnston"/>
+      </Horse>
+      <Horse id="1947702" name="Mount Cheiron" bred="USA" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="120" text="8st 8lbs"/>
+	<Jockey id="16400" name="P McDonald"/>
+	<Trainer id="10979" name="Mrs Dianne Sayer"/>
+      </Horse>
+      <Horse id="1974199" name="Bashiba" bred="IRE" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="112" text="8st 0lbs"/>
+	<Jockey id="21791" name="A Mullen"/>
+	<Trainer id="161" name="N Tinkler"/>
+      </Horse>
+      <Horse id="1972548" name="Romantic Bliss" bred="IRE" status="NonRunner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="112" text="8st 0lbs"/>
+	<Jockey id="5877" name="Non Runner"/>
+	<Trainer id="3408" name="K R Burke"/>
+      </Horse>
+      <Horse id="1984044" name="Raise A Billion" bred="GB" status="Runner">
+	<Cloth number="11"/>
+	<Weight units="lbs" value="112" text="8st 0lbs"/>
+	<Jockey id="22033" name="P Mathers"/>
+	<Trainer id="13699" name="A Berry"/>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

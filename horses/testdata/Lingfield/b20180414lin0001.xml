@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180414T061558+0100">
+  <Meeting id="97192" country="England" status="Dormant" date="20180414" course="Lingfield" revision="1"/>
+</HorseRacing>

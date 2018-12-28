@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180410T060815+0100">
+  <Meeting id="97044" country="England" status="Dormant" date="20180410" course="Hexham" revision="1">
+    <Race id="797312" date="20180410" time="1420+0100" runners="5" handicap="No" showcase="No" trifecta="Yes" stewards="None" status="Dormant" revision="1">
+      <Weather> </Weather>
+      <Going brief=""/>
+      <Horse id="2175979" name="Piri Massini" bred="IRE" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="160" text="11st 6lbs"/>
+	<Jockey id="1158653" name="Fergus Gregory">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="130349" name="Olly Murphy"/>
+      </Horse>
+      <Horse id="2259271" name="Teescomponents Lad" bred="GB" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="160" text="11st 6lbs"/>
+	<Jockey id="1136090" name="Miss E Todd">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="111413" name="G Boanas"/>
+      </Horse>
+      <Horse id="2273669" name="Behindthelines" bred="IRE" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="154" text="11st 0lbs"/>
+	<Jockey id="1150759" name="Blair Campbell">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="17180" name="Miss Lucinda V Russell"/>
+      </Horse>
+      <Horse id="1494066" name="Portrait King" bred="IRE" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="154" text="11st 0lbs"/>
+	<Jockey id="1157220" name="A W Short">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="5191" name="P Griffin"/>
+      </Horse>
+      <Horse id="2213475" name="Dolly's Dot" bred="IRE" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="153" text="10st 13lbs"/>
+	<Jockey id="1156760" name="Thomas Dowson">
+	  <Allowance units="lbs" value="3"/>
+	</Jockey>
+	<Trainer id="314" name="V Thompson"/>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20131010T160309+0100">
+  <Meeting revision="2" id="57861" country="Scotland" status="Dormant" date="20131010" course="Ayr">
+    <Weather>Bright</Weather>
+    <Going brief="Good">Good</Going>
+    <Race revision="19" id="484169" date="20131010" time="1540+0100" runners="11" handicap="Yes" showcase="No" trifecta="Yes" stewards="None" status="WeighedIn">
+      <Weather>Bright</Weather>
+      <Going brief=""/>
+      <OffTime date="20131010" time="142014+0100"/>
+      <WinTime time="0000.00"/>
+      <BetMarket marketNumber="1" dtFormed="20131010T131839+0100" deduction="0" deductionType="None"/>
+      <Horse id="1751709" name="Dark Opal" bred="IRE" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="133" text="9st 7lbs"/>
+	<Jockey id="1145687" name="Joey Haynes">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="13781" name="J R Weymes"/>
+	<Show timestamp="20131010T131839+0100" marketNumber="1">
+	  <Price numerator="3" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="3" denominator="1"/>
+	  <Favourite position="1" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="1" disqualified="No"/>
+	<BetMovements comment="tchd 5/2 in a place"/>
+	<CloseUp comment="with leaders, ridden 1f out, led inside final furlong, kept on, driven out"/>
+	<BigBets>
+	  <BigBetOffice type="IncludingOfficeMoney"/>
+	  <BigBetCash type="EachWay" currency="GBP" stake="200" win="500" count="1"/>
+	</BigBets>
+      </Horse>
+      <Horse id="1031496" name="Opt Out" bred="GB" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="132" text="9st 6lbs"/>
+	<Jockey id="16400" name="P McDonald"/>
+	<Trainer id="3174" name="A C Whillans"/>
+	<Show timestamp="20131010T131839+0100" marketNumber="1">
+	  <Price numerator="4" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="4" denominator="1"/>
+	  <Favourite position="2" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="2" disqualified="No" btnDistance="1 length"/>
+	<BetMovements comment=""/>
+	<CloseUp comment="towards rear, ridden and headway 1f out, kept on inside final furlong"/>
+	<BigBets/>
+      </Horse>
+      <Horse id="1752416" name="Starlight Angel" bred="IRE" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="14748" name="R Winston"/>
+	<Trainer id="6048" name="R Harris"/>
+	<Show timestamp="20131010T131839+0100" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="5" denominator="1"/>
+	  <Favourite position="3" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="3" disqualified="No" btnDistance="2 lengths"/>
+	<BetMovements comment=""/>
+	<CloseUp comment="led, ridden over 1f out, headed inside final furlong, kept on"/>
+	<BigBets/>
+      </Horse>
+      <Horse id="1748139" name="Khefyn" bred="IRE" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="128" text="9st 2lbs"/>
+	<Jockey id="1143284" name="Raul Da Silva"/>
+	<Trainer id="6048" name="R Harris"/>
+	<Show timestamp="20131010T131839+0100" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="6" denominator="1"/>
+	  <Favourite position="4" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="4" disqualified="No" btnDistance="1/2 length"/>
+	<BetMovements comment=""/>
+	<CloseUp comment="tracked leader, ridden inside final furlong, kept on"/>
+	<BigBets/>
+      </Horse>
+      <Horse id="1750983" name="Our Diane" bred="IRE" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="127" text="9st 1lbs"/>
+	<Jockey id="18673" name="T Hamilton"/>
+	<Trainer id="6827" name="R A Fahey"/>
+	<Show timestamp="20131010T131839+0100" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="7" denominator="1"/>
+	  <Favourite position="5" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="5" disqualified="No" btnDistance="1 1/4 length"/>
+	<BetMovements comment=""/>
+	<CloseUp comment="tracked leaders, ridden over 1f out, no extra inside final furlong"/>
+	<BigBets/>
+      </Horse>
+      <Horse id="1741143" name="Lucy Bee" bred="GB" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="126" text="9st 0lbs"/>
+	<Jockey id="1136483" name="Noel Garbutt">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="10537" name="R M Smith"/>
+	<Show timestamp="20131010T131839+0100" marketNumber="1">
+	  <Price numerator="100" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="100" denominator="1"/>
+	  <Favourite position="10" joint="2"/>
+	</StartingPrice>
+	<Result finishPos="6" disqualified="No" btnDistance="Head"/>
+	<BetMovements comment=""/>
+	<CloseUp comment="tracked leader, pushed along halfway, weakened over 1f out"/>
+	<BigBets/>
+      </Horse>
+      <Horse id="1743709" name="Ichimoku" bred="GB" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="120" text="8st 8lbs"/>
+	<Jockey id="25650" name="D Fentiman"/>
+	<Trainer id="1029" name="B Smart"/>
+	<Show timestamp="20131010T131839+0100" marketNumber="1">
+	  <Price numerator="100" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="100" denominator="1"/>
+	  <Favourite position="10" joint="2"/>
+	</StartingPrice>
+	<Result finishPos="7" disqualified="No" btnDistance="Nose"/>
+	<BetMovements comment=""/>
+	<CloseUp comment="Nonrunner"/>
+	<BigBets/>
+      </Horse>
+      <Horse id="1777234" name="Partner's Gold" bred="IRE" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="114" text="8st 2lbs"/>
+	<Jockey id="22033" name="P Mathers"/>
+	<Trainer id="13699" name="A Berry"/>
+	<Show timestamp="20131010T131839+0100" marketNumber="1">
+	  <Price numerator="15" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="15" denominator="1"/>
+	  <Favourite position="6" joint="1"/>
+	</StartingPrice>
+	<Result finishPos="8" disqualified="No" btnDistance="4 lengths"/>
+	<BetMovements comment=""/>
+	<CloseUp comment="Nonrunner"/>
+	<BigBets/>
+      </Horse>
+      <Horse id="1729132" name="Red Star Lady" bred="IRE" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="114" text="8st 2lbs"/>
+	<Jockey id="1137690" name="Shirley Teasdale">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="9509" name="S A Harris"/>
+	<Show timestamp="20131010T131839+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="25" denominator="1"/>
+	  <Favourite position="7" joint="3"/>
+	</StartingPrice>
+	<Result finishPos="9" disqualified="No" btnDistance="1/2 length"/>
+	<BetMovements comment=""/>
+	<CloseUp comment="chased leaders on outer, ridden over 1f out, weakened inside final furlong"/>
+	<BigBets/>
+      </Horse>
+      <Horse id="1752441" name="Fife Jo" bred="GB" status="Runner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="114" text="8st 2lbs"/>
+	<Jockey id="18079" name="B McHugh"/>
+	<Trainer id="6168" name="J S Goldie"/>
+	<Show timestamp="20131010T131839+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="25" denominator="1"/>
+	  <Favourite position="7" joint="3"/>
+	</StartingPrice>
+	<Result finishPos="10" disqualified="No" btnDistance="1 length"/>
+	<BetMovements comment=""/>
+	<CloseUp comment="always towards rear"/>
+	<BigBets/>
+      </Horse>
+      <Horse id="1743719" name="Classy Anne" bred="GB" status="Runner">
+	<Cloth number="11"/>
+	<Weight units="lbs" value="114" text="8st 2lbs"/>
+	<Jockey id="1151976" name="Jack Garritty">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="6168" name="J S Goldie"/>
+	<Show timestamp="20131010T131839+0100" marketNumber="1">
+	  <Price numerator="25" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="25" denominator="1"/>
+	  <Favourite position="7" joint="3"/>
+	</StartingPrice>
+	<Result finishPos="11" disqualified="No" btnDistance="1 length"/>
+	<BetMovements comment=""/>
+	<CloseUp comment="in rear, ridden over 1f out, soon switched left, stayed on inside final furlong"/>
+	<BigBets/>
+      </Horse>
+      <WinningDistance index="1" btnDistance="1 length"/>
+      <WinningDistance index="2" btnDistance="2 lengths"/>
+      <WinningDistance index="3" btnDistance="1/2 length"/>
+      <WinningDistance index="4" btnDistance="1 1/4 length"/>
+      <WinningDistance index="5" btnDistance="Head"/>
+      <WinningDistance index="6" btnDistance="Nose"/>
+      <WinningDistance index="7" btnDistance="4 lengths"/>
+      <WinningDistance index="8" btnDistance="1/2 length"/>
+      <WinningDistance index="9" btnDistance="1 length"/>
+      <WinningDistance index="10" btnDistance="1 length"/>
+      <Returns>
+	<Bet type="CSF" currency="GBP" dividend="12.63">
+	  <HorseRef id="1751709" name="Dark Opal" bred="IRE"/>
+	  <HorseRef id="1031496" name="Opt Out" bred="GB"/>
+	</Bet>
+	<Bet type="Tricast" currency="GBP" dividend="48.63">
+	  <HorseRef id="1751709" name="Dark Opal" bred="IRE"/>
+	  <HorseRef id="1031496" name="Opt Out" bred="GB"/>
+	  <HorseRef id="1752416" name="Starlight Angel" bred="IRE"/>
+	</Bet>
+      </Returns>
+    </Race>
+  </Meeting>
+</HorseRacing>

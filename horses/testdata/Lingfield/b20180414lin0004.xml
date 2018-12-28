@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20180414T170229+0100">
+  <Meeting id="97192" country="England" status="Dormant" date="20180414" course="Lingfield" revision="4">
+    <Weather>Sunny</Weather>
+    <Going brief="Standard">Standard</Going>
+    <MultiBet type="Placepot" currency="GBP" dividend="59.60">
+      <PoolDetails currency="GBP" pool="47509.27" winStakes="581.21"/>
+    </MultiBet>
+    <MultiBet type="Quadpot" currency="GBP" dividend="35.60">
+      <PoolDetails currency="GBP" pool="4123.78" winStakes="85.50"/>
+    </MultiBet>
+    <MultiBet type="PlaceSix" currency="GBP" dividend="18.91"/>
+    <MultiBet type="PlaceFive" currency="GBP" dividend="13.11"/>
+  </Meeting>
+</HorseRacing>

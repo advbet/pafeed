@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20131010T163938+0100">
+  <Meeting revision="3" id="57861" country="Scotland" status="Dormant" date="20131010" course="Ayr">
+    <Weather>Bright</Weather>
+    <Going brief="Good">Good</Going>
+    <MultiBet type="Quadpot" currency="GBP" dividend="49.60">
+      <PoolDetails currency="GBP" pool="5706.15" winStakes="85.00"/>
+    </MultiBet>
+    <MultiBet type="Placepot" currency="GBP" dividend="170.60">
+      <PoolDetails currency="GBP" pool="72053.38" winStakes="308.29"/>
+    </MultiBet>
+    <MultiBet type="Jackpot" currency="GBP" dividend="0.00">
+      <PoolDetails currency="GBP" pool="42526.01" winStakes="0.00"/>
+    </MultiBet>
+  </Meeting>
+</HorseRacing>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd">
+<HorseRacing timestamp="20131029T131946+0000">
+  <Meeting revision="2" id="58231" country="England" status="Dormant" date="20131029" course="Catterick">
+    <Weather>Fine</Weather>
+    <Going brief="Heavy">Heavy</Going>
+    <Race revision="5" id="487387" date="20131029" time="1420+0000" runners="13" handicap="Yes" showcase="No" trifecta="Yes" stewards="None" status="Off">
+      <Weather>Fine</Weather>
+      <Going brief="Heavy">Heavy</Going>
+      <OffTime date="20131029" time="131919+0000"/>
+      <BetMarket marketNumber="1" dtFormed="20131029T131917+0000" deduction="0" deductionType="None"/>
+      <Horse id="1757266" name="Monakova" bred="IRE" status="Runner">
+	<Cloth number="1"/>
+	<Weight units="lbs" value="131" text="9st 5lbs"/>
+	<Jockey id="27114" name="D Tudhope"/>
+	<Trainer id="102897" name="D O'Meara"/>
+	<Show timestamp="20131029T131917+0000" marketNumber="1">
+	  <Price numerator="1" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="1" denominator="1"/>
+	  <Favourite position="1" joint="2"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1552040" name="Showboating" bred="IRE" status="Runner">
+	<Cloth number="2"/>
+	<Weight units="lbs" value="129" text="9st 3lbs"/>
+	<Jockey id="35608" name="S M Levey"/>
+	<Trainer id="55425" name="A J McCabe"/>
+	<Show timestamp="20131029T131917+0000" marketNumber="1">
+	  <Price numerator="1" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="1" denominator="1"/>
+	  <Favourite position="1" joint="2"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1506971" name="Nasharra" bred="IRE" status="Runner">
+	<Cloth number="3"/>
+	<Weight units="lbs" value="129" text="9st 3lbs"/>
+	<Jockey id="1146459" name="Kevin Stott">
+	  <Allowance units="lbs" value="5"/>
+	</Jockey>
+	<Trainer id="955" name="K A Ryan"/>
+	<Show timestamp="20131029T131917+0000" marketNumber="1">
+	  <Price numerator="2" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="2" denominator="1"/>
+	  <Favourite position="3" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1456643" name="Hot Rod Mamma" bred="IRE" status="Runner">
+	<Cloth number="4"/>
+	<Weight units="lbs" value="125" text="8st 13lbs"/>
+	<Jockey id="25650" name="D Fentiman"/>
+	<Trainer id="10979" name="Mrs Dianne Sayer"/>
+	<Show timestamp="20131029T131917+0000" marketNumber="1">
+	  <Price numerator="3" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="3" denominator="1"/>
+	  <Favourite position="4" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1936242" name="Burren View Lady" bred="IRE" status="Runner">
+	<Cloth number="5"/>
+	<Weight units="lbs" value="123" text="8st 11lbs"/>
+	<Jockey id="17843" name="D Allan"/>
+	<Trainer id="10380" name="T D Easterby"/>
+	<Show timestamp="20131029T131917+0000" marketNumber="1">
+	  <Price numerator="4" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="4" denominator="1"/>
+	  <Favourite position="5" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1610271" name="West Leake Hare" bred="IRE" status="Runner">
+	<Cloth number="6"/>
+	<Weight units="lbs" value="123" text="8st 11lbs"/>
+	<Jockey id="1142745" name="Jordan Nason">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="7015" name="D Nicholls"/>
+	<Show timestamp="20131029T131917+0000" marketNumber="1">
+	  <Price numerator="5" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="5" denominator="1"/>
+	  <Favourite position="6" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1531219" name="Llewellyn" bred="GB" status="Runner">
+	<Cloth number="7"/>
+	<Weight units="lbs" value="123" text="8st 11lbs"/>
+	<Jockey id="15475" name="Adrian Nicholls"/>
+	<Trainer id="7015" name="D Nicholls"/>
+	<Show timestamp="20131029T131917+0000" marketNumber="1">
+	  <Price numerator="6" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="6" denominator="1"/>
+	  <Favourite position="7" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="504688" name="Green Park" bred="IRE" status="Runner">
+	<Cloth number="8"/>
+	<Weight units="lbs" value="122" text="8st 10lbs"/>
+	<Jockey id="1148019" name="Luke Leadbitter">
+	  <Allowance units="lbs" value="7"/>
+	</Jockey>
+	<Trainer id="2894" name="D Carroll"/>
+	<Show timestamp="20131029T131917+0000" marketNumber="1">
+	  <Price numerator="7" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="7" denominator="1"/>
+	  <Favourite position="8" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1550206" name="Majestic Dream" bred="IRE" status="Runner">
+	<Cloth number="9"/>
+	<Weight units="lbs" value="121" text="8st 9lbs"/>
+	<Jockey id="20746" name="J P Sullivan"/>
+	<Trainer id="51" name="M W Easterby"/>
+	<Show timestamp="20131029T131917+0000" marketNumber="1">
+	  <Price numerator="8" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="8" denominator="1"/>
+	  <Favourite position="9" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="461705" name="Beckermet" bred="IRE" status="Runner">
+	<Cloth number="10"/>
+	<Weight units="lbs" value="120" text="8st 8lbs"/>
+	<Jockey id="16400" name="P McDonald"/>
+	<Trainer id="60290" name="Mrs R Carr"/>
+	<Show timestamp="20131029T131917+0000" marketNumber="1">
+	  <Price numerator="9" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="9" denominator="1"/>
+	  <Favourite position="10" joint="1"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1431808" name="New Leyf" bred="IRE" status="Runner">
+	<Cloth number="11"/>
+	<Weight units="lbs" value="119" text="8st 7lbs"/>
+	<Jockey id="15412" name="P M Quinn"/>
+	<Trainer id="7015" name="D Nicholls"/>
+	<Show timestamp="20131029T131917+0000" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="10" denominator="1"/>
+	  <Favourite position="11" joint="2"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1723020" name="Maggie Pink" bred="GB" status="Runner">
+	<Cloth number="12"/>
+	<Weight units="lbs" value="119" text="8st 7lbs"/>
+	<Jockey id="21791" name="A Mullen"/>
+	<Trainer id="42936" name="M Appleby"/>
+	<Show timestamp="20131029T131917+0000" marketNumber="1">
+	  <Price numerator="10" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="10" denominator="1"/>
+	  <Favourite position="11" joint="2"/>
+	</StartingPrice>
+      </Horse>
+      <Horse id="1545834" name="Piceno" bred="IRE" status="Runner">
+	<Cloth number="13"/>
+	<Weight units="lbs" value="119" text="8st 7lbs"/>
+	<Jockey id="16340" name="T Eaves"/>
+	<Trainer id="110563" name="S Dixon"/>
+	<Show timestamp="20131029T131917+0000" marketNumber="1">
+	  <Price numerator="100" denominator="1"/>
+	</Show>
+	<StartingPrice>
+	  <Price numerator="100" denominator="1"/>
+	  <Favourite position="13" joint="1"/>
+	</StartingPrice>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>
