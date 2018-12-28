@@ -1,14 +1,11 @@
 package horses
 
 import (
-	"encoding/xml"
 	"fmt"
 	"io/ioutil"
 	"path"
-	"strings"
 	"testing"
 
-	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
 
@@ -31,15 +28,15 @@ func TestBulkParseHorseRacingCard(t *testing.T) {
 		require.NoError(t, err, dir)
 		for _, f := range files {
 			// try parsing only HorceRacingCard documents
-			if !strings.HasPrefix(f.Name(), "c") {
+			if !IsRacingCardFile(f.Name()) {
 				continue
 			}
 			path := path.Join(dir, f.Name())
 			t.Log(fmt.Sprintf("checking: %s", path))
 			blob, err := ioutil.ReadFile(path)
 			require.NoError(t, err, path)
-			var obj RacingCard
-			assert.NoError(t, xml.Unmarshal(blob, &obj), path)
+			_, err = ParseRacingCard(blob)
+			require.NoError(t, err, path)
 		}
 	}
 }

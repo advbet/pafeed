@@ -7,7 +7,6 @@ import (
 	"math/big"
 	"path"
 	"strconv"
-	"strings"
 	"testing"
 	"time"
 
@@ -50,15 +49,15 @@ func TestBulkParseHorseRacing(t *testing.T) {
 		require.NoError(t, err, dir)
 		for _, f := range files {
 			// try parsing only HorceRacing documents
-			if !strings.HasPrefix(f.Name(), "b") {
+			if !IsRacingFile(f.Name()) {
 				continue
 			}
 			path := path.Join(dir, f.Name())
 			t.Log(fmt.Sprintf("checking: %s", path))
 			blob, err := ioutil.ReadFile(path)
 			require.NoError(t, err, path)
-			var obj Racing
-			assert.NoError(t, xml.Unmarshal(blob, &obj), path)
+			obj, err := ParseRacing(blob)
+			assert.NoError(t, err, path)
 
 			assert.True(t, len(obj.Meetings) == 1, "always exactly one meeting perfile")
 			for _, m := range obj.Meetings {
