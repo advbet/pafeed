@@ -1,0 +1,7 @@
+image: golang:1.11
+
+pipelines:
+  default:
+    - step:
+        script:
+          - go test -v ./...
