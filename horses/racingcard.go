@@ -33,6 +33,8 @@ type CardMeeting struct {
 	Races []CardRace // Meeting races
 }
 
+type xmlCardMeeting CardMeeting
+
 // CardRace describes a single race in the horse racing card meeting.
 type CardRace struct {
 	ID        int       // The internal identifier for the race
@@ -62,12 +64,13 @@ type CardRace struct {
 	//PreviewComments UNUSED // Preview text comment(s)
 	//Selections      UNUSED // Selections (tips) for race
 	//DrawBias        UNUSED // The effect of the draw in this race (Flat races only)
-	Ratings []Rating // Race ratings
-	//Messages UNUSED `xml:"Message"`        // Other textual messages associated with race
-	//Totes  []TODO `xml:"Tote"`  // Tote bets applicable to this race
-	Horses []CardHorse `xml:"Horse"` // The horse(s)
-
+	//Ratings         UNUSED // Race ratings
+	//Messages        UNUSED // Other textual messages associated with race
+	//Totes         []TODO `xml:"Tote"`  // Tote bets applicable to this race
+	Horses []CardHorse // The horse(s)
 }
+
+type xmlCardRace CardRace
 
 // CardHorse contains data about a single horse participating in a race. This
 // object is sent in race cards and include more details then general Horse
@@ -101,7 +104,7 @@ type CardHorse struct {
 	//Comment         *struct{}       // Textual comment for the horse
 	//ForecastPrice   *struct{}       // The betting forecast price for the horse
 	//StartingPrice   *struct{}       // Starting price of horse (used in LastWinner context)
-	//Rating          []struct{}      // Ratings associated with this horse
+	Ratings []Rating // Ratings associated with this horse
 	//Reserve         *struct{}       // Reserve details IF this horse is a reserve
 	//Ballot          *struct{}       // Ballot order details
 	//LongHandicap    *struct{}       // The long handicap details for this horse (if applicable)
@@ -113,6 +116,8 @@ type CardHorse struct {
 	//Message         UNUSED       // Other textual messages associated with horse
 }
 
+type xmlCardHorse CardHorse
+
 // CardTrainer holds horse trainer details. This field is sent with racing cards
 // and have more information then Trainer object.
 type CardTrainer struct {
@@ -121,6 +126,14 @@ type CardTrainer struct {
 	Nationality string // The nationality of the trainer eg IRE
 	Location    string // Where the trainer is based
 	//PersonForm UNUSED // Indicates how well the trainer is currently doing
+}
+
+type xmlCardTrainer struct {
+	ID          int    `xml:"id,attr"`          // Identifier for trainer
+	Name        string `xml:"name,attr"`        // The name of the trainer
+	Nationality string `xml:"nationality,attr"` // The nationality of the trainer eg IRE
+	Location    string `xml:"location,attr"`    // Where the trainer is based
+	//PersonForm UNUSED `xml:"PersonForm"` // Indicates how well the trainer is currently doing
 }
 
 // CardHorseStatus is an enum for horse status values.
@@ -136,12 +149,21 @@ type CardJockey struct {
 	//PersonForm UNUSED  // Indicates how well the jockey is currently doing
 }
 
+type xmlCardJockey CardJockey
+
 // Breeding describes a horse from the racing horse direct lineage.
 type Breeding struct {
 	Relation HorseRelation // Sire (father), Dam (mother), DamSire (maternal grandfather)
 	Name     string        // The name of the horse
 	Bred     string        // The country of breeding of the horse
-	YearBord int           // When the horse was born (if known)
+	YearBorn int           // When the horse was born (if known)
+}
+
+type xmlBreeding struct {
+	Relation HorseRelation `xml:"type,attr"`     // Sire (father), Dam (mother), DamSire (maternal grandfather)
+	Name     string        `xml:"name,attr"`     // The name of the horse
+	Bred     string        `xml:"bred,attr"`     // The country of breeding of the horse
+	YearBorn int           `xml:"yearBorn,attr"` // When the horse was born (if known)
 }
 
 // HorseRelation describes a breeding relation between two horses.
@@ -151,6 +173,11 @@ type HorseRelation string
 type Rating struct {
 	Type  string // Type of rating e.g. Official.
 	Value int    // Rating value e.g. 57.
+}
+
+type xmlRating struct {
+	Type  string `xml:"type,attr"`  // Type of rating e.g. Official.
+	Value int    `xml:"value,attr"` // Rating value e.g. 57.
 }
 
 // RaceType is an enum for race types - Flat, Hurdle, Chase, National Hunt Flat.
@@ -214,17 +241,21 @@ const (
 // UnmarshalXML implements xml.Unmarshaler interface.
 func (c *RacingCard) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	data := struct {
-		Meetings []CardMeeting `xml:"Meeting"` // The meeting(s)
+		Meetings []xmlCardMeeting `xml:"Meeting"` // The meeting(s)
 	}{}
 	if err := d.DecodeElement(&data, &start); err != nil {
 		return err
 	}
-	*c = data.Meetings
+	var meetings []CardMeeting
+	for _, m := range data.Meetings {
+		meetings = append(meetings, CardMeeting(m))
+	}
+	*c = meetings
 	return nil
 }
 
 // UnmarshalXML implements xml.Unmarshaler interface.
-func (m *CardMeeting) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+func (m *xmlCardMeeting) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	data := struct {
 		ID               int               `xml:"id,attr"`       // Meeting internal database ID
 		Country          string            `xml:"country,attr"`  // The country where the meeting is being held
@@ -246,13 +277,17 @@ func (m *CardMeeting) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error
 			Data string `xml:",chardata"` // Indication of expected going at the meeting
 		} `xml:"AdvancedGoing"` // The advanced going for the meeting.
 		//Messages          UNUSED  `xml:"Message"`         // Other textual messages associated with meeting
-		Races []CardRace `xml:"Race"` // The race(s)
+		Races []xmlCardRace `xml:"Race"` // The race(s)
 		//MultiBets         []struct{ TODO }  `xml:"MultiBet"`        // Multi-race bets available on this meeting
 	}{}
 	if err := d.DecodeElement(&data, &start); err != nil {
 		return err
 	}
-	*m = CardMeeting{
+	var races []CardRace
+	for _, r := range data.Races {
+		races = append(races, CardRace(r))
+	}
+	*m = xmlCardMeeting{
 		ID:      data.ID,
 		Country: data.Country,
 		Course:  data.Course,
@@ -265,12 +300,13 @@ func (m *CardMeeting) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error
 		DrawAdvantage:   data.DrawAdvantage.Data,
 		AdvancedGoing:   data.AdvancedGoing.Data,
 		//Messages UNUSED
+		Races: races,
 	}
 	return nil
 }
 
 // UnmarshalXML implements xml.Unmarshaler interface.
-func (r *CardRace) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+func (r *xmlCardRace) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	data := struct {
 		ID        int       `xml:"id,attr"`        // The internal identifier for the race
 		Date      string    `xml:"date,attr"`      // The date of the race (format ISO 8601:1988 yyyymmdd)
@@ -314,10 +350,10 @@ func (r *CardRace) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 		//PreviewComments UNUSED `xml:"Preview"`    // Preview text comment(s)
 		//Selections      UNUSED `xml:"Selections"` // Selections (tips) for race
 		//DrawBias        UNUSED `xml:"DrawBias"`   // The effect of the draw in this race (Flat races only)
-		Ratings []Rating `xml:"Rating"` // Race ratings
-		//Messages UNUSED `xml:"Message"`        // Other textual messages associated with race
+		//Ratings         UNUSED `xml:"Rating"`     // Race ratings
+		//Messages        UNUSED `xml:"Message"`    // Other textual messages associated with race
 		//Totes  []TODO `xml:"Tote"`  // Tote bets applicable to this race
-		Horses []CardHorse `xml:"Horse"` // The horse(s)
+		Horses []xmlCardHorse `xml:"Horse"` // The horse(s)
 	}{}
 	if err := d.DecodeElement(&data, &start); err != nil {
 		return err
@@ -330,7 +366,11 @@ func (r *CardRace) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	for _, prize := range data.PrizeMoney.Prize {
 		prizes[prize.Position] = decimal.FromInt(prize.Amount)
 	}
-	*r = CardRace{
+	var horses []CardHorse
+	for _, h := range data.Horses {
+		horses = append(horses, CardHorse(h))
+	}
+	*r = xmlCardRace{
 		ID:        data.ID,
 		StartTime: startTime,
 		RaceType:  data.RaceType,
@@ -358,16 +398,16 @@ func (r *CardRace) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 		//PreviewComments UNUSED
 		//Selections      UNUSED
 		//DrawBias        UNUSED
-		Ratings: data.Ratings,
-		//Messages UNUSED
+		//Ratings         UNUSED
+		//Messages        UNUSED
 		//Totes  []TODO
-		Horses: data.Horses,
+		Horses: horses,
 	}
 	return nil
 }
 
 // UnmarshalXML implements xml.Unmarshaler interface.
-func (h *CardHorse) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+func (h *xmlCardHorse) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	data := struct {
 		ID     int             `xml:"id,attr"`     // The internal identifier for the horse
 		Name   string          `xml:"name,attr"`   // The name of the horse
@@ -388,14 +428,14 @@ func (h *CardHorse) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 		} `xml:"Age"` // The age of the horse (in years)
 		Weight        xmlUnitsValueText `xml:"Weight"`        // The weight carried by the horse
 		WeightPenalty xmlUnitsValue     `xml:"WeightPenalty"` // Extra weight incurred through recent win
-		Trainer       CardTrainer       `xml:"Trainer"`       // Details of the trainer of the horse
+		Trainer       xmlCardTrainer    `xml:"Trainer"`       // Details of the trainer of the horse
 		Owner         struct {
 			Name string `xml:"name,attr"` // The name of the owner
 		} `xml:"Owner"` // Details of the owner of the horse
 		Breeder struct {
 			Name string `xml:"name,attr"` // The name of the breeder
 		} `xml:"Breeder"` // Details of the breeder of the horse
-		Jockey        CardJockey `xml:"Jockey"` // Details of the jockey of the horse
+		Jockey        xmlCardJockey `xml:"Jockey"` // Details of the jockey of the horse
 		JockeyColours struct {
 			Filename    string `xml:"filename,attr"`    // The name of the graphics file which represents the colours
 			Description string `xml:"description,attr"` // Textual description of jockey colours
@@ -408,13 +448,13 @@ func (h *CardHorse) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 		Sex struct {
 			Type Sex `xml:"type,attr"` // f = filly, c = colt, m = mare, h = horse, g = gelding, r = ridgling
 		} `xml:"Sex"` // The sex of the horse
-		Breeding []Breeding `xml:"Breeding"` // The lineage of the horse
+		Breeding []xmlBreeding `xml:"Breeding"` // The lineage of the horse
 		//Lineage         *struct{}  `xml:"Lineage"`         // Lineage comment for horse
 		//FoalDate        *struct{}  `xml:"FoalDate"`        // Date horse was foaled
 		//Comment         *struct{}  `xml:"Comment"`         // Textual comment for the horse
 		//ForecastPrice   *struct{}  `xml:"ForecastPrice"`   // The betting forecast price for the horse
 		//StartingPrice   *struct{}  `xml:"StartingPrice"`   // Starting price of horse (used in LastWinner context)
-		//Rating          []struct{} `xml:"Rating"`          // Ratings associated with this horse
+		Ratings []xmlRating `xml:"Rating"` // Ratings associated with this horse
 		//Reserve         *struct{}  `xml:"Reserve"`         // Reserve details IF this horse is a reserve
 		//Ballot          *struct{}  `xml:"Ballot"`          // Ballot order details
 		//LongHandicap    *struct{}  `xml:"LongHandicap"`    // The long handicap details for this horse (if applicable)
@@ -434,7 +474,15 @@ func (h *CardHorse) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	for _, c := range data.Colours {
 		colours = append(colours, c.Type)
 	}
-	*h = CardHorse{
+	var breeding []Breeding
+	for _, b := range data.Breeding {
+		breeding = append(breeding, Breeding(b))
+	}
+	var ratings []Rating
+	for _, r := range data.Ratings {
+		ratings = append(ratings, Rating(r))
+	}
+	*h = xmlCardHorse{
 		ID:                data.ID,
 		Name:              data.Name,
 		Bred:              data.Bred,
@@ -444,53 +492,22 @@ func (h *CardHorse) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 		AgeInYears:        data.Age.Years,
 		Weight:            UnitsValueText(data.Weight),
 		WeightPenalty:     UnitsValue(data.WeightPenalty),
-		Trainer:           data.Trainer,
+		Trainer:           CardTrainer(data.Trainer),
 		OwnerName:         data.Owner.Name,
 		BreederName:       data.Breeder.Name,
-		Jockey:            data.Jockey,
+		Jockey:            CardJockey(data.Jockey),
 		JockeyColours:     data.JockeyColours.Description,
 		JockeyColoursFile: data.JockeyColours.Filename,
 		Colours:           colours,
 		Sex:               data.Sex.Type,
-		Breeding:          data.Breeding,
+		Breeding:          breeding,
+		Ratings:           ratings,
 	}
 	return nil
 }
 
 // UnmarshalXML implements xml.Unmarshaler interface.
-func (r *Rating) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
-	data := struct {
-		Type  string `xml:"type,attr"`  // Type of rating e.g. Official.
-		Value int    `xml:"value,attr"` // Rating value e.g. 57.
-	}{}
-	*r = Rating(data)
-	return nil
-}
-
-// UnmarshalXML implements xml.Unmarshaler interface.
-func (t *CardTrainer) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
-	data := struct {
-		ID          int    `xml:"id,attr"`          // Identifier for trainer
-		Name        string `xml:"name,attr"`        // The name of the trainer
-		Nationality string `xml:"nationality,attr"` // The nationality of the trainer eg IRE
-		Location    string `xml:"location,attr"`    // Where the trainer is based
-		//PersonForm UNUSED `xml:"PersonForm"` // Indicates how well the trainer is currently doing
-	}{}
-
-	if err := d.DecodeElement(&data, &start); err != nil {
-		return err
-	}
-	*t = CardTrainer{
-		ID:          data.ID,
-		Name:        data.Name,
-		Nationality: data.Nationality,
-		Location:    data.Location,
-	}
-	return nil
-}
-
-// UnmarshalXML implements xml.Unmarshaler interface.
-func (j *CardJockey) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+func (j *xmlCardJockey) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	data := struct {
 		ID        int           `xml:"id,attr"`   // Identifier for jockey
 		Name      string        `xml:"name,attr"` // The name of the jockey
@@ -500,31 +517,11 @@ func (j *CardJockey) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error 
 	if err := d.DecodeElement(&data, &start); err != nil {
 		return err
 	}
-	*j = CardJockey{
+	*j = xmlCardJockey{
 		ID:        data.ID,
 		Name:      data.Name,
 		Allowance: UnitsValue(data.Allowance),
 		//PersonForm UNUSED
-	}
-	return nil
-}
-
-// UnmarshalXML implements xml.Unmarshaler interface.
-func (b *Breeding) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
-	data := struct {
-		Type     HorseRelation `xml:"type,attr"`     // Sire (father), Dam (mother), DamSire (maternal grandfather)
-		Name     string        `xml:"name,attr"`     // The name of the horse
-		Bred     string        `xml:"bred,attr"`     // The country of breeding of the horse
-		YearBorn int           `xml:"yearBorn,attr"` // When the horse was born (if known)
-	}{}
-	if err := d.DecodeElement(&data, &start); err != nil {
-		return err
-	}
-	*b = Breeding{
-		Relation: data.Type,
-		Name:     data.Name,
-		Bred:     data.Bred,
-		YearBord: data.YearBorn,
 	}
 	return nil
 }

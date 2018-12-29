@@ -76,7 +76,7 @@ type Meeting struct {
 	Country    string        // The country in which the meeting is being held
 	Course     string        // The course at which the meeting is being held
 	Date       time.Time     // The date on which the meeting is being held (format ISO 8601:1988 yyyymmdd).
-	Status     MeetingStatus // See HorseMeetingStatus for more details
+	Status     MeetingStatus // See MeetingStatus for more details
 	Abandoned  string        // Present if the meeting has been abandoned
 	Delayed    string        // Reason for delay to meeting (if applicable)
 	Weather    string        // The current weather at the meeting
@@ -87,6 +87,8 @@ type Meeting struct {
 	//Messages   UNUSED           // Any other information about the meeting
 	//MultiBet TODO               // Meeting based bet details (e.g. Jackpot)
 }
+
+type xmlMeeting Meeting
 
 // Race holds details of a single race.
 type Race struct {
@@ -116,11 +118,15 @@ type Race struct {
 	//SellingDetails  TODO // Details of horses sold or claimed after the result
 }
 
+type xmlRace Race
+
 // Returns contains dividends returned for the race
 type Returns struct {
 	Tote []Tote // Tote dividends for the race
 	Bet  []Bet  // Forecast, Tricast etc.
 }
+
+type xmlReturns Returns
 
 // Tote describes the dividends for tote bets
 type Tote struct {
@@ -224,6 +230,8 @@ type Horse struct {
 	//BigBets     TODO // Big bet details
 }
 
+type xmlHorse Horse
+
 // StartingPrice is starting price data for a single horse in a race.
 type StartingPrice struct {
 	Price             big.Rat // The starting price of the horse
@@ -287,9 +295,8 @@ type xmlMoneyValue struct {
 	Amount   decimal.Number `xml:"amount,attr"`   // Amount of money in a given currency
 }
 
-// UnitsValue is a helper struct for storing integer values iin weight or
-// length units. This type have a custom XML unmarshaler from elements having
-// units and value attributes.
+// UnitsValue is a helper struct for storing integer values in weight or
+// length units.
 type UnitsValue struct {
 	Units string // The units in which the value is specified
 	Value int    // The value in the specified units
@@ -314,7 +321,7 @@ type xmlUnitsValueText struct {
 	Text  string `xml:"text,attr"`  // Textual representation of the value
 }
 
-// List of allowed HorseMeetingStatus values.
+// List of allowed MeetingStatus values.
 const (
 	MeetingDormant    MeetingStatus = "Dormant"    // the meeting has not yet started
 	MeetingInspection MeetingStatus = "Inspection" // an inspection is taking place
@@ -438,20 +445,24 @@ const (
 func (r *Racing) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	var data struct {
 		Timestamp xmlTimeElement `xml:"timestamp,attr"`
-		Meetings  []Meeting      `xml:"Meeting"`
+		Meetings  []xmlMeeting   `xml:"Meeting"`
 	}
 	if err := d.DecodeElement(&data, &start); err != nil {
 		return err
 	}
+	var meetings []Meeting
+	for _, m := range data.Meetings {
+		meetings = append(meetings, Meeting(m))
+	}
 	*r = Racing{
 		Timestamp: time.Time(data.Timestamp),
-		Meetings:  data.Meetings,
+		Meetings:  meetings,
 	}
 	return nil
 }
 
 // UnmarshalXML implements xml.Unmarshaler interface.
-func (m *Meeting) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+func (m *xmlMeeting) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	// initial values for fields having non empty defaults
 	data := struct {
 		ID        int           `xml:"id,attr"`       // The internal identifier for the meeting
@@ -467,7 +478,7 @@ func (m *Meeting) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 			Brief string `xml:"brief,attr"` // Brief description of going e.g. "Good"
 			Full  string `xml:",chardata"`  // Element contains full description of going. e.g Good (Good to Soft in places)
 		} `xml:"Going"` // The current going for the meeting
-		Races []Race `xml:"Race"` // The race(s)
+		Races []xmlRace `xml:"Race"` // The race(s)
 		//Inspection UNUSED `xml:"Inspection"`    // Inspection details (if there is one)
 		//Message    UNUSED `xml:"Message"` // Any other information about the meeting
 		MultiBet []struct {
@@ -492,7 +503,14 @@ func (m *Meeting) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	if err := d.DecodeElement(&data, &start); err != nil {
 		return err
 	}
-	*m = Meeting{
+	if !data.Status.isValid() {
+		return fmt.Errorf("invalid Meeting status attibute value: %s", data.Status)
+	}
+	var races []Race
+	for _, r := range data.Races {
+		races = append(races, Race(r))
+	}
+	*m = xmlMeeting{
 		ID:         data.ID,
 		Revision:   data.Revision,
 		Country:    data.Country,
@@ -504,7 +522,7 @@ func (m *Meeting) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 		Weather:    data.Weather,
 		GoingBrief: data.Going.Brief,
 		GoingFull:  data.Going.Full,
-		Races:      data.Races,
+		Races:      races,
 		//Inspection UNUSED
 		//Messages   UNUSED
 		//MultiBet   TODO         // Meeting based bet details (e.g. Jackpot)
@@ -513,7 +531,7 @@ func (m *Meeting) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 }
 
 // UnmarshalXML implements xml.Unmarshaler interface.
-func (r *Race) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+func (r *xmlRace) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	data := struct {
 		ID       int            `xml:"id,attr"`       // The internal identifier for the race
 		Revision int            `xml:"revision,attr"` // The revision number of the race
@@ -550,7 +568,7 @@ func (r *Race) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 			} `xml:"PenaltyValue"` // Holds revised penalty value (where appropriate)
 		} `xml:"LackFinishers"` // Used if not enough finishers to fill result
 		//Message UNUSED // Any other information about the race
-		Horses          []Horse `xml:"Horse"` // The horses running in the race
+		Horses          []xmlHorse `xml:"Horse"` // The horses running in the race
 		WinningDistance []struct {
 			// The index of the finish position:
 			// 1 = between 1st and 2nd
@@ -558,7 +576,7 @@ func (r *Race) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 			Index       int    `xml:"index,attr"`
 			BtnDistance string `xml:"btnDistance,attr"` // Distance between the two specified finishers
 		} `xml:"WinningDistance"` // The distances between the runners on completing the course
-		Returns        *Returns `xml:"Returns"` // The returns generated by the result of the race
+		Returns        *xmlReturns `xml:"Returns"` // The returns generated by the result of the race
 		SellingDetails []struct {
 			Type       SellingDetailsType `xml:"type,attr"` // The type of transaction
 			HorseRef   []xmlHorseRef      `xml:"HorseRef"`  // The horse being sold or claimed
@@ -587,7 +605,11 @@ func (r *Race) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	for _, m := range data.BetMarkets {
 		betMarkets = append(betMarkets, BetMarket(m))
 	}
-	*r = Race{
+	var horses []Horse
+	for _, h := range data.Horses {
+		horses = append(horses, Horse(h))
+	}
+	*r = xmlRace{
 		ID:        data.ID,
 		Revision:  data.Revision,
 		StartTime: startTime,
@@ -608,9 +630,9 @@ func (r *Race) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 		BetMarkets:        betMarkets,
 		//LackFinishers   UNUSED // Used if not enough finishers to fill result
 		//Message         UNUSED // Any other information about the race
-		Horses: data.Horses,
+		Horses: horses,
 		//WinningDistance TODO // The distances between the runners on completing the course
-		Returns: data.Returns,
+		Returns: (*Returns)(data.Returns),
 		//SellingDetails  TODO // Details of horses sold or claimed after the result
 	}
 	return nil
@@ -640,7 +662,7 @@ func (m *xmlBetMarket) UnmarshalXML(d *xml.Decoder, start xml.StartElement) erro
 }
 
 // UnmarshalXML implements xml.Unmarshaler interface.
-func (h *Horse) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+func (h *xmlHorse) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	data := struct {
 		ID     int         `xml:"id,attr"`     // The internal identifier for the horse
 		Name   string      `xml:"name,attr"`   // The name of the horse
@@ -699,7 +721,7 @@ func (h *Horse) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	for _, s := range data.Shows {
 		shows = append(shows, Show(s))
 	}
-	*h = Horse{
+	*h = xmlHorse{
 		ID:          data.ID,
 		Name:        data.Name,
 		Bred:        data.Bred,
@@ -724,7 +746,7 @@ func (h *Horse) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 }
 
 // UnmarshalXML implements xml.Unmarshaler interface.
-func (r *Returns) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+func (r *xmlReturns) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	data := struct {
 		Tote []xmlTote `xml:"Tote"` // Tote dividends for the race
 		Bet  []xmlBet  `xml:"Bet"`  // Forecast, Tricast etc.
@@ -740,7 +762,7 @@ func (r *Returns) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	for _, b := range data.Bet {
 		bets = append(bets, Bet(b))
 	}
-	*r = Returns{
+	*r = xmlReturns{
 		Tote: totes,
 		Bet:  bets,
 	}
@@ -881,19 +903,17 @@ func (r *xmlResult) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	return nil
 }
 
-// UnmarshalXMLAttr implements xml.UnmarshalerAttr intrface.
-func (s *MeetingStatus) UnmarshalXMLAttr(attr xml.Attr) error {
-	switch v := MeetingStatus(attr.Value); v {
+func (s MeetingStatus) isValid() bool {
+	switch s {
 	case MeetingDormant,
 		MeetingInspection,
 		MeetingAbandoned,
 		MeetingDelayed,
 		MeetingActive,
 		MeetingFinished:
-		*s = v
-		return nil
+		return true
 	default:
-		return fmt.Errorf("parsing %s attribute as HorseMeetingStatus field, unexpected value: %s", attr.Name, attr.Value)
+		return false
 	}
 }
 
