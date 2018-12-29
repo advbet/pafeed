@@ -61,9 +61,9 @@ type xmlDuration time.Duration
 // it from xml element having numerator and denominator attributes.
 type xmlPrice big.Rat
 
-// Racing is the main object sent via PA horse racing feed. It holds all
+// RacingFile is the main object sent via PA horse racing feed. It holds all
 // the information for a single (or more) horse races.
-type Racing struct {
+type RacingFile struct {
 	Timestamp time.Time
 	Meetings  []Meeting
 }
@@ -130,11 +130,11 @@ type xmlReturns Returns
 
 // Tote describes the dividends for tote bets
 type Tote struct {
-	Type     ToteType   // The type of dividend
-	Currency string     // The currency paid in e.g. GBP
-	Dividend float64    // The amount paid
-	Stake    int        // Unit stake
-	HorseRef []HorseRef // The horse or result combination that the dividend is paid for
+	Type     ToteType       // The type of dividend
+	Currency string         // The currency paid in e.g. GBP
+	Dividend decimal.Number // The amount paid
+	Stake    int            // Unit stake
+	HorseRef []HorseRef     // The horse or result combination that the dividend is paid for
 	//PoolDetails  UNUSED // Pool details for a Trifecta
 	//CarryForward UNUSED // Details if a Trifecta has not been fully won
 }
@@ -143,10 +143,10 @@ type xmlTote Tote
 
 // Bet holds dividends for forecast, tricast ect. bets
 type Bet struct {
-	Type     BetType    // The type of dividend
-	Currency string     // The currency paid in e.g. GBP
-	Dividend float64    // The amount paid
-	HorseRef []HorseRef // The horse or result combination that the dividend is paid for
+	Type     BetType        // The type of dividend
+	Currency string         // The currency paid in e.g. GBP
+	Dividend decimal.Number // The amount paid
+	HorseRef []HorseRef     // The horse or result combination that the dividend is paid for
 }
 
 type xmlBet Bet
@@ -442,7 +442,7 @@ const (
 )
 
 // UnmarshalXML implements xml.Unmarshaler interface.
-func (r *Racing) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+func (r *RacingFile) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	var data struct {
 		Timestamp xmlTimeElement `xml:"timestamp,attr"`
 		Meetings  []xmlMeeting   `xml:"Meeting"`
@@ -454,7 +454,7 @@ func (r *Racing) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	for _, m := range data.Meetings {
 		meetings = append(meetings, Meeting(m))
 	}
-	*r = Racing{
+	*r = RacingFile{
 		Timestamp: time.Time(data.Timestamp),
 		Meetings:  meetings,
 	}
@@ -772,11 +772,11 @@ func (r *xmlReturns) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error 
 // UnmarshalXML implements xml.Unmarshaler interface.
 func (r *xmlTote) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	data := struct {
-		Type     ToteType      `xml:"type,attr"`     // The type of dividend
-		Currency string        `xml:"currency,attr"` // The currency paid in e.g. GBP
-		Dividend float64       `xml:"dividend,attr"` // The amount paid
-		Stake    int           `xml:"stake,attr"`    // Unit stake
-		HorseRef []xmlHorseRef `xml:"HorseRef"`      // The horse or result combination that the dividend is paid for.
+		Type     ToteType       `xml:"type,attr"`     // The type of dividend
+		Currency string         `xml:"currency,attr"` // The currency paid in e.g. GBP
+		Dividend decimal.Number `xml:"dividend,attr"` // The amount paid
+		Stake    int            `xml:"stake,attr"`    // Unit stake
+		HorseRef []xmlHorseRef  `xml:"HorseRef"`      // The horse or result combination that the dividend is paid for.
 		//PoolDetails  UNUSED `xml:"PoolDetails"`  // Pool details for a Trifecta
 		//CarryForward UNUSED `xml:"CarryForward"` // Details if a Trifecta has not been fully won
 	}{}
@@ -800,10 +800,10 @@ func (r *xmlTote) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 // UnmarshalXML implements xml.Unmarshaler interface.
 func (r *xmlBet) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	data := struct {
-		Type     BetType       `xml:"type,attr"`     // The type of dividend
-		Currency string        `xml:"currency,attr"` // The currency paid in e.g. GBP
-		Dividend float64       `xml:"dividend,attr"` // The amount paid
-		HorseRef []xmlHorseRef `xml:"HorseRef"`      // The horse or result combination that the dividend is paid for.
+		Type     BetType        `xml:"type,attr"`     // The type of dividend
+		Currency string         `xml:"currency,attr"` // The currency paid in e.g. GBP
+		Dividend decimal.Number `xml:"dividend,attr"` // The amount paid
+		HorseRef []xmlHorseRef  `xml:"HorseRef"`      // The horse or result combination that the dividend is paid for.
 	}{}
 	if err := d.DecodeElement(&data, &start); err != nil {
 		return err

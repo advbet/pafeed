@@ -44,7 +44,7 @@ func TestBulkParseHorseRacingCard(t *testing.T) {
 			t.Log(fmt.Sprintf("checking: %s", path))
 			blob, err := ioutil.ReadFile(path)
 			require.NoError(t, err, path)
-			cards, err := ParseRacingCard(blob)
+			cards, err := ParseRacingCardFile(blob)
 			require.NoError(t, err, path)
 
 			assert.True(t, len(*cards) == 1, "always exactly one meeting card per file")

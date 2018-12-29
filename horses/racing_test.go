@@ -10,16 +10,33 @@ import (
 	"testing"
 	"time"
 
+	"bitbucket.org/advbet/decimal"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
 
-func mustParseTime(t *testing.T, s string) time.Time {
+func makeDecimal(t *testing.T, s string) decimal.Number {
+	d, err := decimal.FromString(s)
+	if err != nil {
+		t.Fatal(err)
+	}
+	return d
+}
+
+func makeTime(t *testing.T, s string) time.Time {
 	tm, err := time.Parse(time.RFC3339, s)
 	if err != nil {
 		t.Fatal(err)
 	}
 	return tm
+}
+
+func makeRat(t *testing.T, s string) big.Rat {
+	r, ok := new(big.Rat).SetString(s)
+	if !ok {
+		t.Fatal("error converting", s, "to big.Rat")
+	}
+	return *r
 }
 
 func TestBulkParseHorseRacing(t *testing.T) {
@@ -56,7 +73,7 @@ func TestBulkParseHorseRacing(t *testing.T) {
 			t.Log(fmt.Sprintf("checking: %s", path))
 			blob, err := ioutil.ReadFile(path)
 			require.NoError(t, err, path)
-			obj, err := ParseRacing(blob)
+			obj, err := ParseRacingFile(blob)
 			assert.NoError(t, err, path)
 
 			assert.True(t, len(obj.Meetings) == 1, "always exactly one meeting perfile")
@@ -132,19 +149,19 @@ func TestBulkParseHorseRacing(t *testing.T) {
 func TestParseHorseRacing(t *testing.T) {
 	tests := []struct {
 		file string
-		obj  Racing
+		obj  RacingFile
 		err  error
 	}{
 		{
 			file: "testdata/Lingfield/b20180414lin17400007.xml",
-			obj: Racing{
-				Timestamp: mustParseTime(t, "2018-04-14T17:34:37+01:00"),
+			obj: RacingFile{
+				Timestamp: makeTime(t, "2018-04-14T17:34:37+01:00"),
 				Meetings: []Meeting{{
 					ID:       97192,
 					Revision: 4,
 					Country:  "England",
 					Course:   "Lingfield",
-					Date:     mustParseTime(t, "2018-04-14T00:00:00Z"),
+					Date:     makeTime(t, "2018-04-14T00:00:00Z"),
 					Status:   MeetingDormant,
 					//Abandoned
 					//Delayed
@@ -154,7 +171,7 @@ func TestParseHorseRacing(t *testing.T) {
 					Races: []Race{{
 						ID:         798361,
 						Revision:   7,
-						StartTime:  mustParseTime(t, "2018-04-14T17:40:00+01:00"),
+						StartTime:  makeTime(t, "2018-04-14T17:40:00+01:00"),
 						Runners:    10,
 						Handicap:   true,
 						Showcase:   false,
@@ -171,7 +188,7 @@ func TestParseHorseRacing(t *testing.T) {
 						BetMarkets: []BetMarket{
 							{
 								MarketNumber:  1,
-								Formed:        mustParseTime(t, "2018-04-14T17:33:20+01:00"),
+								Formed:        makeTime(t, "2018-04-14T17:33:20+01:00"),
 								DeductionType: DeductionNone,
 							},
 						},
@@ -203,14 +220,14 @@ func TestParseHorseRacing(t *testing.T) {
 								},
 								Shows: []Show{
 									{
-										Timestamp:    mustParseTime(t, "2018-04-14T17:33:20+01:00"),
+										Timestamp:    makeTime(t, "2018-04-14T17:33:20+01:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(14, 1),
+										Price:        makeRat(t, "14/1"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-04-14T17:34:35+01:00"),
+										Timestamp:    makeTime(t, "2018-04-14T17:34:35+01:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(12, 1),
+										Price:        makeRat(t, "12/1"),
 									},
 								},
 								//StartingPrice
@@ -240,9 +257,9 @@ func TestParseHorseRacing(t *testing.T) {
 								},
 								Shows: []Show{
 									{
-										Timestamp:    mustParseTime(t, "2018-04-14T17:33:20+01:00"),
+										Timestamp:    makeTime(t, "2018-04-14T17:33:20+01:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(7, 2),
+										Price:        makeRat(t, "7/2"),
 									},
 								},
 								//StartingPrice
@@ -268,9 +285,9 @@ func TestParseHorseRacing(t *testing.T) {
 								},
 								Shows: []Show{
 									{
-										Timestamp:    mustParseTime(t, "2018-04-14T17:33:20+01:00"),
+										Timestamp:    makeTime(t, "2018-04-14T17:33:20+01:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(25, 1),
+										Price:        makeRat(t, "25/1"),
 									},
 								},
 								//StartingPrice
@@ -296,14 +313,14 @@ func TestParseHorseRacing(t *testing.T) {
 								},
 								Shows: []Show{
 									{
-										Timestamp:    mustParseTime(t, "2018-04-14T17:33:20+01:00"),
+										Timestamp:    makeTime(t, "2018-04-14T17:33:20+01:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(4, 1),
+										Price:        makeRat(t, "4/1"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-04-14T17:34:35+01:00"),
+										Timestamp:    makeTime(t, "2018-04-14T17:34:35+01:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(9, 2),
+										Price:        makeRat(t, "9/2"),
 									},
 								},
 								//StartingPrice
@@ -333,9 +350,9 @@ func TestParseHorseRacing(t *testing.T) {
 								},
 								Shows: []Show{
 									{
-										Timestamp:    mustParseTime(t, "2018-04-14T17:33:20+01:00"),
+										Timestamp:    makeTime(t, "2018-04-14T17:33:20+01:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(10, 1),
+										Price:        makeRat(t, "10/1"),
 									},
 								},
 								//StartingPrice
@@ -365,9 +382,9 @@ func TestParseHorseRacing(t *testing.T) {
 								},
 								Shows: []Show{
 									{
-										Timestamp:    mustParseTime(t, "2018-04-14T17:33:20+01:00"),
+										Timestamp:    makeTime(t, "2018-04-14T17:33:20+01:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(3, 1),
+										Price:        makeRat(t, "3/1"),
 									},
 								},
 								//StartingPrice
@@ -393,9 +410,9 @@ func TestParseHorseRacing(t *testing.T) {
 								},
 								Shows: []Show{
 									{
-										Timestamp:    mustParseTime(t, "2018-04-14T17:33:20+01:00"),
+										Timestamp:    makeTime(t, "2018-04-14T17:33:20+01:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(7, 1),
+										Price:        makeRat(t, "7/1"),
 									},
 								},
 								//StartingPrice
@@ -421,9 +438,9 @@ func TestParseHorseRacing(t *testing.T) {
 								},
 								Shows: []Show{
 									{
-										Timestamp:    mustParseTime(t, "2018-04-14T17:33:20+01:00"),
+										Timestamp:    makeTime(t, "2018-04-14T17:33:20+01:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(16, 1),
+										Price:        makeRat(t, "16/1"),
 									},
 								},
 								//StartingPrice
@@ -449,14 +466,14 @@ func TestParseHorseRacing(t *testing.T) {
 								},
 								Shows: []Show{
 									{
-										Timestamp:    mustParseTime(t, "2018-04-14T17:33:20+01:00"),
+										Timestamp:    makeTime(t, "2018-04-14T17:33:20+01:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(22, 1),
+										Price:        makeRat(t, "22/1"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-04-14T17:34:35+01:00"),
+										Timestamp:    makeTime(t, "2018-04-14T17:34:35+01:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(25, 1),
+										Price:        makeRat(t, "25/1"),
 									},
 								},
 								//StartingPrice
@@ -482,9 +499,9 @@ func TestParseHorseRacing(t *testing.T) {
 								},
 								Shows: []Show{
 									{
-										Timestamp:    mustParseTime(t, "2018-04-14T17:33:20+01:00"),
+										Timestamp:    makeTime(t, "2018-04-14T17:33:20+01:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(11, 1),
+										Price:        makeRat(t, "11/1"),
 									},
 								},
 								//StartingPrice
@@ -501,14 +518,14 @@ func TestParseHorseRacing(t *testing.T) {
 		},
 		{
 			file: "testdata/feed/b20181128wth12150045.xml",
-			obj: Racing{
-				Timestamp: mustParseTime(t, "2018-11-28T12:50:14+00:00"),
+			obj: RacingFile{
+				Timestamp: makeTime(t, "2018-11-28T12:50:14+00:00"),
 				Meetings: []Meeting{{
 					ID:       104930,
 					Revision: 3,
 					Country:  "England",
 					Course:   "Wetherby",
-					Date:     mustParseTime(t, "2018-11-28T00:00:00Z"),
+					Date:     makeTime(t, "2018-11-28T00:00:00Z"),
 					Status:   MeetingDormant,
 					//Abandoned
 					//Delayed
@@ -518,7 +535,7 @@ func TestParseHorseRacing(t *testing.T) {
 					Races: []Race{{
 						ID:         854412,
 						Revision:   45,
-						StartTime:  mustParseTime(t, "2018-11-28T12:15:00+00:00"),
+						StartTime:  makeTime(t, "2018-11-28T12:15:00+00:00"),
 						Runners:    10,
 						Handicap:   false,
 						Showcase:   false,
@@ -528,14 +545,14 @@ func TestParseHorseRacing(t *testing.T) {
 						Weather:    "Overcast & Showers",
 						GoingBrief: "Good to Soft",
 						GoingFull:  "Good to Soft",
-						OffTime:    mustParseTime(t, "2018-11-28T12:15:49+00:00"),
+						OffTime:    makeTime(t, "2018-11-28T12:15:49+00:00"),
 						WinTime:    4*time.Minute + 3*time.Second + 100*time.Millisecond,
 						//StewardsInquiry
 						//StewardsObjection
 						BetMarkets: []BetMarket{
 							{
 								MarketNumber:  1,
-								Formed:        mustParseTime(t, "2018-11-28T12:06:15+00:00"),
+								Formed:        makeTime(t, "2018-11-28T12:06:15+00:00"),
 								DeductionType: DeductionNone,
 							},
 						},
@@ -563,33 +580,33 @@ func TestParseHorseRacing(t *testing.T) {
 								},
 								Shows: []Show{
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:06:15+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:06:15+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(5, 4),
+										Price:        makeRat(t, "5/4"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:11:40+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:11:40+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(11, 8),
+										Price:        makeRat(t, "11/8"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:13:08+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:13:08+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(6, 4),
+										Price:        makeRat(t, "6/4"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:14:15+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:14:15+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(13, 8),
+										Price:        makeRat(t, "13/8"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:15:14+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:15:14+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(7, 4),
+										Price:        makeRat(t, "7/4"),
 									},
 								},
 								StartingPrice: StartingPrice{
-									Price:             *big.NewRat(13, 8),
+									Price:             makeRat(t, "13/8"),
 									FavouritePosition: 1,
 									FavouriteJoint:    1,
 								},
@@ -618,28 +635,28 @@ func TestParseHorseRacing(t *testing.T) {
 								},
 								Shows: []Show{
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:06:15+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:06:15+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(11, 2),
+										Price:        makeRat(t, "11/2"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:11:57+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:11:57+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(5, 1),
+										Price:        makeRat(t, "5/1"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:14:15+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:14:15+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(9, 2),
+										Price:        makeRat(t, "9/2"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:15:05+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:15:05+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(4, 1),
+										Price:        makeRat(t, "4/1"),
 									},
 								},
 								StartingPrice: StartingPrice{
-									Price:             *big.NewRat(4, 1),
+									Price:             makeRat(t, "4/1"),
 									FavouritePosition: 3,
 									FavouriteJoint:    1,
 								},
@@ -674,28 +691,28 @@ func TestParseHorseRacing(t *testing.T) {
 								},
 								Shows: []Show{
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:06:15+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:06:15+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(33, 1),
+										Price:        makeRat(t, "33/1"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:14:03+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:14:03+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(25, 1),
+										Price:        makeRat(t, "25/1"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:14:55+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:14:55+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(20, 1),
+										Price:        makeRat(t, "20/1"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:15:14+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:15:14+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(16, 1),
+										Price:        makeRat(t, "16/1"),
 									},
 								},
 								StartingPrice: StartingPrice{
-									Price:             *big.NewRat(16, 1),
+									Price:             makeRat(t, "16/1"),
 									FavouritePosition: 6,
 									FavouriteJoint:    1,
 								},
@@ -728,13 +745,13 @@ func TestParseHorseRacing(t *testing.T) {
 								},
 								Shows: []Show{
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:06:15+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:06:15+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(200, 1),
+										Price:        makeRat(t, "200/1"),
 									},
 								},
 								StartingPrice: StartingPrice{
-									Price:             *big.NewRat(200, 1),
+									Price:             makeRat(t, "200/1"),
 									FavouritePosition: 10,
 									FavouriteJoint:    1,
 								},
@@ -777,18 +794,18 @@ func TestParseHorseRacing(t *testing.T) {
 								},
 								Shows: []Show{
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:06:15+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:06:15+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(200, 1),
+										Price:        makeRat(t, "200/1"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:10:12+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:10:12+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(150, 1),
+										Price:        makeRat(t, "150/1"),
 									},
 								},
 								StartingPrice: StartingPrice{
-									Price:             *big.NewRat(150, 1),
+									Price:             makeRat(t, "150/1"),
 									FavouritePosition: 9,
 									FavouriteJoint:    1,
 								},
@@ -823,23 +840,23 @@ func TestParseHorseRacing(t *testing.T) {
 								},
 								Shows: []Show{
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:06:15+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:06:15+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(14, 1),
+										Price:        makeRat(t, "14/1"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:11:40+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:11:40+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(16, 1),
+										Price:        makeRat(t, "16/1"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:13:08+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:13:08+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(14, 1),
+										Price:        makeRat(t, "14/1"),
 									},
 								},
 								StartingPrice: StartingPrice{
-									Price:             *big.NewRat(14, 1),
+									Price:             makeRat(t, "14/1"),
 									FavouritePosition: 5,
 									FavouriteJoint:    1,
 								},
@@ -868,34 +885,34 @@ func TestParseHorseRacing(t *testing.T) {
 								},
 								Shows: []Show{
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:06:15+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:06:15+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(33, 1),
+										Price:        makeRat(t, "33/1"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:08:50+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:08:50+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(28, 1),
+										Price:        makeRat(t, "28/1"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:11:40+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:11:40+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(25, 1),
+										Price:        makeRat(t, "25/1"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:13:29+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:13:29+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(20, 1),
+										Price:        makeRat(t, "20/1"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:14:03+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:14:03+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(18, 1),
+										Price:        makeRat(t, "18/1"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:15:18+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:15:18+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(20, 1),
+										Price:        makeRat(t, "20/1"),
 									},
 								},
 								Result: &Result{
@@ -905,7 +922,7 @@ func TestParseHorseRacing(t *testing.T) {
 									//BetweenDistance
 								},
 								StartingPrice: StartingPrice{
-									Price:             *big.NewRat(20, 1),
+									Price:             makeRat(t, "20/1"),
 									FavouritePosition: 7,
 									FavouriteJoint:    1,
 								},
@@ -938,18 +955,18 @@ func TestParseHorseRacing(t *testing.T) {
 								},
 								Shows: []Show{
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:06:15+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:06:15+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(150, 1),
+										Price:        makeRat(t, "150/1"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:07:19+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:07:19+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(100, 1),
+										Price:        makeRat(t, "100/1"),
 									},
 								},
 								StartingPrice: StartingPrice{
-									Price:             *big.NewRat(100, 1),
+									Price:             makeRat(t, "100/1"),
 									FavouritePosition: 8,
 									FavouriteJoint:    1,
 								},
@@ -978,14 +995,14 @@ func TestParseHorseRacing(t *testing.T) {
 								},
 								Shows: []Show{
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:06:15+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:06:15+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(9, 4),
+										Price:        makeRat(t, "9/4"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:12:30+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:12:30+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(2, 1),
+										Price:        makeRat(t, "2/1"),
 									},
 								},
 								Result: &Result{
@@ -995,7 +1012,7 @@ func TestParseHorseRacing(t *testing.T) {
 									BetweenDistance: "1 1/4 length",
 								},
 								StartingPrice: StartingPrice{
-									Price:             *big.NewRat(2, 1),
+									Price:             makeRat(t, "2/1"),
 									FavouritePosition: 2,
 									FavouriteJoint:    1,
 								},
@@ -1024,33 +1041,33 @@ func TestParseHorseRacing(t *testing.T) {
 								},
 								Shows: []Show{
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:06:15+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:06:15+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(12, 1),
+										Price:        makeRat(t, "12/1"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:08:50+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:08:50+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(11, 1),
+										Price:        makeRat(t, "11/1"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:10:12+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:10:12+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(12, 1),
+										Price:        makeRat(t, "12/1"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:10:56+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:10:56+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(11, 1),
+										Price:        makeRat(t, "11/1"),
 									},
 									{
-										Timestamp:    mustParseTime(t, "2018-11-28T12:11:40+00:00"),
+										Timestamp:    makeTime(t, "2018-11-28T12:11:40+00:00"),
 										MarketNumber: 1,
-										Price:        *big.NewRat(12, 1),
+										Price:        makeRat(t, "12/1"),
 									},
 								},
 								StartingPrice: StartingPrice{
-									Price:             *big.NewRat(12, 1),
+									Price:             makeRat(t, "12/1"),
 									FavouritePosition: 4,
 									FavouriteJoint:    1,
 								},
@@ -1071,7 +1088,7 @@ func TestParseHorseRacing(t *testing.T) {
 								{
 									Type:     ToteWin,
 									Currency: "GBP",
-									Dividend: 19.20,
+									Dividend: makeDecimal(t, "19.20"),
 									Stake:    1,
 									HorseRef: []HorseRef{
 										{
@@ -1084,7 +1101,7 @@ func TestParseHorseRacing(t *testing.T) {
 								{
 									Type:     TotePlace,
 									Currency: "GBP",
-									Dividend: 3.70,
+									Dividend: makeDecimal(t, "3.70"),
 									Stake:    1,
 									HorseRef: []HorseRef{
 										{
@@ -1097,7 +1114,7 @@ func TestParseHorseRacing(t *testing.T) {
 								{
 									Type:     TotePlace,
 									Currency: "GBP",
-									Dividend: 1.60,
+									Dividend: makeDecimal(t, "1.60"),
 									Stake:    1,
 									HorseRef: []HorseRef{
 										{
@@ -1110,7 +1127,7 @@ func TestParseHorseRacing(t *testing.T) {
 								{
 									Type:     TotePlace,
 									Currency: "GBP",
-									Dividend: 1.20,
+									Dividend: makeDecimal(t, "1.20"),
 									Stake:    1,
 									HorseRef: []HorseRef{
 										{
@@ -1123,7 +1140,7 @@ func TestParseHorseRacing(t *testing.T) {
 								{
 									Type:     ToteExacta,
 									Currency: "GBP",
-									Dividend: 137.70,
+									Dividend: makeDecimal(t, "137.70"),
 									Stake:    1,
 									HorseRef: []HorseRef{
 										{
@@ -1141,7 +1158,7 @@ func TestParseHorseRacing(t *testing.T) {
 								{
 									Type:     ToteTrifecta,
 									Currency: "GBP",
-									Dividend: 336.50,
+									Dividend: makeDecimal(t, "336.50"),
 									Stake:    1,
 									HorseRef: []HorseRef{
 										{
@@ -1164,7 +1181,7 @@ func TestParseHorseRacing(t *testing.T) {
 								{
 									Type:     ToteSwinger,
 									Currency: "GBP",
-									Dividend: 4.10,
+									Dividend: makeDecimal(t, "4.10"),
 									Stake:    1,
 									HorseRef: []HorseRef{
 										{
@@ -1182,7 +1199,7 @@ func TestParseHorseRacing(t *testing.T) {
 								{
 									Type:     ToteSwinger,
 									Currency: "GBP",
-									Dividend: 2.00,
+									Dividend: makeDecimal(t, "2.00"),
 									Stake:    1,
 									HorseRef: []HorseRef{
 										{
@@ -1200,7 +1217,7 @@ func TestParseHorseRacing(t *testing.T) {
 								{
 									Type:     ToteSwinger,
 									Currency: "GBP",
-									Dividend: 4.20,
+									Dividend: makeDecimal(t, "4.20"),
 									Stake:    1,
 									HorseRef: []HorseRef{
 										{
@@ -1220,7 +1237,7 @@ func TestParseHorseRacing(t *testing.T) {
 								{
 									Type:     BetTypeCSF,
 									Currency: "GBP",
-									Dividend: 101.18,
+									Dividend: makeDecimal(t, "101.18"),
 									HorseRef: []HorseRef{
 										{
 											ID:   2338916,
@@ -1248,7 +1265,7 @@ func TestParseHorseRacing(t *testing.T) {
 	for _, test := range tests {
 		blob, err := ioutil.ReadFile(test.file)
 		require.NoError(t, err)
-		var obj Racing
+		var obj RacingFile
 		err = xml.Unmarshal(blob, &obj)
 		assert.Equal(t, test.err, err, test.file)
 		assert.Equal(t, test.obj, obj, test.file)

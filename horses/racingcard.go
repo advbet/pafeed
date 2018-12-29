@@ -8,9 +8,9 @@ import (
 	"bitbucket.org/advbet/decimal"
 )
 
-// RacingCard is main data structure in the PA horse racing feed, that
+// RacingCardFile is main data structure in the PA horse racing feed, that
 // describe upcoming horse racing meetings.
-type RacingCard []CardMeeting
+type RacingCardFile []CardMeeting
 
 // CardMeetingStatus is an enum for meeting status in horse racing cards.
 type CardMeetingStatus string
@@ -18,34 +18,33 @@ type CardMeetingStatus string
 // CardMeeting describes a single horse racing meeting. It is similar to
 // Meeting, main difference is meeting cards get sent before Meeting.
 type CardMeeting struct {
-	ID      int               // Meeting internal database ID
-	Country string            // The country where the meeting is being held
-	Course  string            // The course where the meeting is being held
-	Date    time.Time         // Date when the meeting starts (format ISO 8601:1988 yyyymmdd)
-	Status  CardMeetingStatus // Meeting status, one of Dormant, Inspection, Abandoned
-	//DeclarationStage UNUSED // Declaration stage of races at the meeting (summarised), one of Early, Final, Mixed
-	WeatherForecast string    // Forecasted weather for meeting
-	Inspection      time.Time // Present if the meeting is subject to an inspection
-	AbandonedReason string    // Gives the reason for a meeting being abandoned
-	DrawAdvantage   string    // Generalised comment about advantage gained from stalls position
-	AdvancedGoing   string    // Indication of expected going at the meeting
-	//Messages      UNUSED    // Other textual messages associated with meeting
-	Races []CardRace // Meeting races
+	ID              int               // Meeting internal database ID
+	Country         string            // The country where the meeting is being held
+	Course          string            // The course where the meeting is being held
+	Date            time.Time         // Date when the meeting starts (format ISO 8601:1988 yyyymmdd)
+	Status          CardMeetingStatus // Meeting status, one of Dormant, Inspection, Abandoned
+	WeatherForecast string            // Forecasted weather for meeting
+	Inspection      time.Time         // Present if the meeting is subject to an inspection
+	AbandonedReason string            // Gives the reason for a meeting being abandoned
+	DrawAdvantage   string            // Generalised comment about advantage gained from stalls position
+	AdvancedGoing   string            // Indication of expected going at the meeting
+	Races           []CardRace        // Meeting races
+	//DeclarationStage UNUSED         // Declaration stage of races at the meeting (summarised), one of Early, Final, Mixed
+	//Messages         UNUSED         // Other textual messages associated with meeting
 }
 
 type xmlCardMeeting CardMeeting
 
 // CardRace describes a single race in the horse racing card meeting.
 type CardRace struct {
-	ID        int       // The internal identifier for the race
-	StartTime time.Time // The date of the race (format ISO 8601:1988 yyyymmdd)
-	RaceType  RaceType  //Type of race (Flat, Hurdle, Chase, National Hunt Flat)
-	TrackType TrackType // The type of surface being raced on
-	Handicap  bool      // Whether or not this race is a handicap
-	Trifecta  bool      // Whether or not this race has a trifecta associated with it
-	Showcase  bool      // Whether or not this is a showcase race
-	Class     int       // The class of the race
-	//DeclarationStage UNUSED //Declaration stage of the race. Early - used for early declarations (fourday etc). Final - used for final declarations (overnight etc)
+	ID            int                    // The internal identifier for the race
+	StartTime     time.Time              // The date of the race (format ISO 8601:1988 yyyymmdd)
+	RaceType      RaceType               // Type of race (Flat, Hurdle, Chase, National Hunt Flat)
+	TrackType     TrackType              // The type of surface being raced on
+	Handicap      bool                   // Whether or not this race is a handicap
+	Trifecta      bool                   // Whether or not this race has a trifecta associated with it
+	Showcase      bool                   // Whether or not this is a showcase race
+	Class         int                    // The class of the race
 	MaxRunners    int                    // Maximum field size
 	NumFences     int                    // Number of fences to be jumped
 	Title         string                 // The title of the race
@@ -53,21 +52,23 @@ type CardRace struct {
 	PenaltyValue  *MoneyValue            // The prize money awarded to the winner
 	PrizeCurrency string                 // The currency of the prize money
 	Prizes        map[int]decimal.Number // Map from finishing position to prize amount
-	//Fees        UNUSED // Fees associated with the race
-	Eligibility string         // The type of horses eligible for the race. Example: 3yo plus.
-	Distance    UnitsValueText // The distance of the race
-	//WeightsRaised   UNUSED // Amount weights raised (at overnight stage)
-	//LastWinner      *TODO  // The winner of corresponding race last year
-	//Conditions      UNUSED // The conditions for the race (penalty weights etc)
-	//Televised       UNUSED // Television coverage details
-	//RaceFlags       UNUSED // Optional extra info breaking down type of race etc.
-	//PreviewComments UNUSED // Preview text comment(s)
-	//Selections      UNUSED // Selections (tips) for race
-	//DrawBias        UNUSED // The effect of the draw in this race (Flat races only)
-	//Ratings         UNUSED // Race ratings
-	//Messages        UNUSED // Other textual messages associated with race
-	//Totes         []TODO `xml:"Tote"`  // Tote bets applicable to this race
-	Horses []CardHorse // The horse(s)
+	Eligibility   string                 // The type of horses eligible for the race. Example: 3yo plus.
+	Distance      UnitsValueText         // The distance of the race
+	Horses        []CardHorse            // The horse(s)
+	//LastWinner      *TODO   // The winner of corresponding race last year
+	//Totes          []TODO   // Tote bets applicable to this race
+	//DeclarationStage UNUSED //Declaration stage of the race. Early - used for early declarations (fourday etc). Final - used for final declarations (overnight etc)
+	//Fees             UNUSED // Fees associated with the race
+	//WeightsRaised    UNUSED // Amount weights raised (at overnight stage)
+	//Conditions       UNUSED // The conditions for the race (penalty weights etc)
+	//Televised        UNUSED // Television coverage details
+	//RaceFlags        UNUSED // Optional extra info breaking down type of race etc.
+	//PreviewComments  UNUSED // Preview text comment(s)
+	//Selections       UNUSED // Selections (tips) for race
+	//DrawBias         UNUSED // The effect of the draw in this race (Flat races only)
+	//Ratings          UNUSED // Race ratings
+	//Messages         UNUSED // Other textual messages associated with race
+
 }
 
 type xmlCardRace CardRace
@@ -239,7 +240,7 @@ const (
 )
 
 // UnmarshalXML implements xml.Unmarshaler interface.
-func (c *RacingCard) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+func (c *RacingCardFile) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	data := struct {
 		Meetings []xmlCardMeeting `xml:"Meeting"` // The meeting(s)
 	}{}
