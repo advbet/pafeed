@@ -190,7 +190,7 @@ type Horse struct {
 	WithdrawnBetMarket int            // The number of the betting market withdrawn from
 	WithdrawnTime      time.Time      // The time of withdrawal (yyyymmddThhmm+/-hhmm)
 	//PhotoFinish UNUSED      `xml:"PhotoFinish"`   // Indicates horse involved in a photo-finish
-	Result              *Result        `xml:"Result"` // Result details if horse completed the course
+	Result              *Result        // Result details if horse completed the course
 	CasualtyReason      CasualtyReason // Reason horse failed to complete race. A value of "DidNotFinish" is used when the official reason for failing to complete has not yet been announced.
 	CloseUpComment      string         // Description of how horse ran e.g. "held up in touch, ridden before 3 out, weakened"
 	BetMovementsComment string         // Description of odds availability e.g. "op 11/8 tchd 9/4 in places"
@@ -203,6 +203,8 @@ type StartingPrice struct {
 	FavouritePosition int     // Position in market, 1 = favourite, 2 = 2nd favourite etc.
 	FavouriteJoint    int     // Number sharing this position in market (2 = jt, 3 = co etc)
 }
+
+type xmlStartingPrice StartingPrice
 
 // Jockey contains data about the person riding a horse in a race.
 type Jockey struct {
@@ -217,6 +219,11 @@ type Jockey struct {
 type Trainer struct {
 	ID   int    // Identifier for trainer
 	Name string // The name of the trainer
+}
+
+type xmlTrainer struct {
+	ID   int    `xml:"id,attr"`   // Identifier for trainer
+	Name string `xml:"name,attr"` // The name of the trainer
 }
 
 // Show is a bet option (market) for horse to finish in 1st, 2nd, or 3rd place.
@@ -235,27 +242,45 @@ type Result struct {
 	BetweenDistance string // Distance behind preceding finisher
 }
 
+type xmlResult Result
+
 // MoneyValue is a currency code and money value paid with custom XML
 // unmarshaled to read data from elements having currency and amount fields.
 type MoneyValue struct {
-	Currency string
-	Amount   decimal.Number
+	Currency string         // The currency of the money value
+	Amount   decimal.Number // Amount of money in a given currency
+}
+
+type xmlMoneyValue struct {
+	Currency string         `xml:"currency,attr"` // The currency of the money value
+	Amount   decimal.Number `xml:"amount,attr"`   // Amount of money in a given currency
 }
 
 // UnitsValue is a helper struct for storing integer values iin weight or
 // length units. This type have a custom XML unmarshaler from elements having
 // units and value attributes.
 type UnitsValue struct {
-	Units string
-	Value int
+	Units string // The units in which the value is specified
+	Value int    // The value in the specified units
+}
+
+type xmlUnitsValue struct {
+	Units string `xml:"units,attr"` // The units in which the value is specified
+	Value int    `xml:"value,attr"` // The value in the specified units
 }
 
 // UnitsValueText is same type as UnitsValue but with additional text field
 // which contains human readable textual value in untis representation.
 type UnitsValueText struct {
-	Units string
-	Value int
-	Text  string
+	Units string // The units in which the value is specified
+	Value int    // The value in the specified units
+	Text  string // Textual representation of the value
+}
+
+type xmlUnitsValueText struct {
+	Units string `xml:"units,attr"` // The units in which the value is specified
+	Value int    `xml:"value,attr"` // The value in the specified units
+	Text  string `xml:"text,attr"`  // Textual representation of the value
 }
 
 // List of allowed HorseMeetingStatus values.
@@ -608,11 +633,11 @@ func (h *Horse) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 			// to be able to tell them apart. For example 1 and 1a.
 			Coupled string `xml:"coupled,attr"`
 		} `xml:"Cloth"` // The saddlecloth number for the horse
-		Weight        UnitsValueText `xml:"Weight"`        // The weight carried by the horse
-		Jockey        Jockey         `xml:"Jockey"`        // The jockey riding the horse
-		Trainer       Trainer        `xml:"Trainer"`       //  The trainer of the horse
-		Shows         []Show         `xml:"Show"`          // The betting show(s) on the horse
-		StartingPrice StartingPrice  `xml:"StartingPrice"` // The starting price of the horse
+		Weight        xmlUnitsValueText `xml:"Weight"`        // The weight carried by the horse
+		Jockey        Jockey            `xml:"Jockey"`        // The jockey riding the horse
+		Trainer       xmlTrainer        `xml:"Trainer"`       // The trainer of the horse
+		Shows         []Show            `xml:"Show"`          // The betting show(s) on the horse
+		StartingPrice xmlStartingPrice  `xml:"StartingPrice"` // The starting price of the horse
 		Withdrawn     struct {
 			BetMarket     int            `xml:"betMarket,attr"`     // The number of the betting market withdrawn from
 			TimeWithdrawn xmlTimeElement `xml:"timeWithdrawn,attr"` // The time of withdrawal (yyyymmddThhmm+/-hhmm)
@@ -623,7 +648,7 @@ func (h *Horse) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 			//} `xml:"Favourite"` // Indicates withdrawn favourite (where applicable)
 		} `xml:"Withdrawn"` // Details if horse was withdrawn
 		//PhotoFinish   UNUSED      `xml:"PhotoFinish"`   // Indicates horse involved in a photo-finish
-		Result   *Result `xml:"Result"` // Result details if horse completed the course
+		Result   *xmlResult `xml:"Result"` // Result details if horse completed the course
 		Casualty struct {
 			Reason CasualtyReason `xml:"reason,attr"` // Reason horse failed to complete race. A value of "DidNotFinish" is used when the official reason for failing to complete has not yet been announced.
 		} `xml:"Casualty"` // Casualty details if the horse did not complete the course
@@ -658,15 +683,15 @@ func (h *Horse) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 		Status:      data.Status,
 		ClothNumber: data.Cloth.Number,
 		//ClothCoupled UNUSED
-		Weight:             data.Weight,
+		Weight:             UnitsValueText(data.Weight),
 		Jockey:             data.Jockey,
-		Trainer:            data.Trainer,
+		Trainer:            Trainer(data.Trainer),
 		Shows:              data.Shows,
-		StartingPrice:      data.StartingPrice,
+		StartingPrice:      StartingPrice(data.StartingPrice),
 		WithdrawnBetMarket: data.Withdrawn.BetMarket,
 		WithdrawnTime:      time.Time(data.Withdrawn.TimeWithdrawn),
 		//PhotoFinish   UNUSED
-		Result:              data.Result,
+		Result:              (*Result)(data.Result),
 		CasualtyReason:      data.Casualty.Reason,
 		CloseUpComment:      data.CloseUp.Comment,
 		BetMovementsComment: data.BetMovements.Comment,
@@ -797,8 +822,7 @@ func (r *CarryForward) UnmarshalXML(d *xml.Decoder, start xml.StartElement) erro
 	return nil
 }
 
-// UnmarshalXML implements xml.Unmarshaler interface.
-func (sp *StartingPrice) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+func (sp *xmlStartingPrice) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	data := struct {
 		Price     xmlPrice `xml:"Price"` // The starting price of the horse
 		Favourite struct {
@@ -809,7 +833,7 @@ func (sp *StartingPrice) UnmarshalXML(d *xml.Decoder, start xml.StartElement) er
 	if err := d.DecodeElement(&data, &start); err != nil {
 		return err
 	}
-	*sp = StartingPrice{
+	*sp = xmlStartingPrice{
 		Price:             big.Rat(data.Price),
 		FavouritePosition: data.Favourite.Position,
 		FavouriteJoint:    data.Favourite.Joint,
@@ -820,11 +844,11 @@ func (sp *StartingPrice) UnmarshalXML(d *xml.Decoder, start xml.StartElement) er
 // UnmarshalXML implements xml.Unmarshaler interface.
 func (j *Jockey) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	data := struct {
-		ID            int        `xml:"id,attr"`            // Identifier for jockey
-		Name          string     `xml:"name,attr"`          // The name of the jockey
-		RaceDayChange xmlYesNo   `xml:"raceDayChange,attr"` // Flag to indicate whether the jockey has changed on the race day.
-		Allowance     UnitsValue `xml:"Allowance"`          // The allowance of the jockey
-		Overweight    UnitsValue `xml:"Overweight"`         // Overweight information. Present only if the jockey is too heavy
+		ID            int           `xml:"id,attr"`            // Identifier for jockey
+		Name          string        `xml:"name,attr"`          // The name of the jockey
+		RaceDayChange xmlYesNo      `xml:"raceDayChange,attr"` // Flag to indicate whether the jockey has changed on the race day.
+		Allowance     xmlUnitsValue `xml:"Allowance"`          // The allowance of the jockey
+		Overweight    xmlUnitsValue `xml:"Overweight"`         // Overweight information. Present only if the jockey is too heavy
 	}{}
 
 	if err := d.DecodeElement(&data, &start); err != nil {
@@ -834,25 +858,8 @@ func (j *Jockey) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 		ID:            data.ID,
 		Name:          data.Name,
 		RaceDayChange: bool(data.RaceDayChange),
-		Allowance:     data.Allowance,
-		Overweight:    data.Overweight,
-	}
-	return nil
-}
-
-// UnmarshalXML implements xml.Unmarshaler interface.
-func (t *Trainer) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
-	data := struct {
-		ID   int    `xml:"id,attr"`   // Identifier for trainer
-		Name string `xml:"name,attr"` // The name of the trainer
-	}{}
-
-	if err := d.DecodeElement(&data, &start); err != nil {
-		return err
-	}
-	*t = Trainer{
-		ID:   data.ID,
-		Name: data.Name,
+		Allowance:     UnitsValue(data.Allowance),
+		Overweight:    UnitsValue(data.Overweight),
 	}
 	return nil
 }
@@ -878,7 +885,7 @@ func (s *Show) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 }
 
 // UnmarshalXML implements xml.Unmarshaler interface.
-func (r *Result) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
+func (r *xmlResult) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	data := struct {
 		FinishPos       int      `xml:"finishPos,attr"`    // Initial finishing position (first past post)
 		Disqualified    xmlYesNo `xml:"disqualified,attr"` // Indicates if horse was disqualified
@@ -888,7 +895,7 @@ func (r *Result) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	if err := d.DecodeElement(&data, &start); err != nil {
 		return err
 	}
-	*r = Result{
+	*r = xmlResult{
 		FinishPos:       data.FinishPos,
 		Disqualified:    bool(data.Disqualified),
 		AmendedPos:      data.AmendedPos,
@@ -1013,45 +1020,5 @@ func (f *xmlPrice) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	var tmp big.Rat
 	tmp.SetFrac64(int64(data.Numerator), int64(data.Denominator))
 	*f = xmlPrice(tmp)
-	return nil
-}
-
-// UnmarshalXML implements xml.Unmarshaler interface.
-func (t *MoneyValue) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
-	data := struct {
-		Currency string         `xml:"currency,attr"` // The currency of the money value
-		Amount   decimal.Number `xml:"amount,attr"`   // Amount of money in a give currency
-	}{}
-	if err := d.DecodeElement(&data, &start); err != nil {
-		return err
-	}
-	*t = MoneyValue(data)
-	return nil
-}
-
-// UnmarshalXML implements xml.Unmarshaler interface.
-func (v *UnitsValue) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
-	data := struct {
-		Units string `xml:"units,attr"` // The units in which the value is specified
-		Value int    `xml:"value,attr"` // The value in the specified units
-	}{}
-	if err := d.DecodeElement(&data, &start); err != nil {
-		return err
-	}
-	*v = UnitsValue(data)
-	return nil
-}
-
-// UnmarshalXML implements xml.Unmarshaler interface.
-func (v *UnitsValueText) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
-	data := struct {
-		Units string `xml:"units,attr"` // The units in which the value is specified
-		Value int    `xml:"value,attr"` // The value in the specified units
-		Text  string `xml:"text,attr"`  // Textual representation of the value
-	}{}
-	if err := d.DecodeElement(&data, &start); err != nil {
-		return err
-	}
-	*v = UnitsValueText(data)
 	return nil
 }

@@ -287,8 +287,8 @@ func (r *CardRace) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 		Title      struct {
 			Data string `xml:",chardata"`
 		} `xml:"Title"` // The title of the race
-		AddedMoney   *MoneyValue `xml:"AddedMoney"`   // The money added to the prize fund for the race
-		PenaltyValue *MoneyValue `xml:"PenaltyValue"` // The prize money awarded to the winner
+		AddedMoney   *xmlMoneyValue `xml:"AddedMoney"`   // The money added to the prize fund for the race
+		PenaltyValue *xmlMoneyValue `xml:"PenaltyValue"` // The prize money awarded to the winner
 		PrizeMoney   struct {
 			Currency string `xml:"currency,attr"` // The currency of the prize money
 			Prize    []struct {
@@ -300,7 +300,7 @@ func (r *CardRace) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 		Eligibility struct {
 			Type string `xml:"type,attr"` // The type of horses eligible for the race. Example: 3yo plus.
 		} `xml:"Eligibility"` // The horses eligible in the race
-		Distance UnitsValueText `xml:"Distance"` // The distance of the race
+		Distance xmlUnitsValueText `xml:"Distance"` // The distance of the race
 		//WeightsRaised UNUSED `xml:"WeightsRaised"`  // Amount weights raised (at overnight stage)
 		LastWinner *struct {
 			Year         int    `xml:"year,attr"`   // The year of the corresponding race
@@ -343,13 +343,13 @@ func (r *CardRace) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 		MaxRunners:    data.MaxRunners,
 		NumFences:     data.NumFences,
 		Title:         data.Title.Data,
-		AddedMoney:    data.AddedMoney,
-		PenaltyValue:  data.PenaltyValue,
+		AddedMoney:    (*MoneyValue)(data.AddedMoney),
+		PenaltyValue:  (*MoneyValue)(data.PenaltyValue),
 		PrizeCurrency: data.PrizeMoney.Currency,
 		Prizes:        prizes,
 		//Fees        UNUSED
 		Eligibility: data.Eligibility.Type,
-		Distance:    data.Distance,
+		Distance:    UnitsValueText(data.Distance),
 		//WeightsRaised   UNUSED
 		//LastWinner      *TODO
 		//Conditions      UNUSED
@@ -386,9 +386,9 @@ func (h *CardHorse) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 		Age struct {
 			Years int `xml:"years,attr"` // The age of the horse in years.
 		} `xml:"Age"` // The age of the horse (in years)
-		Weight        UnitsValueText `xml:"Weight"`        // The weight carried by the horse
-		WeightPenalty UnitsValue     `xml:"WeightPenalty"` // Extra weight incurred through recent win
-		Trainer       CardTrainer    `xml:"Trainer"`       // Details of the trainer of the horse
+		Weight        xmlUnitsValueText `xml:"Weight"`        // The weight carried by the horse
+		WeightPenalty xmlUnitsValue     `xml:"WeightPenalty"` // Extra weight incurred through recent win
+		Trainer       CardTrainer       `xml:"Trainer"`       // Details of the trainer of the horse
 		Owner         struct {
 			Name string `xml:"name,attr"` // The name of the owner
 		} `xml:"Owner"` // Details of the owner of the horse
@@ -442,8 +442,8 @@ func (h *CardHorse) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 		ClothNumber:       data.Cloth.Number,
 		DrawnStall:        data.Drawn.Stall,
 		AgeInYears:        data.Age.Years,
-		Weight:            data.Weight,
-		WeightPenalty:     data.WeightPenalty,
+		Weight:            UnitsValueText(data.Weight),
+		WeightPenalty:     UnitsValue(data.WeightPenalty),
 		Trainer:           data.Trainer,
 		OwnerName:         data.Owner.Name,
 		BreederName:       data.Breeder.Name,
@@ -492,9 +492,9 @@ func (t *CardTrainer) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error
 // UnmarshalXML implements xml.Unmarshaler interface.
 func (j *CardJockey) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	data := struct {
-		ID        int        `xml:"id,attr"`   // Identifier for jockey
-		Name      string     `xml:"name,attr"` // The name of the jockey
-		Allowance UnitsValue `xml:"Allowance"` // The allowance of the jockey
+		ID        int           `xml:"id,attr"`   // Identifier for jockey
+		Name      string        `xml:"name,attr"` // The name of the jockey
+		Allowance xmlUnitsValue `xml:"Allowance"` // The allowance of the jockey
 		//PersonForm UNUSED  `xml:"PersonForm"` // Indicates how well the jockey is currently doing
 	}{}
 	if err := d.DecodeElement(&data, &start); err != nil {
@@ -503,7 +503,7 @@ func (j *CardJockey) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error 
 	*j = CardJockey{
 		ID:        data.ID,
 		Name:      data.Name,
-		Allowance: data.Allowance,
+		Allowance: UnitsValue(data.Allowance),
 		//PersonForm UNUSED
 	}
 	return nil
