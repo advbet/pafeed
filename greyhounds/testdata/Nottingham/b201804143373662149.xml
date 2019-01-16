@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+<Meeting meetingId="337366" track="Nottingham" date="20180414" state="Active">
+<Race revision="1" raceNumber="10" time="2149+0100" type="Flat" handicap="Yes" class="HP" distance="500" offTime="214902+0100" state="Final Result" winTime="30.56">
+<Trap trap="1" vacant="No" wide="No" handicap="R9" reserve="No">
+<Dog id="488054" name="Sujendi" />
+<Result position="2" btnDistance="3/4" bendPosition="1111" runComment="EP,Ld-NrLn" runTime="30.62" adjustedTime="31.34" weight="28.9">
+<StartingPrice marketPos="2" marketCnt="2">
+<Price numerator="5" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="2" vacant="No" wide="No" handicap="R9" reserve="No">
+<Dog id="481029" name="Sybarite" />
+<Result position="3" btnDistance="2 3/4" bendPosition="2233" runComment="ClrRun" runTime="30.84" adjustedTime="31.56" weight="33.3">
+<StartingPrice marketPos="6" marketCnt="1">
+<Price numerator="10" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="3" vacant="No" wide="No" handicap="R5" reserve="No">
+<Dog id="499448" name="Slaneyside Capri" />
+<Result position="6" btnDistance="2 3/4" bendPosition="3455" runComment="Crd2" runTime="31.16" adjustedTime="31.56" weight="27.9">
+<StartingPrice marketPos="5" marketCnt="1">
+<Price numerator="4" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="4" vacant="No" wide="No" handicap="R3" reserve="No">
+<Dog id="456282" name="Precious Rebel" />
+<Result position="1" bendPosition="4322" runComment="LdNrLn,Rls" runTime="30.56" adjustedTime="30.80" weight="32.1">
+<StartingPrice marketPos="2" marketCnt="2">
+<Price numerator="5" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="5" vacant="No" wide="No" handicap="R3" reserve="No">
+<Dog id="484241" name="Hilldun Messi" />
+<Result position="5" btnDistance="1/2" bendPosition="5666" runComment="ClrRun" runTime="30.94" adjustedTime="31.18" weight="28.2">
+<StartingPrice marketPos="1" marketCnt="1">
+<Price numerator="2" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="6" vacant="No" wide="No" handicap="Scr" reserve="No">
+<Dog id="482835" name="Counter Balance" />
+<Result position="4" btnDistance="3/4" bendPosition="6544" runComment="Crd3" runTime="30.90" adjustedTime="30.90" weight="31.5">
+<StartingPrice marketPos="4" marketCnt="1">
+<Price numerator="7" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Dividends>
+<Forecast trap1="4" trap2="1" dividend="12.29" />
+<Tricast trap1="4" trap2="1" trap3="2" dividend="60.87" />
+</Dividends>
+</Race>
+</Meeting>
+</DogRacing>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3181" uuid="f61a8b15-2078-42db-9a8b-15207832db2b" track="The Meadows" country="Australia" date="20180414" state="Active">
+    <Race uuid="80a9a516-0935-4207-a9a5-1609354207e3" revision="4" raceNumber="7" time="20180414T1120+0000" type="Flat" handicap="No" class="A" distance="600" state="Dormant">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="22860" uuid="1ba7549b-1ecc-432c-a754-9b1ecc532c20" name="Dyna Zesty"/>
+        <Show timeStamp="20180414T111603+0000" marketNumber="1">
+          <Price numerator="11" denominator="8"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="26470" uuid="9ddf29e9-46d1-4005-9f29-e946d160051f" name="Why That"/>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="22871" uuid="c2eb70c7-f684-402f-ab70-c7f684002f15" name="Out Of Range"/>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="22877" uuid="62fd3aa4-9119-43e3-bd3a-a4911903e344" name="Dyna Carnie"/>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="27491" uuid="bfb86915-bcff-4521-b869-15bcff3521ca" name="Sublime News"/>
+      </Trap>
+      <Trap trap="6" vacant="Yes" wide="No" reserve="No"/>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="19537" uuid="90fc1c49-5ea0-4306-bc1c-495ea083066e" name="Victor Dora"/>
+      </Trap>
+      <Trap trap="8" vacant="Yes" wide="No" reserve="No"/>
+      <NonRunner trap="6">
+        <Dog id="22418" uuid="16535a4a-1d41-443e-935a-4a1d41f43e95" name="Riveting"/>
+      </NonRunner>
+      <NonRunner trap="8">
+        <Dog id="26485" uuid="446d95f3-2901-4509-ad95-f32901c509ad" name="Bronelly Jet"/>
+      </NonRunner>
+    </Race>
+  </Meeting>
+</DogRacing>

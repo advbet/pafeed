@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337361" track="Crayford" date="20180414" state="Active">
+    <Race revision="12" raceNumber="10" time="2202+0100" type="Flat" handicap="No" class="S2" distance="540" state="Parading">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="477602" name="Goodtogohoneygar"/>
+        <Show timeStamp="215630+0100" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+        <Show timeStamp="215900+0100" marketNumber="1">
+          <Price numerator="9" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="500469" name="Freeky Bug"/>
+        <Show timeStamp="215632+0100" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="473421" name="Aegean Delight"/>
+        <Show timeStamp="215636+0100" marketNumber="1">
+          <Price numerator="9" denominator="4"/>
+        </Show>
+        <Show timeStamp="215732+0100" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="485988" name="Droopys Andes"/>
+        <Show timeStamp="215640+0100" marketNumber="1">
+          <Price numerator="9" denominator="4"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="Yes" reserve="No">
+        <Dog id="462593" name="Cashen Serengeti"/>
+        <Show timeStamp="215645+0100" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="492863" name="Droopys Mel"/>
+        <Show timeStamp="215650+0100" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

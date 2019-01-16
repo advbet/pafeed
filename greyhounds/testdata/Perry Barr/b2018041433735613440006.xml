@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337356" track="Perry Barr" date="20180414" state="Active">
+    <Race revision="6" raceNumber="13" time="1344+0100" type="Flat" handicap="No" class="A7" distance="480" state="Dormant">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="459246" name="Bodell Swift"/>
+        <Show timeStamp="133902+0100" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="489306" name="Final Flame"/>
+        <Show timeStamp="133906+0100" marketNumber="1">
+          <Price numerator="9" denominator="4"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="485261" name="Cefn Anna"/>
+        <Show timeStamp="133912+0100" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="465569" name="Rosegarland Liza"/>
+        <Show timeStamp="133917+0100" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="Yes" reserve="No">
+        <Dog id="487340" name="Cefn Megan"/>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="502713" name="Clonleigh Hondo"/>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

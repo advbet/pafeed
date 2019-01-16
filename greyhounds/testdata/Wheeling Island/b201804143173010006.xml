@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3173" uuid="aa2817e2-b152-438e-a817-e2b152d38ed7" track="Wheeling Island" country="USA" date="20180414" state="Active">
+    <Race uuid="b245e2af-38eb-4232-85e2-af38eb923281" revision="6" raceNumber="1" time="20180414T1700+0000" type="Flat" handicap="No" class="D" distance="302" state="Parading">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="17620" uuid="d6aef7e4-eb19-45f5-aef7-e4eb1915f5b8" name="Bgr Slider"/>
+        <Show timeStamp="20180414T170744+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="34079" uuid="ea2b164d-a854-44ef-ab16-4da85454efa9" name="Townsville"/>
+        <Show timeStamp="20180414T170747+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="36515" uuid="7aae7b66-4259-484e-ae7b-664259884e36" name="Ctw Far Far Away"/>
+        <Show timeStamp="20180414T170750+0000" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="15976" uuid="39cf0d6b-29fe-43d4-8f0d-6b29fe23d46d" name="Extinct Charm"/>
+        <Show timeStamp="20180414T170751+0000" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="18063" uuid="bb48858c-17c5-4012-8885-8c17c5c0124f" name="Fly Tonya Girl"/>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="10098" uuid="62271383-09c5-469c-a713-8309c5269ccc" name="Mac's Lola"/>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="15492" uuid="a57a8b77-a763-4063-ba8b-77a7634063a3" name="Mohican Sophia"/>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="18219" uuid="4294a3e9-416f-42cb-94a3-e9416fd2cb2b" name="Bgr Rise Ball"/>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

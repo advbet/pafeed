@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3173" uuid="aa2817e2-b152-438e-a817-e2b152d38ed7" track="Wheeling Island" country="USA" date="20180414" state="Dormant">
+    <Race uuid="05732234-42fd-4486-b322-3442fd04862b" revision="1" raceNumber="3" time="20180414T1730+0000" type="Flat" handicap="No" class="M" distance="501" state="Dormant">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="35848" uuid="bdabf591-e97d-4e88-abf5-91e97dae88b3" name="Braska Adonis"/>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="36516" uuid="5f4846f4-6976-4a7d-8846-f46976ca7d9c" name="Ww Jimmygotmoves"/>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="36517" uuid="695c168a-5212-40b9-9c16-8a521230b922" name="Braska Wymore"/>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="35129" uuid="fe0d1241-14e3-448f-8d12-4114e3c48f70" name="Garthok"/>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="36518" uuid="79aea2ba-b641-44e5-aea2-bab64144e56b" name="Ds Tazo"/>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="30314" uuid="c8916b28-9528-40f4-916b-28952800f4bd" name="Ww Tasty Hour"/>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="36519" uuid="8afb7b9e-1ca4-4b32-bb7b-9e1ca4db3294" name="True Talent"/>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="35694" uuid="e0aa232a-16ee-40d5-aa23-2a16ee00d567" name="Cayenne Jive"/>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

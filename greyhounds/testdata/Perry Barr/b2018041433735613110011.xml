@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337356" track="Perry Barr" date="20180414" state="Active">
+    <Race revision="11" raceNumber="11" time="1311+0100" type="Flat" handicap="No" class="A4" distance="480" state="Parading">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="481412" name="Crown Prince"/>
+        <Show timeStamp="130849+0100" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="473275" name="Killeacle Owly"/>
+        <Show timeStamp="130854+0100" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+        <Show timeStamp="131107+0100" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="Yes">
+        <Dog id="477561" name="Headford Act"/>
+        <Show timeStamp="130900+0100" marketNumber="1">
+          <Price numerator="9" denominator="4"/>
+        </Show>
+        <Show timeStamp="131114+0100" marketNumber="1">
+          <Price numerator="2" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="491417" name="Millridge Tiger"/>
+        <Show timeStamp="130912+0100" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="Yes" reserve="No">
+        <Dog id="503742" name="Bansha Scolari"/>
+        <Show timeStamp="130928+0100" marketNumber="1">
+          <Price numerator="9" denominator="4"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="473348" name="Vatican Venice"/>
+        <Show timeStamp="130931+0100" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+      </Trap>
+      <NonRunner trap="3">
+        <Dog id="478023" name="Michaels Hero"/>
+      </NonRunner>
+    </Race>
+  </Meeting>
+</DogRacing>

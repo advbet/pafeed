@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337361" track="Crayford" date="20180414" state="Dormant">
+    <Race revision="4" raceNumber="1" time="1927+0100" type="Flat" handicap="No" class="A7" distance="380" state="Dormant">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="478812" name="Clonmannon Lady"/>
+        <Show timeStamp="192156+0100" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="497334" name="Kelva Matty"/>
+        <Show timeStamp="192159+0100" marketNumber="1">
+          <Price numerator="2" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="504096" name="Galtee Blue"/>
+        <Show timeStamp="192204+0100" marketNumber="1">
+          <Price numerator="2" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="482241" name="Cromac Terror"/>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="507585" name="Pesky Pigeon"/>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="476879" name="Aoifes Speedy"/>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

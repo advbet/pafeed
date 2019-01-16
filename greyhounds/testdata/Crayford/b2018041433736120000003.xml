@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337361" track="Crayford" date="20180414" state="Active">
+    <Race revision="3" raceNumber="3" time="2000+0100" type="Flat" handicap="No" class="A3" distance="380" state="Dormant">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="502491" name="Fawkham Chaser"/>
+        <Show timeStamp="195337+0100" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="473587" name="Fivestar Ruby"/>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="484744" name="Leamaneigh Greta"/>
+      </Trap>
+      <Trap trap="4" vacant="Yes" wide="No" reserve="No"/>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="504037" name="Bit View Alannah"/>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="487248" name="Meenagh Mourinho"/>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

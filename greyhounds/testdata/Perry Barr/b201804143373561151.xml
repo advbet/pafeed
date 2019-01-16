@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+<Meeting meetingId="337356" track="Perry Barr" date="20180414" state="Active">
+<Race revision="1" raceNumber="6" time="1151+0100" type="Flat" handicap="No" class="A6" distance="480" offTime="115222+0100" state="Final Result" winTime="29.42">
+<Trap trap="1" vacant="No" wide="No" reserve="No">
+<Dog id="489513" name="Blue Rocks" />
+<Result position="6" btnDistance="1/2" sectionalTime="03.81" bendPosition="4545" runComment="FcdCk&amp;Crd1&amp;4,Crd3" runTime="29.95" adjustedTime="29.95" weight="32.5">
+<StartingPrice marketPos="5" marketCnt="2">
+<Price numerator="8" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="2" vacant="No" wide="No" reserve="No">
+<Dog id="471810" name="Highview Opera" />
+<Result position="3" btnDistance="NK" sectionalTime="03.76" bendPosition="1333" runComment="QAwRlsMid,Crd3" runTime="29.55" adjustedTime="29.55" weight="26.8">
+<StartingPrice marketPos="3" marketCnt="2">
+<Price numerator="3" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="3" vacant="No" wide="No" reserve="No">
+<Dog id="501687" name="Midian Puma" />
+<Result position="2" btnDistance="1 1/4" sectionalTime="03.74" bendPosition="2222" runComment="MidRls,SoonHandy" runTime="29.52" adjustedTime="29.52" weight="29.4">
+<StartingPrice marketPos="1" marketCnt="2">
+<Price numerator="5" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="4" vacant="No" wide="No" reserve="No">
+<Dog id="485987" name="Tommys Wolfy" />
+<Result position="4" btnDistance="3 1/4" sectionalTime="03.85" bendPosition="6666" runComment="SAwCrd1&amp;4,FcdCk 3/4" runTime="29.81" adjustedTime="29.81" weight="29.7">
+<StartingPrice marketPos="1" marketCnt="2">
+<Price numerator="5" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="5" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="492443" name="Slaneyside Kylie" />
+<Result position="5" btnDistance="1 1/4" sectionalTime="03.79" bendPosition="5454" runComment="MidWideCrd 1/4" runTime="29.91" adjustedTime="29.91" weight="23.3">
+<StartingPrice marketPos="5" marketCnt="2">
+<Price numerator="8" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="6" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="506332" name="Blazeaway James" />
+<Result position="1" sectionalTime="03.68" bendPosition="3111" runComment="EP,Wide,SnLed" runTime="29.42" adjustedTime="29.42" weight="29.2">
+<StartingPrice marketPos="3" marketCnt="2">
+<Price numerator="3" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Dividends>
+<Forecast trap1="6" trap2="3" dividend="13.87" />
+<Tricast trap1="6" trap2="3" trap3="2" dividend="34.22" />
+</Dividends>
+</Race>
+</Meeting>
+</DogRacing>

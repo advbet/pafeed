@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337366" track="Nottingham" date="20180414" state="Active">
+    <Race revision="3" raceNumber="10" time="2149+0100" type="Flat" handicap="Yes" class="HP" distance="500" state="Approaching">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="488054" name="Sujendi"/>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="481029" name="Sybarite"/>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="499448" name="Slaneyside Capri"/>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="456282" name="Precious Rebel"/>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="484241" name="Hilldun Messi"/>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="482835" name="Counter Balance"/>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

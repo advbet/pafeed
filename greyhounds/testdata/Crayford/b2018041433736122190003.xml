@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337361" track="Crayford" date="20180414" state="Active">
+    <Race revision="3" raceNumber="11" time="2219+0100" type="Flat" handicap="No" class="A5" distance="380" state="Dormant">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="506444" name="Famous Flossie"/>
+        <Show timeStamp="221302+0100" marketNumber="1">
+          <Price numerator="4" denominator="5"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="495900" name="Lord Kinsale"/>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="493317" name="Great Run"/>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="496514" name="Deecees Oscar"/>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="Yes" reserve="No">
+        <Dog id="468876" name="Droopys Sandiego"/>
+      </Trap>
+      <Trap trap="6" vacant="Yes" wide="No" reserve="No"/>
+    </Race>
+  </Meeting>
+</DogRacing>

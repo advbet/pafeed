@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+<Meeting meetingId="337361" track="Crayford" date="20180414" state="Active">
+<Race revision="1" raceNumber="2" time="1943+0100" type="Hurdles" handicap="No" class="H2" distance="380" offTime="194424+0100" state="Final Result" winTime="24.14">
+<Trap trap="1" vacant="No" wide="No" reserve="No">
+<Dog id="454781" name="Gowlane Georgie" />
+<Result position="3" btnDistance="4 1/4" sectionalTime="03.75" bendPosition="5444" runComment="SAw,Crd1B&amp;4B" runTime="24.50" adjustedTime="24.50" weight="32.6">
+<StartingPrice marketPos="1" marketCnt="3">
+<Price numerator="5" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="2" vacant="No" wide="No" reserve="No">
+<Dog id="495164" name="Pure Panther" />
+<Result position="4" btnDistance="3/4" sectionalTime="03.66" bendPosition="4555" runComment="MsdBrk,Crd2H&amp;1B&amp; 1/4" runTime="24.56" adjustedTime="24.56" weight="30.9">
+<StartingPrice marketPos="4" marketCnt="1">
+<Price numerator="9" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="3" vacant="No" wide="No" reserve="No">
+<Dog id="488052" name="Hero In Gold" />
+<Result position="5" btnDistance="HD" sectionalTime="03.77" bendPosition="6666" runComment="SAw,Crd1B&amp; 1/4" runTime="24.58" adjustedTime="24.58" weight="33.9">
+<StartingPrice marketPos="5" marketCnt="1">
+<Price numerator="6" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="4" vacant="No" wide="No" reserve="No">
+<Dog id="450390" name="Laika George" />
+<Result position="6" btnDistance="HD" sectionalTime="03.59" bendPosition="2223" runComment="EP,Crd2B&amp;4B" runTime="24.60" adjustedTime="24.60" weight="29.6">
+<StartingPrice marketPos="1" marketCnt="3">
+<Price numerator="5" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="5" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="486855" name="Bit View Louise" />
+<Result position="1" sectionalTime="03.54" bendPosition="1111" runComment="EP,SnLd,MidToWide" runTime="24.14" adjustedTime="24.14" weight="28.1">
+<StartingPrice marketPos="1" marketCnt="3">
+<Price numerator="5" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="6" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="475623" name="Scarlet Sanyi" />
+<Result position="2" btnDistance="HD" sectionalTime="03.65" bendPosition="3332" runComment="MsdBrk,Mid&amp;Bmp2H,RanOn" runTime="24.16" adjustedTime="24.16" weight="31.5">
+<StartingPrice marketPos="6" marketCnt="1">
+<Price numerator="12" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Dividends>
+<Forecast trap1="5" trap2="6" dividend="30.43" />
+<Tricast trap1="5" trap2="6" trap3="1" dividend="79.39" />
+</Dividends>
+</Race>
+</Meeting>
+</DogRacing>

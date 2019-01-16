@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3173" uuid="aa2817e2-b152-438e-a817-e2b152d38ed7" track="Wheeling Island" country="USA" date="20180414" state="Active">
+    <Race uuid="c1dbed41-a46f-4719-9bed-41a46fe719b9" revision="5" raceNumber="8" time="20180414T1845+0000" type="Flat" handicap="No" class="C" distance="501" state="Parading">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="15730" uuid="14ee0939-642d-4e32-ae09-39642d6e3259" name="Oaks Ms Scarlet"/>
+        <Show timeStamp="20180414T183913+0000" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="14296" uuid="45ab350e-06bf-40fa-ab35-0e06bfc0fa86" name="Cbj Rolo"/>
+        <Show timeStamp="20180414T183915+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="11479" uuid="d95429f6-81b9-49f3-9429-f681b929f3ed" name="Barts Pure Gold"/>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="13714" uuid="98ae5e2a-ddb8-4da9-ae5e-2addb84da916" name="Untempered"/>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="19222" uuid="9abc04be-a460-485e-bc04-bea460085ec3" name="Trans Am Gerdi"/>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="14188" uuid="793a2ffe-9d2c-491f-ba2f-fe9d2c691f93" name="Bgr Zack Greinke"/>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="17515" uuid="07229751-cc42-4fc0-a297-51cc42efc0e6" name="Up In Smoke"/>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="24200" uuid="c1b945e7-06c3-4768-b945-e706c3d768c3" name="Braska Spalding"/>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337361" track="Crayford" date="20180414" state="Active">
+    <Race revision="22" raceNumber="8" time="2127+0100" type="Flat" handicap="No" class="A6" distance="380" state="Approaching">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="474003" name="Champagne Amy"/>
+        <Show timeStamp="212127+0100" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="490332" name="Our Jacks Piper"/>
+        <Show timeStamp="212132+0100" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+        <Show timeStamp="212210+0100" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+        <Show timeStamp="212319+0100" marketNumber="1">
+          <Price numerator="9" denominator="2"/>
+        </Show>
+        <Show timeStamp="212403+0100" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+        <Show timeStamp="212414+0100" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+        <Show timeStamp="212518+0100" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+        <Show timeStamp="212538+0100" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="503016" name="Upton Gunner"/>
+        <Show timeStamp="212136+0100" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+        <Show timeStamp="212619+0100" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="485920" name="Nametab Suki"/>
+        <Show timeStamp="212141+0100" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+        <Show timeStamp="212522+0100" marketNumber="1">
+          <Price numerator="9" denominator="4"/>
+        </Show>
+        <Show timeStamp="212629+0100" marketNumber="1">
+          <Price numerator="2" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="492202" name="Whats Dolly Upto"/>
+        <Show timeStamp="212144+0100" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+        <Show timeStamp="212634+0100" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="467120" name="Thats Why"/>
+        <Show timeStamp="212149+0100" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+        <Show timeStamp="212215+0100" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+        <Show timeStamp="212654+0100" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+<Meeting meetingId="337361" track="Crayford" date="20180414" state="Active">
+<Race revision="1" raceNumber="1" time="1927+0100" type="Flat" handicap="No" class="A7" distance="380" offTime="192754+0100" state="Final Result" winTime="23.90">
+<Trap trap="1" vacant="No" wide="No" reserve="No">
+<Dog id="478812" name="Clonmannon Lady" />
+<Result position="1" sectionalTime="03.66" bendPosition="4111" runComment="EP,SnLd,Rls" runTime="23.90" adjustedTime="23.90" weight="27.3">
+<StartingPrice marketPos="5" marketCnt="1">
+<Price numerator="10" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="2" vacant="No" wide="No" reserve="No">
+<Dog id="497334" name="Kelva Matty" />
+<Result position="2" btnDistance="3/4" sectionalTime="03.71" bendPosition="1222" runComment="MidToRls,RanOn" runTime="23.96" adjustedTime="23.96" weight="32.9">
+<StartingPrice marketPos="1" marketCnt="3">
+<Price numerator="5" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="3" vacant="No" wide="No" reserve="No">
+<Dog id="504096" name="Galtee Blue" />
+<Result position="6" btnDistance="1 1/4" sectionalTime="03.73" bendPosition="5466" runComment="Crd1&amp;2&amp; 1/2&amp;3" runTime="24.84" adjustedTime="24.84" weight="25.5">
+<StartingPrice marketPos="1" marketCnt="3">
+<Price numerator="5" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="4" vacant="No" wide="No" reserve="No">
+<Dog id="482241" name="Cromac Terror" />
+<Result position="3" btnDistance="5 1/4" sectionalTime="03.82" bendPosition="6333" runComment="SAw,Bmp2" runTime="24.38" adjustedTime="24.38" weight="26.8">
+<StartingPrice marketPos="1" marketCnt="3">
+<Price numerator="5" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="5" vacant="No" wide="No" reserve="No">
+<Dog id="507585" name="Pesky Pigeon" />
+<Result position="4" btnDistance="3" sectionalTime="03.68" bendPosition="2544" runComment="Crd1&amp;2" runTime="24.62" adjustedTime="24.62" weight="29.5">
+<StartingPrice marketPos="4" marketCnt="1">
+<Price numerator="7" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="6" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="476879" name="Aoifes Speedy" />
+<Result position="5" btnDistance="1 1/2" sectionalTime="03.65" bendPosition="3655" runComment="Disp-Crd&amp;FcdW1,Crd1/2" runTime="24.74" adjustedTime="24.74" weight="26.8">
+<StartingPrice marketPos="6" marketCnt="1">
+<Price numerator="12" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Dividends>
+<Forecast trap1="1" trap2="2" dividend="37.18" />
+<Tricast trap1="1" trap2="2" trap3="4" dividend="94.91" />
+</Dividends>
+</Race>
+</Meeting>
+</DogRacing>

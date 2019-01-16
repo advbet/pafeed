@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3181" uuid="f61a8b15-2078-42db-9a8b-15207832db2b" track="The Meadows" country="Australia" date="20180414" state="Active">
+    <Race uuid="b713c690-d0f7-44fa-93c6-90d0f7b4fa1a" revision="30" raceNumber="3" time="20180414T0957+0000" type="Flat" handicap="No" class="A" distance="525" offTime="20180414T095816+0000" state="Final Result">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="35049" uuid="1371bbb8-a481-47f5-b1bb-b8a48147f5ad" name="Dyna Winter"/>
+        <Show timeStamp="20180414T095349+0000" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T095705+0000" marketNumber="1">
+          <Price numerator="10" denominator="3"/>
+        </Show>
+        <Result position="0" btnDistance="">
+          <StartingPrice marketPos="2" marketCnt="1">
+            <Price numerator="10" denominator="3"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="26683" uuid="29a3bb2c-4e45-44e7-a3bb-2c4e4504e731" name="Dyna Alia"/>
+        <Show timeStamp="20180414T095352+0000" marketNumber="1">
+          <Price numerator="9" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T095512+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T095553+0000" marketNumber="1">
+          <Price numerator="11" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T095707+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+        <Result position="1" btnDistance="">
+          <StartingPrice marketPos="3" marketCnt="1">
+            <Price numerator="9" denominator="2"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="26469" uuid="9edd9d8b-9736-47b3-9d9d-8b973607b3f9" name="Varuchi Pass"/>
+        <Show timeStamp="20180414T095355+0000" marketNumber="1">
+          <Price numerator="9" denominator="2"/>
+        </Show>
+        <Result position="0" btnDistance="">
+          <StartingPrice marketPos="4" marketCnt="1">
+            <Price numerator="5" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="27858" uuid="c09d61b7-a4cf-4df9-9d61-b7a4cf9df901" name="Manitoba"/>
+        <Show timeStamp="20180414T095358+0000" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T095514+0000" marketNumber="1">
+          <Price numerator="15" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T095557+0000" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T095710+0000" marketNumber="1">
+          <Price numerator="17" denominator="2"/>
+        </Show>
+        <Result position="0" btnDistance="">
+          <StartingPrice marketPos="6" marketCnt="1">
+            <Price numerator="7" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="34915" uuid="3fc0b722-7454-458a-80b7-227454a58aa5" name="Dyna Carmen"/>
+        <Show timeStamp="20180414T095400+0000" marketNumber="1">
+          <Price numerator="2" denominator="1"/>
+        </Show>
+        <Result position="2" btnDistance="">
+          <StartingPrice marketPos="1" marketCnt="1">
+            <Price numerator="15" denominator="8"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="26424" uuid="7fe811ec-4fa3-431a-a811-ec4fa3f31a14" name="Another Bling"/>
+        <Show timeStamp="20180414T095402+0000" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T095518+0000" marketNumber="1">
+          <Price numerator="17" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T095600+0000" marketNumber="1">
+          <Price numerator="15" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T095604+0000" marketNumber="1">
+          <Price numerator="13" denominator="2"/>
+        </Show>
+        <Result position="0" btnDistance="">
+          <StartingPrice marketPos="5" marketCnt="1">
+            <Price numerator="6" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="29897" uuid="84466b5e-41fb-4b7a-866b-5e41fb4b7a27" name="Folding Green"/>
+        <Show timeStamp="20180414T095405+0000" marketNumber="1">
+          <Price numerator="25" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T095520+0000" marketNumber="1">
+          <Price numerator="28" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T095606+0000" marketNumber="1">
+          <Price numerator="33" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T095713+0000" marketNumber="1">
+          <Price numerator="40" denominator="1"/>
+        </Show>
+        <Result position="3" btnDistance="">
+          <StartingPrice marketPos="8" marketCnt="1">
+            <Price numerator="50" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="23537" uuid="7ba6a7d9-d729-426d-a6a7-d9d729426dbf" name="Fess Crockett"/>
+        <Show timeStamp="20180414T095408+0000" marketNumber="1">
+          <Price numerator="12" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T095716+0000" marketNumber="1">
+          <Price numerator="14" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T095718+0000" marketNumber="1">
+          <Price numerator="16" denominator="1"/>
+        </Show>
+        <Result position="0" btnDistance="">
+          <StartingPrice marketPos="7" marketCnt="1">
+            <Price numerator="22" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Dividends>
+        <Forecast trap1="2" trap2="5" dividend="17.72"/>
+        <Tricast trap1="2" trap2="5" trap3="7" dividend="184.44"/>
+      </Dividends>
+    </Race>
+  </Meeting>
+</DogRacing>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337356" track="Perry Barr" date="20180414" state="Active">
+    <Race revision="4" raceNumber="12" time="1327+0100" type="Flat" handicap="No" class="A5" distance="480" state="Dormant">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="495428" name="Ballymac Airbird"/>
+        <Show timeStamp="132330+0100" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="457717" name="Kilmaine Mania"/>
+        <Show timeStamp="132335+0100" marketNumber="1">
+          <Price numerator="9" denominator="4"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="502883" name="Ballymac Minky"/>
+        <Show timeStamp="132340+0100" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="484668" name="Mallogs Lucky"/>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="Yes" reserve="No">
+        <Dog id="475340" name="Delightful Baby"/>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="485238" name="Ourlittletreat"/>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3173" uuid="aa2817e2-b152-438e-a817-e2b152d38ed7" track="Wheeling Island" country="USA" date="20180414" state="Active">
+    <Race uuid="15af3e9f-f523-48de-af3e-9ff52328de7f" revision="24" raceNumber="20" time="20180414T2145+0000" type="Flat" handicap="No" class="B" distance="501" state="Approaching">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="16967" uuid="556b65bc-c325-4930-ab65-bcc325d930f8" name="Easi Athena"/>
+        <Show timeStamp="20180414T213508+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T213710+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T213833+0000" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="34472" uuid="c92e41d0-f42c-475b-ae41-d0f42c475b06" name="Ww's Citrus"/>
+        <Show timeStamp="20180414T213511+0000" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T213612+0000" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T213712+0000" marketNumber="1">
+          <Price numerator="10" denominator="3"/>
+        </Show>
+        <Show timeStamp="20180414T213751+0000" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="15554" uuid="8afaa82c-e643-48cc-baa8-2ce64328cce9" name="Lazy K Hero Fly"/>
+        <Show timeStamp="20180414T213513+0000" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T213615+0000" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T213715+0000" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="16868" uuid="5455c1ca-063a-42c2-95c1-ca063a12c23e" name="Jsk Roulette"/>
+        <Show timeStamp="20180414T213515+0000" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T213634+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="11890" uuid="f3cb4bd6-fa68-460d-8b4b-d6fa68d60d69" name="Pg Boss Bandit"/>
+        <Show timeStamp="20180414T213517+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T213636+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="13605" uuid="b84f94a5-afd7-422d-8f94-a5afd7222dfd" name="Amf Befall"/>
+        <Show timeStamp="20180414T213519+0000" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="18902" uuid="9bd434aa-fbff-4637-9434-aafbff663760" name="Hashtag Ardenlu"/>
+        <Show timeStamp="20180414T213521+0000" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T213649+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="13789" uuid="a281a5bf-97d6-4c20-81a5-bf97d6dc200e" name="Nick Diaz"/>
+        <Show timeStamp="20180414T213523+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T213651+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T213756+0000" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

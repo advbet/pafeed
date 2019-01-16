@@ -6,3 +6,4 @@ feed.
 Greyhound and horse feed parsing is split into two separate subpackages:
 
 * Horse racing  [![GoDoc](https://godoc.org/bitbucket.org/advbet/pafeed/horses?status.svg)](https://godoc.org/bitbucket.org/advbet/pafeed/horses)
+* Greyhound racing  [![GoDoc](https://godoc.org/bitbucket.org/advbet/pafeed/greyhounds?status.svg)](https://godoc.org/bitbucket.org/advbet/pafeed/greyhounds)

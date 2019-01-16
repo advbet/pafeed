@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337361" track="Crayford" date="20180414" state="Active">
+    <Race revision="23" raceNumber="9" time="2145+0100" type="Flat" handicap="No" class="A5" distance="380" state="Going in traps">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="491653" name="Bonney Banue"/>
+        <Show timeStamp="213754+0100" marketNumber="1">
+          <Price numerator="9" denominator="2"/>
+        </Show>
+        <Show timeStamp="213944+0100" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+        <Show timeStamp="214205+0100" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+        <Show timeStamp="214358+0100" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+        <Show timeStamp="214428+0100" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+        <Show timeStamp="214452+0100" marketNumber="1">
+          <Price numerator="10" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="490746" name="Moanteen Story"/>
+        <Show timeStamp="213759+0100" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+        <Show timeStamp="213927+0100" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+        <Show timeStamp="214234+0100" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+        <Show timeStamp="214302+0100" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="503925" name="Decisive Sound"/>
+        <Show timeStamp="213802+0100" marketNumber="1">
+          <Price numerator="7" denominator="4"/>
+        </Show>
+        <Show timeStamp="214320+0100" marketNumber="1">
+          <Price numerator="6" denominator="4"/>
+        </Show>
+        <Show timeStamp="214415+0100" marketNumber="1">
+          <Price numerator="7" denominator="4"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="492166" name="Lilys Bar Vali"/>
+        <Show timeStamp="213807+0100" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+        <Show timeStamp="214239+0100" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="Yes" reserve="No">
+        <Dog id="466066" name="Wolseleys Jazz"/>
+        <Show timeStamp="213811+0100" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="488347" name="Billis Glitter"/>
+        <Show timeStamp="213818+0100" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+        <Show timeStamp="214424+0100" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

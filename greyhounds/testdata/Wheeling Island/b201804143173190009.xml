@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3173" uuid="aa2817e2-b152-438e-a817-e2b152d38ed7" track="Wheeling Island" country="USA" date="20180414" state="Active">
+    <Race uuid="12515a07-f104-4065-915a-07f10430658b" revision="9" raceNumber="19" time="20180414T2130+0000" type="Flat" handicap="No" class="C" distance="501" state="Parading">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="14275" uuid="eeb22cd5-96f3-4357-b22c-d596f3b357d1" name="Amf Sundrenched"/>
+        <Show timeStamp="20180414T212322+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="32910" uuid="5b8bd581-8530-4811-8bd5-8185306811e7" name="Ww Jimmythe Geek"/>
+        <Show timeStamp="20180414T212324+0000" marketNumber="1">
+          <Price numerator="7" denominator="4"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="34283" uuid="264752aa-1200-44a2-8752-aa120044a248" name="Hashtag Queen"/>
+        <Show timeStamp="20180414T212326+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="33155" uuid="e9d32f7d-7ef5-46c7-932f-7d7ef546c758" name="Arkans Pc Sneezy"/>
+        <Show timeStamp="20180414T212328+0000" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="15974" uuid="453bfdbe-4417-400a-bbfd-be4417300a7c" name="Boc's Just About"/>
+        <Show timeStamp="20180414T212330+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="13630" uuid="75e44678-b8fa-4828-a446-78b8fa58285a" name="Kiowa Super Call"/>
+        <Show timeStamp="20180414T212332+0000" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="32451" uuid="5b980d85-c30c-4536-980d-85c30c853695" name="Pj Dopamine"/>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="15032" uuid="8ef50722-3f79-4db9-b507-223f791db954" name="Momma Sadie"/>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

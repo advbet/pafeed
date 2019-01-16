@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337366" track="Nottingham" date="20180414" state="Active">
+    <Race revision="8" raceNumber="5" time="2029+0100" type="Flat" handicap="No" class="A6" distance="500" offTime="202914+0100" state="Final Result">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="453934" name="Woodbrook Legend"/>
+        <Result position="2" btnDistance="">
+          <StartingPrice marketPos="2" marketCnt="1">
+            <Price numerator="5" denominator="2"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="481492" name="Canavour Joy"/>
+        <Result btnDistance="">
+          <StartingPrice marketPos="5" marketCnt="1">
+            <Price numerator="4" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="475321" name="Haggswood Munch"/>
+        <Result position="3" btnDistance="">
+          <StartingPrice marketPos="3" marketCnt="1">
+            <Price numerator="3" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="483328" name="Haggswood Will"/>
+        <Result btnDistance="">
+          <StartingPrice marketPos="6" marketCnt="1">
+            <Price numerator="8" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="Yes" reserve="No">
+        <Dog id="505267" name="Jellybean Court"/>
+        <Result btnDistance="">
+          <StartingPrice marketPos="4" marketCnt="1">
+            <Price numerator="7" denominator="2"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="470935" name="Carriglad Roisin"/>
+        <Result position="1" btnDistance="">
+          <StartingPrice marketPos="1" marketCnt="1">
+            <Price numerator="6" denominator="4"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Dividends>
+        <Forecast trap1="6" trap2="1" dividend="7.04"/>
+        <Tricast trap1="6" trap2="1" trap3="3" dividend="18.32"/>
+      </Dividends>
+    </Race>
+  </Meeting>
+</DogRacing>

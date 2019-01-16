@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337366" track="Nottingham" date="20180414" state="Active">
+    <Race revision="5" raceNumber="8" time="2117+0100" type="Flat" handicap="No" class="B2" distance="480" state="Going in traps">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="468471" name="Our Sam"/>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="506762" name="Crossfield Eric"/>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="461481" name="Galloping Butty"/>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="486905" name="Salacres Extreme"/>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="Yes" reserve="No">
+        <Dog id="497092" name="Jumeirah Sienna"/>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="499424" name="Blue Pit"/>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

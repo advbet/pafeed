@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3181" uuid="f61a8b15-2078-42db-9a8b-15207832db2b" track="The Meadows" country="Australia" date="20180414" state="Active">
+    <Race uuid="9cb17e7f-9661-4ec7-b17e-7f96614ec7d5" revision="24" raceNumber="8" time="20180414T1142+0000" type="Flat" handicap="No" class="A" distance="525" offTime="20180414T114243+0000" state="Off">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="20309" uuid="fa0cf227-9cf3-4ca7-8cf2-279cf34ca77b" name="Blue Gum Hill"/>
+        <Show timeStamp="20180414T113511+0000" marketNumber="1">
+          <Price numerator="6" denominator="4"/>
+        </Show>
+        <Show timeStamp="20180414T113719+0000" marketNumber="1">
+          <Price numerator="11" denominator="8"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="32285" uuid="65d80c52-101e-4a0f-980c-52101e3a0fe6" name="Zipping Captain"/>
+        <Show timeStamp="20180414T113513+0000" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="22862" uuid="c1b56d38-1601-408c-b56d-381601b08c51" name="Tuggeragh"/>
+        <Show timeStamp="20180414T113515+0000" marketNumber="1">
+          <Price numerator="11" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T113846+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="19532" uuid="e361573b-75c6-494b-a157-3b75c6a94ba6" name="Lila Bale"/>
+        <Show timeStamp="20180414T113517+0000" marketNumber="1">
+          <Price numerator="11" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T113844+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T114037+0000" marketNumber="1">
+          <Price numerator="13" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T114202+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="28699" uuid="ff49c678-fd4b-41f6-89c6-78fd4bb1f604" name="My Name's David"/>
+        <Show timeStamp="20180414T113520+0000" marketNumber="1">
+          <Price numerator="9" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T113727+0000" marketNumber="1">
+          <Price numerator="10" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T114022+0000" marketNumber="1">
+          <Price numerator="11" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="Yes" wide="No" reserve="No"/>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="19441" uuid="6896527a-b56e-4abb-9652-7ab56e3abb17" name="Midnight Hero"/>
+        <Show timeStamp="20180414T113532+0000" marketNumber="1">
+          <Price numerator="8" denominator="13"/>
+        </Show>
+        <Show timeStamp="20180414T113542+0000" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T113840+0000" marketNumber="1">
+          <Price numerator="17" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T114015+0000" marketNumber="1">
+          <Price numerator="9" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T114159+0000" marketNumber="1">
+          <Price numerator="11" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="22851" uuid="e6e19d8e-7938-4111-a19d-8e793861113f" name="Envy Heist"/>
+        <Show timeStamp="20180414T113548+0000" marketNumber="1">
+          <Price numerator="11" denominator="2"/>
+        </Show>
+      </Trap>
+      <NonRunner trap="6">
+        <Dog id="19435" uuid="836293c3-4c7a-4190-a293-c34c7a819014" name="Shayna Powers"/>
+      </NonRunner>
+    </Race>
+  </Meeting>
+</DogRacing>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337356" track="Perry Barr" date="20180414" state="Active">
+    <Race revision="13" raceNumber="1" time="1038+0100" type="Flat" handicap="No" class="A8" distance="480" state="Approaching">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="479519" name="Foxwood Crystal"/>
+        <Show timeStamp="103327+0100" marketNumber="1">
+          <Price numerator="9" denominator="4"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="477526" name="Killala Paddy"/>
+        <Show timeStamp="103335+0100" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="455830" name="Rockmount Belle"/>
+        <Show timeStamp="103339+0100" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+        <Show timeStamp="103536+0100" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="494314" name="Coconut Sky Blue"/>
+        <Show timeStamp="103343+0100" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="Yes" reserve="No">
+        <Dog id="473860" name="Uncle Stevie"/>
+        <Show timeStamp="103349+0100" marketNumber="1">
+          <Price numerator="9" denominator="4"/>
+        </Show>
+        <Show timeStamp="103542+0100" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+        <Show timeStamp="103649+0100" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="467777" name="Isaacs Tiger"/>
+        <Show timeStamp="103402+0100" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+        <Show timeStamp="103547+0100" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Card" state="Final">
+  <Meeting meetingId="3181" uuid="f61a8b15-2078-42db-9a8b-15207832db2b" track="The Meadows" country="Australia" date="20180414" state="Dormant">
+    <Race uuid="0c9b8a16-0aa1-4286-9b8a-160aa112869a" raceNumber="1" time="20180414T0915+0000" type="Flat" handicap="No" class="A" distance="525" state="Dormant" title="PARTY ON THE DECK">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="32222" uuid="5eaad97c-59e1-438a-aad9-7c59e1138a80" name="Slingshot Hammer">
+          <Breeding/>
+          <Trainer id="186" uuid="3bb1b791-572d-4eff-b1b7-91572dbefff2" name="R. Britton" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="27250" uuid="fedce914-d2be-4fe5-9ce9-14d2be7fe5b7" name="Dyna Penny">
+          <Breeding/>
+          <Trainer id="907" uuid="8f23c977-3113-4f08-a3c9-7731139f08cf" name="J. Collins" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="32641" uuid="3d730d7a-0dd0-47dd-b30d-7a0dd067dd1d" name="Dashing Dyson">
+          <Breeding/>
+          <Trainer id="202" uuid="f33b0e7e-4e5f-48e3-bb0e-7e4e5fb8e3b2" name="C. Dew" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="34914" uuid="3885bd88-5869-428c-85bd-885869f28cf7" name="Dyna Drew">
+          <Breeding/>
+          <Trainer id="236" uuid="9f7e3a93-7dfb-4f9d-be3a-937dfbef9d6b" name="S. Collins" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="35325" uuid="1a2d54c7-8616-4fcf-ad54-c786169fcf6a" name="Dyna Lenny">
+          <Breeding/>
+          <Trainer id="236" uuid="9f7e3a93-7dfb-4f9d-be3a-937dfbef9d6b" name="S. Collins" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="32218" uuid="12db9ec8-dd21-4975-9b9e-c8dd219975a1" name="Slingshot Whippa">
+          <Breeding/>
+          <Trainer id="186" uuid="3bb1b791-572d-4eff-b1b7-91572dbefff2" name="R. Britton" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="35337" uuid="879850e1-80b1-4dcb-9850-e180b18dcbd0" name="Shark Tank">
+          <Breeding/>
+          <Trainer id="239" uuid="2fa10446-44ac-4c0b-a104-4644ac3c0b82" name="K. Pitt" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="27622" uuid="474b47c9-f658-4c5d-8b47-c9f658dc5d47" name="Cookie Yap">
+          <Breeding/>
+          <Trainer id="321" uuid="ca67b53a-d404-41fb-a7b5-3ad40421fb28" name="R. Henness" track=""/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="d3840798-8bca-4e13-8407-988bca5e139d" raceNumber="2" time="20180414T0938+0000" type="Flat" handicap="No" class="A" distance="725" state="Dormant" title="AJS CORPORATION">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="19472" uuid="52466870-b0a9-4684-8668-70b0a9668440" name="Packey Keeping">
+          <Breeding/>
+          <Trainer id="214" uuid="d0715da6-0a3f-4dbb-b15d-a60a3f3dbb43" name="B. Bravo" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="32655" uuid="15c6299f-36c4-447a-8629-9f36c4547a8a" name="Tiny Dreamer">
+          <Breeding/>
+          <Trainer id="3011" uuid="821b688f-691b-43d2-9b68-8f691b73d270" name="R. Cowling" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="Yes" wide="No" reserve="No"/>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="26577" uuid="cee4e0a0-a369-4b2e-a4e0-a0a369bb2e16" name="Sharp Diamond">
+          <Breeding/>
+          <Trainer id="251" uuid="cf534692-c903-4268-9346-92c903b26875" name="W. Vassallo" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="21458" uuid="82004b2d-78d9-45e7-804b-2d78d975e79c" name="Trademark Rocky">
+          <Breeding/>
+          <Trainer id="1079" uuid="04b15c6c-f798-4238-b15c-6cf798523884" name="G. Hansen" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="Yes" wide="No" reserve="No"/>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="21476" uuid="2d107cc5-06d6-4efc-907c-c506d64efcd4" name="Ruby's Willow">
+          <Breeding/>
+          <Trainer id="1106" uuid="5f116fd1-1b33-485e-916f-d11b33f85eb1" name="R. Walsh" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="21024" uuid="a837d4b6-1f8e-4cfa-b7d4-b61f8e9cfa4a" name="Barry Bomber">
+          <Breeding/>
+          <Trainer id="913" uuid="2c7b0fe3-0281-4e36-bb0f-e302814e367e" name="C. Stanton" track=""/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="b713c690-d0f7-44fa-93c6-90d0f7b4fa1a" raceNumber="3" time="20180414T0957+0000" type="Flat" handicap="No" class="A" distance="525" state="Dormant" title="MILL PARK CRICKET CLUB">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="35049" uuid="1371bbb8-a481-47f5-b1bb-b8a48147f5ad" name="Dyna Winter">
+          <Breeding/>
+          <Trainer id="236" uuid="9f7e3a93-7dfb-4f9d-be3a-937dfbef9d6b" name="S. Collins" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="26683" uuid="29a3bb2c-4e45-44e7-a3bb-2c4e4504e731" name="Dyna Alia">
+          <Breeding/>
+          <Trainer id="236" uuid="9f7e3a93-7dfb-4f9d-be3a-937dfbef9d6b" name="S. Collins" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="26469" uuid="9edd9d8b-9736-47b3-9d9d-8b973607b3f9" name="Varuchi Pass">
+          <Breeding/>
+          <Trainer id="198" uuid="52cbd23e-f0ab-4e08-8bd2-3ef0abce0815" name="J. Sharp" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="27858" uuid="c09d61b7-a4cf-4df9-9d61-b7a4cf9df901" name="Manitoba">
+          <Breeding/>
+          <Trainer id="300" uuid="29674b08-690f-4851-a74b-08690fd85101" name="M. Carter" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="34915" uuid="3fc0b722-7454-458a-80b7-227454a58aa5" name="Dyna Carmen">
+          <Breeding/>
+          <Trainer id="236" uuid="9f7e3a93-7dfb-4f9d-be3a-937dfbef9d6b" name="S. Collins" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="26424" uuid="7fe811ec-4fa3-431a-a811-ec4fa3f31a14" name="Another Bling">
+          <Breeding/>
+          <Trainer id="303" uuid="cc3e63af-f3dc-42e5-be63-aff3dc72e5ad" name="G. Kantzidis" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="29897" uuid="84466b5e-41fb-4b7a-866b-5e41fb4b7a27" name="Folding Green">
+          <Breeding/>
+          <Trainer id="713" uuid="7617c1dd-bd58-4fcf-97c1-ddbd580fcf32" name="S. Jack" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="23537" uuid="7ba6a7d9-d729-426d-a6a7-d9d729426dbf" name="Fess Crockett">
+          <Breeding/>
+          <Trainer id="366" uuid="8974d36c-d31d-46f9-b4d3-6cd31d06f9ca" name="G. Campbell" track=""/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="ace01c7f-2eb4-4599-a01c-7f2eb4b599bf" raceNumber="4" time="20180414T1018+0000" type="Flat" handicap="No" class="A" distance="600" state="Dormant" title="SKY RACING FINAL">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="25970" uuid="b0f6dc4b-2538-4db1-b6dc-4b2538edb180" name="Rollin' With It">
+          <Breeding/>
+          <Trainer id="1408" uuid="2eb73861-9897-4cc4-b738-6198971cc4cc" name="C. Bahen" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="35327" uuid="57af3e1c-721d-4be9-af3e-1c721d8be9a6" name="Connor Allen">
+          <Breeding/>
+          <Trainer id="194" uuid="969b0ddb-e56f-4799-9b0d-dbe56f4799d1" name="M. Delbridge" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="23544" uuid="f14b5e6b-8b56-4da3-8b5e-6b8b56ada3f6" name="Dyna Zad">
+          <Breeding/>
+          <Trainer id="194" uuid="969b0ddb-e56f-4799-9b0d-dbe56f4799d1" name="M. Delbridge" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="19923" uuid="c5223a7b-64f3-4726-a23a-7b64f3672681" name="Lena Lake">
+          <Breeding/>
+          <Trainer id="198" uuid="52cbd23e-f0ab-4e08-8bd2-3ef0abce0815" name="J. Sharp" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="26318" uuid="f0ccacb7-d471-4bf1-8cac-b7d4710bf150" name="Dutch Legacy">
+          <Breeding/>
+          <Trainer id="2202" uuid="14c7875d-53f9-4bba-8787-5d53f9ebbac7" name="D. Kirk" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="26423" uuid="f6c5d4ff-3b78-4b53-85d4-ff3b784b5385" name="Rockstar Patriot">
+          <Breeding/>
+          <Trainer id="204" uuid="ecc895db-d389-4b1b-8895-dbd389bb1b88" name="A. Dailly" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="26417" uuid="080c7f49-69c7-4c69-8c7f-4969c75c69f1" name="Charity Wish">
+          <Breeding/>
+          <Trainer id="191" uuid="1af6040f-7e6e-4c77-b604-0f7e6e8c7718" name="J. Britton" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="22847" uuid="8dd86f93-522a-4e7d-986f-93522afe7d87" name="Zambora Tyler">
+          <Breeding/>
+          <Trainer id="194" uuid="969b0ddb-e56f-4799-9b0d-dbe56f4799d1" name="M. Delbridge" track=""/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="60a4ec22-81be-4811-a4ec-2281bea811d9" raceNumber="5" time="20180414T1035+0000" type="Flat" handicap="No" class="A" distance="525" state="Dormant" title="RSN - RACING &amp; SPORT">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="21442" uuid="ce42b461-f2d5-4f40-82b4-61f2d5af40f3" name="Lainey's Fortune">
+          <Breeding/>
+          <Trainer id="194" uuid="969b0ddb-e56f-4799-9b0d-dbe56f4799d1" name="M. Delbridge" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="19539" uuid="17e424a4-a323-43a7-a424-a4a323f3a72d" name="Navajo Bear">
+          <Breeding/>
+          <Trainer id="257" uuid="37b49cf6-088a-4a03-b49c-f6088a8a0344" name="D. Crawford" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="19480" uuid="03b1d508-fd8d-449e-b1d5-08fd8d949e36" name="Oshkosh Yobbo">
+          <Breeding/>
+          <Trainer id="223" uuid="80d2cd74-727f-48d7-92cd-74727fa8d777" name="G. Dailly" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="26437" uuid="a8945038-61c3-4170-9450-3861c3f17002" name="Glenda Kingy">
+          <Breeding/>
+          <Trainer id="204" uuid="ecc895db-d389-4b1b-8895-dbd389bb1b88" name="A. Dailly" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="19497" uuid="fa7357d1-aac5-42bd-b357-d1aac522bd30" name="Angel Dash">
+          <Breeding/>
+          <Trainer id="198" uuid="52cbd23e-f0ab-4e08-8bd2-3ef0abce0815" name="J. Sharp" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="21030" uuid="5ba587e1-fb55-45eb-a587-e1fb5555eb26" name="Wilbur Deeds">
+          <Breeding/>
+          <Trainer id="926" uuid="80b1131e-416e-46b8-b113-1e416ec6b813" name="G. Anders" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="22954" uuid="a302e477-e534-47d8-82e4-77e534e7d84b" name="So Amazing">
+          <Breeding/>
+          <Trainer id="341" uuid="58e05383-e9a3-40c4-a053-83e9a3c0c4a5" name="T. Womann" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="26739" uuid="64e25378-600d-4069-a253-78600d306904" name="Why Not Ginger">
+          <Breeding/>
+          <Trainer id="1169" uuid="ddf681ec-04f6-4f4f-b681-ec04f6cf4f1f" name="G. Carter" track=""/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="73b33a34-ef39-499f-b33a-34ef39999f8c" raceNumber="6" time="20180414T1057+0000" type="Flat" handicap="No" class="A" distance="525" state="Dormant" title="ALF'S BIRTHDAY">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="24884" uuid="8149de93-95b4-409f-89de-9395b4e09f0e" name="Dyna Maple">
+          <Breeding/>
+          <Trainer id="710" uuid="a3494b12-a987-4540-894b-12a987d540bf" name="T. Howell" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="22049" uuid="e041874f-c428-4573-8187-4fc428c57366" name="Rocky Ravioli">
+          <Breeding/>
+          <Trainer id="906" uuid="41b5bb61-cb66-44f6-b5bb-61cb6664f6ff" name="D. Burnett" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="27274" uuid="dd96de9c-2a9c-49f8-96de-9c2a9ca9f84a" name="Idabelle Bale">
+          <Breeding/>
+          <Trainer id="204" uuid="ecc895db-d389-4b1b-8895-dbd389bb1b88" name="A. Dailly" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="25615" uuid="23c6623c-20dc-44e3-8662-3c20dc64e3b9" name="Handpass">
+          <Breeding/>
+          <Trainer id="448" uuid="63b10d87-c5d1-4225-b10d-87c5d1422562" name="L. Delbridge" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="34573" uuid="55001377-a8fe-4473-8013-77a8feb473e7" name="Crackerjack Nath">
+          <Breeding/>
+          <Trainer id="920" uuid="d67cf15d-338b-4241-bcf1-5d338b6241bc" name="J. Cooper" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="22047" uuid="f1bd2d7c-ec98-4052-bd2d-7cec98a052b9" name="Black Spyro">
+          <Breeding/>
+          <Trainer id="204" uuid="ecc895db-d389-4b1b-8895-dbd389bb1b88" name="A. Dailly" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="22874" uuid="ad3502e5-d2fe-4baf-b502-e5d2fe7baff4" name="Mossimo Bale">
+          <Breeding/>
+          <Trainer id="204" uuid="ecc895db-d389-4b1b-8895-dbd389bb1b88" name="A. Dailly" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="22850" uuid="d607163b-281f-4cfd-8716-3b281f5cfde4" name="Dyna Evelyn">
+          <Breeding/>
+          <Trainer id="204" uuid="ecc895db-d389-4b1b-8895-dbd389bb1b88" name="A. Dailly" track=""/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="80a9a516-0935-4207-a9a5-1609354207e3" raceNumber="7" time="20180414T1120+0000" type="Flat" handicap="No" class="A" distance="600" state="Dormant" title="SEQUENTIAL PROPERTY SERVICES">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="22860" uuid="1ba7549b-1ecc-432c-a754-9b1ecc532c20" name="Dyna Zesty">
+          <Breeding/>
+          <Trainer id="204" uuid="ecc895db-d389-4b1b-8895-dbd389bb1b88" name="A. Dailly" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="26470" uuid="9ddf29e9-46d1-4005-9f29-e946d160051f" name="Why That">
+          <Breeding/>
+          <Trainer id="300" uuid="29674b08-690f-4851-a74b-08690fd85101" name="M. Carter" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="22871" uuid="c2eb70c7-f684-402f-ab70-c7f684002f15" name="Out Of Range">
+          <Breeding/>
+          <Trainer id="213" uuid="801f29e5-85f0-48fb-9f29-e585f0e8fb8f" name="S. Thompson" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="22877" uuid="62fd3aa4-9119-43e3-bd3a-a4911903e344" name="Dyna Carnie">
+          <Breeding/>
+          <Trainer id="204" uuid="ecc895db-d389-4b1b-8895-dbd389bb1b88" name="A. Dailly" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="27491" uuid="bfb86915-bcff-4521-b869-15bcff3521ca" name="Sublime News">
+          <Breeding/>
+          <Trainer id="1413" uuid="49c2d8e2-c05f-4c52-82d8-e2c05fec521d" name="P. Abela" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="22418" uuid="16535a4a-1d41-443e-935a-4a1d41f43e95" name="Riveting">
+          <Breeding/>
+          <Trainer id="1284" uuid="be737ed8-65c2-40b2-b37e-d865c240b226" name="K. Leek" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="19537" uuid="90fc1c49-5ea0-4306-bc1c-495ea083066e" name="Victor Dora">
+          <Breeding/>
+          <Trainer id="223" uuid="80d2cd74-727f-48d7-92cd-74727fa8d777" name="G. Dailly" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="26485" uuid="446d95f3-2901-4509-ad95-f32901c509ad" name="Bronelly Jet">
+          <Breeding/>
+          <Trainer id="214" uuid="d0715da6-0a3f-4dbb-b15d-a60a3f3dbb43" name="B. Bravo" track=""/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="9cb17e7f-9661-4ec7-b17e-7f96614ec7d5" raceNumber="8" time="20180414T1142+0000" type="Flat" handicap="No" class="A" distance="525" state="Dormant" title="MEADOWS CONFERENCE &amp; EVENTS CENTRE">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="20309" uuid="fa0cf227-9cf3-4ca7-8cf2-279cf34ca77b" name="Blue Gum Hill">
+          <Breeding/>
+          <Trainer id="186" uuid="3bb1b791-572d-4eff-b1b7-91572dbefff2" name="R. Britton" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="32285" uuid="65d80c52-101e-4a0f-980c-52101e3a0fe6" name="Zipping Captain">
+          <Breeding/>
+          <Trainer id="236" uuid="9f7e3a93-7dfb-4f9d-be3a-937dfbef9d6b" name="S. Collins" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="22862" uuid="c1b56d38-1601-408c-b56d-381601b08c51" name="Tuggeragh">
+          <Breeding/>
+          <Trainer id="185" uuid="55f07973-ea47-4670-b079-73ea4786702d" name="S. White" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="19532" uuid="e361573b-75c6-494b-a157-3b75c6a94ba6" name="Lila Bale">
+          <Breeding/>
+          <Trainer id="204" uuid="ecc895db-d389-4b1b-8895-dbd389bb1b88" name="A. Dailly" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="28699" uuid="ff49c678-fd4b-41f6-89c6-78fd4bb1f604" name="My Name's David">
+          <Breeding/>
+          <Trainer id="760" uuid="c467daec-978c-43a5-a7da-ec978c63a5e9" name="A. Ferguson" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="19435" uuid="836293c3-4c7a-4190-a293-c34c7a819014" name="Shayna Powers">
+          <Breeding/>
+          <Trainer id="190" uuid="6ab58122-c7d4-4b10-b581-22c7d46b1078" name="T. Reid" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="19441" uuid="6896527a-b56e-4abb-9652-7ab56e3abb17" name="Midnight Hero">
+          <Breeding/>
+          <Trainer id="194" uuid="969b0ddb-e56f-4799-9b0d-dbe56f4799d1" name="M. Delbridge" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="22851" uuid="e6e19d8e-7938-4111-a19d-8e793861113f" name="Envy Heist">
+          <Breeding/>
+          <Trainer id="204" uuid="ecc895db-d389-4b1b-8895-dbd389bb1b88" name="A. Dailly" track=""/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="6a611e3a-8f0b-4200-a11e-3a8f0ba20087" raceNumber="9" time="20180414T1205+0000" type="Flat" handicap="No" class="A" distance="525" state="Dormant" title="FEIKUAI GREYHOUNDS">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="27370" uuid="28696080-d634-4724-a960-80d63487242b" name="Game Face">
+          <Breeding/>
+          <Trainer id="343" uuid="0a437f9d-f82d-47ee-837f-9df82db7ee53" name="D. Fisher" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="22039" uuid="4862eb65-c7a7-45f6-a2eb-65c7a725f6bb" name="Dyna Owen">
+          <Breeding/>
+          <Trainer id="236" uuid="9f7e3a93-7dfb-4f9d-be3a-937dfbef9d6b" name="S. Collins" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="19686" uuid="f1d448c6-3457-4726-9448-c63457a7268e" name="Orleans">
+          <Breeding/>
+          <Trainer id="300" uuid="29674b08-690f-4851-a74b-08690fd85101" name="M. Carter" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="34491" uuid="1099cb81-0f35-46a4-99cb-810f3526a424" name="Roger's In Town">
+          <Breeding/>
+          <Trainer id="300" uuid="29674b08-690f-4851-a74b-08690fd85101" name="M. Carter" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="23568" uuid="aaa3724f-4a91-4abe-a372-4f4a91dabec1" name="Aston Lelani">
+          <Breeding/>
+          <Trainer id="748" uuid="2e586a90-6374-43d3-986a-90637433d3a8" name="D. Condon" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="30184" uuid="6c381484-607c-44d4-b814-84607cf4d4fe" name="Dyna Aviator">
+          <Breeding/>
+          <Trainer id="194" uuid="969b0ddb-e56f-4799-9b0d-dbe56f4799d1" name="M. Delbridge" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="20031" uuid="a3b087a7-e79b-403e-b087-a7e79bc03e52" name="Billy Moran">
+          <Breeding/>
+          <Trainer id="545" uuid="98eb71ce-766f-412a-ab71-ce766fb12ab5" name="D. Hammerstein" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="34640" uuid="35660c50-4862-4e14-a60c-5048628e14c9" name="Party Every Day">
+          <Breeding/>
+          <Trainer id="3103" uuid="78447d72-c7b8-4607-847d-72c7b8c6076a" name="B. Greenough" track=""/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="cf669dc6-0e4c-4c1c-a69d-c60e4c9c1cc1" raceNumber="10" time="20180414T1227+0000" type="Flat" handicap="No" class="A" distance="600" state="Dormant" title="TOPCAT VIDEO">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="22869" uuid="3f7e9a4a-8a92-46d2-be9a-4a8a9226d2c8" name="Noosa Parade">
+          <Breeding/>
+          <Trainer id="1410" uuid="edc761b7-e563-44d9-8761-b7e563e4d9f2" name="P. Fulton" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="23546" uuid="073dcb40-4e34-4bbb-bdcb-404e349bbb85" name="Cooper Scooper">
+          <Breeding/>
+          <Trainer id="1571" uuid="6457bfd6-1f7b-4e69-97bf-d61f7b1e6949" name="T. Scott" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="29279" uuid="da3fa9f3-b5eb-4fec-bfa9-f3b5ebefecc8" name="Tears I'm Not">
+          <Breeding/>
+          <Trainer id="2128" uuid="8ef50cb3-cbc5-4363-b50c-b3cbc5f363d9" name="T. Salter" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="26427" uuid="e9bf0cab-d9ae-429e-bf0c-abd9ae929e48" name="King Of Ring">
+          <Breeding/>
+          <Trainer id="208" uuid="25e72f58-849b-4269-a72f-58849b3269b9" name="V. Giles" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="30057" uuid="23d9ec1a-d406-4d37-99ec-1ad4069d37dd" name="Le Baz">
+          <Breeding/>
+          <Trainer id="1280" uuid="0b4c66e3-1822-4100-8c66-e31822d10063" name="K. Greenough" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="33584" uuid="c8e3c5e5-9f7d-44b9-a3c5-e59f7d44b9d8" name="Bont's Magic">
+          <Breeding/>
+          <Trainer id="241" uuid="871d5fcd-e60e-4873-9d5f-cde60e487306" name="S. Combridge" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="32377" uuid="311ba534-f045-44fd-9ba5-34f045a4fd6a" name="Shanakee">
+          <Breeding/>
+          <Trainer id="450" uuid="9880db94-0e2f-404d-80db-940e2f904d10" name="M. Briganti" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="22870" uuid="38cf5d4f-f33b-405f-8f5d-4ff33b205f10" name="Oshkosh Erny Vee">
+          <Breeding/>
+          <Trainer id="204" uuid="ecc895db-d389-4b1b-8895-dbd389bb1b88" name="A. Dailly" track=""/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="dc1c12cc-683f-4df8-9c12-cc683f1df8a5" raceNumber="11" time="20180414T1245+0000" type="Flat" handicap="No" class="A" distance="525" state="Dormant" title="HOME OF 9 GROUP 1'S">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="27251" uuid="67eca3fe-aa7a-48f7-aca3-feaa7aa8f7cf" name="Oh Jay Korie">
+          <Breeding/>
+          <Trainer id="204" uuid="ecc895db-d389-4b1b-8895-dbd389bb1b88" name="A. Dailly" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="20969" uuid="f31550c7-5b3e-4a2e-9550-c75b3e1a2e63" name="Like A Rocket">
+          <Breeding/>
+          <Trainer id="186" uuid="3bb1b791-572d-4eff-b1b7-91572dbefff2" name="R. Britton" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="19531" uuid="74e69c37-cf09-4885-a69c-37cf09c8857d" name="One Plus Two">
+          <Breeding/>
+          <Trainer id="255" uuid="9c5b3ebc-2d31-4812-9b3e-bc2d31a812fd" name="A. Powell" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="21013" uuid="4ac2569a-f59a-4c37-8256-9af59adc37cc" name="Dyna Benny">
+          <Breeding/>
+          <Trainer id="204" uuid="ecc895db-d389-4b1b-8895-dbd389bb1b88" name="A. Dailly" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="23556" uuid="fd2b0e0d-114e-4294-ab0e-0d114e229477" name="Orazzi Ohh">
+          <Breeding/>
+          <Trainer id="204" uuid="ecc895db-d389-4b1b-8895-dbd389bb1b88" name="A. Dailly" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="21020" uuid="bf711a0f-b5d3-4389-b11a-0fb5d313892a" name="He's Loaded">
+          <Breeding/>
+          <Trainer id="191" uuid="1af6040f-7e6e-4c77-b604-0f7e6e8c7718" name="J. Britton" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="35155" uuid="f3b382e6-f7a2-4cae-b382-e6f7a27cae4c" name="Elevated">
+          <Breeding/>
+          <Trainer id="468" uuid="3111e439-8277-4ccb-91e4-3982779ccb20" name="H. Manolitsis" track=""/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="26416" uuid="dc5b1280-6136-4587-9b12-80613685871c" name="Dorrigo Bale">
+          <Breeding/>
+          <Trainer id="907" uuid="8f23c977-3113-4f08-a3c9-7731139f08cf" name="J. Collins" track=""/>
+        </Dog>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

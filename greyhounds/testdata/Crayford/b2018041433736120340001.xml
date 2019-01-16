@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337361" track="Crayford" date="20180414" state="Dormant">
+    <Race revision="1" raceNumber="5" time="2034+0100" type="Flat" handicap="No" class="A8" distance="380" state="Dormant">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="490033" name="Colski Zelda"/>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="501936" name="Springwood Dawn"/>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="495592" name="Beechwood Jones"/>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="Yes" reserve="No">
+        <Dog id="480141" name="Isle Of Elsa"/>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="Yes" reserve="No">
+        <Dog id="501196" name="Deecees Jager"/>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="502114" name="Quivers Lady"/>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

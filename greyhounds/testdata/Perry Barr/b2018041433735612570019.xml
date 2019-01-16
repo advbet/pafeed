@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337356" track="Perry Barr" date="20180414" state="Active">
+    <Race revision="19" raceNumber="10" time="1257+0100" type="Flat" handicap="No" class="A7" distance="480" state="Hare Running">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="487389" name="Blue Shrew"/>
+        <Show timeStamp="125434+0100" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+        <Show timeStamp="125903+0100" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="492731" name="Killala Chloe"/>
+        <Show timeStamp="125439+0100" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+        <Show timeStamp="125641+0100" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+        <Show timeStamp="125826+0100" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="474850" name="Cu Sith Caley"/>
+        <Show timeStamp="125445+0100" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+        <Show timeStamp="125830+0100" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="501087" name="Rossestown Storm"/>
+        <Show timeStamp="125450+0100" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+        <Show timeStamp="125908+0100" marketNumber="1">
+          <Price numerator="9" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="498068" name="Pumas Baby"/>
+        <Show timeStamp="125458+0100" marketNumber="1">
+          <Price numerator="9" denominator="4"/>
+        </Show>
+        <Show timeStamp="125711+0100" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="493671" name="Clonleigh Bella"/>
+        <Show timeStamp="125502+0100" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+        <Show timeStamp="125717+0100" marketNumber="1">
+          <Price numerator="9" denominator="4"/>
+        </Show>
+        <Show timeStamp="125914+0100" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

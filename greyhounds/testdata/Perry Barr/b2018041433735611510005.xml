@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337356" track="Perry Barr" date="20180414" state="Active">
+    <Race revision="5" raceNumber="6" time="1151+0100" type="Flat" handicap="No" class="A6" distance="480" state="Dormant">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="489513" name="Blue Rocks"/>
+        <Show timeStamp="114834+0100" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="471810" name="Highview Opera"/>
+        <Show timeStamp="114838+0100" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="501687" name="Midian Puma"/>
+        <Show timeStamp="114843+0100" marketNumber="1">
+          <Price numerator="9" denominator="4"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="485987" name="Tommys Wolfy"/>
+        <Show timeStamp="114852+0100" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="Yes" reserve="No">
+        <Dog id="492443" name="Slaneyside Kylie"/>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="506332" name="Blazeaway James"/>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

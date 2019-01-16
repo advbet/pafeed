@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3173" uuid="aa2817e2-b152-438e-a817-e2b152d38ed7" track="Wheeling Island" country="USA" date="20180414" state="Active">
+    <Race uuid="7782f4ea-3ce0-4d36-82f4-ea3ce0ed364f" revision="14" raceNumber="2" time="20180414T1715+0000" type="Flat" handicap="No" class="B" distance="302" state="Approaching">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="18420" uuid="ec5f6e45-1cf1-45ff-9f6e-451cf135fff1" name="Bgr Porky Pig"/>
+        <Show timeStamp="20180414T172008+0000" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="14300" uuid="bb56be42-b39b-4d7b-96be-42b39b1d7b91" name="Kiowa Sure Deep"/>
+        <Show timeStamp="20180414T172011+0000" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="13552" uuid="d2fed639-6acf-4ac1-bed6-396acfeac167" name="Penelope Pitstop"/>
+        <Show timeStamp="20180414T172013+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="17763" uuid="42e7b88b-27e1-49fd-a7b8-8b27e1c9fd0f" name="Rodney Harrison"/>
+        <Show timeStamp="20180414T172015+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="13542" uuid="e22ab201-0d66-440a-aab2-010d66b40a4a" name="Bgr S Sarandon"/>
+        <Show timeStamp="20180414T172017+0000" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="13553" uuid="3ac4403c-0cd5-40bf-8440-3c0cd5a0bffc" name="Mac's Compass"/>
+        <Show timeStamp="20180414T172019+0000" marketNumber="1">
+          <Price numerator="11" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T172058+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="15168" uuid="6ac39040-3e52-4737-8390-403e5277378e" name="On Demand"/>
+        <Show timeStamp="20180414T172021+0000" marketNumber="1">
+          <Price numerator="11" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T172101+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="13380" uuid="4739c720-3059-4d45-b9c7-2030591d45ce" name="Kiowa Super Day"/>
+        <Show timeStamp="20180414T172023+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

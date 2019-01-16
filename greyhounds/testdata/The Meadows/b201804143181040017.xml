@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3181" uuid="f61a8b15-2078-42db-9a8b-15207832db2b" track="The Meadows" country="Australia" date="20180414" state="Active">
+    <Race uuid="ace01c7f-2eb4-4599-a01c-7f2eb4b599bf" revision="17" raceNumber="4" time="20180414T1018+0000" type="Flat" handicap="No" class="A" distance="600" state="Approaching">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="25970" uuid="b0f6dc4b-2538-4db1-b6dc-4b2538edb180" name="Rollin' With It"/>
+        <Show timeStamp="20180414T101427+0000" marketNumber="1">
+          <Price numerator="17" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T101753+0000" marketNumber="1">
+          <Price numerator="10" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="35327" uuid="57af3e1c-721d-4be9-af3e-1c721d8be9a6" name="Connor Allen"/>
+        <Show timeStamp="20180414T101430+0000" marketNumber="1">
+          <Price numerator="6" denominator="4"/>
+        </Show>
+        <Show timeStamp="20180414T101755+0000" marketNumber="1">
+          <Price numerator="5" denominator="4"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="23544" uuid="f14b5e6b-8b56-4da3-8b5e-6b8b56ada3f6" name="Dyna Zad"/>
+        <Show timeStamp="20180414T101432+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T101758+0000" marketNumber="1">
+          <Price numerator="11" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="19923" uuid="c5223a7b-64f3-4726-a23a-7b64f3672681" name="Lena Lake"/>
+        <Show timeStamp="20180414T101435+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="26318" uuid="f0ccacb7-d471-4bf1-8cac-b7d4710bf150" name="Dutch Legacy"/>
+        <Show timeStamp="20180414T101437+0000" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="26423" uuid="f6c5d4ff-3b78-4b53-85d4-ff3b784b5385" name="Rockstar Patriot"/>
+        <Show timeStamp="20180414T101441+0000" marketNumber="1">
+          <Price numerator="15" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T101714+0000" marketNumber="1">
+          <Price numerator="17" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="26417" uuid="080c7f49-69c7-4c69-8c7f-4969c75c69f1" name="Charity Wish"/>
+        <Show timeStamp="20180414T101443+0000" marketNumber="1">
+          <Price numerator="50" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T101722+0000" marketNumber="1">
+          <Price numerator="66" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="22847" uuid="8dd86f93-522a-4e7d-986f-93522afe7d87" name="Zambora Tyler"/>
+        <Show timeStamp="20180414T101446+0000" marketNumber="1">
+          <Price numerator="11" denominator="1"/>
+        </Show>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+<Meeting meetingId="337356" track="Perry Barr" date="20180414" state="Finished">
+<Race revision="1" raceNumber="14" time="1358+0100" type="Flat" handicap="No" class="A5" distance="480" offTime="140029+0100" state="Final Result" winTime="28.81">
+<Trap trap="1" vacant="No" wide="No" reserve="No">
+<Dog id="486225" name="Cloncunny Nick" />
+<Result position="2" btnDistance="1" sectionalTime="03.65" bendPosition="3222" runComment="EP,Rls,SoonHandy" runTime="28.89" adjustedTime="28.89" weight="31.0">
+<StartingPrice marketPos="1" marketCnt="3">
+<Price numerator="3" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="2" vacant="No" wide="No" reserve="No">
+<Dog id="485231" name="Off The Scale" />
+<Result position="4" btnDistance="1 1/2" sectionalTime="03.73" bendPosition="5333" runComment="RlsMidClrRun" runTime="29.15" adjustedTime="29.15" weight="34.0">
+<StartingPrice marketPos="5" marketCnt="1">
+<Price numerator="5" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="3" vacant="No" wide="No" reserve="No">
+<Dog id="485206" name="Our Promise" />
+<Result position="3" btnDistance="1 3/4" sectionalTime="03.83" bendPosition="6554" runComment="SAwCrd2,RanOn" runTime="29.03" adjustedTime="29.03" weight="25.3">
+<StartingPrice marketPos="6" marketCnt="1">
+<Price numerator="6" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="4" vacant="No" wide="No" reserve="No">
+<Dog id="474516" name="Jogon Ron" />
+<Result position="6" btnDistance="3 1/2" sectionalTime="03.73" bendPosition="4666" runComment="SAwMidCrd2" runTime="29.67" adjustedTime="29.67" weight="32.5">
+<StartingPrice marketPos="4" marketCnt="1">
+<Price numerator="7" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="5" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="479219" name="Suirview Eric" />
+<Result position="5" btnDistance="3" sectionalTime="03.63" bendPosition="2445" runComment="ChlEarly,FcdCk 1/4" runTime="29.39" adjustedTime="29.39" weight="31.3">
+<StartingPrice marketPos="1" marketCnt="3">
+<Price numerator="3" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="6" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="485080" name="Rocky Dee" />
+<Result position="1" sectionalTime="03.59" bendPosition="1111" runComment="EP,Wide,ALed" runTime="28.81" adjustedTime="28.81" weight="36.0">
+<StartingPrice marketPos="1" marketCnt="3">
+<Price numerator="3" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Dividends>
+<Forecast trap1="6" trap2="1" dividend="14.01" />
+<Tricast trap1="6" trap2="1" trap3="3" dividend="50.80" />
+</Dividends>
+</Race>
+</Meeting>
+</DogRacing>

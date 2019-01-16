@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3173" uuid="aa2817e2-b152-438e-a817-e2b152d38ed7" track="Wheeling Island" country="USA" date="20180414" state="Active">
+    <Race uuid="baafaf94-8ee8-41aa-afaf-948ee871aacd" revision="13" raceNumber="4" time="20180414T1745+0000" type="Flat" handicap="No" class="D" distance="501" state="Going in traps">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="14758" uuid="6bc4545d-4bb5-420e-8454-5d4bb5520eea" name="Cet Reignin Riba"/>
+        <Show timeStamp="20180414T174743+0000" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="10547" uuid="9b8e5baf-7efa-45ee-8e5b-af7efa55ee65" name="Kiowa R Darla"/>
+        <Show timeStamp="20180414T174745+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="15948" uuid="2677957e-1e73-423d-b795-7e1e73223da4" name="Clinton Portis"/>
+        <Show timeStamp="20180414T174747+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="15059" uuid="84cdfb5a-44f9-4b39-8dfb-5a44f9bb391c" name="Rpg Catch Fire"/>
+        <Show timeStamp="20180414T174749+0000" marketNumber="1">
+          <Price numerator="11" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="30608" uuid="70897cf8-2e7a-484b-897c-f82e7a384be0" name="Oshkosh Tyson"/>
+        <Show timeStamp="20180414T174751+0000" marketNumber="1">
+          <Price numerator="11" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="17930" uuid="91502579-7cb1-4e5f-9025-797cb17e5f37" name="Pj Fix A Drink"/>
+        <Show timeStamp="20180414T174753+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="7" vacant="Yes" wide="No" reserve="No"/>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="13458" uuid="58b866e8-d718-4780-b866-e8d718b780da" name="Imark Melina"/>
+        <Show timeStamp="20180414T174755+0000" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+      </Trap>
+      <NonRunner trap="7">
+        <Dog id="10163" uuid="1284497f-0970-4fdb-8449-7f09705fdbe2" name="Cruisen Connie"/>
+      </NonRunner>
+    </Race>
+  </Meeting>
+</DogRacing>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+<Meeting meetingId="337366" track="Nottingham" date="20180414" state="Finished">
+<Race revision="1" raceNumber="13" time="2237+0100" type="Flat" handicap="No" class="A4" distance="500" offTime="223848+0100" state="Final Result" going="30" winTime="30.82">
+<Trap trap="1" vacant="No" wide="No" reserve="No">
+<Dog id="462988" name="Vancouver Toby" />
+<Result position="2" btnDistance="1 1/2" sectionalTime="05.43" bendPosition="6665" runComment="ClrRun,Rls" runTime="30.94" adjustedTime="31.24" weight="29.6">
+<StartingPrice marketPos="1" marketCnt="1">
+<Price numerator="7" denominator="4" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="2" vacant="No" wide="No" reserve="No">
+<Dog id="498740" name="Haggswood Hawk" />
+<Result position="3" btnDistance="HD" sectionalTime="05.17" bendPosition="1112" runComment="EP,Ld-4" runTime="30.96" adjustedTime="31.26" weight="26.5">
+<StartingPrice marketPos="4" marketCnt="2">
+<Price numerator="4" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="3" vacant="No" wide="No" reserve="No">
+<Dog id="473184" name="Hidden Station" />
+<Result position="1" sectionalTime="05.34" bendPosition="3221" runComment="Ld4" runTime="30.82" adjustedTime="31.12" weight="32.2">
+<StartingPrice marketPos="2" marketCnt="1">
+<Price numerator="9" denominator="4" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="4" vacant="No" wide="No" reserve="No">
+<Dog id="467971" name="Salacres Biaritz" />
+<Result position="6" btnDistance="HD" sectionalTime="05.34" bendPosition="4344" runComment="Crd2" runTime="31.04" adjustedTime="31.34" weight="33.8">
+<StartingPrice marketPos="3" marketCnt="1">
+<Price numerator="5" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="5" vacant="No" wide="No" reserve="No">
+<Dog id="499217" name="Lughill Pierce" />
+<Result position="4" btnDistance="HD" sectionalTime="05.35" bendPosition="5433" runComment="Crd2" runTime="30.98" adjustedTime="31.28" weight="33.8">
+<StartingPrice marketPos="4" marketCnt="2">
+<Price numerator="4" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="6" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="478945" name="Slip The Cash" />
+<Result position="5" btnDistance="1/2" sectionalTime="05.31" bendPosition="2556" runComment="ClrRun,W" runTime="31.02" adjustedTime="31.32" weight="32.8">
+<StartingPrice marketPos="6" marketCnt="1">
+<Price numerator="5" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Dividends>
+<Forecast trap1="3" trap2="1" dividend="9.14" />
+<Tricast trap1="3" trap2="1" trap3="2" dividend="29.55" />
+</Dividends>
+</Race>
+</Meeting>
+</DogRacing>

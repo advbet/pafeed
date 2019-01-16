@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337366" track="Nottingham" date="20180414" state="Active">
+    <Race revision="2" raceNumber="13" time="2237+0100" type="Flat" handicap="No" class="A4" distance="500" state="Dormant">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="462988" name="Vancouver Toby"/>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="498740" name="Haggswood Hawk"/>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="473184" name="Hidden Station"/>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="467971" name="Salacres Biaritz"/>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="499217" name="Lughill Pierce"/>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="478945" name="Slip The Cash"/>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

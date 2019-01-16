@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3181" uuid="f61a8b15-2078-42db-9a8b-15207832db2b" track="The Meadows" country="Australia" date="20180414" state="Active">
+    <Race uuid="60a4ec22-81be-4811-a4ec-2281bea811d9" revision="8" raceNumber="5" time="20180414T1035+0000" type="Flat" handicap="No" class="A" distance="525" state="Dormant">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="21442" uuid="ce42b461-f2d5-4f40-82b4-61f2d5af40f3" name="Lainey's Fortune"/>
+        <Show timeStamp="20180414T103111+0000" marketNumber="1">
+          <Price numerator="11" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="Yes">
+        <Dog id="25699" uuid="01d64beb-4099-4314-964b-eb4099f314a1" name="Magic Buddie"/>
+        <Show timeStamp="20180414T103127+0000" marketNumber="1">
+          <Price numerator="33" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="19480" uuid="03b1d508-fd8d-449e-b1d5-08fd8d949e36" name="Oshkosh Yobbo"/>
+        <Show timeStamp="20180414T103130+0000" marketNumber="1">
+          <Price numerator="9" denominator="4"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="26437" uuid="a8945038-61c3-4170-9450-3861c3f17002" name="Glenda Kingy"/>
+        <Show timeStamp="20180414T103136+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="19497" uuid="fa7357d1-aac5-42bd-b357-d1aac522bd30" name="Angel Dash"/>
+        <Show timeStamp="20180414T103140+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="21030" uuid="5ba587e1-fb55-45eb-a587-e1fb5555eb26" name="Wilbur Deeds"/>
+        <Show timeStamp="20180414T103155+0000" marketNumber="1">
+          <Price numerator="13" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="22954" uuid="a302e477-e534-47d8-82e4-77e534e7d84b" name="So Amazing"/>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="26739" uuid="64e25378-600d-4069-a253-78600d306904" name="Why Not Ginger"/>
+      </Trap>
+      <NonRunner trap="2">
+        <Dog id="19539" uuid="17e424a4-a323-43a7-a424-a4a323f3a72d" name="Navajo Bear"/>
+      </NonRunner>
+    </Race>
+  </Meeting>
+</DogRacing>

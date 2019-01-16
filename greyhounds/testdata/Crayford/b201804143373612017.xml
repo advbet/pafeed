@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+<Meeting meetingId="337361" track="Crayford" date="20180414" state="Active">
+<Race revision="1" raceNumber="4" time="2017+0100" type="Flat" handicap="No" class="S4" distance="540" offTime="201804+0100" state="Final Result" winTime="34.32">
+<Trap trap="1" vacant="No" wide="No" reserve="No">
+<Dog id="470939" name="Five Alley Flair" />
+<Result position="4" btnDistance="1/2" sectionalTime="13.33" bendPosition="3444" runComment="Crd5,Rls" runTime="34.74" adjustedTime="34.74" weight="37.8">
+<StartingPrice marketPos="6" marketCnt="1">
+<Price numerator="14" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="2" vacant="No" wide="No" reserve="No">
+<Dog id="474300" name="Blinky Blobs" />
+<Result position="5" btnDistance="3/4" sectionalTime="13.43" bendPosition="5555" runComment="Crd1&amp;5" runTime="34.80" adjustedTime="34.80" weight="30.8">
+<StartingPrice marketPos="4" marketCnt="1">
+<Price numerator="9" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="3" vacant="No" wide="No" reserve="No">
+<Dog id="486910" name="Rathdown Ruby" />
+<Result position="1" sectionalTime="13.20" bendPosition="2221" runComment="EP,Crd1,Ld4" runTime="34.32" adjustedTime="34.32" weight="26.3">
+<StartingPrice marketPos="1" marketCnt="3">
+<Price numerator="5" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="4" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="480250" name="Deanridge Gizmo" />
+<Result position="2" btnDistance="2 1/4" sectionalTime="13.32" bendPosition="4332" runComment="MidToWide,RanOn" runTime="34.50" adjustedTime="34.50" weight="32.3">
+<StartingPrice marketPos="1" marketCnt="3">
+<Price numerator="5" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="5" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="471252" name="Rahyvira Pearl" />
+<Result position="3" btnDistance="2 1/2" sectionalTime="13.57" bendPosition="6666" runComment="RanOnLate" runTime="34.70" adjustedTime="34.70" weight="29.2">
+<StartingPrice marketPos="5" marketCnt="1">
+<Price numerator="5" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="6" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="486496" name="Cushie Kerena" />
+<Result position="6" btnDistance="SH" sectionalTime="13.15" bendPosition="1113" runComment="QAw,LdTo4,Crd5" runTime="34.81" adjustedTime="34.81" weight="26.7">
+<StartingPrice marketPos="1" marketCnt="3">
+<Price numerator="5" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Dividends>
+<Forecast trap1="3" trap2="4" dividend="10.27" />
+<Tricast trap1="3" trap2="4" trap3="5" dividend="32.87" />
+</Dividends>
+</Race>
+</Meeting>
+</DogRacing>

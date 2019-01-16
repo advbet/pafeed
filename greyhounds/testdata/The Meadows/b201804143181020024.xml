@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3181" uuid="f61a8b15-2078-42db-9a8b-15207832db2b" track="The Meadows" country="Australia" date="20180414" state="Active">
+    <Race uuid="d3840798-8bca-4e13-8407-988bca5e139d" revision="24" raceNumber="2" time="20180414T0938+0000" type="Flat" handicap="No" class="A" distance="725" state="Going in traps">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="19472" uuid="52466870-b0a9-4684-8668-70b0a9668440" name="Packey Keeping"/>
+        <Show timeStamp="20180414T093135+0000" marketNumber="1">
+          <Price numerator="1" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T093515+0000" marketNumber="1">
+          <Price numerator="11" denominator="10"/>
+        </Show>
+        <Show timeStamp="20180414T093659+0000" marketNumber="1">
+          <Price numerator="6" denominator="5"/>
+        </Show>
+        <Show timeStamp="20180414T093811+0000" marketNumber="1">
+          <Price numerator="11" denominator="8"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="32655" uuid="15c6299f-36c4-447a-8629-9f36c4547a8a" name="Tiny Dreamer"/>
+        <Show timeStamp="20180414T093137+0000" marketNumber="1">
+          <Price numerator="40" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T093500+0000" marketNumber="1">
+          <Price numerator="50" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T093802+0000" marketNumber="1">
+          <Price numerator="66" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="Yes" wide="No" reserve="No"/>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="26577" uuid="cee4e0a0-a369-4b2e-a4e0-a0a369bb2e16" name="Sharp Diamond"/>
+        <Show timeStamp="20180414T093139+0000" marketNumber="1">
+          <Price numerator="11" denominator="8"/>
+        </Show>
+        <Show timeStamp="20180414T093517+0000" marketNumber="1">
+          <Price numerator="5" denominator="4"/>
+        </Show>
+        <Show timeStamp="20180414T093653+0000" marketNumber="1">
+          <Price numerator="6" denominator="5"/>
+        </Show>
+        <Show timeStamp="20180414T093702+0000" marketNumber="1">
+          <Price numerator="11" denominator="10"/>
+        </Show>
+        <Show timeStamp="20180414T093820+0000" marketNumber="1">
+          <Price numerator="10" denominator="11"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="21458" uuid="82004b2d-78d9-45e7-804b-2d78d975e79c" name="Trademark Rocky"/>
+        <Show timeStamp="20180414T093141+0000" marketNumber="1">
+          <Price numerator="33" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T093521+0000" marketNumber="1">
+          <Price numerator="40" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T093823+0000" marketNumber="1">
+          <Price numerator="50" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="Yes" wide="No" reserve="No"/>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="21476" uuid="2d107cc5-06d6-4efc-907c-c506d64efcd4" name="Ruby's Willow"/>
+        <Show timeStamp="20180414T093149+0000" marketNumber="1">
+          <Price numerator="16" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T093505+0000" marketNumber="1">
+          <Price numerator="20" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T093619+0000" marketNumber="1">
+          <Price numerator="18" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T093825+0000" marketNumber="1">
+          <Price numerator="20" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="21024" uuid="a837d4b6-1f8e-4cfa-b7d4-b61f8e9cfa4a" name="Barry Bomber"/>
+        <Show timeStamp="20180414T093151+0000" marketNumber="1">
+          <Price numerator="10" denominator="3"/>
+        </Show>
+        <Show timeStamp="20180414T093453+0000" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

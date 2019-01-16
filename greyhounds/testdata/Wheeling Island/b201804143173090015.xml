@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3173" uuid="aa2817e2-b152-438e-a817-e2b152d38ed7" track="Wheeling Island" country="USA" date="20180414" state="Active">
+    <Race uuid="25749592-230e-499c-b495-92230eb99c7d" revision="15" raceNumber="9" time="20180414T1900+0000" type="Flat" handicap="No" class="B" distance="501" state="Approaching">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="18955" uuid="2017b587-8490-4807-97b5-878490880740" name="Bgr W Peppercorn"/>
+        <Show timeStamp="20180414T185336+0000" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="13639" uuid="8ea28513-da0d-4c87-a285-13da0d2c876b" name="Ff Warrior"/>
+        <Show timeStamp="20180414T185337+0000" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T185451+0000" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="14279" uuid="bb288613-7a03-4afb-a886-137a03bafbd2" name="Ww Little Pistol"/>
+        <Show timeStamp="20180414T185339+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T185454+0000" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="14305" uuid="514befeb-df69-456b-8bef-ebdf69756b3d" name="Slatex Xcel"/>
+        <Show timeStamp="20180414T185349+0000" marketNumber="1">
+          <Price numerator="11" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T185458+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="14266" uuid="15de6579-744b-41bb-9e65-79744b31bbc2" name="Se's Web Wacker"/>
+        <Show timeStamp="20180414T185351+0000" marketNumber="1">
+          <Price numerator="13" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="17076" uuid="3b2cb5ad-bd9e-46d2-acb5-adbd9ee6d2b9" name="Barts Creditcard"/>
+        <Show timeStamp="20180414T185353+0000" marketNumber="1">
+          <Price numerator="11" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="13722" uuid="4fc5e95f-1490-475e-85e9-5f1490375ec8" name="Arkansbdwhitesox"/>
+        <Show timeStamp="20180414T185355+0000" marketNumber="1">
+          <Price numerator="12" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="13725" uuid="c3e8a0d4-1844-4ec1-a8a0-d418441ec1eb" name="Kiowa Animated"/>
+        <Show timeStamp="20180414T185357+0000" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3181" uuid="f61a8b15-2078-42db-9a8b-15207832db2b" track="The Meadows" country="Australia" date="20180414" state="Active">
+    <Race uuid="6a611e3a-8f0b-4200-a11e-3a8f0ba20087" revision="20" raceNumber="9" time="20180414T1205+0000" type="Flat" handicap="No" class="A" distance="525" offTime="20180414T120558+0000" state="Final Result">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="27370" uuid="28696080-d634-4724-a960-80d63487242b" name="Game Face"/>
+        <Show timeStamp="20180414T120121+0000" marketNumber="1">
+          <Price numerator="11" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T120342+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+        <Result position="0" btnDistance="">
+          <StartingPrice marketPos="4" marketCnt="2">
+            <Price numerator="15" denominator="2"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="22039" uuid="4862eb65-c7a7-45f6-a2eb-65c7a725f6bb" name="Dyna Owen"/>
+        <Show timeStamp="20180414T120123+0000" marketNumber="1">
+          <Price numerator="11" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T120345+0000" marketNumber="1">
+          <Price numerator="10" denominator="1"/>
+        </Show>
+        <Result position="3" btnDistance="">
+          <StartingPrice marketPos="4" marketCnt="2">
+            <Price numerator="15" denominator="2"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="19686" uuid="f1d448c6-3457-4726-9448-c63457a7268e" name="Orleans"/>
+        <Show timeStamp="20180414T120128+0000" marketNumber="1">
+          <Price numerator="11" denominator="1"/>
+        </Show>
+        <Result position="2" btnDistance="">
+          <StartingPrice marketPos="7" marketCnt="1">
+            <Price numerator="14" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="34491" uuid="1099cb81-0f35-46a4-99cb-810f3526a424" name="Roger's In Town"/>
+        <Show timeStamp="20180414T120132+0000" marketNumber="1">
+          <Price numerator="11" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T120348+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+        <Result position="0" btnDistance="">
+          <StartingPrice marketPos="2" marketCnt="1">
+            <Price numerator="5" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="23568" uuid="aaa3724f-4a91-4abe-a372-4f4a91dabec1" name="Aston Lelani"/>
+        <Show timeStamp="20180414T120136+0000" marketNumber="1">
+          <Price numerator="15" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T120351+0000" marketNumber="1">
+          <Price numerator="9" denominator="1"/>
+        </Show>
+        <Result position="0" btnDistance="">
+          <StartingPrice marketPos="3" marketCnt="1">
+            <Price numerator="6" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="30184" uuid="6c381484-607c-44d4-b814-84607cf4d4fe" name="Dyna Aviator"/>
+        <Show timeStamp="20180414T120140+0000" marketNumber="1">
+          <Price numerator="15" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T120354+0000" marketNumber="1">
+          <Price numerator="17" denominator="2"/>
+        </Show>
+        <Result position="0" btnDistance="">
+          <StartingPrice marketPos="6" marketCnt="1">
+            <Price numerator="17" denominator="2"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="20031" uuid="a3b087a7-e79b-403e-b087-a7e79bc03e52" name="Billy Moran"/>
+        <Show timeStamp="20180414T120142+0000" marketNumber="1">
+          <Price numerator="20" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T120405+0000" marketNumber="1">
+          <Price numerator="22" denominator="1"/>
+        </Show>
+        <Result position="0" btnDistance="">
+          <StartingPrice marketPos="8" marketCnt="1">
+            <Price numerator="28" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="34640" uuid="35660c50-4862-4e14-a60c-5048628e14c9" name="Party Every Day"/>
+        <Show timeStamp="20180414T120147+0000" marketNumber="1">
+          <Price numerator="1" denominator="1"/>
+        </Show>
+        <Result position="1" btnDistance="">
+          <StartingPrice marketPos="1" marketCnt="1">
+            <Price numerator="11" denominator="10"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Dividends>
+        <Forecast trap1="8" trap2="3" dividend="18.46"/>
+        <Tricast trap1="8" trap2="3" trap3="2" dividend="84.94"/>
+      </Dividends>
+    </Race>
+  </Meeting>
+</DogRacing>

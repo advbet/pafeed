@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3173" uuid="aa2817e2-b152-438e-a817-e2b152d38ed7" track="Wheeling Island" country="USA" date="20180414" state="Active">
+    <Race uuid="a2ac31b5-1ff7-413b-ac31-b51ff7213be1" revision="24" raceNumber="7" time="20180414T1830+0000" type="Flat" handicap="No" class="A" distance="501" offTime="20180414T182829+0000" state="Off">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="18930" uuid="3d8c7c41-db5d-4bd8-8c7c-41db5d2bd834" name="Pj Takeyourtime"/>
+        <Show timeStamp="20180414T182358+0000" marketNumber="1">
+          <Price numerator="11" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T182534+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="17517" uuid="e3b3d4af-eb63-4199-b3d4-afeb63219998" name="Miss Valentine"/>
+        <Show timeStamp="20180414T182407+0000" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T182537+0000" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="14278" uuid="87ded2b8-35b1-47bb-9ed2-b835b1a7bbe4" name="Braska Allison"/>
+        <Show timeStamp="20180414T182411+0000" marketNumber="1">
+          <Price numerator="13" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T182620+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="14246" uuid="59c52764-c257-4654-8527-64c2573654c7" name="Cbj Spearmint"/>
+        <Show timeStamp="20180414T182413+0000" marketNumber="1">
+          <Price numerator="9" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T182722+0000" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="11870" uuid="1d22ce77-937b-45b9-a2ce-77937b05b996" name="Ww Lucky Chance"/>
+        <Show timeStamp="20180414T182415+0000" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T182528+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T182629+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="10243" uuid="3b63139c-51ba-4eb1-a313-9c51ba4eb128" name="Royal Daddys Boy"/>
+        <Show timeStamp="20180414T182417+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="13584" uuid="11bbaca7-a5e4-4611-bbac-a7a5e4f611b4" name="Jeannie C Riley"/>
+        <Show timeStamp="20180414T182421+0000" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T182614+0000" marketNumber="1">
+          <Price numerator="9" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="14260" uuid="b6e5fe58-3fb2-4bb8-a5fe-583fb26bb890" name="Js Enuf Is Enuf"/>
+        <Show timeStamp="20180414T182425+0000" marketNumber="1">
+          <Price numerator="11" denominator="4"/>
+        </Show>
+        <Show timeStamp="20180414T182532+0000" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T182725+0000" marketNumber="1">
+          <Price numerator="11" denominator="4"/>
+        </Show>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

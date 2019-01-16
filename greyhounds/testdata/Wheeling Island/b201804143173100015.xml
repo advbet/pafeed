@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3173" uuid="aa2817e2-b152-438e-a817-e2b152d38ed7" track="Wheeling Island" country="USA" date="20180414" state="Active">
+    <Race uuid="38e83bf4-b598-43ff-a83b-f4b59863fff9" revision="15" raceNumber="10" time="20180414T1915+0000" type="Flat" handicap="No" class="D" distance="501" state="Approaching">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="34833" uuid="ffa2f110-25f6-4562-a2f1-1025f6556251" name="Spahkuhlah"/>
+        <Show timeStamp="20180414T191509+0000" marketNumber="1">
+          <Price numerator="14" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T191636+0000" marketNumber="1">
+          <Price numerator="16" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="10009" uuid="08c4a0a6-5532-4448-84a0-a65532f4486d" name="Bs Lacrosse"/>
+        <Show timeStamp="20180414T191511+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="31181" uuid="101e2382-68d2-4d8c-9e23-8268d26d8c7d" name="Miami Dolphin"/>
+        <Show timeStamp="20180414T191513+0000" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="28738" uuid="26318b08-d08e-4891-b18b-08d08e38911b" name="Tmc's Shockwave"/>
+        <Show timeStamp="20180414T191515+0000" marketNumber="1">
+          <Price numerator="11" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="34562" uuid="9f7d966c-1b40-44eb-bd96-6c1b40c4eb4f" name="Jones Go To Lady"/>
+        <Show timeStamp="20180414T191517+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="16668" uuid="1a0dcc6e-0c37-499b-8dcc-6e0c37f99ba4" name="Ww Spearmint"/>
+        <Show timeStamp="20180414T191519+0000" marketNumber="1">
+          <Price numerator="15" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="18796" uuid="1f163686-99cf-4b94-9636-8699cfcb94ff" name="Imark Ruffles"/>
+        <Show timeStamp="20180414T191523+0000" marketNumber="1">
+          <Price numerator="10" denominator="3"/>
+        </Show>
+        <Show timeStamp="20180414T191616+0000" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="33442" uuid="2ac38c6b-5ce1-442a-838c-6b5ce1d42ac8" name="Liz Hasselbeck"/>
+        <Show timeStamp="20180414T191526+0000" marketNumber="1">
+          <Price numerator="11" denominator="4"/>
+        </Show>
+        <Show timeStamp="20180414T191618+0000" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+<Meeting meetingId="337366" track="Nottingham" date="20180414" state="Active">
+<Race revision="1" raceNumber="11" time="2205+0100" type="Flat" handicap="No" class="B1" distance="480" offTime="220522+0100" state="Final Result" winTime="29.23">
+<Trap trap="1" vacant="No" wide="No" reserve="No">
+<Dog id="499211" name="Tourbo Penny" />
+<Result position="4" btnDistance="HD" sectionalTime="04.13" bendPosition="4344" runComment="ClrRun,Rls" runTime="29.43" adjustedTime="29.43" weight="25.6">
+<StartingPrice marketPos="1" marketCnt="2">
+<Price numerator="9" denominator="4" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="2" vacant="No" wide="No" reserve="No">
+<Dog id="466847" name="Jing Jong" />
+<Result position="1" sectionalTime="04.08" bendPosition="2111" runComment="Ld2" runTime="29.23" adjustedTime="29.23" weight="27.1">
+<StartingPrice marketPos="1" marketCnt="2">
+<Price numerator="9" denominator="4" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="3" vacant="No" wide="No" reserve="No">
+<Dog id="487791" name="Hollygate Jet" />
+<Result position="2" btnDistance="1/2" sectionalTime="04.13" bendPosition="5665" runComment="Crd1" runTime="29.27" adjustedTime="29.27" weight="33.4">
+<StartingPrice marketPos="3" marketCnt="2">
+<Price numerator="3" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="4" vacant="No" wide="No" reserve="No">
+<Dog id="484408" name="Tyrur Carter" />
+<Result position="6" btnDistance="2 1/4" sectionalTime="04.13" bendPosition="6556" runComment="Crd1&amp;4" runTime="29.63" adjustedTime="29.63" weight="31.9">
+<StartingPrice marketPos="6" marketCnt="1">
+<Price numerator="6" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="5" vacant="No" wide="No" reserve="No">
+<Dog id="497193" name="Carrigoon Mist" />
+<Result position="3" btnDistance="1 3/4" sectionalTime="04.04" bendPosition="1222" runComment="ClrRun,Mid" runTime="29.41" adjustedTime="29.41" weight="26.7">
+<StartingPrice marketPos="3" marketCnt="2">
+<Price numerator="3" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="6" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="493413" name="Daylens Costa" />
+<Result position="5" btnDistance="HD" sectionalTime="04.07" bendPosition="3433" runComment="ClrRun,W" runTime="29.45" adjustedTime="29.45" weight="31.9">
+<StartingPrice marketPos="5" marketCnt="1">
+<Price numerator="5" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Dividends>
+<Forecast trap1="2" trap2="3" dividend="12.56" />
+<Tricast trap1="2" trap2="3" trap3="5" dividend="35.31" />
+</Dividends>
+</Race>
+</Meeting>
+</DogRacing>

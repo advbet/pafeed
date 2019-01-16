@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337366" track="Nottingham" date="20180414" state="Active">
+    <Race revision="8" raceNumber="7" time="2101+0100" type="Flat" handicap="No" class="A7" distance="500" offTime="210113+0100" state="Final Result">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="480938" name="Lisnakill Gypsy"/>
+        <Result position="1" btnDistance="">
+          <StartingPrice marketPos="4" marketCnt="2">
+            <Price numerator="6" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="443717" name="Capla Crusader"/>
+        <Result position="2" btnDistance="">
+          <StartingPrice marketPos="4" marketCnt="2">
+            <Price numerator="6" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="504481" name="Brave Heart"/>
+        <Result position="3" btnDistance="">
+          <StartingPrice marketPos="3" marketCnt="1">
+            <Price numerator="5" denominator="2"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="507028" name="Slippy Sam"/>
+        <Result btnDistance="">
+          <StartingPrice marketPos="1" marketCnt="1">
+            <Price numerator="4" denominator="5"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="505835" name="Ballyhale Tina"/>
+        <Result btnDistance="">
+          <StartingPrice marketPos="2" marketCnt="1">
+            <Price numerator="6" denominator="4"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="6" vacant="Yes" wide="No" reserve="No"/>
+      <NonRunner trap="6">
+        <Dog id="498322" name="Roscoes Elam"/>
+      </NonRunner>
+      <Dividends>
+        <Forecast trap1="1" trap2="2" dividend="55.31"/>
+        <Tricast trap1="1" trap2="2" trap3="3" dividend="0.00"/>
+      </Dividends>
+    </Race>
+  </Meeting>
+</DogRacing>

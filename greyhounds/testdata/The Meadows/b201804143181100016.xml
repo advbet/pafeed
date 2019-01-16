@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3181" uuid="f61a8b15-2078-42db-9a8b-15207832db2b" track="The Meadows" country="Australia" date="20180414" state="Active">
+    <Race uuid="cf669dc6-0e4c-4c1c-a69d-c60e4c9c1cc1" revision="16" raceNumber="10" time="20180414T1227+0000" type="Flat" handicap="No" class="A" distance="600" state="Approaching">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="22869" uuid="3f7e9a4a-8a92-46d2-be9a-4a8a9226d2c8" name="Noosa Parade"/>
+        <Show timeStamp="20180414T122302+0000" marketNumber="1">
+          <Price numerator="12" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="23546" uuid="073dcb40-4e34-4bbb-bdcb-404e349bbb85" name="Cooper Scooper"/>
+        <Show timeStamp="20180414T122307+0000" marketNumber="1">
+          <Price numerator="9" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="29279" uuid="da3fa9f3-b5eb-4fec-bfa9-f3b5ebefecc8" name="Tears I'm Not"/>
+        <Show timeStamp="20180414T122310+0000" marketNumber="1">
+          <Price numerator="6" denominator="4"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="26427" uuid="e9bf0cab-d9ae-429e-bf0c-abd9ae929e48" name="King Of Ring"/>
+        <Show timeStamp="20180414T122314+0000" marketNumber="1">
+          <Price numerator="28" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T122553+0000" marketNumber="1">
+          <Price numerator="33" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T122706+0000" marketNumber="1">
+          <Price numerator="40" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="30057" uuid="23d9ec1a-d406-4d37-99ec-1ad4069d37dd" name="Le Baz"/>
+        <Show timeStamp="20180414T122321+0000" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="33584" uuid="c8e3c5e5-9f7d-44b9-a3c5-e59f7d44b9d8" name="Bont's Magic"/>
+        <Show timeStamp="20180414T122328+0000" marketNumber="1">
+          <Price numerator="14" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T122709+0000" marketNumber="1">
+          <Price numerator="16" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T122711+0000" marketNumber="1">
+          <Price numerator="18" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="32377" uuid="311ba534-f045-44fd-9ba5-34f045a4fd6a" name="Shanakee"/>
+        <Show timeStamp="20180414T122331+0000" marketNumber="1">
+          <Price numerator="17" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T122558+0000" marketNumber="1">
+          <Price numerator="9" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T122713+0000" marketNumber="1">
+          <Price numerator="10" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="22870" uuid="38cf5d4f-f33b-405f-8f5d-4ff33b205f10" name="Oshkosh Erny Vee"/>
+        <Show timeStamp="20180414T122334+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

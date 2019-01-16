@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337366" track="Nottingham" date="20180414" state="Active">
+    <Race revision="7" raceNumber="11" time="2205+0100" type="Flat" handicap="No" class="B1" distance="480" offTime="220522+0100" state="Final Result">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="499211" name="Tourbo Penny"/>
+        <Result btnDistance="">
+          <StartingPrice marketPos="1" marketCnt="2">
+            <Price numerator="9" denominator="4"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="466847" name="Jing Jong"/>
+        <Result position="1" btnDistance="">
+          <StartingPrice marketPos="1" marketCnt="2">
+            <Price numerator="9" denominator="4"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="487791" name="Hollygate Jet"/>
+        <Result position="2" btnDistance="">
+          <StartingPrice marketPos="3" marketCnt="2">
+            <Price numerator="3" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="484408" name="Tyrur Carter"/>
+        <Result btnDistance="">
+          <StartingPrice marketPos="6" marketCnt="1">
+            <Price numerator="6" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="497193" name="Carrigoon Mist"/>
+        <Result position="3" btnDistance="">
+          <StartingPrice marketPos="3" marketCnt="2">
+            <Price numerator="3" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="493413" name="Daylens Costa"/>
+        <Result btnDistance="">
+          <StartingPrice marketPos="5" marketCnt="1">
+            <Price numerator="5" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Dividends>
+        <Forecast trap1="2" trap2="3" dividend="12.56"/>
+        <Tricast trap1="2" trap2="3" trap3="5" dividend="35.31"/>
+      </Dividends>
+    </Race>
+  </Meeting>
+</DogRacing>

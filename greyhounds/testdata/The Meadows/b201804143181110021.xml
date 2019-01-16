@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3181" uuid="f61a8b15-2078-42db-9a8b-15207832db2b" track="The Meadows" country="Australia" date="20180414" state="Active">
+    <Race uuid="dc1c12cc-683f-4df8-9c12-cc683f1df8a5" revision="21" raceNumber="11" time="20180414T1245+0000" type="Flat" handicap="No" class="A" distance="525" state="Hare Running">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="27251" uuid="67eca3fe-aa7a-48f7-aca3-feaa7aa8f7cf" name="Oh Jay Korie"/>
+        <Show timeStamp="20180414T124425+0000" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T124546+0000" marketNumber="1">
+          <Price numerator="9" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="20969" uuid="f31550c7-5b3e-4a2e-9550-c75b3e1a2e63" name="Like A Rocket"/>
+        <Show timeStamp="20180414T124432+0000" marketNumber="1">
+          <Price numerator="10" denominator="3"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="19531" uuid="74e69c37-cf09-4885-a69c-37cf09c8857d" name="One Plus Two"/>
+        <Show timeStamp="20180414T124435+0000" marketNumber="1">
+          <Price numerator="17" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T124550+0000" marketNumber="1">
+          <Price numerator="10" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="21013" uuid="4ac2569a-f59a-4c37-8256-9af59adc37cc" name="Dyna Benny"/>
+        <Show timeStamp="20180414T124441+0000" marketNumber="1">
+          <Price numerator="11" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T124552+0000" marketNumber="1">
+          <Price numerator="12" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="23556" uuid="fd2b0e0d-114e-4294-ab0e-0d114e229477" name="Orazzi Ohh"/>
+        <Show timeStamp="20180414T124445+0000" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="21020" uuid="bf711a0f-b5d3-4389-b11a-0fb5d313892a" name="He's Loaded"/>
+        <Show timeStamp="20180414T124448+0000" marketNumber="1">
+          <Price numerator="6" denominator="4"/>
+        </Show>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="Yes">
+        <Dog id="21014" uuid="3069fa07-2426-428e-a9fa-072426228ea4" name="Fat Rhino"/>
+        <Show timeStamp="20180414T124451+0000" marketNumber="1">
+          <Price numerator="33" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T124557+0000" marketNumber="1">
+          <Price numerator="40" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="26416" uuid="dc5b1280-6136-4587-9b12-80613685871c" name="Dorrigo Bale"/>
+        <Show timeStamp="20180414T124454+0000" marketNumber="1">
+          <Price numerator="16" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T124559+0000" marketNumber="1">
+          <Price numerator="18" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T124603+0000" marketNumber="1">
+          <Price numerator="20" denominator="1"/>
+        </Show>
+      </Trap>
+      <NonRunner trap="7">
+        <Dog id="35155" uuid="f3b382e6-f7a2-4cae-b382-e6f7a27cae4c" name="Elevated"/>
+      </NonRunner>
+    </Race>
+  </Meeting>
+</DogRacing>

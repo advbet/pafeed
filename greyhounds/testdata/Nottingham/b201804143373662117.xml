@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+<Meeting meetingId="337366" track="Nottingham" date="20180414" state="Active">
+<Race revision="1" raceNumber="8" time="2117+0100" type="Flat" handicap="No" class="B2" distance="480" offTime="211716+0100" state="Final Result" winTime="29.07">
+<Trap trap="1" vacant="No" wide="No" reserve="No">
+<Dog id="468471" name="Our Sam" />
+<Result position="4" btnDistance="1/2" sectionalTime="04.16" bendPosition="3333" runComment="Crd1&amp;3" runTime="29.47" adjustedTime="29.47" weight="30.6">
+<StartingPrice marketPos="1" marketCnt="1">
+<Price numerator="7" denominator="4" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="2" vacant="No" wide="No" reserve="No">
+<Dog id="506762" name="Crossfield Eric" />
+<Result position="5" btnDistance="8 1/2" sectionalTime="04.16" bendPosition="4455" runComment="Crd1&amp;2" runTime="30.15" adjustedTime="30.15" weight="31.8">
+<StartingPrice marketPos="3" marketCnt="1">
+<Price numerator="5" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="3" vacant="No" wide="No" reserve="No">
+<Dog id="461481" name="Galloping Butty" />
+<Result position="2" btnDistance="4 1/4" sectionalTime="04.16" bendPosition="5544" runComment="Crd1&amp;2" runTime="29.41" adjustedTime="29.41" weight="32.9">
+<StartingPrice marketPos="4" marketCnt="1">
+<Price numerator="7" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="4" vacant="No" wide="No" reserve="No">
+<Dog id="486905" name="Salacres Extreme" />
+<Result position="3" btnDistance="HD" sectionalTime="04.09" bendPosition="1112" runComment="EP,Ld-3" runTime="29.43" adjustedTime="29.43" weight="30.5">
+<StartingPrice marketPos="6" marketCnt="1">
+<Price numerator="10" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="5" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="497092" name="Jumeirah Sienna" />
+<Result position="6" btnDistance="DIS" sectionalTime="04.18" bendPosition="6660" runComment="Crd1,Ck2" weight="28.6">
+<StartingPrice marketPos="5" marketCnt="1">
+<Price numerator="4" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="6" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="499424" name="Blue Pit" />
+<Result position="1" sectionalTime="04.08" bendPosition="2221" runComment="Ld3,Mid-W" runTime="29.07" adjustedTime="29.07" weight="33.0">
+<StartingPrice marketPos="2" marketCnt="1">
+<Price numerator="2" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Dividends>
+<Forecast trap1="6" trap2="3" dividend="13.29" />
+<Tricast trap1="6" trap2="3" trap3="4" dividend="68.83" />
+</Dividends>
+</Race>
+</Meeting>
+</DogRacing>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337361" track="Crayford" date="20180414" state="Active">
+    <Race revision="9" raceNumber="4" time="2017+0100" type="Flat" handicap="No" class="S4" distance="540" state="Dormant">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="470939" name="Five Alley Flair"/>
+        <Show timeStamp="201045+0100" marketNumber="1">
+          <Price numerator="12" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="474300" name="Blinky Blobs"/>
+        <Show timeStamp="201049+0100" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+        <Show timeStamp="201155+0100" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="486910" name="Rathdown Ruby"/>
+        <Show timeStamp="201053+0100" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="Yes" reserve="No">
+        <Dog id="480250" name="Deanridge Gizmo"/>
+        <Show timeStamp="201058+0100" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="Yes" reserve="No">
+        <Dog id="471252" name="Rahyvira Pearl"/>
+        <Show timeStamp="201102+0100" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="486496" name="Cushie Kerena"/>
+        <Show timeStamp="201107+0100" marketNumber="1">
+          <Price numerator="2" denominator="1"/>
+        </Show>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

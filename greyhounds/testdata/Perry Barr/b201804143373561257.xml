@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+<Meeting meetingId="337356" track="Perry Barr" date="20180414" state="Active">
+<Race revision="1" raceNumber="10" time="1257+0100" type="Flat" handicap="No" class="A7" distance="480" offTime="130003+0100" state="Final Result" winTime="29.21">
+<Trap trap="1" vacant="No" wide="No" reserve="No">
+<Dog id="487389" name="Blue Shrew" />
+<Result position="1" sectionalTime="03.62" bendPosition="1111" runComment="EP,Rls,ALed" runTime="29.21" adjustedTime="29.21" weight="29.0">
+<StartingPrice marketPos="3" marketCnt="1">
+<Price numerator="3" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="2" vacant="No" wide="No" reserve="No">
+<Dog id="492731" name="Killala Chloe" />
+<Result position="6" btnDistance="11 1/2" sectionalTime="03.81" bendPosition="3666" runComment="LckEP,Ck1" runTime="30.64" adjustedTime="30.64" weight="27.0">
+<StartingPrice marketPos="5" marketCnt="2">
+<Price numerator="6" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="3" vacant="No" wide="No" reserve="No">
+<Dog id="474850" name="Cu Sith Caley" />
+<Result position="4" btnDistance="1 1/4" sectionalTime="03.78" bendPosition="4334" runComment="MidClrRun" runTime="29.71" adjustedTime="29.71" weight="27.3">
+<StartingPrice marketPos="5" marketCnt="2">
+<Price numerator="6" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="4" vacant="No" wide="No" reserve="No">
+<Dog id="501087" name="Rossestown Storm" />
+<Result position="2" btnDistance="3 3/4" sectionalTime="03.66" bendPosition="2222" runComment="MidChlEarly" runTime="29.51" adjustedTime="29.51" weight="25.2">
+<StartingPrice marketPos="4" marketCnt="1">
+<Price numerator="9" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="5" vacant="No" wide="No" reserve="No">
+<Dog id="498068" name="Pumas Baby" />
+<Result position="3" btnDistance="1 1/4" sectionalTime="03.85" bendPosition="5443" runComment="SAwMidWide,RanOn" runTime="29.61" adjustedTime="29.61" weight="26.0">
+<StartingPrice marketPos="1" marketCnt="2">
+<Price numerator="5" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="6" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="493671" name="Clonleigh Bella" />
+<Result position="5" btnDistance="SH" sectionalTime="03.86" bendPosition="6555" runComment="SAwWide" runTime="29.72" adjustedTime="29.72" weight="25.5">
+<StartingPrice marketPos="1" marketCnt="2">
+<Price numerator="5" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Dividends>
+<Forecast trap1="1" trap2="4" dividend="20.74" />
+<Tricast trap1="1" trap2="4" trap3="5" dividend="50.70" />
+</Dividends>
+</Race>
+</Meeting>
+</DogRacing>

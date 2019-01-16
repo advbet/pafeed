@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+<Meeting meetingId="337356" track="Perry Barr" date="20180414" state="Active">
+<Race revision="1" raceNumber="11" time="1311+0100" type="Flat" handicap="No" class="A4" distance="480" offTime="131418+0100" state="Final Result" winTime="28.76">
+<Trap trap="1" vacant="No" wide="No" reserve="No">
+<Dog id="481412" name="Crown Prince" />
+<Result position="4" btnDistance="3/4" sectionalTime="03.87" bendPosition="6555" runComment="SAwRls" runTime="29.34" adjustedTime="29.34" weight="36.3">
+<StartingPrice marketPos="5" marketCnt="2">
+<Price numerator="8" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="2" vacant="No" wide="No" reserve="No">
+<Dog id="473275" name="Killeacle Owly" />
+<Result position="2" btnDistance="4 1/2" sectionalTime="03.73" bendPosition="2332" runComment="RlsMid,RanOn" runTime="29.12" adjustedTime="29.12" weight="26.9">
+<StartingPrice marketPos="5" marketCnt="2">
+<Price numerator="8" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="3" vacant="No" wide="No" seeding="Rails" reserve="Yes">
+<Dog id="477561" name="Headford Act" />
+<Result position="1" sectionalTime="03.62" bendPosition="1111" runComment="EP,MidRls,ALed" runTime="28.76" adjustedTime="28.76" weight="33.2">
+<StartingPrice marketPos="1" marketCnt="1">
+<Price numerator="2" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="4" vacant="No" wide="No" reserve="No">
+<Dog id="491417" name="Millridge Tiger" />
+<Result position="5" btnDistance="3/4" sectionalTime="03.80" bendPosition="4444" runComment="MidClrRun" runTime="29.40" adjustedTime="29.40" weight="31.1">
+<StartingPrice marketPos="2" marketCnt="2">
+<Price numerator="3" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="5" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="503742" name="Bansha Scolari" />
+<Result position="3" btnDistance="2" sectionalTime="03.72" bendPosition="3223" runComment="EP,MidWide,HandyT 1/2" runTime="29.28" adjustedTime="29.28" weight="28.0">
+<StartingPrice marketPos="2" marketCnt="2">
+<Price numerator="3" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="6" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="473348" name="Vatican Venice" />
+<Result position="6" btnDistance="2 3/4" sectionalTime="03.83" bendPosition="5666" runComment="Wide,LckEP" runTime="29.62" adjustedTime="29.62" weight="38.4">
+<StartingPrice marketPos="4" marketCnt="1">
+<Price numerator="4" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<NonRunner trap="3" reasonForWithdrawal="Off Colour">
+<Dog id="478023" name="Michaels Hero" />
+</NonRunner>
+<Dividends>
+<Forecast trap1="3" trap2="2" dividend="18.45" />
+<Tricast trap1="3" trap2="2" trap3="5" dividend="47.71" />
+</Dividends>
+</Race>
+</Meeting>
+</DogRacing>

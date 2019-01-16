@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337356" track="Perry Barr" date="20180414" state="Active">
+    <Race revision="3" raceNumber="9" time="1239+0100" type="Flat" handicap="No" class="A7" distance="480" state="Dormant">
+      <Trap trap="1" vacant="Yes" wide="No" reserve="No"/>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="487546" name="Cefn Menna"/>
+        <Show timeStamp="123532+0100" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="494357" name="Slaney Coco"/>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="462833" name="Ballygibbon Liz"/>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="Yes" reserve="No">
+        <Dog id="506333" name="Blazeaway You"/>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="504698" name="Ferndale Pop"/>
+      </Trap>
+      <NonRunner trap="1">
+        <Dog id="492881" name="Killala Daisy"/>
+      </NonRunner>
+    </Race>
+  </Meeting>
+</DogRacing>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3173" uuid="aa2817e2-b152-438e-a817-e2b152d38ed7" track="Wheeling Island" country="USA" date="20180414" state="Active">
+    <Race uuid="1cfd2958-e93e-4e84-bd29-58e93ede8408" revision="2" raceNumber="16" time="20180414T2045+0000" type="Flat" handicap="No" class="A" distance="501" state="Dormant">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="13909" uuid="daeaf3f6-6501-45fc-aaf3-f6650145fcaa" name="Ln Double Stuff"/>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="11805" uuid="1e0d1649-06be-4e81-8d16-4906be9e81ff" name="Kelsos Ukulele"/>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="13659" uuid="32c0a051-4cff-4e4b-80a0-514cff2e4bb2" name="B's Halla"/>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="14196" uuid="d8f54438-c449-4e03-b544-38c4491e0387" name="Flyin Ghostrecon"/>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="11772" uuid="fbb72624-12e3-4a23-b726-2412e37a231e" name="Cet Alexis Cream"/>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="13871" uuid="2a2dd745-849d-4474-add7-45849d6474f6" name="Jw Kit Kat"/>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="16675" uuid="aee622f6-2b2c-4433-a622-f62b2cf43342" name="L's Brassy"/>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="18979" uuid="1879b3fe-b0b5-48f6-b9b3-feb0b518f617" name="Imark Kettle"/>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

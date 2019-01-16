@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337356" track="Perry Barr" date="20180414" state="Active">
+    <Race revision="22" raceNumber="9" time="1239+0100" type="Flat" handicap="No" class="A7" distance="480" offTime="123918+0100" state="Final Result">
+      <Trap trap="1" vacant="Yes" wide="No" reserve="No"/>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="487546" name="Cefn Menna"/>
+        <Show timeStamp="123532+0100" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+        <Show timeStamp="123756+0100" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+        <Show timeStamp="123828+0100" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+        <Show timeStamp="123907+0100" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+        <Result btnDistance="">
+          <StartingPrice marketPos="4" marketCnt="1">
+            <Price numerator="4" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="494357" name="Slaney Coco"/>
+        <Show timeStamp="123536+0100" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+        <Show timeStamp="123800+0100" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+        <Result position="1" btnDistance="">
+          <StartingPrice marketPos="3" marketCnt="1">
+            <Price numerator="3" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="462833" name="Ballygibbon Liz"/>
+        <Show timeStamp="123540+0100" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+        <Show timeStamp="123806+0100" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+        <Result btnDistance="">
+          <StartingPrice marketPos="5" marketCnt="1">
+            <Price numerator="6" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="Yes" reserve="No">
+        <Dog id="506333" name="Blazeaway You"/>
+        <Show timeStamp="123545+0100" marketNumber="1">
+          <Price numerator="2" denominator="1"/>
+        </Show>
+        <Show timeStamp="123811+0100" marketNumber="1">
+          <Price numerator="9" denominator="4"/>
+        </Show>
+        <Show timeStamp="123848+0100" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+        <Result position="3" btnDistance="">
+          <StartingPrice marketPos="2" marketCnt="1">
+            <Price numerator="5" denominator="2"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="504698" name="Ferndale Pop"/>
+        <Show timeStamp="123554+0100" marketNumber="1">
+          <Price numerator="9" denominator="4"/>
+        </Show>
+        <Show timeStamp="123815+0100" marketNumber="1">
+          <Price numerator="2" denominator="1"/>
+        </Show>
+        <Show timeStamp="123835+0100" marketNumber="1">
+          <Price numerator="7" denominator="4"/>
+        </Show>
+        <Result position="2" btnDistance="">
+          <StartingPrice marketPos="1" marketCnt="1">
+            <Price numerator="7" denominator="4"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <NonRunner trap="1">
+        <Dog id="492881" name="Killala Daisy"/>
+      </NonRunner>
+      <Dividends>
+        <Forecast trap1="3" trap2="6" dividend="11.07"/>
+        <Tricast trap1="3" trap2="6" trap3="5" dividend="0.00"/>
+      </Dividends>
+    </Race>
+  </Meeting>
+</DogRacing>

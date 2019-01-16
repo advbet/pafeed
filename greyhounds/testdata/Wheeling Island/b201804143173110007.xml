@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3173" uuid="aa2817e2-b152-438e-a817-e2b152d38ed7" track="Wheeling Island" country="USA" date="20180414" state="Active">
+    <Race uuid="c5c3c559-905a-4ad5-83c5-59905aaad5e0" revision="7" raceNumber="11" time="20180414T1930+0000" type="Flat" handicap="No" class="C" distance="501" state="Approaching">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="14190" uuid="9c1055b4-2b65-42b3-9055-b42b6582b30d" name="Slumber Party"/>
+        <Show timeStamp="20180414T193303+0000" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="16311" uuid="d71b535b-43ce-4fb1-9b53-5b43ce4fb1db" name="Hashtag L Fitz"/>
+        <Show timeStamp="20180414T193306+0000" marketNumber="1">
+          <Price numerator="13" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="18903" uuid="80f18303-23e2-4243-b183-0323e2324396" name="Garnet Girl"/>
+        <Show timeStamp="20180414T193308+0000" marketNumber="1">
+          <Price numerator="13" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="18809" uuid="2a69d799-0b47-45fb-a9d7-990b4705fb7d" name="Unspokenvoice"/>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="15354" uuid="3982554a-5185-417a-8255-4a5185e17a9d" name="Cristina Justina"/>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="11813" uuid="b188321d-fd79-41ee-8832-1dfd7921eebf" name="Bgr Squirt"/>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="18566" uuid="5b11df63-d82f-4e51-91df-63d82f1e5172" name="Ww Sourpatch"/>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="21980" uuid="af2c039c-ebe3-499e-ac03-9cebe3099ecd" name="Kelsos Last Lady"/>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

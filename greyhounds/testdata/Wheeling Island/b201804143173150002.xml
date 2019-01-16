@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3173" uuid="aa2817e2-b152-438e-a817-e2b152d38ed7" track="Wheeling Island" country="USA" date="20180414" state="Active">
+    <Race uuid="12494a2c-a78d-46ac-894a-2ca78dc6acfa" revision="2" raceNumber="15" time="20180414T2030+0000" type="Flat" handicap="No" class="C" distance="501" state="Dormant">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="19127" uuid="92e65d98-13f9-4d83-a65d-9813f94d83d0" name="Hashtag Gain"/>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="11778" uuid="2d05b8e8-0858-4dc1-85b8-e80858cdc165" name="Bgr Top Gun"/>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="15025" uuid="71761d15-c29b-4d57-b61d-15c29bcd579f" name="Rpg Sonic Blast"/>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="17752" uuid="b6c1c43f-9062-4a34-81c4-3f9062ca3421" name="Arkans Velma"/>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="28320" uuid="2d4b5fbe-fc36-4fe3-8b5f-befc360fe38e" name="Gf Ave Maria"/>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="17231" uuid="340f5824-e338-458a-8f58-24e338858a97" name="Imark Maggie"/>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="15067" uuid="149b502e-c469-4c4d-9b50-2ec4699c4d60" name="Amf Ex All Star"/>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="16927" uuid="516ed9e8-65bf-4983-aed9-e865bf3983b9" name="Ww Island Time"/>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337366" track="Nottingham" date="20180414" state="Active">
+    <Race revision="7" raceNumber="4" time="2013+0100" type="Flat" handicap="No" class="A3" distance="500" offTime="201310+0100" state="Final Result">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="491290" name="Fred Knows Nowt"/>
+        <Result position="3" btnDistance="">
+          <StartingPrice marketPos="6" marketCnt="1">
+            <Price numerator="6" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="486409" name="Comerford"/>
+        <Result position="2" btnDistance="">
+          <StartingPrice marketPos="1" marketCnt="2">
+            <Price numerator="2" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="484271" name="Highview Force"/>
+        <Result btnDistance="">
+          <StartingPrice marketPos="3" marketCnt="1">
+            <Price numerator="3" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="506364" name="Burnpark Kasia"/>
+        <Result btnDistance="">
+          <StartingPrice marketPos="5" marketCnt="1">
+            <Price numerator="4" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="485152" name="Galtymoore Matsy"/>
+        <Result btnDistance="">
+          <StartingPrice marketPos="4" marketCnt="1">
+            <Price numerator="7" denominator="2"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="504963" name="Glasheen Pixie"/>
+        <Result position="1" btnDistance="">
+          <StartingPrice marketPos="1" marketCnt="2">
+            <Price numerator="2" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Dividends>
+        <Forecast trap1="6" trap2="2" dividend="8.39"/>
+        <Tricast trap1="6" trap2="2" trap3="1" dividend="32.65"/>
+      </Dividends>
+    </Race>
+  </Meeting>
+</DogRacing>

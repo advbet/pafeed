@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+<Meeting meetingId="337356" track="Perry Barr" date="20180414" state="Active">
+<Race revision="1" raceNumber="4" time="1123+0100" type="Flat" handicap="Yes" class="HP" distance="480" offTime="112355+0100" state="Final Result" winTime="29.58">
+<Trap trap="1" vacant="No" wide="No" handicap="R9" reserve="No">
+<Dog id="499164" name="Carastown" />
+<Result position="5" btnDistance="1 1/4" bendPosition="1223" runComment="Led-2&amp;Fr 3/4,Crd1&amp; 3/4&amp;4" runTime="29.93" adjustedTime="30.65" weight="26.5">
+<StartingPrice marketPos="4" marketCnt="1">
+<Price numerator="4" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="2" vacant="No" wide="No" handicap="R8" reserve="No">
+<Dog id="490525" name="Autumn Hella" />
+<Result position="4" btnDistance="1" bendPosition="2334" runComment="RlsCrd1&amp; 3/4,FcdCk4" runTime="29.83" adjustedTime="30.47" weight="25.2">
+<StartingPrice marketPos="5" marketCnt="1">
+<Price numerator="5" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="3" vacant="No" wide="No" handicap="R7" reserve="No">
+<Dog id="490647" name="Overdale Rock" />
+<Result position="6" btnDistance="2" bendPosition="3112" runComment="Led2- 3/4,Crd 3/4&amp;4" runTime="30.09" adjustedTime="30.65" weight="32.0">
+<StartingPrice marketPos="2" marketCnt="1">
+<Price numerator="3" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="4" vacant="No" wide="No" handicap="R3" reserve="No">
+<Dog id="486346" name="Fleet Admiral" />
+<Result position="1" bendPosition="4441" runComment="MidRlsCrd 3/4,Led4" runTime="29.58" adjustedTime="29.82" weight="34.8">
+<StartingPrice marketPos="1" marketCnt="1">
+<Price numerator="5" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="5" vacant="No" wide="No" handicap="Scr" reserve="No">
+<Dog id="469622" name="Borntobefast" />
+<Result position="2" btnDistance="1 3/4" bendPosition="5555" runComment="Crd1&amp; 1/4,FcdCk 3/4,RanOn" runTime="29.72" adjustedTime="29.72" weight="25.5">
+<StartingPrice marketPos="6" marketCnt="1">
+<Price numerator="6" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="6" vacant="No" wide="No" handicap="Scr" reserve="No">
+<Dog id="485631" name="Cefn Billy" />
+<Result position="3" btnDistance="NK" bendPosition="6666" runComment="Crd1,Blk 1/4,RanOn" runTime="29.75" adjustedTime="29.75" weight="34.1">
+<StartingPrice marketPos="3" marketCnt="1">
+<Price numerator="7" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Dividends>
+<Forecast trap1="4" trap2="5" dividend="20.76" />
+<Tricast trap1="4" trap2="5" trap3="6" dividend="59.51" />
+</Dividends>
+</Race>
+</Meeting>
+</DogRacing>

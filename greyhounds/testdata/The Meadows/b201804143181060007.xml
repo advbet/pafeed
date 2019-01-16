@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3181" uuid="f61a8b15-2078-42db-9a8b-15207832db2b" track="The Meadows" country="Australia" date="20180414" state="Active">
+    <Race uuid="73b33a34-ef39-499f-b33a-34ef39999f8c" revision="7" raceNumber="6" time="20180414T1057+0000" type="Flat" handicap="No" class="A" distance="525" state="Dormant">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="24884" uuid="8149de93-95b4-409f-89de-9395b4e09f0e" name="Dyna Maple"/>
+        <Show timeStamp="20180414T105018+0000" marketNumber="1">
+          <Price numerator="15" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="22049" uuid="e041874f-c428-4573-8187-4fc428c57366" name="Rocky Ravioli"/>
+        <Show timeStamp="20180414T105020+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="27274" uuid="dd96de9c-2a9c-49f8-96de-9c2a9ca9f84a" name="Idabelle Bale"/>
+        <Show timeStamp="20180414T105022+0000" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="25615" uuid="23c6623c-20dc-44e3-8662-3c20dc64e3b9" name="Handpass"/>
+        <Show timeStamp="20180414T105025+0000" marketNumber="1">
+          <Price numerator="40" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="34573" uuid="55001377-a8fe-4473-8013-77a8feb473e7" name="Crackerjack Nath"/>
+        <Show timeStamp="20180414T105027+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="22047" uuid="f1bd2d7c-ec98-4052-bd2d-7cec98a052b9" name="Black Spyro"/>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="22874" uuid="ad3502e5-d2fe-4baf-b502-e5d2fe7baff4" name="Mossimo Bale"/>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="22850" uuid="d607163b-281f-4cfd-8716-3b281f5cfde4" name="Dyna Evelyn"/>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

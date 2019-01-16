@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3173" uuid="aa2817e2-b152-438e-a817-e2b152d38ed7" track="Wheeling Island" country="USA" date="20180414" state="Active">
+    <Race uuid="05732234-42fd-4486-b322-3442fd04862b" revision="23" raceNumber="3" time="20180414T1730+0000" type="Flat" handicap="No" class="M" distance="501" offTime="20180414T173718+0000" state="Off">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="35848" uuid="bdabf591-e97d-4e88-abf5-91e97dae88b3" name="Braska Adonis"/>
+        <Show timeStamp="20180414T173213+0000" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="36516" uuid="5f4846f4-6976-4a7d-8846-f46976ca7d9c" name="Ww Jimmygotmoves"/>
+        <Show timeStamp="20180414T173215+0000" marketNumber="1">
+          <Price numerator="9" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T173358+0000" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T173453+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="36517" uuid="695c168a-5212-40b9-9c16-8a521230b922" name="Braska Wymore"/>
+        <Show timeStamp="20180414T173217+0000" marketNumber="1">
+          <Price numerator="11" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T173455+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T173649+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="35129" uuid="fe0d1241-14e3-448f-8d12-4114e3c48f70" name="Garthok"/>
+        <Show timeStamp="20180414T173219+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T173652+0000" marketNumber="1">
+          <Price numerator="11" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="36518" uuid="79aea2ba-b641-44e5-aea2-bab64144e56b" name="Ds Tazo"/>
+        <Show timeStamp="20180414T173223+0000" marketNumber="1">
+          <Price numerator="9" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T173401+0000" marketNumber="1">
+          <Price numerator="10" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T173457+0000" marketNumber="1">
+          <Price numerator="11" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="30314" uuid="c8916b28-9528-40f4-916b-28952800f4bd" name="Ww Tasty Hour"/>
+        <Show timeStamp="20180414T173225+0000" marketNumber="1">
+          <Price numerator="11" denominator="4"/>
+        </Show>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="36519" uuid="8afb7b9e-1ca4-4b32-bb7b-9e1ca4db3294" name="True Talent"/>
+        <Show timeStamp="20180414T173227+0000" marketNumber="1">
+          <Price numerator="11" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T173656+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="35694" uuid="e0aa232a-16ee-40d5-aa23-2a16ee00d567" name="Cayenne Jive"/>
+        <Show timeStamp="20180414T173229+0000" marketNumber="1">
+          <Price numerator="9" denominator="2"/>
+        </Show>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

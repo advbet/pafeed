@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Card" state="Final">
+  <Meeting meetingId="3173" uuid="aa2817e2-b152-438e-a817-e2b152d38ed7" track="Wheeling Island" country="USA" date="20180414" state="Dormant">
+    <Race uuid="b245e2af-38eb-4232-85e2-af38eb923281" raceNumber="1" time="20180414T1700+0000" type="Flat" handicap="No" class="D" distance="302" state="Dormant" title="Race 1">
+      <Comments>
+        <Comment source="easygate" type="verdict">Top choice for winner, may have to hunt for runners up. Good pace from a reasonable post should get #6 Mac's Lola into the race early. The post is not perfect but #5 Fly Tonya Girl 's pace from the box should keep trouble behind. Good pace from a reasonable post should get #4 Extinct Charm into the race early. Wps, Quiniela, $3 Perfecta, Trifecta, &amp;.10 Super ($2 Min Bet) Ten Cent Superfectas Available On All Races First Half Of The Ear y Daily Double</Comment>
+        <Comment source="easygate" type="selections">6, 5, 4, 8</Comment>
+      </Comments>
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="17620" uuid="d6aef7e4-eb19-45f5-aef7-e4eb1915f5b8" name="Bgr Slider">
+          <Breeding sire="Little Andy" dam="Boc's Sluicey" born="20160517" colour="Red" sex="d"/>
+          <Trainer id="105" uuid="fe507750-d5dd-4a17-9077-50d5ddea17c3" name="Chris Brill" track=""/>
+          <Owner id="137" uuid="12ac6f5e-b2d8-4d8d-ac6f-5eb2d8ad8df2" name="Brad Boeckenstedt"/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="34079" uuid="ea2b164d-a854-44ef-ab16-4da85454efa9" name="Townsville">
+          <Breeding sire="Atascocita Gray" dam="Great Play" born="20160728" colour="Brindle" sex="b"/>
+          <Trainer id="3176" uuid="cbf0670e-99da-4945-b067-0e99da294501" name="Jay Falcone" track=""/>
+          <Owner id="102" uuid="b8b87449-aa94-4269-b874-49aa94326954" name="Meteorite Kennel"/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="36515" uuid="7aae7b66-4259-484e-ae7b-664259884e36" name="Ctw Far Far Away">
+          <Breeding sire="Shonn" dam="Flying Axley" born="20160524" colour="Red Brindle" sex="b"/>
+          <Trainer id="99" uuid="3b0d8389-7cfe-4606-8d83-897cfe360691" name="Tom Engle" track=""/>
+          <Owner id="660" uuid="6944967b-6f15-4cbf-8496-7b6f15ecbfe7" name="Joseph Fusaro"/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="15976" uuid="39cf0d6b-29fe-43d4-8f0d-6b29fe23d46d" name="Extinct Charm">
+          <Breeding sire="Bonafide Top Dog" dam="Rc Mystic Nugget" born="20141211" colour="Brindle" sex="b"/>
+          <Trainer id="98" uuid="6f0904d1-5f16-4d13-8904-d15f168d1319" name="Louise Strong" track=""/>
+          <Owner id="963" uuid="11e389f5-cd44-4d6a-a389-f5cd44ed6aaa" name="R. Armington Or R. Finega"/>
+          <Form>
+            <FormRace date="20180118" track="Wheeling Island" distance="302">
+              <FormTrap>
+                <Dog id="13669" uuid="fa1d5842-a6a7-47fe-9d58-42a6a737fea2" name="Pj Black Beatles"/>
+                <Result position="1"/>
+              </FormTrap>
+              <FormTrap>
+                <Dog id="14254" uuid="61c4ae00-2505-4765-84ae-002505c7651d" name="Grand Justice"/>
+                <Result position="2"/>
+              </FormTrap>
+              <FormTrap>
+                <Dog id="19005" uuid="afe9fefa-ec9b-4069-a9fe-faec9bf06924" name="Pj Sweet Chick"/>
+                <Result position="3"/>
+              </FormTrap>
+              <FormTrap>
+                <Dog id="15976" uuid="39cf0d6b-29fe-43d4-8f0d-6b29fe23d46d" name="Extinct Charm"/>
+                <Result position="5">
+                  <StartingPrice>
+                    <Price decimal="1.600" numerator="8" denominator="5"/>
+                  </StartingPrice>
+                </Result>
+              </FormTrap>
+            </FormRace>
+          </Form>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="18063" uuid="bb48858c-17c5-4012-8885-8c17c5c0124f" name="Fly Tonya Girl">
+          <Breeding sire="Kc And All" dam="Flying Henne" born="20160325" colour="Red" sex="d"/>
+          <Trainer id="108" uuid="20f39fe6-6eda-4110-b39f-e66eda51103a" name="Joe Otto" track=""/>
+          <Owner id="661" uuid="0f2b4ca3-1aab-4afa-ab4c-a31aab1afa7d" name="Patriot/taplin Kennel"/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="10098" uuid="62271383-09c5-469c-a713-8309c5269ccc" name="Mac's Lola">
+          <Breeding sire="Kiowa Mon Manny" dam="Lady Antebellum" born="20140927" colour="White Red" sex="d"/>
+          <Trainer id="104" uuid="ee4064f9-391d-43eb-8064-f9391dd3ebcf" name="Joe Palmer" track=""/>
+          <Owner id="666" uuid="5bf73cee-a0aa-418d-b73c-eea0aa818d5c" name="Patrick Mcmillon"/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="15492" uuid="a57a8b77-a763-4063-ba8b-77a7634063a3" name="Mohican Sophia">
+          <Breeding sire="Black Streaker" dam="Kiowa Ww Reyna" born="20130420" colour="Black" sex="d"/>
+          <Trainer id="109" uuid="e139a4a3-3706-4984-b9a4-a33706c984d6" name="Michael Piquette" track=""/>
+          <Owner id="244" uuid="510f9369-63d5-4938-8f93-6963d5893806" name="Dean Miner"/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="18219" uuid="4294a3e9-416f-42cb-94a3-e9416fd2cb2b" name="Bgr Rise Ball">
+          <Breeding sire="Little Andy" dam="Boc's Sluicey" born="20160517" colour="Red" sex="d"/>
+          <Trainer id="105" uuid="fe507750-d5dd-4a17-9077-50d5ddea17c3" name="Chris Brill" track=""/>
+          <Owner id="137" uuid="12ac6f5e-b2d8-4d8d-ac6f-5eb2d8ad8df2" name="Brad Boeckenstedt"/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="7782f4ea-3ce0-4d36-82f4-ea3ce0ed364f" raceNumber="2" time="20180414T1715+0000" type="Flat" handicap="No" class="B" distance="302" state="Dormant" title="Race 2">
+      <Comments>
+        <Comment source="easygate" type="verdict">Winning choice may be stand out. #3 Penelope Pitstop should have enough early speed to grad the early command and may hold on. The inside posting is excellent for #4 Rodney Harrison, a fairly pacy racer well within the grade. #2 Kiowa Sure Deep will rely on decent early pace to make a race of it from this preferred draw. Wps, Quiniela, $3 Perfecta, Trifecta &amp;.10 Super ($2 Min Bet) Second Half Of The Early Daily Double</Comment>
+        <Comment source="easygate" type="selections">3, 4, 2, 8</Comment>
+      </Comments>
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="18420" uuid="ec5f6e45-1cf1-45ff-9f6e-451cf135fff1" name="Bgr Porky Pig">
+          <Breeding sire="Djays Octane" dam="Ucme Chickaboom" born="20150515" colour="Brindle" sex="b"/>
+          <Trainer id="105" uuid="fe507750-d5dd-4a17-9077-50d5ddea17c3" name="Chris Brill" track=""/>
+          <Owner id="137" uuid="12ac6f5e-b2d8-4d8d-ac6f-5eb2d8ad8df2" name="Brad Boeckenstedt"/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="14300" uuid="bb56be42-b39b-4d7b-96be-42b39b1d7b91" name="Kiowa Sure Deep">
+          <Breeding sire="Sure As" dam="Kiowa Wildbraves" born="20151219" colour="Black" sex="b"/>
+          <Trainer id="99" uuid="3b0d8389-7cfe-4606-8d83-897cfe360691" name="Tom Engle" track=""/>
+          <Owner id="1036" uuid="6c60d4aa-bc5f-4237-a0d4-aabc5f62376a" name="Hare Chasing Racing Llc"/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="13552" uuid="d2fed639-6acf-4ac1-bed6-396acfeac167" name="Penelope Pitstop">
+          <Breeding sire="Blazin Wildfire" dam="Aura Bella" born="20141009" colour="Black" sex="d"/>
+          <Trainer id="119" uuid="62b18f8c-d5e5-4f4f-b18f-8cd5e57f4fbd" name="Ricardo Pacheco" track=""/>
+          <Owner id="954" uuid="626f55d0-10a6-4b4a-af55-d010a60b4a09" name="D. Dyal &amp; J. Boulton"/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="17763" uuid="42e7b88b-27e1-49fd-a7b8-8b27e1c9fd0f" name="Rodney Harrison">
+          <Breeding sire="Rob Gronkowski" dam="Ww's Patriots" born="20150625" colour="Black" sex="b"/>
+          <Trainer id="2919" uuid="29424934-5b81-4337-8249-345b81033782" name="Barb Long" track=""/>
+          <Owner id="218" uuid="b82a9b5a-a72e-4037-aa9b-5aa72e2037c6" name="Steven M Sarras"/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="13542" uuid="e22ab201-0d66-440a-aab2-010d66b40a4a" name="Bgr S Sarandon">
+          <Breeding sire="Defrim Bale*" dam="Boc's Sweeney" born="20150503" colour="Black" sex="d"/>
+          <Trainer id="105" uuid="fe507750-d5dd-4a17-9077-50d5ddea17c3" name="Chris Brill" track=""/>
+          <Owner id="137" uuid="12ac6f5e-b2d8-4d8d-ac6f-5eb2d8ad8df2" name="Brad Boeckenstedt"/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="13553" uuid="3ac4403c-0cd5-40bf-8440-3c0cd5a0bffc" name="Mac's Compass">
+          <Breeding sire="Djays Octane" dam="Lady Antebellum" born="20130802" colour="White Brindle" sex="b"/>
+          <Trainer id="104" uuid="ee4064f9-391d-43eb-8064-f9391dd3ebcf" name="Joe Palmer" track=""/>
+          <Owner id="666" uuid="5bf73cee-a0aa-418d-b73c-eea0aa818d5c" name="Patrick Mcmillon"/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="15168" uuid="6ac39040-3e52-4737-8390-403e5277378e" name="On Demand">
+          <Breeding sire="Dragon Fire" dam="Craig's Gal" born="20140102" colour="Brindle" sex="b" season=""/>
+          <Trainer id="101" uuid="320d66b4-0afa-464a-8d66-b40afac64a98" name="Joel Roden" track=""/>
+          <Owner id="688" uuid="db4376e3-5365-477b-8376-e35365777bf3" name="L. Raines or C. Pace"/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="13380" uuid="4739c720-3059-4d45-b9c7-2030591d45ce" name="Kiowa Super Day">
+          <Breeding sire="Super Lee" dam="Kiowa Someone" born="20140421" colour="Black" sex="d"/>
+          <Trainer id="109" uuid="e139a4a3-3706-4984-b9a4-a33706c984d6" name="Michael Piquette" track=""/>
+          <Owner id="1502" uuid="fcdc0bab-fbc7-4c49-9c0b-abfbc7bc49e1" name="B. Rosko Or B. Mirghafour"/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="05732234-42fd-4486-b322-3442fd04862b" raceNumber="3" time="20180414T1730+0000" type="Flat" handicap="No" class="M" distance="501" state="Dormant" title="Race 3">
+      <Comments>
+        <Comment source="easygate" type="verdict">Interesting race with #1 Braska Adonis, who is ideally posted, showing towards the front early, known more for later drives home. #2 Ww Jimmygotmoves will rely on decent early pace to make a race of it from this preferred draw. #5 Ds Tazo looks well positoned here to race into early contention on the wide side. Wps, Quiniela, $3 Perfecta, Trifecta, &amp;.10 Super ($2 Min Bet) Early Pick 4 Wagering Starts Here</Comment>
+        <Comment source="easygate" type="selections">1, 2, 5, 8</Comment>
+      </Comments>
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="35848" uuid="bdabf591-e97d-4e88-abf5-91e97dae88b3" name="Braska Adonis">
+          <Breeding sire="Sh Avatar" dam="Braska Mabeline" born="20160912" colour="Dark Brindle" sex="b"/>
+          <Trainer id="99" uuid="3b0d8389-7cfe-4606-8d83-897cfe360691" name="Tom Engle" track=""/>
+          <Owner id="650" uuid="037ed2f8-c844-4a2f-bed2-f8c8442a2fea" name="B. Elliott Or J. Elliott"/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="36516" uuid="5f4846f4-6976-4a7d-8846-f46976ca7d9c" name="Ww Jimmygotmoves">
+          <Breeding sire="Kc And All" dam="Ww's Irish Jig" born="20160530" colour="Dark Brindle" sex="b"/>
+          <Trainer id="107" uuid="1a3a706e-8159-4000-ba70-6e815940005a" name="Chuck Digiovanni" track=""/>
+          <Owner id="1035" uuid="85636a88-7ee3-4ddd-a36a-887ee38ddd7c" name="Jaws Racing or R. Armingt"/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="36517" uuid="695c168a-5212-40b9-9c16-8a521230b922" name="Braska Wymore">
+          <Breeding sire="Gable Sour Cream" dam="Braska Toffee" born="20160917" colour="Brindle" sex="b"/>
+          <Trainer id="99" uuid="3b0d8389-7cfe-4606-8d83-897cfe360691" name="Tom Engle" track=""/>
+          <Owner id="650" uuid="037ed2f8-c844-4a2f-bed2-f8c8442a2fea" name="B. Elliott Or J. Elliott"/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="35129" uuid="fe0d1241-14e3-448f-8d12-4114e3c48f70" name="Garthok">
+          <Breeding sire="Kc And All" dam="Evergreen Valley" born="20160611" colour="Fawn" sex="b"/>
+          <Trainer id="108" uuid="20f39fe6-6eda-4110-b39f-e66eda51103a" name="Joe Otto" track=""/>
+          <Owner id="1206" uuid="329fbbe4-f213-43b3-9fbb-e4f213d3b3e8" name="Ronald R. De Marco"/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="36518" uuid="79aea2ba-b641-44e5-aea2-bab64144e56b" name="Ds Tazo">
+          <Breeding sire="Barcelona Boss" dam="Ds Aquarius" born="20160505" colour="Brindle" sex="b"/>
+          <Trainer id="119" uuid="62b18f8c-d5e5-4f4f-b18f-8cd5e57f4fbd" name="Ricardo Pacheco" track=""/>
+          <Owner id="53" uuid="3c6cce24-6d91-4e12-acce-246d912e1291" name="Katherine D. Steel"/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="30314" uuid="c8916b28-9528-40f4-916b-28952800f4bd" name="Ww Tasty Hour">
+          <Breeding sire="Barcelona Boss" dam="Ww's Lacy Line" born="20160716" colour="Red" sex="b"/>
+          <Trainer id="107" uuid="1a3a706e-8159-4000-ba70-6e815940005a" name="Chuck Digiovanni" track=""/>
+          <Owner id="123" uuid="3142ca16-7207-48a6-82ca-16720798a6d3" name="Jaws Racing, Llc"/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="36519" uuid="8afb7b9e-1ca4-4b32-bb7b-9e1ca4db3294" name="True Talent">
+          <Breeding sire="Bella Infrared" dam="Fraulein Becky" born="20161001" colour="Brindle" sex="b"/>
+          <Trainer id="98" uuid="6f0904d1-5f16-4d13-8904-d15f168d1319" name="Louise Strong" track=""/>
+          <Owner id="1032" uuid="75d4ae9d-7d75-4eeb-94ae-9d7d75ceeb59" name="J. Melillo Or Jacobs Raci"/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="35694" uuid="e0aa232a-16ee-40d5-aa23-2a16ee00d567" name="Cayenne Jive">
+          <Breeding sire="Djays Octane" dam="Cayenne Hail" born="20160517" colour="White Black" sex="b"/>
+          <Trainer id="101" uuid="320d66b4-0afa-464a-8d66-b40afac64a98" name="Joel Roden" track=""/>
+          <Owner id="400" uuid="fc306a85-3449-45e0-b06a-853449a5e02d" name="Diane S. Watkins"/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="baafaf94-8ee8-41aa-afaf-948ee871aacd" raceNumber="4" time="20180414T1745+0000" type="Flat" handicap="No" class="D" distance="501" state="Dormant" title="Race 4">
+      <Comments>
+        <Comment source="easygate" type="verdict">Top choice for winner, may have to hunt for runners up. Racing from a good post and grabbing the rail on the first turn should be all the high rated #4 Rpg Catch Fire needs to factor here. #1 Cet Reignin Riba will rely on decent early pace to make a race of it from this preferred draw. The inside posting is excellent for #2 Kiowa R Darla, a fairly pacy racer well within the grade. Wps, Quiniela, $3 Perfecta, Trifecta, &amp;.10 Super ($2 Min Bet) Wager Early To Avoid Being Shut-out!</Comment>
+        <Comment source="easygate" type="selections">4, 1, 2, 7</Comment>
+      </Comments>
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="14758" uuid="6bc4545d-4bb5-420e-8454-5d4bb5520eea" name="Cet Reignin Riba">
+          <Breeding sire="Djays Octane" dam="Peanut Head Riba" born="20151226" colour="Black" sex="d"/>
+          <Trainer id="2919" uuid="29424934-5b81-4337-8249-345b81033782" name="Barb Long" track=""/>
+          <Owner id="644" uuid="61d16865-c486-4546-9168-65c4862546ad" name="Carl E. Tomblin, Ii"/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="10547" uuid="9b8e5baf-7efa-45ee-8e5b-af7efa55ee65" name="Kiowa R Darla">
+          <Breeding sire="Kiowa Sweet Trey" dam="Kiowa Alia" born="20151022" colour="Brindle" sex="d"/>
+          <Trainer id="98" uuid="6f0904d1-5f16-4d13-8904-d15f168d1319" name="Louise Strong" track=""/>
+          <Owner id="957" uuid="68b845cd-0505-4e00-b845-cd0505ce00d2" name="Randy M. Finegan"/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="15948" uuid="2677957e-1e73-423d-b795-7e1e73223da4" name="Clinton Portis">
+          <Breeding sire="Djays Octane" dam="M Bezzle Drive" born="20150107" colour="White Black" sex="b"/>
+          <Trainer id="2919" uuid="29424934-5b81-4337-8249-345b81033782" name="Barb Long" track=""/>
+          <Owner id="218" uuid="b82a9b5a-a72e-4037-aa9b-5aa72e2037c6" name="Steven M Sarras"/>
+          <Form>
+            <FormRace date="20171217" track="Southland" distance="533">
+              <FormTrap>
+                <Dog id="12906" uuid="dc276f7e-42e3-4b0d-a76f-7e42e3eb0d6f" name="Kb's Chase Me"/>
+                <Result position="1"/>
+              </FormTrap>
+              <FormTrap>
+                <Dog id="23389" uuid="619d85fd-a784-4031-9d85-fda784e03186" name="Phantom Beth"/>
+                <Result position="2"/>
+              </FormTrap>
+              <FormTrap>
+                <Dog id="15948" uuid="2677957e-1e73-423d-b795-7e1e73223da4" name="Clinton Portis"/>
+                <Result position="3">
+                  <StartingPrice>
+                    <Price decimal="7.300" numerator="15" denominator="2"/>
+                  </StartingPrice>
+                </Result>
+              </FormTrap>
+            </FormRace>
+          </Form>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="15059" uuid="84cdfb5a-44f9-4b39-8dfb-5a44f9bb391c" name="Rpg Catch Fire">
+          <Breeding sire="Pat C Clement" dam="River Rock" born="20150521" colour="Brindle White" sex="d"/>
+          <Trainer id="119" uuid="62b18f8c-d5e5-4f4f-b18f-8cd5e57f4fbd" name="Ricardo Pacheco" track=""/>
+          <Owner id="646" uuid="3a05213e-20fd-4fe0-8521-3e20fd9fe051" name="Twilite Kennels Or R. Pac"/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="30608" uuid="70897cf8-2e7a-484b-897c-f82e7a384be0" name="Oshkosh Tyson">
+          <Breeding sire="Lonesome Cry" dam="Oshkosh Flyin" born="20160202" colour="Fawn" sex="b"/>
+          <Trainer id="3176" uuid="cbf0670e-99da-4945-b067-0e99da294501" name="Jay Falcone" track=""/>
+          <Owner id="3" uuid="4ad37ee6-9537-48ef-937e-e6953758ef0e" name="Larry Pollard"/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="17930" uuid="91502579-7cb1-4e5f-9025-797cb17e5f37" name="Pj Fix A Drink">
+          <Breeding sire="Kc And All" dam="Sprite Drive" born="20160510" colour="White Red" sex="b"/>
+          <Trainer id="108" uuid="20f39fe6-6eda-4110-b39f-e66eda51103a" name="Joe Otto" track=""/>
+          <Owner id="661" uuid="0f2b4ca3-1aab-4afa-ab4c-a31aab1afa7d" name="Patriot/taplin Kennel"/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="10163" uuid="1284497f-0970-4fdb-8449-7f09705fdbe2" name="Cruisen Connie">
+          <Breeding sire="Craigie Whistler" dam="Cruisen Coco" born="20130710" colour="White Brindle" sex="d"/>
+          <Trainer id="1165" uuid="d72b5874-9965-42f3-ab58-749965a2f3f2" name="Scott Purdy" track=""/>
+          <Owner id="1275" uuid="b8062bc0-f32e-4c92-862b-c0f32e6c924a" name="Monroe Racing or G. Comer"/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="13458" uuid="58b866e8-d718-4780-b866-e8d718b780da" name="Imark Melina">
+          <Breeding sire="Djays Octane" dam="Magic Finch" born="20150619" colour="Black" sex="d"/>
+          <Trainer id="1165" uuid="d72b5874-9965-42f3-ab58-749965a2f3f2" name="Scott Purdy" track=""/>
+          <Owner id="1518" uuid="1b9ff8a3-ecc2-46b0-9ff8-a3ecc276b0eb" name="Imark Kennel Llc"/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="b568df44-62d4-4f78-a8df-4462d4ff7833" raceNumber="5" time="20180414T1800+0000" type="Flat" handicap="No" class="C" distance="501" state="Dormant" title="Race 5">
+      <Comments>
+        <Comment source="easygate" type="verdict">Top choice for winner, may have to hunt for runners up. #2 Ww Sebastian is well in grade and gets the added benefit of a favored posting to show off excellent early pace. With a distinct class edge over this field and a good post postion you can expect #6 Sidecar Dude to challenge here wide. #1 Rs's Mightymouse will rely on decent early pace to make a race of it from this preferred draw. Wps, Quiniela, $3 Perfecta, Trifecta &amp;.10 Super ($2 Min Bet) Simulcast Wagering Offered 7 Days A Week</Comment>
+        <Comment source="easygate" type="selections">2, 6, 1, 3</Comment>
+      </Comments>
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="34832" uuid="f4b53522-4548-4c98-b535-224548dc983f" name="Rs's Mightymouse">
+          <Breeding sire="Atascocita Gray" dam="Rs's Halle Rose" born="20160708" colour="Red" sex="b"/>
+          <Trainer id="101" uuid="320d66b4-0afa-464a-8d66-b40afac64a98" name="Joel Roden" track=""/>
+          <Owner id="1302" uuid="b2459dfd-6c93-420f-859d-fd6c93c20fdf" name="Kelly Jo Salem"/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="34035" uuid="b554235f-6786-4b84-9423-5f67866b84a6" name="Ww Sebastian">
+          <Breeding sire="Kc And All" dam="Ww'sbemasunshine" born="20160726" colour="Red" sex="b"/>
+          <Trainer id="107" uuid="1a3a706e-8159-4000-ba70-6e815940005a" name="Chuck Digiovanni" track=""/>
+          <Owner id="123" uuid="3142ca16-7207-48a6-82ca-16720798a6d3" name="Jaws Racing, Llc"/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="10154" uuid="b1db3a9e-ba20-4423-9b3a-9eba201423eb" name="Saber Bea Schnel">
+          <Breeding sire="Flying Penske" dam="Beate Schnell" born="20140531" colour="Black" sex="d"/>
+          <Trainer id="1165" uuid="d72b5874-9965-42f3-ab58-749965a2f3f2" name="Scott Purdy" track=""/>
+          <Owner id="1518" uuid="1b9ff8a3-ecc2-46b0-9ff8-a3ecc276b0eb" name="Imark Kennel Llc"/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="15944" uuid="cf019674-95e3-4473-8196-7495e3047355" name="Craigie Kansas">
+          <Breeding sire="Barcelona Boss" dam="Craigie Benatar" born="20150615" colour="Fawn" sex="d"/>
+          <Trainer id="2919" uuid="29424934-5b81-4337-8249-345b81033782" name="Barb Long" track=""/>
+          <Owner id="218" uuid="b82a9b5a-a72e-4037-aa9b-5aa72e2037c6" name="Steven M Sarras"/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="13608" uuid="2dd7aef1-32b4-4881-97ae-f132b4a88147" name="Sa La Ve">
+          <Breeding sire="Rico's Vintage" dam="Another Sylvia" born="20140711" colour="White Ticked Black" sex="d"/>
+          <Trainer id="119" uuid="62b18f8c-d5e5-4f4f-b18f-8cd5e57f4fbd" name="Ricardo Pacheco" track=""/>
+          <Owner id="82" uuid="4a957b71-bbb5-460b-957b-71bbb5260b97" name="Ricardo Pacheco"/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="13642" uuid="4b3fb12d-a123-42b5-bfb1-2da12312b5d8" name="Sidecar Dude">
+          <Breeding sire="Pat C Clement" dam="Stylish Debb" born="20140724" colour="Black" sex="b"/>
+          <Trainer id="100" uuid="39135261-1e5b-459e-9352-611e5bf59e25" name="James E. Blanchard" track=""/>
+          <Owner id="962" uuid="257f47e0-a09c-48ad-bf47-e0a09c08adc1" name="S. Schlachter Or C. Blair"/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="17727" uuid="41ab5216-4005-43cf-ab52-16400553cfc0" name="Barts Greyghost">
+          <Breeding sire="Barcelona Boss" dam="Gv Tilda" born="20151217" colour="Blue Fawn" sex="b"/>
+          <Trainer id="3176" uuid="cbf0670e-99da-4945-b067-0e99da294501" name="Jay Falcone" track=""/>
+          <Owner id="473" uuid="bf6b705b-7e05-4851-ab70-5b7e054851c2" name="Rhonda Bartley Or Travis"/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="13581" uuid="5e48bbf1-e2d2-406c-88bb-f1e2d2506cfc" name="Kelsos Alva">
+          <Breeding sire="Kelsos Locknload" dam="Kelsos Lab Top" born="20150521" colour="Black" sex="d"/>
+          <Trainer id="108" uuid="20f39fe6-6eda-4110-b39f-e66eda51103a" name="Joe Otto" track=""/>
+          <Owner id="661" uuid="0f2b4ca3-1aab-4afa-ab4c-a31aab1afa7d" name="Patriot/taplin Kennel"/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="af2fa198-5f4c-4b05-afa1-985f4cfb0528" raceNumber="6" time="20180414T1815+0000" type="Flat" handicap="No" class="B" distance="501" state="Dormant" title="Race 6">
+      <Comments>
+        <Comment source="easygate" type="verdict">Excellent chance for a winner. #1 L's Midgee B will rely on decent early pace to make a race of it from this preferred draw. Racing from a good post and grabbing the rail on the first turn should be all the high rated #3 Zombie Shotgun needs to factor here. Interesting race with #2 Ww No Doubt, who is ideally posted, showing towards the front early, known more for later drives home. Wps, Quiniela, $3 Perfecta, Trifecta, &amp;.10 Super ($2 Min Bet) Matinee Racing - Wed, Thur, Fri, Sat &amp; Sun @ 1:0</Comment>
+        <Comment source="easygate" type="selections">1, 3, 2, 7</Comment>
+      </Comments>
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="10927" uuid="1b90eb95-7565-467f-90eb-957565167fff" name="L's Midgee B">
+          <Breeding sire="Kc And All" dam="L's Zona" born="20150622" colour="Brindle" sex="d"/>
+          <Trainer id="100" uuid="39135261-1e5b-459e-9352-611e5bf59e25" name="James E. Blanchard" track=""/>
+          <Owner id="665" uuid="9cc9cc9f-cee7-4c96-89cc-9fcee7fc96be" name="Kenneth Le Febvre"/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="11814" uuid="dc0a539c-5545-4078-8a53-9c5545d0788b" name="Ww No Doubt">
+          <Breeding sire="Last Outlaw" dam="Ww Jimbo Miami" born="20150312" colour="Black" sex="d"/>
+          <Trainer id="107" uuid="1a3a706e-8159-4000-ba70-6e815940005a" name="Chuck Digiovanni" track=""/>
+          <Owner id="130" uuid="ef52a945-a295-4170-92a9-45a2952170f0" name="Julia Ward"/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="11809" uuid="3281faf1-7a65-4813-81fa-f17a65d813d5" name="Zombie Shotgun">
+          <Breeding sire="Kiowa Mon Manny" dam="Flying Aflame" born="20150214" colour="Red" sex="b"/>
+          <Trainer id="99" uuid="3b0d8389-7cfe-4606-8d83-897cfe360691" name="Tom Engle" track=""/>
+          <Owner id="670" uuid="c39920a8-a4ee-4225-9920-a8a4eee2258b" name="C. Blair Or J. Fusaro"/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="19006" uuid="670c5630-3bfc-4378-8c56-303bfc3378b1" name="Fill Yur Boots">
+          <Breeding sire="Em's Mac Attack" dam="Super Star Drive" born="20160424" colour="Brindle" sex="d"/>
+          <Trainer id="101" uuid="320d66b4-0afa-464a-8d66-b40afac64a98" name="Joel Roden" track=""/>
+          <Owner id="1024" uuid="2fedafcb-e29c-4fdb-adaf-cbe29c1fdb64" name="John A. Draper"/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="13638" uuid="7d501037-f927-42ff-9010-37f92722ff60" name="Amf Big Moon">
+          <Breeding sire="Big Road" dam="Moonlit Beauty" born="20151022" colour="Brindle" sex="b"/>
+          <Trainer id="104" uuid="ee4064f9-391d-43eb-8064-f9391dd3ebcf" name="Joe Palmer" track=""/>
+          <Owner id="645" uuid="82bf8eca-13cf-45f2-bf8e-ca13cf45f20c" name="Thomas Ferris"/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="15986" uuid="3b32c004-28d6-4b97-b2c0-0428d61b9784" name="Walky Talky">
+          <Breeding sire="Craigie Whistler" dam="Hmg Seventynine" born="20140401" colour="Brindle" sex="b"/>
+          <Trainer id="2919" uuid="29424934-5b81-4337-8249-345b81033782" name="Barb Long" track=""/>
+          <Owner id="75" uuid="88ec32e3-6bee-4ec8-ac32-e36beefec83e" name="Monroe Racing, Inc."/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="13284" uuid="6989c297-9121-437a-89c2-979121137a01" name="Barts All N All">
+          <Breeding sire="Kc And All" dam="Barts Commodity" born="20160126" colour="Black" sex="d"/>
+          <Trainer id="3176" uuid="cbf0670e-99da-4945-b067-0e99da294501" name="Jay Falcone" track=""/>
+          <Owner id="341" uuid="e30b4d60-2fe6-44fe-8b4d-602fe694fe75" name="Rhonda Bartley"/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="13460" uuid="c72b3c10-80c8-4bff-ab3c-1080c8cbff34" name="Chas N It">
+          <Breeding sire="Rhythmless" dam="Casino Zada" born="20150723" colour="Black" sex="d"/>
+          <Trainer id="1165" uuid="d72b5874-9965-42f3-ab58-749965a2f3f2" name="Scott Purdy" track=""/>
+          <Owner id="1575" uuid="36aeb02a-9a93-4bae-aeb0-2a9a93fbaed2" name="Imark Kennels or J. Gates"/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="a2ac31b5-1ff7-413b-ac31-b51ff7213be1" raceNumber="7" time="20180414T1830+0000" type="Flat" handicap="No" class="A" distance="501" state="Dormant" title="Race 7">
+      <Comments>
+        <Comment source="easygate" type="verdict">Top choice for winner, may have to hunt for runners up. Interesting race with #1 Pj Takeyourtime, who is ideally posted, showing towards the front early, known more for later drives home. Good pace from a reasonable post should get #4 Cbj Spearmint into the race early. #5 Ww Lucky Chance should exit the less than perfect post with enough pace to let class tell. Wps, Quiniela, $3 Perfecta, Trifecta, &amp;.10 Super ($2 Min Bet) Wager Early To Avoid Being Shut-out! Simulcast Wagering Offered 7 Days</Comment>
+        <Comment source="easygate" type="selections">1, 4, 5, 6</Comment>
+      </Comments>
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="18930" uuid="3d8c7c41-db5d-4bd8-8c7c-41db5d2bd834" name="Pj Takeyourtime">
+          <Breeding sire="Djays Octane" dam="Pj Michelada" born="20131228" colour="Red" sex="d"/>
+          <Trainer id="104" uuid="ee4064f9-391d-43eb-8064-f9391dd3ebcf" name="Joe Palmer" track=""/>
+          <Owner id="645" uuid="82bf8eca-13cf-45f2-bf8e-ca13cf45f20c" name="Thomas Ferris"/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="17517" uuid="e3b3d4af-eb63-4199-b3d4-afeb63219998" name="Miss Valentine">
+          <Breeding sire="Kc And All" dam="Roc A By Shogirl" born="20160311" colour="White Red" sex="d"/>
+          <Trainer id="3176" uuid="cbf0670e-99da-4945-b067-0e99da294501" name="Jay Falcone" track=""/>
+          <Owner id="581" uuid="afed5fda-fbbf-408d-ad5f-dafbbff08df5" name="Donna M. Barr"/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="14278" uuid="87ded2b8-35b1-47bb-9ed2-b835b1a7bbe4" name="Braska Allison">
+          <Breeding sire="Braska Baxter" dam="Braska Daffy" born="20150902" colour="Brindle" sex="d"/>
+          <Trainer id="100" uuid="39135261-1e5b-459e-9352-611e5bf59e25" name="James E. Blanchard" track=""/>
+          <Owner id="650" uuid="037ed2f8-c844-4a2f-bed2-f8c8442a2fea" name="B. Elliott Or J. Elliott"/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="14246" uuid="59c52764-c257-4654-8527-64c2573654c7" name="Cbj Spearmint">
+          <Breeding sire="Gable Sour Cream" dam="Cbj Jordy Brown" born="20140926" colour="Fawn" sex="b"/>
+          <Trainer id="109" uuid="e139a4a3-3706-4984-b9a4-a33706c984d6" name="Michael Piquette" track=""/>
+          <Owner id="972" uuid="cbddeb0d-28ce-4f45-9deb-0d28ce8f45be" name="Carmen M. Jorgensen"/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="11870" uuid="1d22ce77-937b-45b9-a2ce-77937b05b996" name="Ww Lucky Chance">
+          <Breeding sire="Last Outlaw" dam="Ww Risky Whiskey" born="20140405" colour="Red Fawn" sex="d"/>
+          <Trainer id="107" uuid="1a3a706e-8159-4000-ba70-6e815940005a" name="Chuck Digiovanni" track=""/>
+          <Owner id="130" uuid="ef52a945-a295-4170-92a9-45a2952170f0" name="Julia Ward"/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="10243" uuid="3b63139c-51ba-4eb1-a313-9c51ba4eb128" name="Royal Daddys Boy">
+          <Breeding sire="Quick Reply" dam="Ahk Miss Kellin" born="20151217" colour="Brindle" sex="b"/>
+          <Trainer id="100" uuid="39135261-1e5b-459e-9352-611e5bf59e25" name="James E. Blanchard" track=""/>
+          <Owner id="133" uuid="61f1f734-25f5-4f9c-b1f7-3425f53f9c1a" name="Deborah S. Elliott"/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="13584" uuid="11bbaca7-a5e4-4611-bbac-a7a5e4f611b4" name="Jeannie C Riley">
+          <Breeding sire="Flying Penske" dam="Super C Arias" born="20140901" colour="Black" sex="d"/>
+          <Trainer id="101" uuid="320d66b4-0afa-464a-8d66-b40afac64a98" name="Joel Roden" track=""/>
+          <Owner id="81" uuid="9028a1f4-1c10-45bc-a8a1-f41c10b5bce3" name="Jeff L. Cole"/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="14260" uuid="b6e5fe58-3fb2-4bb8-a5fe-583fb26bb890" name="Js Enuf Is Enuf">
+          <Breeding sire="Kc And All" dam="Js Summer Hummer" born="20150801" colour="White Black" sex="b"/>
+          <Trainer id="108" uuid="20f39fe6-6eda-4110-b39f-e66eda51103a" name="Joe Otto" track=""/>
+          <Owner id="661" uuid="0f2b4ca3-1aab-4afa-ab4c-a31aab1afa7d" name="Patriot/taplin Kennel"/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="c1dbed41-a46f-4719-9bed-41a46fe719b9" raceNumber="8" time="20180414T1845+0000" type="Flat" handicap="No" class="C" distance="501" state="Dormant" title="Race 8">
+      <Comments>
+        <Comment source="easygate" type="verdict">Winning choice may be stand out. #2 Cbj Rolo will rely on decent early pace to make a race of it from this preferred draw. #1 Oaks Ms Scarlet will rely on decent early pace to make a race of it from this preferred draw. Racing on the outside we look for #8 Braska Spalding to get into contention early and be flying down the stretch Wps, Quiniela, $3 Perfecta, Trifecta, &amp;.10 Super ($2 Min Bet) Please Check All Tickets Before Leaving The Mutuel Window Program For Our Next Performance Available</Comment>
+        <Comment source="easygate" type="selections">2, 1, 8, 3</Comment>
+      </Comments>
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="15730" uuid="14ee0939-642d-4e32-ae09-39642d6e3259" name="Oaks Ms Scarlet">
+          <Breeding sire="Djays Octane" dam="Amf Bouncearound" born="20150910" colour="White Red Brindle" sex="d"/>
+          <Trainer id="2919" uuid="29424934-5b81-4337-8249-345b81033782" name="Barb Long" track=""/>
+          <Owner id="902" uuid="5b61f48f-df9c-4103-a1f4-8fdf9c51039f" name="Mick Hymes"/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="14296" uuid="45ab350e-06bf-40fa-ab35-0e06bfc0fa86" name="Cbj Rolo">
+          <Breeding sire="Gable Sour Cream" dam="Cbj Choc O Lat" born="20140930" colour="Brindle" sex="b"/>
+          <Trainer id="109" uuid="e139a4a3-3706-4984-b9a4-a33706c984d6" name="Michael Piquette" track=""/>
+          <Owner id="972" uuid="cbddeb0d-28ce-4f45-9deb-0d28ce8f45be" name="Carmen M. Jorgensen"/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="11479" uuid="d95429f6-81b9-49f3-9429-f681b929f3ed" name="Barts Pure Gold">
+          <Breeding sire="Gold Town*" dam="Barts Prettyeasy" born="20160318" colour="Black" sex="b"/>
+          <Trainer id="3176" uuid="cbf0670e-99da-4945-b067-0e99da294501" name="Jay Falcone" track=""/>
+          <Owner id="341" uuid="e30b4d60-2fe6-44fe-8b4d-602fe694fe75" name="Rhonda Bartley"/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="13714" uuid="98ae5e2a-ddb8-4da9-ae5e-2addb84da916" name="Untempered">
+          <Breeding sire="Lonesome Cry" dam="Lost Prairie" born="20150504" colour="Fawn" sex="d"/>
+          <Trainer id="108" uuid="20f39fe6-6eda-4110-b39f-e66eda51103a" name="Joe Otto" track=""/>
+          <Owner id="350" uuid="145038f5-bae2-45b8-9038-f5bae235b86e" name="Paul V. Ryan"/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="19222" uuid="9abc04be-a460-485e-bc04-bea460085ec3" name="Trans Am Gerdi">
+          <Breeding sire="Em's Mac Attack" dam="Super Star Drive" born="20160424" colour="Brindle White" sex="d"/>
+          <Trainer id="101" uuid="320d66b4-0afa-464a-8d66-b40afac64a98" name="Joel Roden" track=""/>
+          <Owner id="1024" uuid="2fedafcb-e29c-4fdb-adaf-cbe29c1fdb64" name="John A. Draper"/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="14188" uuid="793a2ffe-9d2c-491f-ba2f-fe9d2c691f93" name="Bgr Zack Greinke">
+          <Breeding sire="Sh Avatar" dam="Boc's Keilani" born="20150429" colour="Red" sex="b"/>
+          <Trainer id="105" uuid="fe507750-d5dd-4a17-9077-50d5ddea17c3" name="Chris Brill" track=""/>
+          <Owner id="137" uuid="12ac6f5e-b2d8-4d8d-ac6f-5eb2d8ad8df2" name="Brad Boeckenstedt"/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="17515" uuid="07229751-cc42-4fc0-a297-51cc42efc0e6" name="Up In Smoke">
+          <Breeding sire="Djays Octane" dam="Rck Princess" born="20160212" colour="White Red" sex="b"/>
+          <Trainer id="119" uuid="62b18f8c-d5e5-4f4f-b18f-8cd5e57f4fbd" name="Ricardo Pacheco" track=""/>
+          <Owner id="82" uuid="4a957b71-bbb5-460b-957b-71bbb5260b97" name="Ricardo Pacheco"/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="24200" uuid="c1b945e7-06c3-4768-b945-e706c3d768c3" name="Braska Spalding">
+          <Breeding sire="Soprano Drive" dam="Braska Cici" born="20151001" colour="Brindle" sex="b"/>
+          <Trainer id="100" uuid="39135261-1e5b-459e-9352-611e5bf59e25" name="James E. Blanchard" track=""/>
+          <Owner id="650" uuid="037ed2f8-c844-4a2f-bed2-f8c8442a2fea" name="B. Elliott Or J. Elliott"/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="25749592-230e-499c-b495-92230eb99c7d" raceNumber="9" time="20180414T1900+0000" type="Flat" handicap="No" class="B" distance="501" state="Dormant" title="Race 9">
+      <Comments>
+        <Comment source="easygate" type="verdict">Excellent chance for a winner. Racing from a good post and grabbing the rail on the first turn should be all the high rated #3 Ww Little Pistol needs to factor here. Sitting in a good post look for #2 Ff Warrior to move up early in this race and finish very strongly down the stretch. #4 Slatex Xcel should exit the less than perfect post with enough pace to let class tell. Wps, Quiniela, $3 Perfecta &amp;.10 Super ($2 Min Bet) First Half Of The Lucky North Twin Tri Wager Early To Avoid Being Shut</Comment>
+        <Comment source="easygate" type="selections">3, 2, 4, 8</Comment>
+      </Comments>
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="18955" uuid="2017b587-8490-4807-97b5-878490880740" name="Bgr W Peppercorn">
+          <Breeding sire="Dox Out Of Peace" dam="Boc's Sluicey" born="20150627" colour="Red" sex="d"/>
+          <Trainer id="105" uuid="fe507750-d5dd-4a17-9077-50d5ddea17c3" name="Chris Brill" track=""/>
+          <Owner id="137" uuid="12ac6f5e-b2d8-4d8d-ac6f-5eb2d8ad8df2" name="Brad Boeckenstedt"/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="13639" uuid="8ea28513-da0d-4c87-a285-13da0d2c876b" name="Ff Warrior">
+          <Breeding sire="Ff Code Red" dam="Hs Silver" born="20150710" colour="Brindle" sex="b"/>
+          <Trainer id="99" uuid="3b0d8389-7cfe-4606-8d83-897cfe360691" name="Tom Engle" track=""/>
+          <Owner id="660" uuid="6944967b-6f15-4cbf-8496-7b6f15ecbfe7" name="Joseph Fusaro"/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="14279" uuid="bb288613-7a03-4afb-a886-137a03bafbd2" name="Ww Little Pistol">
+          <Breeding sire="Barcelona Boss" dam="Ww's Pistol" born="20150628" colour="Brindle" sex="d"/>
+          <Trainer id="107" uuid="1a3a706e-8159-4000-ba70-6e815940005a" name="Chuck Digiovanni" track=""/>
+          <Owner id="1035" uuid="85636a88-7ee3-4ddd-a36a-887ee38ddd7c" name="Jaws Racing or R. Armingt"/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="14305" uuid="514befeb-df69-456b-8bef-ebdf69756b3d" name="Slatex Xcel">
+          <Breeding sire="Kiowa Mon Manny" dam="Slatex Magnesium" born="20150227" colour="Red" sex="d"/>
+          <Trainer id="98" uuid="6f0904d1-5f16-4d13-8904-d15f168d1319" name="Louise Strong" track=""/>
+          <Owner id="642" uuid="55801c54-fa97-44b7-801c-54fa9724b78b" name="Harlan Brothers Inc."/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="14266" uuid="15de6579-744b-41bb-9e65-79744b31bbc2" name="Se's Web Wacker">
+          <Breeding sire="Djays Octane" dam="Flying Norma" born="20150722" colour="White Black" sex="d"/>
+          <Trainer id="101" uuid="320d66b4-0afa-464a-8d66-b40afac64a98" name="Joel Roden" track=""/>
+          <Owner id="207" uuid="e82ee188-866e-4e5a-aee1-88866e0e5aa1" name="Steven A. Ward"/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="17076" uuid="3b2cb5ad-bd9e-46d2-acb5-adbd9ee6d2b9" name="Barts Creditcard">
+          <Breeding sire="Djays Octane" dam="Barts Amazinnora" born="20150314" colour="Black" sex="d"/>
+          <Trainer id="3176" uuid="cbf0670e-99da-4945-b067-0e99da294501" name="Jay Falcone" track=""/>
+          <Owner id="341" uuid="e30b4d60-2fe6-44fe-8b4d-602fe694fe75" name="Rhonda Bartley"/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="13722" uuid="4fc5e95f-1490-475e-85e9-5f1490375ec8" name="Arkansbdwhitesox">
+          <Breeding sire="Oshkosh Slammer" dam="Bd's Sheba" born="20140520" colour="Black" sex="d"/>
+          <Trainer id="99" uuid="3b0d8389-7cfe-4606-8d83-897cfe360691" name="Tom Engle" track=""/>
+          <Owner id="643" uuid="a9edd34f-8f2b-410a-add3-4f8f2b410a53" name="R. Henry Or W. Denton"/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="13725" uuid="c3e8a0d4-1844-4ec1-a8a0-d418441ec1eb" name="Kiowa Animated">
+          <Breeding sire="Coldwater Torres" dam="Kiowa Kay Tipton" born="20131126" colour="Black" sex="b"/>
+          <Trainer id="108" uuid="20f39fe6-6eda-4110-b39f-e66eda51103a" name="Joe Otto" track=""/>
+          <Owner id="244" uuid="510f9369-63d5-4938-8f93-6963d5893806" name="Dean Miner"/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="38e83bf4-b598-43ff-a83b-f4b59863fff9" raceNumber="10" time="20180414T1915+0000" type="Flat" handicap="No" class="D" distance="501" state="Dormant" title="Race 10">
+      <Comments>
+        <Comment source="easygate" type="verdict">May be able to isolate a great win bet here. #1 Spahkuhlah will rely on decent early pace to make a race of it from this preferred draw. The inside posting is excellent for #3 Miami Dolphin, a fairly pacy racer well within the grade. #2 Bs Lacrosse should overcome a less than favorable post and move up early and finish strongly on the outside. Wps, Quiniela, $3 Perfecta, Trifecta, &amp;.10 Super ($2 Min Bet) Late Pick 4 Wagering Starts Here Wager Early To Avoid Being Shut- ut!</Comment>
+        <Comment source="easygate" type="selections">1, 3, 2, 7</Comment>
+      </Comments>
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="34833" uuid="ffa2f110-25f6-4562-a2f1-1025f6556251" name="Spahkuhlah">
+          <Breeding sire="Dewzee" dam="Nyari" born="20160301" colour="White Ticked Red" sex="d"/>
+          <Trainer id="108" uuid="20f39fe6-6eda-4110-b39f-e66eda51103a" name="Joe Otto" track=""/>
+          <Owner id="322" uuid="cd93f03b-4a0e-4e28-93f0-3b4a0efe28a4" name="W. H. O' Donnell"/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="10009" uuid="08c4a0a6-5532-4448-84a0-a65532f4486d" name="Bs Lacrosse">
+          <Breeding sire="Kc And All" dam="Bs Purple Rain" born="20151115" colour="Fawn Brindle" sex="b"/>
+          <Trainer id="2919" uuid="29424934-5b81-4337-8249-345b81033782" name="Barb Long" track=""/>
+          <Owner id="10" uuid="a4071d12-caf6-47cb-871d-12caf6b7cb3d" name="Robert Schoop"/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="31181" uuid="101e2382-68d2-4d8c-9e23-8268d26d8c7d" name="Miami Dolphin">
+          <Breeding sire="Djays Octane" dam="Magic Violet" born="20160630" colour="White Black" sex="d"/>
+          <Trainer id="1165" uuid="d72b5874-9965-42f3-ab58-749965a2f3f2" name="Scott Purdy" track=""/>
+          <Owner id="1587" uuid="9948da63-ccc2-4950-88da-63ccc2e950dc" name="Imark Kennels or J. Stein"/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="28738" uuid="26318b08-d08e-4891-b18b-08d08e38911b" name="Tmc's Shockwave">
+          <Breeding sire="Tmc's Remedy" dam="Trip Home" born="20160304" colour="Black" sex="d"/>
+          <Trainer id="100" uuid="39135261-1e5b-459e-9352-611e5bf59e25" name="James E. Blanchard" track=""/>
+          <Owner id="157" uuid="f4df467e-f6ac-4e3f-9f46-7ef6ac0e3fc6" name="Eddie Mc Donald"/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="34562" uuid="9f7d966c-1b40-44eb-bd96-6c1b40c4eb4f" name="Jones Go To Lady">
+          <Breeding sire="Golden Squire" dam="Sorry Gotta Go" born="20160901" colour="Red Brindle" sex="d"/>
+          <Trainer id="98" uuid="6f0904d1-5f16-4d13-8904-d15f168d1319" name="Louise Strong" track=""/>
+          <Owner id="1892" uuid="a1d9836a-f11a-4d6a-9983-6af11a9d6a50" name="Kathleen Ann Jones"/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="16668" uuid="1a0dcc6e-0c37-499b-8dcc-6e0c37f99ba4" name="Ww Spearmint">
+          <Breeding sire="Djays Octane" dam="Ww's Minty" born="20150925" colour="Black" sex="b"/>
+          <Trainer id="107" uuid="1a3a706e-8159-4000-ba70-6e815940005a" name="Chuck Digiovanni" track=""/>
+          <Owner id="123" uuid="3142ca16-7207-48a6-82ca-16720798a6d3" name="Jaws Racing, Llc"/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="18796" uuid="1f163686-99cf-4b94-9636-8699cfcb94ff" name="Imark Ruffles">
+          <Breeding sire="Kc And All" dam="Dolores Wookie" born="20160629" colour="Red Brindle" sex="d"/>
+          <Trainer id="1165" uuid="d72b5874-9965-42f3-ab58-749965a2f3f2" name="Scott Purdy" track=""/>
+          <Owner id="83" uuid="a1b3c2c0-2b5a-48fd-b3c2-c02b5a78fdfb" name="Imark Kennels Llc"/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="33442" uuid="2ac38c6b-5ce1-442a-838c-6b5ce1d42ac8" name="Liz Hasselbeck">
+          <Breeding sire="Djays Octane" dam="M Bezzle Drive" born="20150107" colour="White Black" sex="d"/>
+          <Trainer id="2919" uuid="29424934-5b81-4337-8249-345b81033782" name="Barb Long" track=""/>
+          <Owner id="218" uuid="b82a9b5a-a72e-4037-aa9b-5aa72e2037c6" name="Steven M Sarras"/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="c5c3c559-905a-4ad5-83c5-59905aaad5e0" raceNumber="11" time="20180414T1930+0000" type="Flat" handicap="No" class="C" distance="501" state="Dormant" title="Race 11">
+      <Comments>
+        <Comment source="easygate" type="verdict">Top choice for winner, may have to hunt for runners up. Sitting in a good post look for #3 Garnet Girl to move up early in this race and finish very strongly down the stretch. #2 Hashtag L Fitz should have enough early speed to grad the early command and may hold on. Interesting race with #1 Slumber Party, who is ideally posted, showing towards the front early, known more for later drives home. Second Half Of The Lucky North Twin Tri (exchange Tickets Before Post Wps, Quiniela, $3 Perfecta,</Comment>
+        <Comment source="easygate" type="selections">3, 2, 1, 7</Comment>
+      </Comments>
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="14190" uuid="9c1055b4-2b65-42b3-9055-b42b6582b30d" name="Slumber Party">
+          <Breeding sire="Kc And All" dam="T's Hell Onheels" born="20150814" colour="Red" sex="d"/>
+          <Trainer id="3176" uuid="cbf0670e-99da-4945-b067-0e99da294501" name="Jay Falcone" track=""/>
+          <Owner id="559" uuid="755fa319-2f9d-4b87-9fa3-192f9ddb8718" name="Travis Bartley"/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="16311" uuid="d71b535b-43ce-4fb1-9b53-5b43ce4fb1db" name="Hashtag L Fitz">
+          <Breeding sire="Venus Espinosa" dam="Mazatlan De Amor" born="20140808" colour="Brindle" sex="b"/>
+          <Trainer id="99" uuid="3b0d8389-7cfe-4606-8d83-897cfe360691" name="Tom Engle" track=""/>
+          <Owner id="8" uuid="5ba64466-a104-4202-a644-66a1042202c0" name="Lonnie E. Boyle"/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="18903" uuid="80f18303-23e2-4243-b183-0323e2324396" name="Garnet Girl">
+          <Breeding sire="Where's Wise Guy" dam="Ahk Jaimes Girl" born="20150726" colour="Red Brindle" sex="d"/>
+          <Trainer id="104" uuid="ee4064f9-391d-43eb-8064-f9391dd3ebcf" name="Joe Palmer" track=""/>
+          <Owner id="533" uuid="891d9efb-7c24-4680-9d9e-fb7c24c680d6" name="Phillip Marsella"/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="18809" uuid="2a69d799-0b47-45fb-a9d7-990b4705fb7d" name="Unspokenvoice">
+          <Breeding sire="Djays Octane" dam="Rck Princess" born="20160212" colour="White Red" sex="b"/>
+          <Trainer id="119" uuid="62b18f8c-d5e5-4f4f-b18f-8cd5e57f4fbd" name="Ricardo Pacheco" track=""/>
+          <Owner id="82" uuid="4a957b71-bbb5-460b-957b-71bbb5260b97" name="Ricardo Pacheco"/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="15354" uuid="3982554a-5185-417a-8255-4a5185e17a9d" name="Cristina Justina">
+          <Breeding sire="Bd's Grayson" dam="Dm Maxine" born="20140614" colour="Brindle" sex="d"/>
+          <Trainer id="100" uuid="39135261-1e5b-459e-9352-611e5bf59e25" name="James E. Blanchard" track=""/>
+          <Owner id="658" uuid="04240c95-78ef-4f3e-a40c-9578efff3e18" name="D. Strong Or K. Phillips"/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="11813" uuid="b188321d-fd79-41ee-8832-1dfd7921eebf" name="Bgr Squirt">
+          <Breeding sire="Vee Man Vane" dam="Boc's Mc Ragen" born="20150425" colour="Black" sex="d"/>
+          <Trainer id="105" uuid="fe507750-d5dd-4a17-9077-50d5ddea17c3" name="Chris Brill" track=""/>
+          <Owner id="672" uuid="c409f9de-c91b-4f72-89f9-dec91b2f72aa" name="B. Boeckenstedt Or M. Has"/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="18566" uuid="5b11df63-d82f-4e51-91df-63d82f1e5172" name="Ww Sourpatch">
+          <Breeding sire="Kc And All" dam="Ww's Mint Candy" born="20160627" colour="Black" sex="b"/>
+          <Trainer id="107" uuid="1a3a706e-8159-4000-ba70-6e815940005a" name="Chuck Digiovanni" track=""/>
+          <Owner id="123" uuid="3142ca16-7207-48a6-82ca-16720798a6d3" name="Jaws Racing, Llc"/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="21980" uuid="af2c039c-ebe3-499e-ac03-9cebe3099ecd" name="Kelsos Last Lady">
+          <Breeding sire="Bella Infrared" dam="Kelsos Lab Top" born="20160411" colour="Brindle" sex="d"/>
+          <Trainer id="101" uuid="320d66b4-0afa-464a-8d66-b40afac64a98" name="Joel Roden" track=""/>
+          <Owner id="159" uuid="3da3e944-bcd6-495c-a3e9-44bcd6395c81" name="John W. Kelly"/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="9654ce03-7077-47cb-94ce-03707717cb6e" raceNumber="12" time="20180414T1945+0000" type="Flat" handicap="No" class="B" distance="501" state="Dormant" title="Race 12">
+      <Comments>
+        <Comment source="easygate" type="verdict">May be able to isolate a great win bet here. #2 Trouble Lurking will rely on decent early pace to make a race of it from this preferred draw. Interesting race with #1 Just Like This, who is ideally posted, showing towards the front early, known more for later drives home. Good pace from a reasonable post should get #4 Craigie Changeit into the race early. Wps, Quiniela, $3 Perfecta, Trifecta, &amp;.10 Super ($2 Min Bet) Programs For Our Next Performance Available At The Program Stand</Comment>
+        <Comment source="easygate" type="selections">2, 1, 4, 3</Comment>
+      </Comments>
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="16544" uuid="0e642ac7-59aa-42e6-a42a-c759aad2e669" name="Just Like This">
+          <Breeding sire="Kc And All" dam="Kt Justlikethat" born="20160501" colour="Brindle" sex="d"/>
+          <Trainer id="3176" uuid="cbf0670e-99da-4945-b067-0e99da294501" name="Jay Falcone" track=""/>
+          <Owner id="559" uuid="755fa319-2f9d-4b87-9fa3-192f9ddb8718" name="Travis Bartley"/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="12156" uuid="783445d0-c996-455a-b445-d0c996d55a46" name="Trouble Lurking">
+          <Breeding sire="Kc And All" dam="Julia Ww Ginny" born="20150320" colour="Black" sex="b"/>
+          <Trainer id="1165" uuid="d72b5874-9965-42f3-ab58-749965a2f3f2" name="Scott Purdy" track=""/>
+          <Owner id="1155" uuid="00f58baa-4c82-4d7a-b58b-aa4c824d7a7c" name="J. Draper Or M. Schmidt"/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="27471" uuid="588c6fec-ddad-4627-8c6f-ecddadb6278d" name="Braska Milton">
+          <Breeding sire="Sh Avatar" dam="Braska Banana" born="20160118" colour="Red Fawn" sex="b"/>
+          <Trainer id="99" uuid="3b0d8389-7cfe-4606-8d83-897cfe360691" name="Tom Engle" track=""/>
+          <Owner id="650" uuid="037ed2f8-c844-4a2f-bed2-f8c8442a2fea" name="B. Elliott Or J. Elliott"/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="11820" uuid="46fc5ea9-e681-4ca4-bc5e-a9e681fca420" name="Craigie Changeit">
+          <Breeding sire="Kc And All" dam="Toni Works" born="20140604" colour="Red" sex="b"/>
+          <Trainer id="100" uuid="39135261-1e5b-459e-9352-611e5bf59e25" name="James E. Blanchard" track=""/>
+          <Owner id="420" uuid="4ee977f7-73c6-4383-a977-f773c69383ae" name="Bj's Greyhounds, Llc"/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="15038" uuid="f64dc046-b24b-41cd-8dc0-46b24b01cd77" name="Bgr C Parker">
+          <Breeding sire="Vee Man Vane" dam="Superior Pettini" born="20150320" colour="White Ticked Black" sex="d"/>
+          <Trainer id="105" uuid="fe507750-d5dd-4a17-9077-50d5ddea17c3" name="Chris Brill" track=""/>
+          <Owner id="137" uuid="12ac6f5e-b2d8-4d8d-ac6f-5eb2d8ad8df2" name="Brad Boeckenstedt"/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="35648" uuid="60406176-708d-4e1d-8061-76708d6e1d8a" name="Ds Kesha">
+          <Breeding sire="Surf Lorian" dam="Ds Aquila" born="20160203" colour="Red" sex="d"/>
+          <Trainer id="119" uuid="62b18f8c-d5e5-4f4f-b18f-8cd5e57f4fbd" name="Ricardo Pacheco" track=""/>
+          <Owner id="53" uuid="3c6cce24-6d91-4e12-acce-246d912e1291" name="Katherine D. Steel"/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="11874" uuid="39072708-125a-46a7-8727-08125a66a725" name="Ww Unveiling">
+          <Breeding sire="Last Outlaw" dam="Ww's Show It All" born="20150425" colour="White Ticked Black" sex="b"/>
+          <Trainer id="107" uuid="1a3a706e-8159-4000-ba70-6e815940005a" name="Chuck Digiovanni" track=""/>
+          <Owner id="130" uuid="ef52a945-a295-4170-92a9-45a2952170f0" name="Julia Ward"/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="13606" uuid="149e956f-ba43-48a5-9e95-6fba4378a58f" name="Barts Photo Op">
+          <Breeding sire="Barcelona Boss" dam="Barts Companion" born="20150203" colour="Blue Brindle" sex="d"/>
+          <Trainer id="3176" uuid="cbf0670e-99da-4945-b067-0e99da294501" name="Jay Falcone" track=""/>
+          <Owner id="341" uuid="e30b4d60-2fe6-44fe-8b4d-602fe694fe75" name="Rhonda Bartley"/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="39dab208-9440-4575-9ab2-089440a57547" raceNumber="13" time="20180414T2000+0000" type="Flat" handicap="No" class="D" distance="620" state="Dormant" title="Race 13">
+      <Comments>
+        <Comment source="easygate" type="verdict">#1 Bgr Wilee Coyote will rely on decent early pace to make a race of it from this preferred draw. Interesting race with #2 Imark Ducati, who is ideally posted, showing towards the front early, known more for later drives home. #5 Im Calling Dibs should exit the less than perfect post with enough pace to let class tell. Wps, Quiniela, $3 Perfecta, Trifecta, &amp;.10 Super ($2 Min Bet) Wager Early To Avoid Being Shut-out!</Comment>
+        <Comment source="easygate" type="selections">1, 2, 5, 4</Comment>
+      </Comments>
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="14226" uuid="e64e8574-d6f9-4e80-8e85-74d6f92e80ad" name="Bgr Wilee Coyote">
+          <Breeding sire="Djays Octane" dam="Ucme Chickaboom" born="20150515" colour="Dark Brindle" sex="b"/>
+          <Trainer id="105" uuid="fe507750-d5dd-4a17-9077-50d5ddea17c3" name="Chris Brill" track=""/>
+          <Owner id="137" uuid="12ac6f5e-b2d8-4d8d-ac6f-5eb2d8ad8df2" name="Brad Boeckenstedt"/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="30971" uuid="bfc44c0e-fee8-4f88-844c-0efee8cf883b" name="Imark Ducati">
+          <Breeding sire="Djays Octane" dam="Harley Jackie" born="20160701" colour="White Black" sex="b"/>
+          <Trainer id="1165" uuid="d72b5874-9965-42f3-ab58-749965a2f3f2" name="Scott Purdy" track=""/>
+          <Owner id="1518" uuid="1b9ff8a3-ecc2-46b0-9ff8-a3ecc276b0eb" name="Imark Kennel Llc"/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="10935" uuid="fc0f399f-4c35-4957-8f39-9f4c3529579e" name="Penny Marshall">
+          <Breeding sire="Pat C Clement" dam="Ftk Foxboro" born="20151102" colour="Brindle" sex="d"/>
+          <Trainer id="2919" uuid="29424934-5b81-4337-8249-345b81033782" name="Barb Long" track=""/>
+          <Owner id="218" uuid="b82a9b5a-a72e-4037-aa9b-5aa72e2037c6" name="Steven M Sarras"/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="15053" uuid="f371f858-8cd6-4cf4-b1f8-588cd67cf409" name="Pjs Thewayitis">
+          <Breeding sire="Djays Octane" dam="Sr Midnight Moon" born="20141201" colour="Black" sex="d"/>
+          <Trainer id="2919" uuid="29424934-5b81-4337-8249-345b81033782" name="Barb Long" track=""/>
+          <Owner id="218" uuid="b82a9b5a-a72e-4037-aa9b-5aa72e2037c6" name="Steven M Sarras"/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="15058" uuid="f435bd5d-0b4d-4715-b5bd-5d0b4dd715b1" name="Im Calling Dibs">
+          <Breeding sire="Gable Oscar" dam="Rain Over Me" born="20140813" colour="Red Brindle" sex="d"/>
+          <Trainer id="3176" uuid="cbf0670e-99da-4945-b067-0e99da294501" name="Jay Falcone" track=""/>
+          <Owner id="578" uuid="b3d8be48-5b19-40cf-98be-485b1930cf7b" name="Kate Bartley"/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="11777" uuid="a402fb25-62d0-4db3-82fb-2562d0ddb3ce" name="Backwood Elmer">
+          <Breeding sire="Backwood Alex" dam="Backwood Corina" born="20131210" colour="White Ticked Brindle" sex="b"/>
+          <Trainer id="99" uuid="3b0d8389-7cfe-4606-8d83-897cfe360691" name="Tom Engle" track=""/>
+          <Owner id="660" uuid="6944967b-6f15-4cbf-8496-7b6f15ecbfe7" name="Joseph Fusaro"/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="11862" uuid="4b3cef3c-c14f-4c47-bcef-3cc14f6c47af" name="Kbob's Shooter">
+          <Breeding sire="Djays Octane" dam="Deanos Joy" born="20151025" colour="Black &amp; White" sex="b"/>
+          <Trainer id="98" uuid="6f0904d1-5f16-4d13-8904-d15f168d1319" name="Louise Strong" track=""/>
+          <Owner id="686" uuid="9d715bac-cb3d-4609-b15b-accb3d06099c" name="R. Stokes Or K. Turner"/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="14090" uuid="744f89f5-730b-4411-8f89-f5730b2411af" name="Jwp Jerry">
+          <Breeding sire="Lonesome Cry" dam="Amf Shylock" born="20160227" colour="White Black" sex="b"/>
+          <Trainer id="1165" uuid="d72b5874-9965-42f3-ab58-749965a2f3f2" name="Scott Purdy" track=""/>
+          <Owner id="1523" uuid="438b26fd-a361-41c4-8b26-fda36171c472" name="Imark Kennels or J. Patte"/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="e5de209b-3757-46cc-9e20-9b3757c6cc97" raceNumber="14" time="20180414T2015+0000" type="Flat" handicap="No" class="D" distance="501" state="Dormant" title="Race 14">
+      <Comments>
+        <Comment source="easygate" type="verdict">#2 Gls Dare Devil will rely on decent early pace to make a race of it from this preferred draw. Rail runner in the premier post #1 Pj Ringthembells also boasts quite a class advantage. Look for a late push home inside. #6 Barts Deja Blue is well in grade here and has adequate quickness to overcome a poor posting. Wps, Quiniela, $3 Perfecta, Trifecta, &amp;.10 Super ($2 Min Bet) Wager Early To Avoid Being Shut-out! Please Check All Tickets Bef re Leaving The Mutuel Window</Comment>
+        <Comment source="easygate" type="selections">2, 1, 6, 7</Comment>
+      </Comments>
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="11871" uuid="8762d943-216a-4386-a2d9-43216ad386fa" name="Pj Ringthembells">
+          <Breeding sire="Djays Octane" dam="Kiowa Ww Ring" born="20160222" colour="Black" sex="b"/>
+          <Trainer id="108" uuid="20f39fe6-6eda-4110-b39f-e66eda51103a" name="Joe Otto" track=""/>
+          <Owner id="661" uuid="0f2b4ca3-1aab-4afa-ab4c-a31aab1afa7d" name="Patriot/taplin Kennel"/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="15063" uuid="fe45354e-b1fa-4bfe-8535-4eb1fadbfe08" name="Gls Dare Devil">
+          <Breeding sire="Djays Octane" dam="Bella Loose Lips" born="20140806" colour="White Ticked Black" sex="b"/>
+          <Trainer id="98" uuid="6f0904d1-5f16-4d13-8904-d15f168d1319" name="Louise Strong" track=""/>
+          <Owner id="953" uuid="805ea8c1-6a28-4299-9ea8-c16a28f299f9" name="Greg or Louise Strong"/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="11784" uuid="ab7dc5cc-04d0-4d26-bdc5-cc04d0ad2689" name="Artex Vernon">
+          <Breeding sire="Djays Octane" dam="Atascocita Blush" born="20150903" colour="White Ticked Black" sex="b"/>
+          <Trainer id="99" uuid="3b0d8389-7cfe-4606-8d83-897cfe360691" name="Tom Engle" track=""/>
+          <Owner id="663" uuid="99098943-7884-4862-8989-43788478628c" name="R. Henry Or J. Frey"/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="15982" uuid="973387b1-bfaa-4d4f-b387-b1bfaacd4f3c" name="Braska Kimono">
+          <Breeding sire="Ww Greys Drifter" dam="Braska Char" born="20150321" colour="Blue Fawn" sex="d"/>
+          <Trainer id="100" uuid="39135261-1e5b-459e-9352-611e5bf59e25" name="James E. Blanchard" track=""/>
+          <Owner id="650" uuid="037ed2f8-c844-4a2f-bed2-f8c8442a2fea" name="B. Elliott Or J. Elliott"/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="16277" uuid="23cc73d4-d67c-4aaf-8c73-d4d67caaaf3f" name="Barts High Bet">
+          <Breeding sire="Gold Town*" dam="Barts Omg" born="20150823" colour="Black" sex="d"/>
+          <Trainer id="3176" uuid="cbf0670e-99da-4945-b067-0e99da294501" name="Jay Falcone" track=""/>
+          <Owner id="341" uuid="e30b4d60-2fe6-44fe-8b4d-602fe694fe75" name="Rhonda Bartley"/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="13629" uuid="4f673802-a462-4a01-a738-02a4627a012b" name="Barts Deja Blue">
+          <Breeding sire="Kc And All" dam="Workhardplayhard" born="20150712" colour="Blue" sex="d"/>
+          <Trainer id="104" uuid="ee4064f9-391d-43eb-8064-f9391dd3ebcf" name="Joe Palmer" track=""/>
+          <Owner id="645" uuid="82bf8eca-13cf-45f2-bf8e-ca13cf45f20c" name="Thomas Ferris"/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="19053" uuid="b58e389d-9a99-4bf1-8e38-9d9a99bbf13c" name="Don't Wanna Stop">
+          <Breeding sire="Aerial Battle" dam="Whistler's Wrath" born="20160224" colour="White Black" sex="b"/>
+          <Trainer id="101" uuid="320d66b4-0afa-464a-8d66-b40afac64a98" name="Joel Roden" track=""/>
+          <Owner id="1447" uuid="15f0e4b7-3e8f-46ea-b0e4-b73e8f16eac5" name="R. Crossland Or C. Koncso"/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="15681" uuid="81f319a4-8ccf-4c07-b319-a48ccfac0717" name="Ww's Pure Bliss">
+          <Breeding sire="Kc And All" dam="Ww's Hershey" born="20150130" colour="Red Fawn" sex="d"/>
+          <Trainer id="107" uuid="1a3a706e-8159-4000-ba70-6e815940005a" name="Chuck Digiovanni" track=""/>
+          <Owner id="130" uuid="ef52a945-a295-4170-92a9-45a2952170f0" name="Julia Ward"/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="12494a2c-a78d-46ac-894a-2ca78dc6acfa" raceNumber="15" time="20180414T2030+0000" type="Flat" handicap="No" class="C" distance="501" state="Dormant" title="Race 15">
+      <Comments>
+        <Comment source="easygate" type="verdict">Excellent chance for a winner. #1 Hashtag Gain will rely on decent early pace to make a race of it from this preferred draw. Interesting race with #2 Bgr Top Gun, who is ideally posted, showing towards the front early, known more for later drives home. Class usually prevails and #8 Ww Island Time also has pace enough to negate this really poor draw. Wps, Quiniela, $3 Perfecta, Trifecta, &amp;.10 Super ($2 Min Bet) Wager Early To Avoid Being Shut-out! Please Check All Tickets Bef re Leaving The M</Comment>
+        <Comment source="easygate" type="selections">1, 2, 8, 5</Comment>
+      </Comments>
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="19127" uuid="92e65d98-13f9-4d83-a65d-9813f94d83d0" name="Hashtag Gain">
+          <Breeding sire="Kiowa Myth" dam="Hl's Helen" born="20160320" colour="Red Brindle" sex="b"/>
+          <Trainer id="99" uuid="3b0d8389-7cfe-4606-8d83-897cfe360691" name="Tom Engle" track=""/>
+          <Owner id="654" uuid="1c9e9588-9998-45bb-9e95-88999895bbbf" name="L. Boyle Or L. Getso"/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="11778" uuid="2d05b8e8-0858-4dc1-85b8-e80858cdc165" name="Bgr Top Gun">
+          <Breeding sire="Boc's Blast Off" dam="Boc's Roundem Up" born="20160220" colour="Fawn" sex="b"/>
+          <Trainer id="105" uuid="fe507750-d5dd-4a17-9077-50d5ddea17c3" name="Chris Brill" track=""/>
+          <Owner id="137" uuid="12ac6f5e-b2d8-4d8d-ac6f-5eb2d8ad8df2" name="Brad Boeckenstedt"/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="15025" uuid="71761d15-c29b-4d57-b61d-15c29bcd579f" name="Rpg Sonic Blast">
+          <Breeding sire="Golden Squire" dam="Db's Blast" born="20160311" colour="Brindle" sex="d"/>
+          <Trainer id="119" uuid="62b18f8c-d5e5-4f4f-b18f-8cd5e57f4fbd" name="Ricardo Pacheco" track=""/>
+          <Owner id="646" uuid="3a05213e-20fd-4fe0-8521-3e20fd9fe051" name="Twilite Kennels Or R. Pac"/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="17752" uuid="b6c1c43f-9062-4a34-81c4-3f9062ca3421" name="Arkans Velma">
+          <Breeding sire="Definate Opinion" dam="Arkans Bd Spring" born="20150729" colour="Black" sex="d"/>
+          <Trainer id="100" uuid="39135261-1e5b-459e-9352-611e5bf59e25" name="James E. Blanchard" track=""/>
+          <Owner id="668" uuid="e1b7912c-ef7a-4bb4-b791-2cef7afbb44f" name="Darren or Rachelle Henry"/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="28320" uuid="2d4b5fbe-fc36-4fe3-8b5f-befc360fe38e" name="Gf Ave Maria">
+          <Breeding sire="Kc And All" dam="Gf Sister Karen" born="20160619" colour="Fawn" sex="d"/>
+          <Trainer id="108" uuid="20f39fe6-6eda-4110-b39f-e66eda51103a" name="Joe Otto" track=""/>
+          <Owner id="669" uuid="d80951f5-0e75-40f4-8951-f50e75e0f4d9" name="Thomas or Pauline Salem"/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="17231" uuid="340f5824-e338-458a-8f58-24e338858a97" name="Imark Maggie">
+          <Breeding sire="Mamas Special Ed" dam="Cmon Licketyspit" born="20140513" colour="Red Brindle" sex="d"/>
+          <Trainer id="1165" uuid="d72b5874-9965-42f3-ab58-749965a2f3f2" name="Scott Purdy" track=""/>
+          <Owner id="83" uuid="a1b3c2c0-2b5a-48fd-b3c2-c02b5a78fdfb" name="Imark Kennels Llc"/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="15067" uuid="149b502e-c469-4c4d-9b50-2ec4699c4d60" name="Amf Ex All Star">
+          <Breeding sire="Amf Ex President" dam="Amf All For One" born="20140627" colour="Brindle" sex="b"/>
+          <Trainer id="104" uuid="ee4064f9-391d-43eb-8064-f9391dd3ebcf" name="Joe Palmer" track=""/>
+          <Owner id="645" uuid="82bf8eca-13cf-45f2-bf8e-ca13cf45f20c" name="Thomas Ferris"/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="16927" uuid="516ed9e8-65bf-4983-aed9-e865bf3983b9" name="Ww Island Time">
+          <Breeding sire="Gold Town*" dam="Ws White Sail" born="20160313" colour="Black" sex="d"/>
+          <Trainer id="107" uuid="1a3a706e-8159-4000-ba70-6e815940005a" name="Chuck Digiovanni" track=""/>
+          <Owner id="123" uuid="3142ca16-7207-48a6-82ca-16720798a6d3" name="Jaws Racing, Llc"/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="1cfd2958-e93e-4e84-bd29-58e93ede8408" raceNumber="16" time="20180414T2045+0000" type="Flat" handicap="No" class="A" distance="501" state="Dormant" title="Race 16">
+      <Comments>
+        <Comment source="easygate" type="verdict">Perfect post for #2 Kelsos Ukulele to break to a preferred spot towards the front of the race. #1 Ln Double Stuff will rely on decent early pace to make a race of it from this preferred draw. #7 L's Brassy is an out of position railer - but quickness from the box should overcome this quite readily. Wps, Quiniela, $3 Perfecta, Trifecta, &amp;.10 Super ($2 Min Bet) Wager Early To Avoid Being Shut-out! Please Check All Tickets Bef re Leaving The Mutuel Window</Comment>
+        <Comment source="easygate" type="selections">2, 1, 7, 8</Comment>
+      </Comments>
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="13909" uuid="daeaf3f6-6501-45fc-aaf3-f6650145fcaa" name="Ln Double Stuff">
+          <Breeding sire="Vee Man Vane" dam="Boc's Miley" born="20150408" colour="Black" sex="b"/>
+          <Trainer id="100" uuid="39135261-1e5b-459e-9352-611e5bf59e25" name="James E. Blanchard" track=""/>
+          <Owner id="795" uuid="97fd667d-e7e4-4894-bd66-7de7e41894da" name="Kenneth Lane"/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="11805" uuid="1e0d1649-06be-4e81-8d16-4906be9e81ff" name="Kelsos Ukulele">
+          <Breeding sire="Kelsos Cork Man" dam="Kelsos Jam Jar" born="20160215" colour="Black" sex="d"/>
+          <Trainer id="101" uuid="320d66b4-0afa-464a-8d66-b40afac64a98" name="Joel Roden" track=""/>
+          <Owner id="159" uuid="3da3e944-bcd6-495c-a3e9-44bcd6395c81" name="John W. Kelly"/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="13659" uuid="32c0a051-4cff-4e4b-80a0-514cff2e4bb2" name="B's Halla">
+          <Breeding sire="Craigie Whistler" dam="B's Valhalla" born="20140725" colour="Brindle" sex="b"/>
+          <Trainer id="109" uuid="e139a4a3-3706-4984-b9a4-a33706c984d6" name="Michael Piquette" track=""/>
+          <Owner id="965" uuid="8664c9a3-1023-434f-a4c9-a31023634f50" name="T. Balakas Or B. Parker"/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="14196" uuid="d8f54438-c449-4e03-b544-38c4491e0387" name="Flyin Ghostrecon">
+          <Breeding sire="Kiowa Myth" dam="Flying Assassin" born="20150125" colour="Dark Brindle" sex="b"/>
+          <Trainer id="101" uuid="320d66b4-0afa-464a-8d66-b40afac64a98" name="Joel Roden" track=""/>
+          <Owner id="1" uuid="be08dd54-c42a-430d-88dd-54c42a130d55" name="Vince Berland"/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="11772" uuid="fbb72624-12e3-4a23-b726-2412e37a231e" name="Cet Alexis Cream">
+          <Breeding sire="Gable Sour Cream" dam="Jet Black Girl" born="20150624" colour="Black" sex="d"/>
+          <Trainer id="2919" uuid="29424934-5b81-4337-8249-345b81033782" name="Barb Long" track=""/>
+          <Owner id="644" uuid="61d16865-c486-4546-9168-65c4862546ad" name="Carl E. Tomblin, Ii"/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="13871" uuid="2a2dd745-849d-4474-add7-45849d6474f6" name="Jw Kit Kat">
+          <Breeding sire="Kc And All" dam="Jns Monti Cristo" born="20150711" colour="Red" sex="d"/>
+          <Trainer id="108" uuid="20f39fe6-6eda-4110-b39f-e66eda51103a" name="Joe Otto" track=""/>
+          <Owner id="486" uuid="5900dfa4-1f27-4de8-80df-a41f275de8d9" name="J. Junk Or T. Wildey"/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="16675" uuid="aee622f6-2b2c-4433-a622-f62b2cf43342" name="L's Brassy">
+          <Breeding sire="Kc And All" dam="L's Rovi" born="20160414" colour="White Fawn" sex="d"/>
+          <Trainer id="105" uuid="fe507750-d5dd-4a17-9077-50d5ddea17c3" name="Chris Brill" track=""/>
+          <Owner id="665" uuid="9cc9cc9f-cee7-4c96-89cc-9fcee7fc96be" name="Kenneth Le Febvre"/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="18979" uuid="1879b3fe-b0b5-48f6-b9b3-feb0b518f617" name="Imark Kettle">
+          <Breeding sire="Kc And All" dam="Dolores Wookie" born="20160629" colour="Red Brindle" sex="d"/>
+          <Trainer id="1165" uuid="d72b5874-9965-42f3-ab58-749965a2f3f2" name="Scott Purdy" track=""/>
+          <Owner id="83" uuid="a1b3c2c0-2b5a-48fd-b3c2-c02b5a78fdfb" name="Imark Kennels Llc"/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="d6746fd7-068c-4614-b46f-d7068c5614d6" raceNumber="17" time="20180414T2100+0000" type="Flat" handicap="No" class="C" distance="501" state="Dormant" title="Race 17">
+      <Comments>
+        <Comment source="easygate" type="verdict">With a distinct class edge over this field and a good post postion you can expect #5 Fire Speed to challenge here wide. Starting from a good post you can expect #2 Cet Big Kunta to contend early from the outside lanes. #6 Oriole Of Ruckus is an out of position railer - but quickness from the box should overcome this quite readily. Wps, Quiniela, $3 Perfecta, Trifecta, &amp;.10 Super ($2 Min Bet) Wager Early To Avoid Being Shut-out!</Comment>
+        <Comment source="easygate" type="selections">5, 2, 6, 7</Comment>
+      </Comments>
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="33810" uuid="b74352fd-5649-4a60-8352-fd56494a6092" name="Bgr Ful Throttle">
+          <Breeding sire="Boc's Tony Romo" dam="Boc's Jennyfinch" born="20160724" colour="Black" sex="d"/>
+          <Trainer id="105" uuid="fe507750-d5dd-4a17-9077-50d5ddea17c3" name="Chris Brill" track=""/>
+          <Owner id="137" uuid="12ac6f5e-b2d8-4d8d-ac6f-5eb2d8ad8df2" name="Brad Boeckenstedt"/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="11741" uuid="cd3da2a8-aa92-423e-bda2-a8aa92423ea5" name="Cet Big Kunta">
+          <Breeding sire="Kiowa Sweet Trey" dam="Ellen Jet Fly" born="20150829" colour="Black" sex="b"/>
+          <Trainer id="2919" uuid="29424934-5b81-4337-8249-345b81033782" name="Barb Long" track=""/>
+          <Owner id="644" uuid="61d16865-c486-4546-9168-65c4862546ad" name="Carl E. Tomblin, Ii"/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="13683" uuid="09a64058-b351-49ea-a640-58b35139ea97" name="Rpg Smartproject">
+          <Breeding sire="Rico's Vintage" dam="Munchkin Trent" born="20141230" colour="White Brindle" sex="b"/>
+          <Trainer id="119" uuid="62b18f8c-d5e5-4f4f-b18f-8cd5e57f4fbd" name="Ricardo Pacheco" track=""/>
+          <Owner id="646" uuid="3a05213e-20fd-4fe0-8521-3e20fd9fe051" name="Twilite Kennels Or R. Pac"/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="14199" uuid="93f07d50-d877-4a40-b07d-50d8774a40b8" name="Js Harley Quinn">
+          <Breeding sire="Kiowa Myth" dam="Kiowa Adara Ann" born="20151201" colour="White Ticked Black" sex="d"/>
+          <Trainer id="101" uuid="320d66b4-0afa-464a-8d66-b40afac64a98" name="Joel Roden" track=""/>
+          <Owner id="688" uuid="db4376e3-5365-477b-8376-e35365777bf3" name="L. Raines or C. Pace"/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="18224" uuid="8e62aabb-bec9-46a3-a2aa-bbbec916a387" name="Fire Speed">
+          <Breeding sire="Kiowa Myth" dam="Kiowa Jordan Rae" born="20150329" colour="White Ticked Dark Brindle" sex="b"/>
+          <Trainer id="109" uuid="e139a4a3-3706-4984-b9a4-a33706c984d6" name="Michael Piquette" track=""/>
+          <Owner id="129" uuid="4d5f5f91-b097-4821-9f5f-91b097c82167" name="Donald J. Grissom"/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="13666" uuid="14df7713-7dbe-4e15-9f77-137dbebe1579" name="Oriole Of Ruckus">
+          <Breeding sire="Kc And All" dam="Thera Of Ruckus" born="20150725" colour="Dark Brindle" sex="d"/>
+          <Trainer id="99" uuid="3b0d8389-7cfe-4606-8d83-897cfe360691" name="Tom Engle" track=""/>
+          <Owner id="127" uuid="d4b1221d-02be-4ac2-b122-1d02be4ac2a4" name="Billie Jo Smart"/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="14165" uuid="121e0dac-3575-4837-9e0d-ac35754837ee" name="White Streak">
+          <Breeding sire="My Rooster" dam="Custom Trent" born="20130604" colour="White Fawn" sex="d"/>
+          <Trainer id="104" uuid="ee4064f9-391d-43eb-8064-f9391dd3ebcf" name="Joe Palmer" track=""/>
+          <Owner id="645" uuid="82bf8eca-13cf-45f2-bf8e-ca13cf45f20c" name="Thomas Ferris"/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="34473" uuid="9afe31a4-cd31-4322-be31-a4cd31a32285" name="B Supercell Sam">
+          <Breeding sire="Kc And All" dam="Ww's Waterspout" born="20160818" colour="Black" sex="b"/>
+          <Trainer id="107" uuid="1a3a706e-8159-4000-ba70-6e815940005a" name="Chuck Digiovanni" track=""/>
+          <Owner id="845" uuid="1e5b8705-4ed8-44fc-9b87-054ed8c4fc4e" name="Edward E. Bolton"/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="3f13aff1-d136-4de7-93af-f1d136bde744" raceNumber="18" time="20180414T2115+0000" type="Flat" handicap="No" class="D" distance="501" state="Dormant" title="Race 18">
+      <Comments>
+        <Comment source="easygate" type="verdict">Excellent chance for a winner. #1 Whatidobest will rely on decent early pace to make a race of it from this preferred draw. #6 Flying Lazy Daze would much rather be starting railside, but there is enough quickness and class to earn a great chance. #3 Ff Pronto Pup will rely on decent early pace to make a race of it from this preferred draw. Wps, Quiniela, $3 Perfecta, Trifecta, &amp;.10 Super ($2 Min Bet) Please Check All Tickets Before Leaving The Mutuel Window</Comment>
+        <Comment source="easygate" type="selections">1, 6, 3, 8</Comment>
+      </Comments>
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="24962" uuid="866917de-51b8-4603-a917-de51b8960332" name="Whatidobest">
+          <Breeding sire="Stealintheshow" dam="Tango Tessa" born="20160505" colour="Black" sex="d"/>
+          <Trainer id="98" uuid="6f0904d1-5f16-4d13-8904-d15f168d1319" name="Louise Strong" track=""/>
+          <Owner id="7" uuid="88cf5574-4a8a-49e9-8f55-744a8a59e97f" name="Jacobs Racing Kennel Inc."/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="11840" uuid="bad35dce-0da4-409b-935d-ce0da4f09b2c" name="Pj Electric">
+          <Breeding sire="Djays Octane" dam="Silver Idol" born="20140728" colour="Black" sex="d"/>
+          <Trainer id="104" uuid="ee4064f9-391d-43eb-8064-f9391dd3ebcf" name="Joe Palmer" track=""/>
+          <Owner id="679" uuid="565e47b7-d846-48d7-9e47-b7d84678d7cf" name="Charles Aichele"/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="13730" uuid="99122358-617c-4104-9223-58617c610450" name="Ff Pronto Pup">
+          <Breeding sire="Flying Hydrogen" dam="Ff Cappellacci" born="20150828" colour="Brindle" sex="b"/>
+          <Trainer id="99" uuid="3b0d8389-7cfe-4606-8d83-897cfe360691" name="Tom Engle" track=""/>
+          <Owner id="660" uuid="6944967b-6f15-4cbf-8496-7b6f15ecbfe7" name="Joseph Fusaro"/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="14195" uuid="6bc08f1c-1082-40b2-808f-1c108250b298" name="Ww Fanfare">
+          <Breeding sire="Amf Ex President" dam="Wkl Tiger Lily" born="20151001" colour="Light Brindle" sex="d"/>
+          <Trainer id="107" uuid="1a3a706e-8159-4000-ba70-6e815940005a" name="Chuck Digiovanni" track=""/>
+          <Owner id="123" uuid="3142ca16-7207-48a6-82ca-16720798a6d3" name="Jaws Racing, Llc"/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="13650" uuid="c36142a2-a099-4ded-a142-a2a0992ded00" name="Neon's Knight">
+          <Breeding sire="Bella Infrared" dam="Asteria Drive" born="20141210" colour="Red Brindle" sex="b"/>
+          <Trainer id="100" uuid="39135261-1e5b-459e-9352-611e5bf59e25" name="James E. Blanchard" track=""/>
+          <Owner id="668" uuid="e1b7912c-ef7a-4bb4-b791-2cef7afbb44f" name="Darren or Rachelle Henry"/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="15180" uuid="2e2ce96a-8461-44ed-ace9-6a8461b4ed34" name="Flying Lazy Daze">
+          <Breeding sire="Kc And All" dam="Flying Henne" born="20150914" colour="Light Brindle" sex="d"/>
+          <Trainer id="101" uuid="320d66b4-0afa-464a-8d66-b40afac64a98" name="Joel Roden" track=""/>
+          <Owner id="1" uuid="be08dd54-c42a-430d-88dd-54c42a130d55" name="Vince Berland"/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="11711" uuid="a4f03294-c096-4da6-b032-94c096eda6ee" name="Bo Bo Bruiser">
+          <Breeding sire="Djays Octane" dam="Kitz" born="20150404" colour="Red" sex="b"/>
+          <Trainer id="1165" uuid="d72b5874-9965-42f3-ab58-749965a2f3f2" name="Scott Purdy" track=""/>
+          <Owner id="75" uuid="88ec32e3-6bee-4ec8-ac32-e36beefec83e" name="Monroe Racing, Inc."/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="17087" uuid="26529076-c10d-4f4b-9290-76c10dbf4b69" name="Cbj Champagne">
+          <Breeding sire="Rico's Vintage" dam="Cbj Largo" born="20150114" colour="Fawn" sex="d"/>
+          <Trainer id="109" uuid="e139a4a3-3706-4984-b9a4-a33706c984d6" name="Michael Piquette" track=""/>
+          <Owner id="972" uuid="cbddeb0d-28ce-4f45-9deb-0d28ce8f45be" name="Carmen M. Jorgensen"/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="12515a07-f104-4065-915a-07f10430658b" raceNumber="19" time="20180414T2130+0000" type="Flat" handicap="No" class="C" distance="501" state="Dormant" title="Race 19">
+      <Comments>
+        <Comment source="easygate" type="verdict">Top choice for winner, may have to hunt for runners up. Good pace from a reasonable post should get #6 Kiowa Super Call into the race early. Good pace from a reasonable post should get #5 Boc's Just About into the race early. #4 Arkans Pc Sneezy has the speed to be near the lead and be a contender on the outside. Wps, Quiniela, $3 Perfecta, Trifecta, &amp;.10 Super ($2 Min Bet) Wager Early To Avoid Being Shut-out! First Half Of The Late Daily Double</Comment>
+        <Comment source="easygate" type="selections">6, 5, 4, 2</Comment>
+      </Comments>
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="14275" uuid="eeb22cd5-96f3-4357-b22c-d596f3b357d1" name="Amf Sundrenched">
+          <Breeding sire="Djays Octane" dam="Amf Blazing Sun" born="20150309" colour="Black" sex="b"/>
+          <Trainer id="104" uuid="ee4064f9-391d-43eb-8064-f9391dd3ebcf" name="Joe Palmer" track=""/>
+          <Owner id="645" uuid="82bf8eca-13cf-45f2-bf8e-ca13cf45f20c" name="Thomas Ferris"/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="32910" uuid="5b8bd581-8530-4811-8bd5-8185306811e7" name="Ww Jimmythe Geek">
+          <Breeding sire="Djays Octane" dam="Ww's Saints" born="20151016" colour="Black" sex="b"/>
+          <Trainer id="107" uuid="1a3a706e-8159-4000-ba70-6e815940005a" name="Chuck Digiovanni" track=""/>
+          <Owner id="964" uuid="1d5c85b2-ada2-44cc-9c85-b2ada2d4cc43" name="J. Ward or W. Mc Carthy"/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="34283" uuid="264752aa-1200-44a2-8752-aa120044a248" name="Hashtag Queen">
+          <Breeding sire="Kiowa Sweet Trey" dam="Bucerias De Amor" born="20160324" colour="Black Brindle" sex="d"/>
+          <Trainer id="99" uuid="3b0d8389-7cfe-4606-8d83-897cfe360691" name="Tom Engle" track=""/>
+          <Owner id="8" uuid="5ba64466-a104-4202-a644-66a1042202c0" name="Lonnie E. Boyle"/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="33155" uuid="e9d32f7d-7ef5-46c7-932f-7d7ef546c758" name="Arkans Pc Sneezy">
+          <Breeding sire="Sh Avatar" dam="Arkans Bd Spring" born="20160423" colour="Fawn Brindle" sex="b"/>
+          <Trainer id="100" uuid="39135261-1e5b-459e-9352-611e5bf59e25" name="James E. Blanchard" track=""/>
+          <Owner id="1970" uuid="ffcb3fe9-6e99-405e-8b3f-e96e99b05ec0" name="R. Henry or P. Carter"/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="15974" uuid="453bfdbe-4417-400a-bbfd-be4417300a7c" name="Boc's Just About">
+          <Breeding sire="Bd's Grayson" dam="Lucy On The Ball" born="20140307" colour="Fawn" sex="b"/>
+          <Trainer id="105" uuid="fe507750-d5dd-4a17-9077-50d5ddea17c3" name="Chris Brill" track=""/>
+          <Owner id="137" uuid="12ac6f5e-b2d8-4d8d-ac6f-5eb2d8ad8df2" name="Brad Boeckenstedt"/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="13630" uuid="75e44678-b8fa-4828-a446-78b8fa58285a" name="Kiowa Super Call">
+          <Breeding sire="Super Lee" dam="Kiowa Someone" born="20140421" colour="White Ticked Black" sex="d"/>
+          <Trainer id="109" uuid="e139a4a3-3706-4984-b9a4-a33706c984d6" name="Michael Piquette" track=""/>
+          <Owner id="80" uuid="4e445308-4cee-4b4f-8453-084ceebb4faf" name="Gus Cerino"/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="32451" uuid="5b980d85-c30c-4536-980d-85c30c853695" name="Pj Dopamine">
+          <Breeding sire="Djays Octane" dam="Ucme Star Struck" born="20141122" colour="White Red" sex="b"/>
+          <Trainer id="3176" uuid="cbf0670e-99da-4945-b067-0e99da294501" name="Jay Falcone" track=""/>
+          <Owner id="47" uuid="a4407ca4-e9c1-40dc-807c-a4e9c1a0dc1c" name="Charter Kennel Inc."/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="15032" uuid="8ef50722-3f79-4db9-b507-223f791db954" name="Momma Sadie">
+          <Breeding sire="Bella Incubus" dam="Wr Putitallonme" born="20160110" colour="Black" sex="d"/>
+          <Trainer id="119" uuid="62b18f8c-d5e5-4f4f-b18f-8cd5e57f4fbd" name="Ricardo Pacheco" track=""/>
+          <Owner id="1117" uuid="18d989de-b299-46fe-9989-deb299b6fefb" name="Kevin Bates"/>
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="15af3e9f-f523-48de-af3e-9ff52328de7f" raceNumber="20" time="20180414T2145+0000" type="Flat" handicap="No" class="B" distance="501" state="Dormant" title="Race 20" prizes="">
+      <Comments>
+        <Comment source="easygate" type="verdict">Winning choice may be stand out. #3 Lazy K Hero Fly should have enough early speed to grad the early command and may hold on. Interesting race with #1 Easi Athena, who is ideally posted, showing towards the front early, known more for later drives home. Rail runner in the premier post #2 Ww's Citrus also boasts quite a class advantage. Look for a late push home inside. Wps, Quiniela, $3 Perfecta, Trifecta, &amp;.10 Super ($2 Min Bet) Second Half Of The Late Daily Double Thank You For Attending O</Comment>
+        <Comment source="easygate" type="selections">3, 1, 2, 8</Comment>
+      </Comments>
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="16967" uuid="556b65bc-c325-4930-ab65-bcc325d930f8" name="Easi Athena">
+          <Breeding sire="Kiowa Sweet Trey" dam="Kelsos Lazyday" born="20150322" colour="Brindle" sex="d"/>
+          <Trainer id="100" uuid="39135261-1e5b-459e-9352-611e5bf59e25" name="James E. Blanchard" track=""/>
+          <Owner id="108" uuid="e3f6c588-9644-4fd8-b6c5-8896440fd826" name="Allyn L. Shaw"/>
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="34472" uuid="c92e41d0-f42c-475b-ae41-d0f42c475b06" name="Ww's Citrus">
+          <Breeding sire="Deerfield Mover*" dam="Ww's Herblike" born="20160725" colour="Brindle" sex="b"/>
+          <Trainer id="107" uuid="1a3a706e-8159-4000-ba70-6e815940005a" name="Chuck Digiovanni" track=""/>
+          <Owner id="123" uuid="3142ca16-7207-48a6-82ca-16720798a6d3" name="Jaws Racing, Llc"/>
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="15554" uuid="8afaa82c-e643-48cc-baa8-2ce64328cce9" name="Lazy K Hero Fly">
+          <Breeding sire="Hi Noon Hero" dam="Flying Tuckahoe" born="20140326" colour="Dark Fawn" sex="b"/>
+          <Trainer id="101" uuid="320d66b4-0afa-464a-8d66-b40afac64a98" name="Joel Roden" track=""/>
+          <Owner id="1" uuid="be08dd54-c42a-430d-88dd-54c42a130d55" name="Vince Berland"/>
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="16868" uuid="5455c1ca-063a-42c2-95c1-ca063a12c23e" name="Jsk Roulette">
+          <Breeding sire="Djays Octane" dam="Jsk Shannon Lea" born="20160401" colour="White Black" sex="d"/>
+          <Trainer id="3176" uuid="cbf0670e-99da-4945-b067-0e99da294501" name="Jay Falcone" track=""/>
+          <Owner id="602" uuid="50b92f82-b5ce-4b17-b92f-82b5cefb17df" name="Js Kramer, Llc"/>
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="11890" uuid="f3cb4bd6-fa68-460d-8b4b-d6fa68d60d69" name="Pg Boss Bandit">
+          <Breeding sire="Barcelona Boss" dam="Pg Tequilasheila" born="20141025" colour="White Brindle" sex="d"/>
+          <Trainer id="119" uuid="62b18f8c-d5e5-4f4f-b18f-8cd5e57f4fbd" name="Ricardo Pacheco" track=""/>
+          <Owner id="464" uuid="dcc58036-f5f4-4e39-8580-36f5f4be399b" name="Gary Cossel"/>
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="13605" uuid="b84f94a5-afd7-422d-8f94-a5afd7222dfd" name="Amf Befall">
+          <Breeding sire="Djays Octane" dam="Amf Fire Fall" born="20140706" colour="Red" sex="b"/>
+          <Trainer id="104" uuid="ee4064f9-391d-43eb-8064-f9391dd3ebcf" name="Joe Palmer" track=""/>
+          <Owner id="645" uuid="82bf8eca-13cf-45f2-bf8e-ca13cf45f20c" name="Thomas Ferris"/>
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="18902" uuid="9bd434aa-fbff-4637-9434-aafbff663760" name="Hashtag Ardenlu">
+          <Breeding sire="Pat C Clement" dam="Serene Az Laken" born="20160411" colour="Brindle" sex="b"/>
+          <Trainer id="99" uuid="3b0d8389-7cfe-4606-8d83-897cfe360691" name="Tom Engle" track=""/>
+          <Owner id="654" uuid="1c9e9588-9998-45bb-9e95-88999895bbbf" name="L. Boyle Or L. Getso"/>
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="13789" uuid="a281a5bf-97d6-4c20-81a5-bf97d6dc200e" name="Nick Diaz">
+          <Breeding sire="Djays Octane" dam="Ww Lonesome Dove" born="20141227" colour="Red Brindle" sex="b"/>
+          <Trainer id="2919" uuid="29424934-5b81-4337-8249-345b81033782" name="Barb Long" track=""/>
+          <Owner id="218" uuid="b82a9b5a-a72e-4037-aa9b-5aa72e2037c6" name="Steven M Sarras"/>
+          <Form>
+            <FormRace date="20171013" track="Flagler" distance="503">
+              <FormTrap>
+                <Dog id="10075" uuid="962e50f0-cea2-40c4-ae50-f0cea220c4e3" name="Jw Ebony Rose"/>
+                <Result position="1"/>
+              </FormTrap>
+              <FormTrap>
+                <Dog id="10030" uuid="587b0913-5078-41e2-bb09-13507891e2a2" name="Judy Hensler"/>
+                <Result position="2"/>
+              </FormTrap>
+              <FormTrap>
+                <Dog id="10072" uuid="f7ce7696-004a-4a90-8e76-96004aea9034" name="Waubun Larrisa"/>
+                <Result position="3"/>
+              </FormTrap>
+              <FormTrap>
+                <Dog id="13789" uuid="a281a5bf-97d6-4c20-81a5-bf97d6dc200e" name="Nick Diaz"/>
+                <Result position="6">
+                  <StartingPrice>
+                    <Price decimal="6.100" numerator="6" denominator="1"/>
+                  </StartingPrice>
+                </Result>
+              </FormTrap>
+            </FormRace>
+          </Form>
+        </Dog>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

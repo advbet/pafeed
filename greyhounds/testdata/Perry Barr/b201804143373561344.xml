@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+<Meeting meetingId="337356" track="Perry Barr" date="20180414" state="Active">
+<Race revision="1" raceNumber="13" time="1344+0100" type="Flat" handicap="No" class="A7" distance="480" offTime="134442+0100" state="Final Result" winTime="29.45">
+<Trap trap="1" vacant="No" wide="No" reserve="No">
+<Dog id="459246" name="Bodell Swift" />
+<Result position="2" btnDistance="3/4" sectionalTime="03.84" bendPosition="5412" runComment="RlsLed3- 3/4" runTime="29.51" adjustedTime="29.51" weight="24.9">
+<StartingPrice marketPos="5" marketCnt="1">
+<Price numerator="5" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="2" vacant="No" wide="No" reserve="No">
+<Dog id="489306" name="Final Flame" />
+<Result position="3" btnDistance="1 3/4" sectionalTime="03.70" bendPosition="1134" runComment="QAwRlsMidLed-3" runTime="29.65" adjustedTime="29.65" weight="27.7">
+<StartingPrice marketPos="1" marketCnt="1">
+<Price numerator="2" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="3" vacant="No" wide="No" reserve="No">
+<Dog id="485261" name="Cefn Anna" />
+<Result position="4" btnDistance="1 3/4" sectionalTime="03.77" bendPosition="4243" runComment="MidRlsChl2,CrdRunIn" runTime="29.79" adjustedTime="29.79" weight="27.9">
+<StartingPrice marketPos="2" marketCnt="3">
+<Price numerator="7" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="4" vacant="No" wide="No" reserve="No">
+<Dog id="465569" name="Rosegarland Liza" />
+<Result position="5" btnDistance="3/4" sectionalTime="03.76" bendPosition="2666" runComment="MidCrd1&amp;2" runTime="29.85" adjustedTime="29.85" weight="28.9">
+<StartingPrice marketPos="6" marketCnt="1">
+<Price numerator="8" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="5" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="487340" name="Cefn Megan" />
+<Result position="1" sectionalTime="03.73" bendPosition="3321" runComment="EP,MidWideLed 3/4" runTime="29.45" adjustedTime="29.45" weight="24.5">
+<StartingPrice marketPos="2" marketCnt="3">
+<Price numerator="7" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="6" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="502713" name="Clonleigh Hondo" />
+<Result position="6" btnDistance="SH" sectionalTime="03.80" bendPosition="6555" runComment="SAwCrd1&amp;2&amp;RunIn" runTime="29.86" adjustedTime="29.86" weight="29.4">
+<StartingPrice marketPos="2" marketCnt="3">
+<Price numerator="7" denominator="2" />
+</StartingPrice>
+</Result>
+</Trap>
+<Dividends>
+<Forecast trap1="5" trap2="1" dividend="26.94" />
+<Tricast trap1="5" trap2="1" trap3="2" dividend="60.36" />
+</Dividends>
+</Race>
+</Meeting>
+</DogRacing>

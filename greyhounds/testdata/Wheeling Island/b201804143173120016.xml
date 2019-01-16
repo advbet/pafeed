@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3173" uuid="aa2817e2-b152-438e-a817-e2b152d38ed7" track="Wheeling Island" country="USA" date="20180414" state="Active">
+    <Race uuid="9654ce03-7077-47cb-94ce-03707717cb6e" revision="16" raceNumber="12" time="20180414T1945+0000" type="Flat" handicap="No" class="B" distance="501" state="Approaching">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="16544" uuid="0e642ac7-59aa-42e6-a42a-c759aad2e669" name="Just Like This"/>
+        <Show timeStamp="20180414T194730+0000" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="12156" uuid="783445d0-c996-455a-b445-d0c996d55a46" name="Trouble Lurking"/>
+        <Show timeStamp="20180414T194732+0000" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T194847+0000" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="27471" uuid="588c6fec-ddad-4627-8c6f-ecddadb6278d" name="Braska Milton"/>
+        <Show timeStamp="20180414T194734+0000" marketNumber="1">
+          <Price numerator="9" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T194849+0000" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="11820" uuid="46fc5ea9-e681-4ca4-bc5e-a9e681fca420" name="Craigie Changeit"/>
+        <Show timeStamp="20180414T194736+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T194853+0000" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="15038" uuid="f64dc046-b24b-41cd-8dc0-46b24b01cd77" name="Bgr C Parker"/>
+        <Show timeStamp="20180414T194738+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="35648" uuid="60406176-708d-4e1d-8061-76708d6e1d8a" name="Ds Kesha"/>
+        <Show timeStamp="20180414T194740+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="11874" uuid="39072708-125a-46a7-8727-08125a66a725" name="Ww Unveiling"/>
+        <Show timeStamp="20180414T194742+0000" marketNumber="1">
+          <Price numerator="13" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T194856+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="13606" uuid="149e956f-ba43-48a5-9e95-6fba4378a58f" name="Barts Photo Op"/>
+        <Show timeStamp="20180414T194744+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3181" uuid="f61a8b15-2078-42db-9a8b-15207832db2b" track="The Meadows" country="Australia" date="20180414" state="Dormant">
+    <Race uuid="0c9b8a16-0aa1-4286-9b8a-160aa112869a" revision="10" raceNumber="1" time="20180414T0915+0000" type="Flat" handicap="No" class="A" distance="525" state="Dormant">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="32222" uuid="5eaad97c-59e1-438a-aad9-7c59e1138a80" name="Slingshot Hammer"/>
+        <Show timeStamp="20180414T091358+0000" marketNumber="1">
+          <Price numerator="9" denominator="4"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="27250" uuid="fedce914-d2be-4fe5-9ce9-14d2be7fe5b7" name="Dyna Penny"/>
+        <Show timeStamp="20180414T091406+0000" marketNumber="1">
+          <Price numerator="14" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="32641" uuid="3d730d7a-0dd0-47dd-b30d-7a0dd067dd1d" name="Dashing Dyson"/>
+        <Show timeStamp="20180414T091411+0000" marketNumber="1">
+          <Price numerator="14" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="34914" uuid="3885bd88-5869-428c-85bd-885869f28cf7" name="Dyna Drew"/>
+        <Show timeStamp="20180414T091421+0000" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="Yes">
+        <Dog id="35056" uuid="6bdd3b48-be2a-4eba-9d3b-48be2a1ebafc" name="Mira's Potion"/>
+        <Show timeStamp="20180414T091428+0000" marketNumber="1">
+          <Price numerator="9" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="32218" uuid="12db9ec8-dd21-4975-9b9e-c8dd219975a1" name="Slingshot Whippa"/>
+        <Show timeStamp="20180414T091431+0000" marketNumber="1">
+          <Price numerator="11" denominator="4"/>
+        </Show>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="35337" uuid="879850e1-80b1-4dcb-9850-e180b18dcbd0" name="Shark Tank"/>
+        <Show timeStamp="20180414T091436+0000" marketNumber="1">
+          <Price numerator="10" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="27622" uuid="474b47c9-f658-4c5d-8b47-c9f658dc5d47" name="Cookie Yap"/>
+        <Show timeStamp="20180414T091441+0000" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+      </Trap>
+      <NonRunner trap="5">
+        <Dog id="35325" uuid="1a2d54c7-8616-4fcf-ad54-c786169fcf6a" name="Dyna Lenny"/>
+      </NonRunner>
+    </Race>
+  </Meeting>
+</DogRacing>

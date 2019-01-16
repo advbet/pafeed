@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3173" uuid="aa2817e2-b152-438e-a817-e2b152d38ed7" track="Wheeling Island" country="USA" date="20180414" state="Active">
+    <Race uuid="d6746fd7-068c-4614-b46f-d7068c5614d6" revision="21" raceNumber="17" time="20180414T2100+0000" type="Flat" handicap="No" class="C" distance="501" state="Going in traps">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="33810" uuid="b74352fd-5649-4a60-8352-fd56494a6092" name="Bgr Ful Throttle"/>
+        <Show timeStamp="20180414T205312+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T205521+0000" marketNumber="1">
+          <Price numerator="9" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T205732+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="11741" uuid="cd3da2a8-aa92-423e-bda2-a8aa92423ea5" name="Cet Big Kunta"/>
+        <Show timeStamp="20180414T205314+0000" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T205523+0000" marketNumber="1">
+          <Price numerator="9" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="13683" uuid="09a64058-b351-49ea-a640-58b35139ea97" name="Rpg Smartproject"/>
+        <Show timeStamp="20180414T205316+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T205525+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="14199" uuid="93f07d50-d877-4a40-b07d-50d8774a40b8" name="Js Harley Quinn"/>
+        <Show timeStamp="20180414T205318+0000" marketNumber="1">
+          <Price numerator="10" denominator="3"/>
+        </Show>
+        <Show timeStamp="20180414T205735+0000" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="18224" uuid="8e62aabb-bec9-46a3-a2aa-bbbec916a387" name="Fire Speed"/>
+        <Show timeStamp="20180414T205320+0000" marketNumber="1">
+          <Price numerator="9" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T205738+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="13666" uuid="14df7713-7dbe-4e15-9f77-137dbebe1579" name="Oriole Of Ruckus"/>
+        <Show timeStamp="20180414T205323+0000" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T205742+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="14165" uuid="121e0dac-3575-4837-9e0d-ac35754837ee" name="White Streak"/>
+        <Show timeStamp="20180414T205327+0000" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="34473" uuid="9afe31a4-cd31-4322-be31-a4cd31a32285" name="B Supercell Sam"/>
+        <Show timeStamp="20180414T205330+0000" marketNumber="1">
+          <Price numerator="10" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T205532+0000" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T205745+0000" marketNumber="1">
+          <Price numerator="9" denominator="1"/>
+        </Show>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

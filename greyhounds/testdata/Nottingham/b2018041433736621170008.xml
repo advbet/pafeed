@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="337366" track="Nottingham" date="20180414" state="Active">
+    <Race revision="8" raceNumber="8" time="2117+0100" type="Flat" handicap="No" class="B2" distance="480" offTime="211716+0100" state="Final Result">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="468471" name="Our Sam"/>
+        <Result btnDistance="">
+          <StartingPrice marketPos="1" marketCnt="1">
+            <Price numerator="7" denominator="4"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="506762" name="Crossfield Eric"/>
+        <Result btnDistance="">
+          <StartingPrice marketPos="3" marketCnt="1">
+            <Price numerator="5" denominator="2"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="461481" name="Galloping Butty"/>
+        <Result position="2" btnDistance="">
+          <StartingPrice marketPos="4" marketCnt="1">
+            <Price numerator="6" denominator="2"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="486905" name="Salacres Extreme"/>
+        <Result position="3" btnDistance="">
+          <StartingPrice marketPos="6" marketCnt="1">
+            <Price numerator="10" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="Yes" reserve="No">
+        <Dog id="497092" name="Jumeirah Sienna"/>
+        <Result btnDistance="">
+          <StartingPrice marketPos="5" marketCnt="1">
+            <Price numerator="4" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="499424" name="Blue Pit"/>
+        <Result position="1" btnDistance="">
+          <StartingPrice marketPos="2" marketCnt="1">
+            <Price numerator="2" denominator="1"/>
+          </StartingPrice>
+        </Result>
+      </Trap>
+      <Dividends>
+        <Forecast trap1="6" trap2="3" dividend="12.22"/>
+        <Tricast trap1="6" trap2="3" trap3="4" dividend="63.31"/>
+      </Dividends>
+    </Race>
+  </Meeting>
+</DogRacing>

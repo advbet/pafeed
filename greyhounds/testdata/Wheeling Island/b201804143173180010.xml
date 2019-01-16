@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3173" uuid="aa2817e2-b152-438e-a817-e2b152d38ed7" track="Wheeling Island" country="USA" date="20180414" state="Active">
+    <Race uuid="3f13aff1-d136-4de7-93af-f1d136bde744" revision="10" raceNumber="18" time="20180414T2115+0000" type="Flat" handicap="No" class="D" distance="501" state="Parading">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="24962" uuid="866917de-51b8-4603-a917-de51b8960332" name="Whatidobest"/>
+        <Show timeStamp="20180414T210807+0000" marketNumber="1">
+          <Price numerator="15" denominator="8"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="11840" uuid="bad35dce-0da4-409b-935d-ce0da4f09b2c" name="Pj Electric"/>
+        <Show timeStamp="20180414T210809+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="13730" uuid="99122358-617c-4104-9223-58617c610450" name="Ff Pronto Pup"/>
+        <Show timeStamp="20180414T210810+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="14195" uuid="6bc08f1c-1082-40b2-808f-1c108250b298" name="Ww Fanfare"/>
+        <Show timeStamp="20180414T210812+0000" marketNumber="1">
+          <Price numerator="16" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="13650" uuid="c36142a2-a099-4ded-a142-a2a0992ded00" name="Neon's Knight"/>
+        <Show timeStamp="20180414T210814+0000" marketNumber="1">
+          <Price numerator="10" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="15180" uuid="2e2ce96a-8461-44ed-ace9-6a8461b4ed34" name="Flying Lazy Daze"/>
+        <Show timeStamp="20180414T210816+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="11711" uuid="a4f03294-c096-4da6-b032-94c096eda6ee" name="Bo Bo Bruiser"/>
+        <Show timeStamp="20180414T210818+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="17087" uuid="26529076-c10d-4f4b-9290-76c10dbf4b69" name="Cbj Champagne"/>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

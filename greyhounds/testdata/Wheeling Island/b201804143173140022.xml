@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="3173" uuid="aa2817e2-b152-438e-a817-e2b152d38ed7" track="Wheeling Island" country="USA" date="20180414" state="Active">
+    <Race uuid="e5de209b-3757-46cc-9e20-9b3757c6cc97" revision="22" raceNumber="14" time="20180414T2015+0000" type="Flat" handicap="No" class="D" distance="501" state="Going in traps">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="11871" uuid="8762d943-216a-4386-a2d9-43216ad386fa" name="Pj Ringthembells"/>
+        <Show timeStamp="20180414T201437+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T201537+0000" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T201626+0000" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T201757+0000" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="15063" uuid="fe45354e-b1fa-4bfe-8535-4eb1fadbfe08" name="Gls Dare Devil"/>
+        <Show timeStamp="20180414T201439+0000" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+        <Show timeStamp="20180414T201800+0000" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="11784" uuid="ab7dc5cc-04d0-4d26-bdc5-cc04d0ad2689" name="Artex Vernon"/>
+        <Show timeStamp="20180414T201441+0000" marketNumber="1">
+          <Price numerator="9" denominator="2"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="15982" uuid="973387b1-bfaa-4d4f-b387-b1bfaacd4f3c" name="Braska Kimono"/>
+        <Show timeStamp="20180414T201445+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T201540+0000" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog id="16277" uuid="23cc73d4-d67c-4aaf-8c73-d4d67caaaf3f" name="Barts High Bet"/>
+        <Show timeStamp="20180414T201447+0000" marketNumber="1">
+          <Price numerator="8" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T201543+0000" marketNumber="1">
+          <Price numerator="9" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T201804+0000" marketNumber="1">
+          <Price numerator="10" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog id="13629" uuid="4f673802-a462-4a01-a738-02a4627a012b" name="Barts Deja Blue"/>
+        <Show timeStamp="20180414T201449+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T201628+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T201806+0000" marketNumber="1">
+          <Price numerator="7" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog id="19053" uuid="b58e389d-9a99-4bf1-8e38-9d9a99bbf13c" name="Don't Wanna Stop"/>
+        <Show timeStamp="20180414T201451+0000" marketNumber="1">
+          <Price numerator="11" denominator="1"/>
+        </Show>
+        <Show timeStamp="20180414T201546+0000" marketNumber="1">
+          <Price numerator="12" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog id="15681" uuid="81f319a4-8ccf-4c07-b319-a48ccfac0717" name="Ww's Pure Bliss"/>
+        <Show timeStamp="20180414T201452+0000" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

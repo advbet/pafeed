@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+<Meeting meetingId="337356" track="Perry Barr" date="20180414" state="Active">
+<Race revision="1" raceNumber="1" time="1038+0100" type="Flat" handicap="No" class="A8" distance="480" offTime="103814+0100" state="Final Result" winTime="29.45">
+<Trap trap="1" vacant="No" wide="No" reserve="No">
+<Dog id="479519" name="Foxwood Crystal" />
+<Result position="2" btnDistance="1" sectionalTime="03.81" bendPosition="2222" runComment="RanOn,ChlRunIn" runTime="29.53" adjustedTime="29.53" weight="27.4">
+<StartingPrice marketPos="1" marketCnt="1">
+<Price numerator="2" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="2" vacant="No" wide="No" reserve="No">
+<Dog id="477526" name="Killala Paddy" />
+<Result position="1" sectionalTime="03.71" bendPosition="1111" runComment="EP,RlsMid,SnLed" runTime="29.45" adjustedTime="29.45" weight="35.4">
+<StartingPrice marketPos="2" marketCnt="2">
+<Price numerator="3" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="3" vacant="No" wide="No" reserve="No">
+<Dog id="455830" name="Rockmount Belle" />
+<Result position="4" btnDistance="HD" sectionalTime="03.77" bendPosition="4444" runComment="MidRlsClrRun" runTime="29.97" adjustedTime="29.97" weight="27.5">
+<StartingPrice marketPos="6" marketCnt="1">
+<Price numerator="8" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="4" vacant="No" wide="No" reserve="No">
+<Dog id="494314" name="Coconut Sky Blue" />
+<Result position="5" btnDistance="1/2" sectionalTime="03.83" bendPosition="6555" runComment="SAwMid" runTime="30.01" adjustedTime="30.01" weight="30.5">
+<StartingPrice marketPos="4" marketCnt="2">
+<Price numerator="4" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="5" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="473860" name="Uncle Stevie" />
+<Result position="6" btnDistance="3/4" sectionalTime="03.80" bendPosition="5666" runComment="Wide,LckEP" runTime="30.07" adjustedTime="30.07" weight="34.9">
+<StartingPrice marketPos="2" marketCnt="2">
+<Price numerator="3" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Trap trap="6" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="467777" name="Isaacs Tiger" />
+<Result position="3" btnDistance="5 1/4" sectionalTime="03.72" bendPosition="3333" runComment="WideClrRun" runTime="29.95" adjustedTime="29.95" weight="30.2">
+<StartingPrice marketPos="4" marketCnt="2">
+<Price numerator="4" denominator="1" />
+</StartingPrice>
+</Result>
+</Trap>
+<Dividends>
+<Forecast trap1="2" trap2="1" dividend="11.79" />
+<Tricast trap1="2" trap2="1" trap3="6" dividend="34.08" />
+</Dividends>
+</Race>
+</Meeting>
+</DogRacing>
