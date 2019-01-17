@@ -3,6 +3,7 @@ package greyhounds
 import (
 	"encoding/xml"
 	"fmt"
+	"math/big"
 	"time"
 
 	"bitbucket.org/advbet/decimal"
@@ -134,8 +135,8 @@ type Dog struct {
 	BestTime      *BestTime      // Best time for this dog
 	ExpectedTimes []ExpectedTime // Expected sectional and final times for this dog
 	Breeding      *Breeding      // Breeding related details for this dog
-	Trainer       *Trainer       // Trainer details for this dog
-	Owner         *Owner         // Owner details for this dog
+	Trainer       Trainer        // Trainer details for this dog
+	Owner         Owner          // Owner details for this dog
 	Ratings       []Rating       // Rating(s) for the dog
 	Comments      []Comment      // Comment(s) for the dog
 	FormRaces     []FormRace     // The form (list of previous runs) for this dog
@@ -267,9 +268,8 @@ type xmlShow Show
 
 // Price contains the single price value for a dog
 type Price struct {
-	Decimal     decimal.Number // Decimal representation of the price
-	Numerator   int            // Numerator of price
-	Denominator int            // Denominator of price
+	Decimal    decimal.Number // Decimal representation of the price (empty or in HK format)
+	Fractional big.Rat        // Fractional representation of the price
 }
 
 type xmlPrice Price
@@ -575,8 +575,8 @@ func (e *xmlDog) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 			ExpectedTimes []xmlExpectedTime `xml:"ExpectedTime"`
 		} `xml:"ExpectedTimes"`
 		Breeding      *xmlBreeding `xml:"Breeding"`
-		Trainer       *xmlTrainer  `xml:"Trainer"`
-		Owner         *xmlOwner    `xml:"Owner"`
+		Trainer       xmlTrainer   `xml:"Trainer"`
+		Owner         xmlOwner     `xml:"Owner"`
 		Ratings       []xmlRating  `xml:"Rating"`
 		Comments      []xmlComment `xml:"Comment"`
 		ForecastPrice struct {
@@ -616,8 +616,8 @@ func (e *xmlDog) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 		BestTime:            (*BestTime)(data.BestTime),         // Best time for this dog
 		ExpectedTimes:       expectedTimes,                      // Expected sectional and final times for this dog
 		Breeding:            (*Breeding)(data.Breeding),         // Breeding related details for this dog
-		Trainer:             (*Trainer)(data.Trainer),           // Trainer details for this dog
-		Owner:               (*Owner)(data.Owner),               // Owner details for this dog
+		Trainer:             Trainer(data.Trainer),              // Trainer details for this dog
+		Owner:               Owner(data.Owner),                  // Owner details for this dog
 		Ratings:             ratings,                            // Rating(s) for the dog
 		Comments:            comments,                           // Comment(s) for the dog
 		FormRaces:           formRaces,                          // The form (list of previous runs) for this dog
@@ -944,10 +944,13 @@ func (p *xmlPrice) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 		return err
 	}
 
+	var fraction big.Rat
+	if data.Denominator != 0 {
+		fraction = *big.NewRat(int64(data.Numerator), int64(data.Denominator))
+	}
 	*p = xmlPrice{
-		Decimal:     data.Decimal,     // Decimal representation of the price
-		Numerator:   data.Numerator,   // Numerator of price
-		Denominator: data.Denominator, // Denominator of price
+		Decimal:    data.Decimal, // Decimal representation of the price
+		Fractional: fraction,     // Fractional representation of the price
 	}
 	return nil
 }

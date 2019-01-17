@@ -4,6 +4,7 @@ import (
 	"encoding/xml"
 	"fmt"
 	"io/ioutil"
+	"math/big"
 	"path"
 	"strconv"
 	"testing"
@@ -132,8 +133,7 @@ func TestParseGreyhoundRacing(t *testing.T) {
 												TimeStamp:    makeTime(t, "2018-04-14T19:21:56+01:00"),
 												MarketNumber: 1,
 												Price: &Price{
-													Numerator:   6,
-													Denominator: 1,
+													Fractional: *big.NewRat(6, 1),
 												},
 											},
 										},
@@ -152,8 +152,7 @@ func TestParseGreyhoundRacing(t *testing.T) {
 												TimeStamp:    makeTime(t, "2018-04-14T19:21:59+01:00"),
 												MarketNumber: 1,
 												Price: &Price{
-													Numerator:   2,
-													Denominator: 1,
+													Fractional: *big.NewRat(2, 1),
 												},
 											},
 										},
@@ -172,8 +171,7 @@ func TestParseGreyhoundRacing(t *testing.T) {
 												TimeStamp:    makeTime(t, "2018-04-14T19:22:04+01:00"),
 												MarketNumber: 1,
 												Price: &Price{
-													Numerator:   2,
-													Denominator: 1,
+													Fractional: *big.NewRat(2, 1),
 												},
 											},
 										},
@@ -192,8 +190,7 @@ func TestParseGreyhoundRacing(t *testing.T) {
 												TimeStamp:    makeTime(t, "2018-04-14T19:22:08+01:00"),
 												MarketNumber: 1,
 												Price: &Price{
-													Numerator:   3,
-													Denominator: 1,
+													Fractional: *big.NewRat(3, 1),
 												},
 											},
 										},
@@ -212,8 +209,7 @@ func TestParseGreyhoundRacing(t *testing.T) {
 												TimeStamp:    makeTime(t, "2018-04-14T19:22:13+01:00"),
 												MarketNumber: 1,
 												Price: &Price{
-													Numerator:   5,
-													Denominator: 1,
+													Fractional: *big.NewRat(5, 1),
 												},
 											},
 										},
@@ -232,8 +228,7 @@ func TestParseGreyhoundRacing(t *testing.T) {
 												TimeStamp:    makeTime(t, "2018-04-14T19:22:17+01:00"),
 												MarketNumber: 1,
 												Price: &Price{
-													Numerator:   6,
-													Denominator: 1,
+													Fractional: *big.NewRat(6, 1),
 												},
 											},
 										},
@@ -282,24 +277,21 @@ func TestParseGreyhoundRacing(t *testing.T) {
 												TimeStamp:    makeTime(t, "2018-04-14T12:44:25+00:00"),
 												MarketNumber: 1,
 												Price: &Price{
-													Numerator:   8,
-													Denominator: 1,
+													Fractional: *big.NewRat(8, 1),
 												},
 											},
 											Show{
 												TimeStamp:    makeTime(t, "2018-04-14T12:45:46+00:00"),
 												MarketNumber: 1,
 												Price: &Price{
-													Numerator:   9,
-													Denominator: 1,
+													Fractional: *big.NewRat(9, 1),
 												},
 											},
 										},
 										Result: &Result{
 											Position: "0",
 											StartingPrice: &Price{
-												Numerator:   10,
-												Denominator: 1,
+												Fractional: *big.NewRat(10, 1),
 											},
 										},
 									},
@@ -317,16 +309,14 @@ func TestParseGreyhoundRacing(t *testing.T) {
 												TimeStamp:    makeTime(t, "2018-04-14T12:44:32+00:00"),
 												MarketNumber: 1,
 												Price: &Price{
-													Numerator:   10,
-													Denominator: 3,
+													Fractional: *big.NewRat(10, 3),
 												},
 											},
 										},
 										Result: &Result{
 											Position: "0",
 											StartingPrice: &Price{
-												Numerator:   3,
-												Denominator: 1,
+												Fractional: *big.NewRat(3, 1),
 											},
 										},
 									},
@@ -344,24 +334,21 @@ func TestParseGreyhoundRacing(t *testing.T) {
 												TimeStamp:    makeTime(t, "2018-04-14T12:44:35+00:00"),
 												MarketNumber: 1,
 												Price: &Price{
-													Numerator:   17,
-													Denominator: 2,
+													Fractional: *big.NewRat(17, 2),
 												},
 											},
 											Show{
 												TimeStamp:    makeTime(t, "2018-04-14T12:45:50+00:00"),
 												MarketNumber: 1,
 												Price: &Price{
-													Numerator:   10,
-													Denominator: 1,
+													Fractional: *big.NewRat(10, 1),
 												},
 											},
 										},
 										Result: &Result{
 											Position: "2",
 											StartingPrice: &Price{
-												Numerator:   12,
-												Denominator: 1,
+												Fractional: *big.NewRat(12, 1),
 											},
 										},
 									},
@@ -379,24 +366,21 @@ func TestParseGreyhoundRacing(t *testing.T) {
 												TimeStamp:    makeTime(t, "2018-04-14T12:44:41+00:00"),
 												MarketNumber: 1,
 												Price: &Price{
-													Numerator:   11,
-													Denominator: 1,
+													Fractional: *big.NewRat(11, 1),
 												},
 											},
 											Show{
 												TimeStamp:    makeTime(t, "2018-04-14T12:45:52+00:00"),
 												MarketNumber: 1,
 												Price: &Price{
-													Numerator:   12,
-													Denominator: 1,
+													Fractional: *big.NewRat(12, 1),
 												},
 											},
 										},
 										Result: &Result{
 											Position: "0",
 											StartingPrice: &Price{
-												Numerator:   12,
-												Denominator: 1,
+												Fractional: *big.NewRat(12, 1),
 											},
 										},
 									},
@@ -414,16 +398,14 @@ func TestParseGreyhoundRacing(t *testing.T) {
 												TimeStamp:    makeTime(t, "2018-04-14T12:44:45+00:00"),
 												MarketNumber: 1,
 												Price: &Price{
-													Numerator:   3,
-													Denominator: 1,
+													Fractional: *big.NewRat(3, 1),
 												},
 											},
 										},
 										Result: &Result{
 											Position: "0",
 											StartingPrice: &Price{
-												Numerator:   10,
-												Denominator: 3,
+												Fractional: *big.NewRat(10, 3),
 											},
 										},
 									},
@@ -441,16 +423,14 @@ func TestParseGreyhoundRacing(t *testing.T) {
 												TimeStamp:    makeTime(t, "2018-04-14T12:44:48+00:00"),
 												MarketNumber: 1,
 												Price: &Price{
-													Numerator:   6,
-													Denominator: 4,
+													Fractional: *big.NewRat(6, 4),
 												},
 											},
 										},
 										Result: &Result{
 											Position: "1",
 											StartingPrice: &Price{
-												Numerator:   5,
-												Denominator: 4,
+												Fractional: *big.NewRat(5, 4),
 											},
 										},
 									},
@@ -468,24 +448,21 @@ func TestParseGreyhoundRacing(t *testing.T) {
 												TimeStamp:    makeTime(t, "2018-04-14T12:44:51+00:00"),
 												MarketNumber: 1,
 												Price: &Price{
-													Numerator:   33,
-													Denominator: 1,
+													Fractional: *big.NewRat(33, 1),
 												},
 											},
 											Show{
 												TimeStamp:    makeTime(t, "2018-04-14T12:45:57+00:00"),
 												MarketNumber: 1,
 												Price: &Price{
-													Numerator:   40,
-													Denominator: 1,
+													Fractional: *big.NewRat(40, 1),
 												},
 											},
 										},
 										Result: &Result{
 											Position: "0",
 											StartingPrice: &Price{
-												Numerator:   50,
-												Denominator: 1,
+												Fractional: *big.NewRat(50, 1),
 											},
 										},
 									},
@@ -503,32 +480,28 @@ func TestParseGreyhoundRacing(t *testing.T) {
 												TimeStamp:    makeTime(t, "2018-04-14T12:44:54+00:00"),
 												MarketNumber: 1,
 												Price: &Price{
-													Numerator:   16,
-													Denominator: 1,
+													Fractional: *big.NewRat(16, 1),
 												},
 											},
 											Show{
 												TimeStamp:    makeTime(t, "2018-04-14T12:45:59+00:00"),
 												MarketNumber: 1,
 												Price: &Price{
-													Numerator:   18,
-													Denominator: 1,
+													Fractional: *big.NewRat(18, 1),
 												},
 											},
 											Show{
 												TimeStamp:    makeTime(t, "2018-04-14T12:46:03+00:00"),
 												MarketNumber: 1,
 												Price: &Price{
-													Numerator:   20,
-													Denominator: 1,
+													Fractional: *big.NewRat(20, 1),
 												},
 											},
 										},
 										Result: &Result{
 											Position: "3",
 											StartingPrice: &Price{
-												Numerator:   25,
-												Denominator: 1,
+												Fractional: *big.NewRat(25, 1),
 											},
 										},
 									},
