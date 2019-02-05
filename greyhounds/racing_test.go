@@ -38,6 +38,7 @@ func TestBulkParseGreyhoundRacing(t *testing.T) {
 		"testdata/Perry Barr",
 		"testdata/The Meadows",
 		"testdata/Wheeling Island",
+		"testdata/feed",
 	}
 
 	// Assertsions is a list of custom checks for successfuly parsing some

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+<Meeting meetingId="347479" track="Swindon" date="20190201" state="Active">
+<Race revision="1" raceNumber="12" time="1359+0000" type="Flat" handicap="No" class="A4" distance="480" offTime="0000+0000" state="Meeting Abandoned">
+<Trap trap="1" vacant="No" wide="No" reserve="No">
+<Dog id="489399" name="World Cup Willy" />
+<Result position="0">
+</Result>
+</Trap>
+<Trap trap="2" vacant="No" wide="No" reserve="No">
+<Dog id="496448" name="Tertius" />
+<Result position="0">
+</Result>
+</Trap>
+<Trap trap="3" vacant="No" wide="No" reserve="No">
+<Dog id="454006" name="Springhill Miss" />
+<Result position="0">
+</Result>
+</Trap>
+<Trap trap="4" vacant="No" wide="No" reserve="No">
+<Dog id="468458" name="Go On My Son" />
+<Result position="0">
+</Result>
+</Trap>
+<Trap trap="5" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="492119" name="Wychwood Harvey" />
+<Result position="0">
+</Result>
+</Trap>
+<Trap trap="6" vacant="No" wide="Yes" seeding="Wide" reserve="No">
+<Dog id="507990" name="Bull Run Bee" />
+<Result position="0">
+</Result>
+</Trap>
+</Race>
+</Meeting>
+</DogRacing>

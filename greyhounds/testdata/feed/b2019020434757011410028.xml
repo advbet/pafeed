@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd">
+<DogRacing type="Race">
+  <Meeting meetingId="347570" track="Swindon" date="20190204" state="Active">
+    <Race revision="28" raceNumber="3" time="1141+0000" type="Flat" handicap="No" class="A6" distance="480" offTime="114134+0000" state="Finished">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog id="451225" name="Leaders Return"/>
+        <Show timeStamp="113446+0000" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+        <Show timeStamp="113624+0000" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+        <Show timeStamp="113714+0000" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+        <Show timeStamp="113827+0000" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+        <Show timeStamp="113855+0000" marketNumber="1">
+          <Price numerator="9" denominator="2"/>
+        </Show>
+        <Show timeStamp="113921+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+        <Show timeStamp="113929+0000" marketNumber="1">
+          <Price numerator="6" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog id="461790" name="Pookies Mia"/>
+        <Show timeStamp="113449+0000" marketNumber="1">
+          <Price numerator="3" denominator="1"/>
+        </Show>
+        <Show timeStamp="113817+0000" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+        <Show timeStamp="113906+0000" marketNumber="1">
+          <Price numerator="9" denominator="4"/>
+        </Show>
+        <Show timeStamp="114002+0000" marketNumber="1">
+          <Price numerator="2" denominator="1"/>
+        </Show>
+        <Show timeStamp="114040+0000" marketNumber="1">
+          <Price numerator="7" denominator="4"/>
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog id="500907" name="Head Of Beans"/>
+        <Show timeStamp="113453+0000" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog id="497801" name="Robbies Connor"/>
+        <Show timeStamp="113456+0000" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="Yes" reserve="No">
+        <Dog id="460475" name="Wi Fi"/>
+        <Show timeStamp="113503+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+        <Show timeStamp="113850+0000" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+        <Show timeStamp="114006+0000" marketNumber="1">
+          <Price numerator="5" denominator="1"/>
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="Yes" reserve="No">
+        <Dog id="515907" name="Minecraft Lee"/>
+        <Show timeStamp="113511+0000" marketNumber="1">
+          <Price numerator="5" denominator="2"/>
+        </Show>
+        <Show timeStamp="113737+0000" marketNumber="1">
+          <Price numerator="7" denominator="2"/>
+        </Show>
+        <Show timeStamp="114019+0000" marketNumber="1">
+          <Price numerator="4" denominator="1"/>
+        </Show>
+      </Trap>
+    </Race>
+  </Meeting>
+</DogRacing>

@@ -346,6 +346,8 @@ const (
 	RaceStewardsInquiry  RaceState = "Stewards Inquiry"   // There is a stewards inquiry (Note: greyhound results are not subject to amendment)
 	RaceStoppedForSafety RaceState = "Stopped for Safety" // The race has been stopped in the interest of safety (followed by either "Rerun" or "Race Void")
 	RaceAbandoned        RaceState = "Abandoned"          // The race has been abandoned
+	RaceMeetingAbandoned RaceState = "Meeting Abandoned"  // The meeting has been abandoned
+	RaceFinished         RaceState = "Finished"           // The race is finished
 )
 
 // List of allowed TrapSeeding values.
@@ -1103,7 +1105,9 @@ func (s RaceState) isValid() bool {
 		RaceRerun,
 		RaceStewardsInquiry,
 		RaceStoppedForSafety,
-		RaceAbandoned:
+		RaceAbandoned,
+		RaceMeetingAbandoned,
+		RaceFinished:
 		return true
 	default:
 		return false
