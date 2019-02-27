@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HorseRacingCard SYSTEM "HorseRacingCard.dtd"[]>
+<HorseRacingCard>
+  <Meeting status="Dormant" id="654" uuid="36d77d87-1e3b-484f-92a3-b00a00c57b0b" country="Australia" course="Rosehill" date="20190227" decStage="Final">
+    <Race trifecta="No" id="4855" uuid="abdfaa48-9ae2-4901-930b-57b05565aee0" date="20190227" time="0600+0000" raceType="Flat" trackType="Turf" handicap="Yes" class="BM-76" showcase="No" maxRunners="12" raceNumber="7">
+      <Title>Events By Atc Handicap</Title>
+      <Distance units="yards" value="1640" text="0m 7f 100y" />
+      <Horse id="110560" uuid="9b4f1a13-b869-43c1-a4ab-5cc59b299172" name="Electric Charlie" status="Runner">
+        <Cloth number="1" />
+        <Drawn stall="6" />
+        <FormFigures type="FlatSix" figures="01851" />
+        <Age years="5" />
+        <Weight units="pounds" value="132" text="9 6" />
+        <Trainer name="John &amp; Chris Ledger" location="Wangaratta 1" />
+        <Jockey id="110561" name="Blake Shinn">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh060001.png" description="Royal Blue, Orange Sleeves And Cap" />
+        <Colour type="B" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="Miscount" />
+        <Breeding type="Sire" name="Myboycharlie (ire)" />
+        <Breeding type="DamSire" name="Encounter" />
+        <ForecastPrice>
+          <Price numerator="17" denominator="2" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110562" uuid="1dc00ff1-38c1-45c4-a0d5-1b5dc3538348" name="High Opinion" status="Runner">
+        <Cloth number="2" />
+        <Drawn stall="12" />
+        <FormFigures type="FlatSix" figures="351x8" />
+        <Age years="7" />
+        <Weight units="pounds" value="132" text="9 6" />
+        <Trainer name="Kris Lees" location="Newcastle" />
+        <Jockey id="110563" name="Tim Clark">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh060002.png" description="Mint Green, Ch In White Diamond, White Sleeves, Mint Diamonds, Quartered Cap" />
+        <Colour type="B/BR" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="Kerzaz" />
+        <Breeding type="Sire" name="Lord Jim (arg)" />
+        <Breeding type="DamSire" name="Arena" />
+        <ForecastPrice>
+          <Price numerator="18" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110564" uuid="4f0a094a-4e8c-418f-99e2-78974a336e69" name="Supernova" status="Runner">
+        <Cloth number="3" />
+        <Drawn stall="7" />
+        <FormFigures type="FlatSix" figures="x112x" />
+        <Age years="4" />
+        <Weight units="pounds" value="132" text="9 6" />
+        <Trainer name="Michael, Wayne &amp; John Hawkes" location="Rosehill" />
+        <Jockey id="110565" name="Brenton Avdulla">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh060003.png" description="Gold, Royal Blue Star And Cap" />
+        <Colour type="BR" />
+        <Sex type="h" />
+        <Breeding type="Dam" name="Carding (usa)" />
+        <Breeding type="Sire" name="Intello (ger)" />
+        <Breeding type="DamSire" name="Street Cry (ire)" />
+        <ForecastPrice>
+          <Price numerator="14" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110566" uuid="c9512a19-156f-4f5c-baef-85c7ed2aaf05" name="Braces" status="Runner">
+        <Cloth number="4" />
+        <Drawn stall="1" />
+        <FormFigures type="FlatSix" figures="26x99" />
+        <Age years="7" />
+        <Weight units="pounds" value="131" text="9 5" />
+        <Trainer name="Gregory Hickman" location="Warwick Farm" />
+        <Jockey id="110567" name="Tommy Berry">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh060004.png" description="Red, Yellow Diagonal Stripes, Dark Blue Sleeves" />
+        <Colour type="BR" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="Mount Juliet (nz)" />
+        <Breeding type="Sire" name="Duporth" />
+        <Breeding type="DamSire" name="O'reilly (nz)" />
+        <ForecastPrice>
+          <Price numerator="50" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110568" uuid="de86917e-8ad1-4b98-ab00-61a82a829869" name="Bull Market" status="Runner">
+        <Cloth number="5" />
+        <Drawn stall="2" />
+        <FormFigures type="FlatSix" figures="x8311" />
+        <Age years="4" />
+        <Weight units="pounds" value="131" text="9 5" />
+        <Trainer name="Peter &amp; Paul Snowden" location="Randwick" />
+        <Jockey id="110569" name="Joshua Parr">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh060005.png" description="Red, White Seams, Checked Sleeves And Cap" />
+        <Colour type="B" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="Zals (nz)" />
+        <Breeding type="Sire" name="Written Tycoon" />
+        <Breeding type="DamSire" name="Zabeel (nz)" />
+        <ForecastPrice>
+          <Price numerator="13" denominator="2" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110570" uuid="d87ed28b-455d-4be0-a439-b825e466be56" name="Mr Gustavo" status="Runner">
+        <Cloth number="6" />
+        <Drawn stall="8" />
+        <FormFigures type="FlatSix" figures="81042" />
+        <Age years="8" />
+        <Weight units="pounds" value="131" text="9 5" />
+        <Trainer name="Kevin Corstens" location="Cranbourne" />
+        <Jockey id="110571" name="Sam Weatherley">
+          <Allowance units="3" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh060006.png" description="White, Next Level Bloodstock Logo, Navy Blue Collar, Sleeves And Pom Pom" />
+        <Colour type="B" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="Fiorenza (nz)" />
+        <Breeding type="Sire" name="Savabeel" />
+        <Breeding type="DamSire" name="Stravinsky (usa)" />
+        <ForecastPrice>
+          <Price numerator="16" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110572" uuid="c38c1b2d-f6eb-461e-a640-1c1cc209f7ba" name="Amanito" status="Runner">
+        <Cloth number="7" />
+        <Drawn stall="11" />
+        <FormFigures type="FlatSix" figures="79x60" />
+        <Age years="4" />
+        <Weight units="pounds" value="128" text="9 2" />
+        <Trainer name="Peter &amp; Paul Snowden" location="Randwick" />
+        <Jockey id="110573" name="Sam Clipperton">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh060007.png" description="Royal Blue, Red Lightning Bolt And Hooped Sleeves, Red Cap, Royal Blue Lightning Bolt" />
+        <Colour type="B" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="Elimbari" />
+        <Breeding type="Sire" name="Pierro" />
+        <Breeding type="DamSire" name="Fastnet Rock" />
+        <ForecastPrice>
+          <Price numerator="18" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110574" uuid="bb3816bd-fd2d-4ba0-9851-848a240677a5" name="Scratches" status="Runner">
+        <Cloth number="8" />
+        <Drawn stall="10" />
+        <FormFigures type="FlatSix" figures="2221x" />
+        <Age years="4" />
+        <Weight units="pounds" value="128" text="9 2" />
+        <Trainer name="Chris Waller" location="Rosehill" />
+        <Jockey id="110575" name="Hugh Bowman">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh060008.png" description="Royal Blue, White Crossed Sashes" />
+        <Colour type="B" />
+        <Sex type="m" />
+        <Breeding type="Dam" name="Kittens" />
+        <Breeding type="Sire" name="Street Cry (ire)" />
+        <Breeding type="DamSire" name="Redoute's Choice" />
+        <ForecastPrice>
+          <Price numerator="10" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110576" uuid="e76455e6-b7c8-4611-b79e-030284c169ab" name="Sondelon" status="Runner">
+        <Cloth number="9" />
+        <Drawn stall="4" />
+        <FormFigures type="FlatSix" figures="27x30" />
+        <Age years="4" />
+        <Weight units="pounds" value="128" text="9 2" />
+        <Trainer name="Gai Waterhouse &amp; Adrian Bott" location="Randwick" />
+        <Jockey id="110577" name="Adam Hyeronimus">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh060009.png" description="White, Dynamic Syndications Logo, Red Cap" />
+        <Colour type="B" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="Trisara" />
+        <Breeding type="Sire" name="Lonhro" />
+        <Breeding type="DamSire" name="Dehere (usa)" />
+        <ForecastPrice>
+          <Price numerator="4" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110578" uuid="24a00314-463a-4069-aa4f-184035d83e17" name="Brother In Arms" status="Runner">
+        <Cloth number="10" />
+        <Drawn stall="9" />
+        <FormFigures type="FlatSix" figures="05374" />
+        <Age years="6" />
+        <Weight units="pounds" value="127" text="9 1" />
+        <Trainer name="Stephen Hill" location="Kembla Grange" />
+        <Jockey id="110579" name="Corey Brown">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh060010.png" description="Green, Blue Horseshoe, Striped Sleeves, Blue Cap" />
+        <Colour type="B/BR" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="Tahni Girl" />
+        <Breeding type="Sire" name="High Chaparral (ire)" />
+        <Breeding type="DamSire" name="Redoute's Choice" />
+        <ForecastPrice>
+          <Price numerator="25" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110580" uuid="d7ac00c4-54f2-48d5-9ad5-63d884973101" name="Wine Bush" status="Runner">
+        <Cloth number="11" />
+        <Drawn stall="3" />
+        <FormFigures type="FlatSix" figures="36x31" />
+        <Age years="5" />
+        <Weight units="pounds" value="126" text="9 0" />
+        <Trainer name="Chris Waller" location="Rosehill" />
+        <Jockey id="110581" name="Kerrin Mcevoy">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh060011.png" description="Cerise" />
+        <Colour type="B" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="Vinavion" />
+        <Breeding type="Sire" name="High Chaparral (ire)" />
+        <Breeding type="DamSire" name="Flying Spur" />
+        <ForecastPrice>
+          <Price numerator="10" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110582" uuid="c6980b10-0ea3-4dc5-8a36-2a0386458153" name="Kolding" status="Runner">
+        <Cloth number="12" />
+        <Drawn stall="5" />
+        <FormFigures type="FlatSix" figures="3x123" />
+        <Age years="3" />
+        <Weight units="pounds" value="121" text="8 9" />
+        <Trainer name="Chris Waller" location="Rosehill" />
+        <Jockey id="110583" name="James Mcdonald">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh060012.png" description="White, Royal Blue Hooped Sleeves And Cap" />
+        <Colour type="B" />
+        <Sex type="c" />
+        <Breeding type="Dam" name="Magic Star" />
+        <Breeding type="Sire" name="Ocean Park (nz)" />
+        <Breeding type="DamSire" name="Danzero" />
+        <ForecastPrice>
+          <Price numerator="6" denominator="4" />
+        </ForecastPrice>
+      </Horse>
+    </Race>
+    <Race trifecta="No" id="4856" uuid="51b66567-11e7-4952-9d62-0f5d744564b1" date="20190227" time="0635+0000" raceType="Flat" trackType="Turf" handicap="Yes" class="BM-70" showcase="No" maxRunners="16" raceNumber="8">
+      <Title>Australian Turf Club Handicap</Title>
+      <Distance units="yards" value="1422" text="0m 6f 102y" />
+      <Horse id="110584" uuid="317cdc29-b359-4ca9-9066-8a84b4e89ffe" name="Mr Tickets" status="Runner">
+        <Cloth number="1" />
+        <Drawn stall="12" />
+        <FormFigures type="FlatSix" figures="0x607" />
+        <Age years="5" />
+        <Weight units="pounds" value="136" text="9 10" />
+        <Trainer name="Mark Newnham" location="Warwick Farm" />
+        <Jockey id="110585" name="Blake Shinn">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh063501.png" description="White, Navy Blue Darby Racing Logos, Navy Blue Armbands And Cap With Logo" />
+        <Colour type="B" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="Happen" />
+        <Breeding type="Sire" name="Tickets" />
+        <Breeding type="DamSire" name="Zeditave" />
+        <ForecastPrice>
+          <Price numerator="16" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110586" uuid="77e91e7c-8306-4881-975c-41f6cc62b468" name="Level Eight" status="NonRunner">
+        <Cloth number="2" />
+        <Drawn stall="15" />
+        <FormFigures type="FlatSix" figures="5699x" />
+        <Age years="6" />
+        <Weight units="pounds" value="134" text="9 8" />
+        <Trainer name="Peter &amp; Paul Snowden" location="Randwick" />
+        <Jockey id="110587" name="Joshua Parr">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh063502.png" description="Black, Yellow Vees, Yellow And Black Stars Sleeves, Striped Cap" />
+        <Colour type="B" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="Sky Queen (nz)" />
+        <Breeding type="Sire" name="High Chaparral (ire)" />
+        <Breeding type="DamSire" name="Hey Baba Riba (nz)" />
+        <ForecastPrice>
+          <Price numerator="12" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110588" uuid="c0da47db-9941-46b7-9fcd-2e869c921663" name="The Cartoonist" status="Runner">
+        <Cloth number="3" />
+        <Drawn stall="14" />
+        <FormFigures type="FlatSix" figures="5219x" />
+        <Age years="4" />
+        <Weight units="pounds" value="132" text="9 6" />
+        <Trainer name="Paul Cave" location="Warwick Farm" />
+        <Jockey id="110589" name="Kathy O'hara">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh063503.png" description="Blue, Yellow Vee And Cap" />
+        <Colour type="CH" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="Laughing Out Loud" />
+        <Breeding type="Sire" name="Lucas Cranach (ger)" />
+        <Breeding type="DamSire" name="Happy Giggle" />
+        <ForecastPrice>
+          <Price numerator="25" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110590" uuid="7e90bf0c-f48c-457c-88ba-e6ab50737b19" name="Bangkok" status="Runner">
+        <Cloth number="4" />
+        <Drawn stall="5" />
+        <FormFigures type="FlatSix" figures="111x6" />
+        <Age years="4" />
+        <Weight units="pounds" value="130" text="9 4" />
+        <Trainer name="Allan Denham" location="Wyong" />
+        <Jockey id="110591" name="Hugh Bowman">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh063504.png" description="Black, Grey Fernleaf And Cap" />
+        <Colour type="B" />
+        <Sex type="m" />
+        <Breeding type="Dam" name="Aziani" />
+        <Breeding type="Sire" name="Medaglia D'oro (usa)" />
+        <Breeding type="DamSire" name="Fasliyev (usa)" />
+        <ForecastPrice>
+          <Price numerator="9" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110592" uuid="235268cb-41c8-40e1-b99c-3e4f0f0cd1a8" name="Dunatun" status="Runner">
+        <Cloth number="5" />
+        <Drawn stall="13" />
+        <FormFigures type="FlatSix" figures="05262" />
+        <Age years="4" />
+        <Weight units="pounds" value="130" text="9 4" />
+        <Trainer name="Garry White" location="Hawkesbury" />
+        <Jockey id="110593" name="Corey Brown">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh063505.png" description="Pink, Maroon Diamonds" />
+        <Colour type="B" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="River Thames" />
+        <Breeding type="Sire" name="Snitzel" />
+        <Breeding type="DamSire" name="Fastnet Rock" />
+        <ForecastPrice>
+          <Price numerator="12" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110594" uuid="60752d11-a1d2-494c-99f7-8b9229bbb425" name="Surjin" status="Runner">
+        <Cloth number="6" />
+        <Drawn stall="10" />
+        <FormFigures type="FlatSix" figures="483x7" />
+        <Age years="4" />
+        <Weight units="pounds" value="130" text="9 4" />
+        <Trainer name="Paul Perry" location="Newcastle" />
+        <Jockey id="110595" name="Shaun Guymer">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh063506.png" description="Yellow, Black Sash, Armbands And Cap" />
+        <Colour type="CH" />
+        <Sex type="h" />
+        <Breeding type="Dam" name="Melbourne Rose (nz)" />
+        <Breeding type="Sire" name="Stratum" />
+        <Breeding type="DamSire" name="Zabeel (nz)" />
+        <ForecastPrice>
+          <Price numerator="16" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110596" uuid="ddd37f36-a1ae-4849-abfb-132a87f171b7" name="Shadow Flight" status="Runner">
+        <Cloth number="7" />
+        <Drawn stall="9" />
+        <FormFigures type="FlatSix" figures="5131x" />
+        <Age years="5" />
+        <Weight units="pounds" value="128" text="9 2" />
+        <Trainer name="Jamie Thomsen" location="Hawkesbury" />
+        <Jockey id="110597" name="Brandon Griffiths">
+          <Allowance units="7" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh063507.png" description="Green, Black Stripes, Red Cap" />
+        <Colour type="B" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="Shadow Miss" />
+        <Breeding type="Sire" name="Duporth" />
+        <Breeding type="DamSire" name="Dane Shadow" />
+        <ForecastPrice>
+          <Price numerator="18" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110598" uuid="c7c7b5c7-a1e3-4b0e-a4aa-0a12df6fbe1b" name="Spencer" status="NonRunner">
+        <Cloth number="8" />
+        <Drawn stall="13" />
+        <FormFigures type="FlatSix" figures="x4481" />
+        <Age years="4" />
+        <Weight units="pounds" value="128" text="9 2" />
+        <Trainer name="Bjorn Baker" location="Warwick Farm" />
+        <Jockey id="110599" name="Adam Hyeronimus">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh063508.png" description="Yellow, Red Quarters, Red And White Checked Armbands And Checked Cap" />
+        <Colour type="B" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="Alice's Smart (usa)" />
+        <Breeding type="Sire" name="Pierro" />
+        <Breeding type="DamSire" name="Smart Strike (can)" />
+        <ForecastPrice>
+          <Price numerator="9" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110600" uuid="c1dbfe33-808b-496b-83a9-ee5bfdf0e619" name="Neruda" status="Runner">
+        <Cloth number="9" />
+        <Drawn stall="4" />
+        <FormFigures type="FlatSix" figures="2136x" />
+        <Age years="4" />
+        <Weight units="pounds" value="126" text="9 0" />
+        <Trainer name="Kristen Buchanan" location="Wyong" />
+        <Jockey id="110601" name="Sam Clipperton">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh063509.png" description="Turquoise, White Faceted Diamond" />
+        <Colour type="CH" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="Lonrose" />
+        <Breeding type="Sire" name="Poet's Voice (gb)" />
+        <Breeding type="DamSire" name="Lonhro" />
+        <ForecastPrice>
+          <Price numerator="28" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110602" uuid="2e9b2a9a-ce10-4137-b11f-13a0f9354659" name="Blinkin Artie" status="Runner">
+        <Cloth number="10" />
+        <Drawn stall="1" />
+        <FormFigures type="FlatSix" figures="2x312" />
+        <Age years="4" />
+        <Weight units="pounds" value="125" text="8 13" />
+        <Trainer name="Ross Stitt" location="Taree" />
+        <Jockey id="110603" name="Andrew Adkins">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh063510.png" description="Green, Yellow Sash, White Sleeves, Green And Yellow Quartered Cap" />
+        <Colour type="BR" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="Osaka Sun" />
+        <Breeding type="Sire" name="Artie Schiller (usa)" />
+        <Breeding type="DamSire" name="Any Given Saturday (usa)" />
+        <ForecastPrice>
+          <Price numerator="14" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110604" uuid="e66c62ff-58db-4dd3-aee9-62d1e2715ccd" name="Professor Marx" status="Runner">
+        <Cloth number="11" />
+        <Drawn stall="6" />
+        <FormFigures type="FlatSix" figures="34222" />
+        <Age years="6" />
+        <Weight units="pounds" value="125" text="8 13" />
+        <Trainer name="Rodney Northam" location="Scone" />
+        <Jockey id="110605" name="James Mcdonald">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh063511.png" description="Royal Blue, Green Shamrock, Yellow Sleeves, Green And Yellow Quartered Cap" />
+        <Colour type="B" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="Astuteness" />
+        <Breeding type="Sire" name="Bon Hoffa" />
+        <Breeding type="DamSire" name="Canny Lad" />
+        <ForecastPrice>
+          <Price numerator="18" denominator="5" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110606" uuid="97788186-46c6-4bec-877f-fe5d795097e6" name="Regal Stage" status="Runner">
+        <Cloth number="12" />
+        <Drawn stall="3" />
+        <FormFigures type="FlatSix" figures="f1" />
+        <Age years="4" />
+        <Weight units="pounds" value="124" text="8 12" />
+        <Trainer name="Gai Waterhouse &amp; Adrian Bott" location="Randwick" />
+        <Jockey id="110607" name="Tim Clark">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh063512.png" description="Royal Blue, Green Stripes" />
+        <Colour type="B" />
+        <Sex type="h" />
+        <Breeding type="Dam" name="Estelle Collection" />
+        <Breeding type="Sire" name="Redoute's Choice" />
+        <Breeding type="DamSire" name="Stravinsky (usa)" />
+        <ForecastPrice>
+          <Price numerator="14" denominator="5" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110608" uuid="71a26d7e-0f25-4630-bec2-1b2f5f8e2b83" name="Greenspan" status="Runner">
+        <Cloth number="13" />
+        <Drawn stall="8" />
+        <FormFigures type="FlatSix" figures="25x53" />
+        <Age years="4" />
+        <Weight units="pounds" value="124" text="8 12" />
+        <Trainer name="John Bateman" location="Goulburn" />
+        <Jockey id="110609" name="Christian Reith">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh063513.png" description="Black, Lime Green Disc And Armbands, Quartered Cap" />
+        <Colour type="B" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="Cross Rate (ire)" />
+        <Breeding type="Sire" name="Reliable Man (gb)" />
+        <Breeding type="DamSire" name="Green Tune (usa)" />
+        <ForecastPrice>
+          <Price numerator="22" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110610" uuid="2fa36a6a-b2ac-429e-992e-1aa3c2428839" name="Temple Run" status="Runner">
+        <Cloth number="14" />
+        <Drawn stall="7" />
+        <FormFigures type="FlatSix" figures="22x21" />
+        <Age years="4" />
+        <Weight units="pounds" value="123" text="8 11" />
+        <Trainer name="Matthew Smith" location="Warwick Farm" />
+        <Jockey id="110611" name="Jay Ford">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh063514.png" description="Green, White V, Sleeves And Cap, Green Pom Pom" />
+        <Colour type="B" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="Shaan" />
+        <Breeding type="Sire" name="Dream Ahead (usa)" />
+        <Breeding type="DamSire" name="Danewin" />
+        <ForecastPrice>
+          <Price numerator="13" denominator="5" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110612" uuid="e69582f9-dcf8-473f-aca1-76b80ee4a3af" name="Gretzky" status="NonRunner">
+        <Cloth number="15" />
+        <Drawn stall="11" />
+        <FormFigures type="FlatSix" figures="4724x" />
+        <Age years="4" />
+        <Weight units="pounds" value="123" text="8 11" />
+        <Trainer name="Michael, Wayne &amp; John Hawkes" location="Flemington" />
+        <Jockey id="110613" name="Tommy Berry">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh063515.png" description="Navy Blue, Gold Lightning Bolt, Gold And White Armbands, Gold Cap" />
+        <Colour type="B" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="There's Only One" />
+        <Breeding type="Sire" name="All Too Hard" />
+        <Breeding type="DamSire" name="Testa Rossa" />
+        <ForecastPrice>
+          <Price numerator="1" denominator="100" />
+        </ForecastPrice>
+      </Horse>
+      <Horse id="110614" uuid="24367887-1cbb-48c1-9921-380301dd6fb3" name="Tiger By The Tale" status="Runner">
+        <Cloth number="16" />
+        <Drawn stall="2" />
+        <FormFigures type="FlatSix" figures="08343" />
+        <Age years="7" />
+        <Weight units="pounds" value="116" text="8 4" />
+        <Trainer name="Danny Williams" location="Moruya" />
+        <Jockey id="110615" name="Not Notified">
+          <Allowance units="0" value="lbs" />
+        </Jockey>
+        <JockeyColours filename="20190227rsh063516.png" description="Navy Blue, Maroon Seams, Purple Star Sleeves, Purple Cap, Navy Blue Star" />
+        <Colour type="B/BR" />
+        <Sex type="g" />
+        <Breeding type="Dam" name="Spinner's Magic (nz)" />
+        <Breeding type="Sire" name="Tale Of The Cat (usa)" />
+        <Breeding type="DamSire" name="O'reilly (nz)" />
+        <ForecastPrice>
+          <Price numerator="25" denominator="1" />
+        </ForecastPrice>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacingCard>

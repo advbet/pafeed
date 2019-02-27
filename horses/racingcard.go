@@ -44,7 +44,7 @@ type CardRace struct {
 	Handicap      bool                   // Whether or not this race is a handicap
 	Trifecta      bool                   // Whether or not this race has a trifecta associated with it
 	Showcase      bool                   // Whether or not this is a showcase race
-	Class         int                    // The class of the race
+	Class         string                 // The class of the race
 	MaxRunners    int                    // Maximum field size
 	NumFences     int                    // Number of fences to be jumped
 	Title         string                 // The title of the race
@@ -317,7 +317,7 @@ func (r *xmlCardRace) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error
 		Handicap  xmlYesNo  `xml:"handicap,attr"`  // Whether or not this race is a handicap
 		Trifecta  xmlYesNo  `xml:"trifecta,attr"`  // Whether or not this race has a trifecta associated with it
 		Showcase  xmlYesNo  `xml:"showcase,attr"`  // Whether or not this is a showcase race
-		Class     int       `xml:"class,attr"`     // The class of the race
+		Class     string    `xml:"class,attr"`     // The class of the race
 		//DeclarationStage UNUSED `xml:"decStage,attr"`        //Declaration stage of the race. Early - used for early declarations (fourday etc). Final - used for final declarations (overnight etc)
 		MaxRunners int `xml:"maxRunners,attr"` // Maximum field size
 		NumFences  int `xml:"numFences,attr"`  // Number of fences to be jumped
@@ -510,18 +510,19 @@ func (h *xmlCardHorse) UnmarshalXML(d *xml.Decoder, start xml.StartElement) erro
 // UnmarshalXML implements xml.Unmarshaler interface.
 func (j *xmlCardJockey) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	data := struct {
-		ID        int           `xml:"id,attr"`   // Identifier for jockey
-		Name      string        `xml:"name,attr"` // The name of the jockey
-		Allowance xmlUnitsValue `xml:"Allowance"` // The allowance of the jockey
+		ID   int    `xml:"id,attr"`   // Identifier for jockey
+		Name string `xml:"name,attr"` // The name of the jockey
+		// Removed due to a bug found in Australian feed
+		// Allowance xmlUnitsValue `xml:"Allowance"` // The allowance of the jockey
 		//PersonForm UNUSED  `xml:"PersonForm"` // Indicates how well the jockey is currently doing
 	}{}
 	if err := d.DecodeElement(&data, &start); err != nil {
 		return err
 	}
 	*j = xmlCardJockey{
-		ID:        data.ID,
-		Name:      data.Name,
-		Allowance: UnitsValue(data.Allowance),
+		ID:   data.ID,
+		Name: data.Name,
+		// Allowance: UnitsValue(data.Allowance),
 		//PersonForm UNUSED
 	}
 	return nil

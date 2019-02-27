@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd"[]>
+<DogRacing type="Card" state="Final">
+  <Meeting meetingId="2142" uuid="4b02306f-7993-434b-b4cf-777b21584a30" track="Wentworth Park" country="Australia" date="20190227" state="Dormant">
+    <Race uuid="a33074f4-71fb-408e-b85a-d1fc2dd06876" raceId="34076" raceNumber="1" type="Flat" time="20190227T0807+0000" handicap="No" class="A" distance="520" state="Dormant" title="Ladbrokes Multimaker Stakes">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog cloth="1" id="163187" uuid="636c030c-d6f7-483d-8f9e-1117e418da74" name="Mighty Tegan">
+          <Breeding sire="Shakey Jakey" dam="Dalta Bale" born="01-03-2015" colour="BK" sex="b" />
+          <Trainer name="L. Galea" />
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog cloth="2" id="163189" uuid="f342f8dd-0a4c-4ad8-9a54-b3721636d7bc" name="Boxcar Bella">
+          <Breeding sire="Bella Infrared" dam="Wuxi" born="01-03-2017" colour="LTF" sex="b" />
+          <Trainer name="C. Carl" />
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog cloth="3" id="163191" uuid="f7986824-f409-4a31-8c07-6ecf8c1dab8f" name="Worby Music">
+          <Breeding sire="My Bro Fabio" dam="Sheza Chance" born="01-02-2017" colour="BK" sex="b" />
+          <Trainer name="J. King" />
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog cloth="4" id="163193" uuid="dcea78dc-b18f-4154-9374-c1656c44d2b9" name="Vouchers">
+          <Breeding sire="Where's Pedro" dam="Jewel Action" born="01-04-2017" colour="BK" sex="b" />
+          <Trainer name="M. Gatt" />
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog cloth="5" id="163195" uuid="eee2fdf3-afd8-41a9-8506-455a26144f2a" name="Tylon's Tree">
+          <Breeding sire="My Bro Fabio" dam="Lisa's Tree" born="01-01-2016" colour="BK" sex="d" />
+          <Trainer name="L. Lamb" />
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog cloth="6" id="163197" uuid="96afef3a-a682-4ced-85a8-bb5d915d1192" name="Dyna Zultan">
+          <Breeding sire="Bella Infrared" dam="Jemima Allen" born="01-06-2016" colour="BD" sex="d" />
+          <Trainer name="M. Wotton" />
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog cloth="7" id="163199" uuid="ee0cad55-3994-4ffc-be43-bd3ca9366bd7" name="Coco Nell">
+          <Breeding sire="Buck Fever" dam="Desiderata" born="01-01-2017" colour="F" sex="b" />
+          <Trainer name="G. Sheather" />
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog cloth="8" id="163201" uuid="5ef5aef9-040e-43c1-a431-f4540a0cc3a7" name="Mike's Return">
+          <Breeding sire="Barcia Bale" dam="Queen Marina" born="01-03-2017" colour="BK" sex="d" />
+          <Trainer name="N. Holloway" />
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="4b903651-a9a5-48d3-884a-127877c215b5" raceId="34077" raceNumber="2" type="Flat" time="20190227T0827+0000" handicap="No" class="A" distance="520" state="Dormant" title="Wp On Facebook Stakes Stakes">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog cloth="1" id="163203" uuid="a948ac7f-e09e-41ce-88dc-c4a88bc10fc5" name="Chickiano">
+          <Breeding sire="Fernando Bale" dam="Callum's Mum" born="01-10-2016" colour="BKW" sex="b" />
+          <Trainer name="C. Proctor" />
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog cloth="2" id="163205" uuid="5c78ccc7-3ec6-4a73-987f-c56297664bcc" name="Skip The Dishes">
+          <Breeding sire="Fabregas" dam="Doozy" born="01-03-2016" colour="BK" sex="d" />
+          <Trainer name="S. Thomas" />
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog cloth="3" id="163207" uuid="43a8278b-51fc-4a4e-acfa-be9db7dbd1f8" name="Ballows Freak">
+          <Breeding sire="Shakey Jakey" dam="Sweet Runner" born="01-05-2017" colour="BK" sex="d" />
+          <Trainer name="M. Ballantine" />
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog cloth="4" id="163209" uuid="61924c00-2e7a-4192-a23b-1aa4f7ab1333" name="Violet Road">
+          <Breeding sire="Fernando Bale" dam="Addison Road" born="01-12-2016" colour="BEW" sex="b" />
+          <Trainer name="J. Scerri" />
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog cloth="5" id="163211" uuid="5adcea8d-db4d-4981-a0d9-658d094815a9" name="Khatanga Eve">
+          <Breeding sire="Fabregas" dam="Fancy Arjo" born="01-02-2017" colour="BK" sex="b" />
+          <Trainer name="C. Spratt" />
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog cloth="6" id="163213" uuid="48dc26b4-1085-4977-b295-c3492b1d5edc" name="Rattlin' Home">
+          <Breeding sire="Tomac Bale" dam="Rosey Gardens" born="01-05-2017" colour="BK" sex="b" />
+          <Trainer name="B. Mitchell" />
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog cloth="7" id="163215" uuid="1aa96238-f2a9-45eb-9d1f-ea98fabb5d2f" name="Mercedes Dior">
+          <Breeding sire="Mogambo" dam="Blossom Dior" born="01-03-2017" colour="RF" sex="b" />
+          <Trainer name="A. Proctor" />
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog cloth="8" id="163217" uuid="e03ccf0b-e7fd-46b8-858e-cf6709f403c2" name="Dissociative">
+          <Breeding sire="Kinloch Brae" dam="Amnesia" born="01-03-2017" colour="BK" sex="d" />
+          <Trainer name="K. Coleman" />
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="f77fe6cc-a264-4cc1-b991-102cd0bc2d9f" raceId="34078" raceNumber="3" type="Flat" time="20190227T0847+0000" handicap="No" class="A" distance="520" state="Dormant" title="Ted's Lounge @ Wp 1-2 Wins Stakes">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog cloth="1" id="163219" uuid="520f7767-9d0d-4c33-9959-eea4b7ec9105" name="Nangar Diva">
+          <Breeding sire="Fabregas" dam="Fancy Dancer" born="01-02-2017" colour="BK" sex="b" />
+          <Trainer name="D. Barnes" />
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog cloth="2" id="163221" uuid="93588f6a-f657-46dc-8358-e06c7d452991" name="Uncontrolled">
+          <Breeding sire="Magic Sprite" dam="Slick Exit" born="01-03-2017" colour="BK" sex="d" />
+          <Trainer name="R. Mccolm" />
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog cloth="3" id="163223" uuid="21981074-6dca-438d-b2ff-ae8620663d8b" name="Mack Cool">
+          <Breeding sire="Sulzanti" dam="Tourist Abby" born="01-06-2016" colour="BK" sex="d" />
+          <Trainer name="C. Last" />
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog cloth="4" id="163225" uuid="629e4f95-4bf5-49d8-a049-0b9b34406f9d" name="Rose Mac">
+          <Breeding sire="Tomac Bale" dam="Rosey Gardens" born="01-05-2017" colour="BKW" sex="b" />
+          <Trainer name="B. Mitchell" />
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog cloth="5" id="163227" uuid="e64b5793-4cfa-4508-af4c-eb10b15614a8" name="Wild Wally">
+          <Breeding sire="Buck Fever" dam="Runner Runner" born="01-12-2016" colour="BK" sex="d" />
+          <Trainer name="P. Ballantine" />
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog cloth="6" id="163229" uuid="3e3e74d1-0dea-4a22-bdac-6d77cd6c329b" name="Learn From Me">
+          <Breeding sire="Ashom Bale" dam="Luxurious" born="01-09-2014" colour="RBD" sex="d" />
+          <Trainer name="M. Wotton" />
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog cloth="7" id="163231" uuid="ad8b5247-8a4e-48eb-86be-d65188a23235" name="Stella Marina">
+          <Breeding sire="Barcia Bale" dam="Queen Marina" born="01-03-2017" colour="BK" sex="b" />
+          <Trainer name="N. Holloway" />
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog cloth="8" id="163233" uuid="975d3a60-3be8-4b5f-8a84-ae975db3d8df" name="Cruze King">
+          <Breeding sire="Sh Avatar" dam="Zipping Rose" born="01-04-2017" colour="BK" sex="d" />
+          <Trainer name="M. Eberand" />
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="d318e519-debb-4883-9ccb-445d6eac8ae0" raceId="34079" raceNumber="4" type="Flat" time="20190227T0906+0000" handicap="No" class="A" distance="520" state="Dormant" title="Duke's Ladbrokes Previews Stakes">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog cloth="1" id="163235" uuid="6411e582-0f46-4c11-af10-50ec52ad233e" name="El Feroz">
+          <Breeding sire="Fernando Bale" dam="Amnesia" born="01-08-2015" colour="Black" sex="d" />
+          <Trainer name="M. Wotton" />
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog cloth="2" id="163237" uuid="4302e4b4-241f-417f-a272-54c8c6b0b042" name="Double Sweetness">
+          <Breeding sire="Dyna Double One" dam="Miss Sweetness" born="01-05-2017" colour="BK" sex="b" />
+          <Trainer name="A. Campton" />
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog cloth="3" id="163239" uuid="59915a0a-5c28-409b-bbd9-e020424e62a3" name="Good Odds Buddy">
+          <Breeding sire="Collision" dam="Solar Pak" born="01-04-2017" colour="RBD" sex="d" />
+          <Trainer name="F. Hurst" />
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog cloth="4" id="163241" uuid="c4d13c43-befe-4337-b929-116bfc2a3ab8" name="Curacao">
+          <Breeding sire="Barcia Bale" dam="Cocktail Party" born="01-03-2017" colour="BE" sex="d" />
+          <Trainer name="K. Coleman" />
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog cloth="5" id="163243" uuid="ea75339a-718c-4d9f-842a-9edff73bafa9" name="Bago Gem">
+          <Breeding sire="Barcia Bale" dam="Oxley Rubey" born="01-12-2016" colour="BK" sex="b" />
+          <Trainer name="D. Sultana" />
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog cloth="6" id="163245" uuid="e8e42e84-6256-4f8d-a320-35a76b70f3bc" name="Starburst Stu">
+          <Breeding sire="Barcia Bale" dam="Starburst Suzie" born="01-10-2015" colour="Black" sex="d" />
+          <Trainer name="D. Browne" />
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog cloth="7" id="163247" uuid="81cfec99-cb35-415f-9434-da6c4eff10c2" name="Mother's Prayer">
+          <Breeding sire="Where's Pedro" dam="Jewel Action" born="01-04-2017" colour="WBK" sex="b" />
+          <Trainer name="H. Sarkis" />
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog cloth="8" id="163249" uuid="8d23781c-8239-4e13-ae23-865c18f49f8d" name="Live On Tour">
+          <Breeding sire="Kinloch Brae" dam="Kitty Kahn" born="01-11-2016" colour="RBD" sex="d" />
+          <Trainer name="R. Brewer" />
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="63f81fad-7c24-4e33-b9d1-bab7c765562c" raceId="34080" raceNumber="5" type="Flat" time="20190227T0924+0000" handicap="No" class="A" distance="520" state="Dormant" title="Ladbrokes Cash Out Stakes">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog cloth="1" id="163251" uuid="160426c0-00fa-4cdb-b3cb-5ba1344452e1" name="Another Kainane">
+          <Breeding sire="Prince Diablo" dam="Screaming Jester" born="01-03-2014" colour="BKW" sex="d" />
+          <Trainer name="R. Delaney" />
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog cloth="2" id="163253" uuid="62c035a1-ecc2-44c0-8ff8-2d7f6496dab0" name="Seaside Shuffle">
+          <Breeding sire="Oaks Road" dam="Tarks Nemesis" born="01-01-2017" colour="BD" sex="d" />
+          <Trainer name="A. Proctor" />
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog cloth="3" id="163255" uuid="9cbb96f7-cf1a-4b3c-b29c-4511d9eabac9" name="Zipping Oaks">
+          <Breeding sire="Turanza Bale" dam="Zipping Willow" born="01-12-2015" colour="BK" sex="b" />
+          <Trainer name="J. Eaton" />
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog cloth="4" id="163257" uuid="c588eb24-a8d2-4abf-840f-037af5ee3803" name="Cannon Run">
+          <Breeding sire="Cosmic Rumble" dam="Avondale Queen" born="01-08-2015" colour="BK" sex="d" />
+          <Trainer name="M. Burton" />
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog cloth="5" id="163259" uuid="6c4eafa5-97ed-4383-a9e2-1e1c2817c0f1" name="Tiempo Dinero">
+          <Breeding sire="El Grand Senor" dam="Time And Money" born="01-02-2015" colour="RBD" sex="d" />
+          <Trainer name="M. Gatt" />
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog cloth="6" id="163261" uuid="9a41d5f4-a70a-4c04-b135-a3516e9fee67" name="Winsome Stride">
+          <Breeding sire="Fernando Bale" dam="Winsome Amanda" born="01-04-2016" colour="Black" sex="d" />
+          <Trainer name="M. Burton" />
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog cloth="7" id="163263" uuid="982deaad-6a51-4057-a593-8e2cd6199451" name="Mighty Hazza">
+          <Breeding sire="My Bro Fabio" dam="Black Affair" born="01-01-2016" colour="BK" sex="d" />
+          <Trainer name="A. Proctor" />
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog cloth="8" id="163265" uuid="409237cc-4c8a-429a-882f-4fdbbc530ec4" name="Double What">
+          <Breeding sire="Dyna Double One" dam="Go Mini Mouse" born="01-11-2016" colour="BK" sex="d" />
+          <Trainer name="G. Borg" />
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="b5e1472f-a49b-4aa1-bab6-610937e4ff8e" raceId="34081" raceNumber="6" type="Flat" time="20190227T0946+0000" handicap="No" class="A" distance="520" state="Dormant" title="Become A Gbota Member Staktes">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog cloth="1" id="163267" uuid="4a8e771a-fb37-415b-8c41-3c7a35ad450a" name="Zombie">
+          <Breeding sire="Fabregas" dam="My Bella Rose" born="01-06-2016" colour="BK" sex="b" />
+          <Trainer name="A. Manwaring" />
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog cloth="2" id="163269" uuid="db95cc66-6aff-45fd-b472-7581e83887ad" name="Sahalee">
+          <Breeding sire="Dyna Double One" dam="Queen Esther" born="01-02-2016" colour="BK" sex="b" />
+          <Trainer name="G. Barnett" />
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog cloth="3" id="163271" uuid="5a163717-94d8-4340-b19f-2f318f0b6218" name="Subway Miss">
+          <Breeding sire="Kc And All" dam="Subway To Venus" born="01-12-2015" colour="F" sex="b" />
+          <Trainer name="H. Sarkis" />
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog cloth="4" id="163273" uuid="01aac55d-25e6-4ae5-a38f-5725c65cd682" name="Swift Viper">
+          <Breeding sire="Fabregas" dam="Wee Chevy" born="01-12-2016" colour="BK" sex="d" />
+          <Trainer name="A. Proctor" />
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog cloth="5" id="163275" uuid="d7562acc-1ef2-4678-8cf3-2d4f2c172fa5" name="Dyna Neitz">
+          <Breeding sire="Kiowa Mon Manny" dam="Bala Bale" born="01-09-2015" colour="BK" sex="d" />
+          <Trainer name="S. Rhodes" />
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog cloth="6" id="163277" uuid="0919be5c-dfbb-4e31-87c1-6654bcc7ef3c" name="Federal Brae">
+          <Breeding sire="Kinloch Brae" dam="Dashing Black" born="01-07-2016" colour="Black" sex="d" />
+          <Trainer name="H. Sarkis" />
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog cloth="7" id="163279" uuid="c24a3065-b631-4dec-8949-e581d66453c9" name="Dyna Evelyn">
+          <Breeding sire="Jarvis Bale" dam="Carol Allen" born="01-09-2015" colour="BK" sex="b" />
+          <Trainer name="S. Rhodes" />
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog cloth="8" id="163281" uuid="4ed2b6cd-6b62-42ae-85fe-94a8a4441568" name="Blazin' Fletch">
+          <Breeding sire="Barcia Bale" dam="Regal Blaze" born="01-11-2015" colour="BK" sex="d" />
+          <Trainer name="J. Eaton" />
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="0623cfe7-a142-47df-8c28-d2a6772e2455" raceId="34082" raceNumber="7" type="Flat" time="20190227T1004+0000" handicap="No" class="A" distance="520" state="Dormant" title="Ladbrokes Odds Boost Stakes">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog cloth="1" id="163283" uuid="381789e4-0029-4d7c-bc69-0cf35838c04d" name="Sunburnt City">
+          <Breeding sire="Oaks Road" dam="Where's Kitty" born="01-08-2016" colour="BK" sex="d" />
+          <Trainer name="J. Richardson" />
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog cloth="2" id="163285" uuid="18d2a08f-204e-4b88-aa3a-8b99b64fd3a9" name="Hotplate">
+          <Breeding sire="Fabregas" dam="Heat The Plate" born="01-11-2015" colour="BK" sex="d" />
+          <Trainer name="J. Vanderburg" />
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog cloth="3" id="163287" uuid="5d062637-ea0c-42fc-afef-4cd285806dba" name="Paprika">
+          <Breeding sire="Fabregas" dam="My Bella Rose" born="01-06-2016" colour="BK" sex="d" />
+          <Trainer name="A. Manwaring" />
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog cloth="4" id="163289" uuid="043a2a6b-4d7f-4825-abc8-d9d3d9986683" name="Borderline">
+          <Breeding sire="Dyna Double One" dam="Carla" born="01-01-2016" colour="BK" sex="d" />
+          <Trainer name="G. Sheather" />
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog cloth="5" id="163291" uuid="ed8b2d04-9b9f-4055-a5b5-d4c90057fbae" name="Soaring Hawke">
+          <Breeding sire="Cape Hawke" dam="Chandon Grove" born="01-11-2014" colour="Black" sex="b" />
+          <Trainer name="G. Hore" />
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog cloth="6" id="163293" uuid="f2df3ae3-c37e-4382-ad79-b20b6d09ea14" name="He's All Shine">
+          <Breeding sire="Barcia Bale" dam="She's Scandalous" born="01-01-2017" colour="RF" sex="d" />
+          <Trainer name="M. Gatt" />
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog cloth="7" id="163295" uuid="bdebd2e7-5dd3-4f11-a828-6c1ecacfdf94" name="Mighty Staunch">
+          <Breeding sire="Shakey Jakey" dam="Dalta Bale" born="01-03-2015" colour="BK" sex="d" />
+          <Trainer name="L. Galea" />
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog cloth="8" id="163297" uuid="b2ec88a8-511b-47a1-839a-a082f9531276" name="Electric Lotto">
+          <Breeding sire="Texas Gold" dam="Trident Lotto" born="01-04-2015" colour="BK" sex="b" />
+          <Trainer name="G. Hore" />
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="be378055-e9b1-4e77-9ea7-100f016f7149" raceId="34083" raceNumber="8" type="Flat" time="20190227T1026+0000" handicap="No" class="A" distance="520" state="Dormant" title="Wentworthpark.com.au Stakes">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog cloth="1" id="163299" uuid="80353b4d-255a-43de-a8f3-c97b9e2edb94" name="Djay Holden">
+          <Breeding sire="Don't Knocka Him" dam="Ella Lezah" born="01-04-2016" colour="BD" sex="d" />
+          <Trainer name="V. Sultana" />
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog cloth="2" id="163301" uuid="9fc178dc-8147-450f-8ac3-bf7766816482" name="Dandy Dale">
+          <Breeding sire="Oaks Road" dam="Champness Gal" born="01-01-2016" colour="Black" sex="d" />
+          <Trainer name="S. Hazlett" />
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog cloth="3" id="163303" uuid="141dc406-2f51-43a5-a9fc-c52ffa8fde6e" name="Off The Leash">
+          <Breeding sire="Fernando Bale" dam="Solar Pak" born="01-11-2015" colour="BD" sex="d" />
+          <Trainer name="K. Burnett" />
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog cloth="4" id="163305" uuid="8ffd0330-c633-4f1a-addf-49a9a80628c3" name="King Panda">
+          <Breeding sire="Cosmic Rumble" dam="Hail Queenie" born="01-09-2014" colour="BEBD" sex="d" />
+          <Trainer name="J. Laurence" />
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog cloth="5" id="163307" uuid="7c1169a1-a90e-4be0-bd07-6995bc906209" name="Bugatti Chiron">
+          <Breeding sire="Barcia Bale" dam="Bugatti Flyer" born="01-10-2016" colour="BK" sex="b" />
+          <Trainer name="J. Davis" />
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog cloth="6" id="163309" uuid="070fa6e3-79e1-4c28-8538-8ac88bb3b2c5" name="Hollywood">
+          <Breeding sire="Kinloch Brae" dam="Winning Charm" born="01-01-2015" colour="Brindle" sex="d" />
+          <Trainer name="S. Swain" />
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog cloth="7" id="163311" uuid="af21414f-af6f-4207-b0fa-a406ba5dd043" name="Dreaming Time">
+          <Breeding sire="My Bro Fabio" dam="Black Affair" born="01-01-2016" colour="BK" sex="b" />
+          <Trainer name="R. Lambert" />
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog cloth="8" id="163313" uuid="b4eedddd-c675-46e8-a15a-cd04e7cc46d4" name="Umatilla">
+          <Breeding sire="Fabregas" dam="Lady Arko" born="01-08-2015" colour="BK" sex="d" />
+          <Trainer name="R. Bell" />
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="9def5a2a-be7b-455e-97ed-f212c085b954" raceId="34084" raceNumber="9" type="Flat" time="20190227T1045+0000" handicap="No" class="A" distance="520" state="Dormant" title="Ladbrokes Info Hub Stakes">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog cloth="1" id="163315" uuid="5c1590a3-d13e-405a-8110-2562e92642fc" name="Hey Duggee">
+          <Breeding sire="Barcia Bale" dam="Dyna Aline" born="01-04-2016" colour="F" sex="d" />
+          <Trainer name="M. Beagan" />
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog cloth="2" id="163317" uuid="50f07e62-f057-4b19-a38a-d0e033e1711f" name="Dyna Bitey">
+          <Breeding sire="Kelsos Fusileer" dam="Xylia Allen" born="01-02-2016" colour="BK" sex="d" />
+          <Trainer name="S. Rhodes" />
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog cloth="3" id="163319" uuid="1fdfdecc-a6a2-4298-b735-0141c2d0664f" name="Darren Allen">
+          <Breeding sire="Jarvis Bale" dam="Dyna Gala" born="01-05-2016" colour="F" sex="d" />
+          <Trainer name="J. Scerri" />
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog cloth="4" id="163321" uuid="d00b015b-bcb1-4695-b1fe-27cad6f56caa" name="Rockstar Stangus">
+          <Breeding sire="Fernando Bale" dam="Glory Of Love" born="01-11-2015" colour="RBD" sex="d" />
+          <Trainer name="M. Wotton" />
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" reserve="No">
+        <Dog cloth="5" id="163323" uuid="1f3c22ae-2675-4266-bdd6-93b09bf88473" name="Good Odds Harada">
+          <Breeding sire="Collision" dam="Solar Pak" born="01-04-2017" colour="BD" sex="d" />
+          <Trainer name="F. Hurst" />
+        </Dog>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog cloth="6" id="163325" uuid="c8339249-c024-40a2-a1dc-b5187eb5efa4" name="All Night Fever">
+          <Breeding sire="Buck Fever" dam="Runner Runner" born="01-12-2016" colour="BK" sex="b" />
+          <Trainer name="S. Swain" />
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog cloth="7" id="163327" uuid="fdced761-4792-45cc-93b9-8b3c8cc8ed1e" name="Premier Return">
+          <Breeding sire="Barcia Bale" dam="Premier Mozz" born="01-01-2017" colour="BK" sex="b" />
+          <Trainer name="N. Lyford" />
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog cloth="8" id="163329" uuid="3522edc5-8115-468f-ba3f-ac1ff6ed238b" name="Louie Allen">
+          <Breeding sire="Kelsos Fusileer" dam="Dyna Kayla" born="01-09-2015" colour="BEF" sex="d" />
+          <Trainer name="F. Wotton" />
+        </Dog>
+      </Trap>
+    </Race>
+    <Race uuid="d9e245c5-ee12-4237-b62f-bb525b35f1c7" raceId="34085" raceNumber="10" type="Flat" time="20190227T1105+0000" handicap="No" class="A" distance="280" state="Dormant" title="@wpgrey On Twitter Stakes">
+      <Trap trap="1" vacant="No" wide="No" reserve="No">
+        <Dog cloth="1" id="163331" uuid="da21b2ff-b106-45cb-a13c-a0df5817bbc9" name="Sashay">
+          <Breeding sire="Barcia Bale" dam="Socozie" born="01-01-2016" colour="BK" sex="b" />
+          <Trainer name="R. Tyler" />
+        </Dog>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" reserve="No">
+        <Dog cloth="2" id="163333" uuid="54fb3ee5-4760-4550-b09e-42a30404659c" name="Tunza Thunda">
+          <Breeding sire="Magic Sprite" dam="Blue Thunda" born="01-05-2017" colour="BK" sex="b" />
+          <Trainer name="S. Smith" />
+        </Dog>
+      </Trap>
+      <Trap trap="3" vacant="No" wide="No" reserve="No">
+        <Dog cloth="3" id="163335" uuid="effcf713-fd72-4c46-a859-f15cc14007eb" name="Lady Cynthia">
+          <Breeding sire="Black Magic Opal" dam="Elusive Chakra" born="01-02-2017" colour="BK" sex="b" />
+          <Trainer name="G. Lee" />
+        </Dog>
+      </Trap>
+      <Trap trap="4" vacant="No" wide="No" reserve="No">
+        <Dog cloth="4" id="163337" uuid="36945882-2484-48eb-9b75-65a196065b86" name="One For Tod">
+          <Breeding sire="Dyna Double One" dam="Tigress Ally" born="01-04-2016" colour="BK" sex="b" />
+          <Trainer name="S. Pulbrook" />
+        </Dog>
+      </Trap>
+      <Trap trap="5" vacant="Yes" wide="No" reserve="No" />
+      <Trap trap="6" vacant="No" wide="No" reserve="No">
+        <Dog cloth="6" id="163341" uuid="f7359add-4700-4a0b-87f6-f42489033bee" name="Unrushed">
+          <Breeding sire="Magic Sprite" dam="Irish Marina" born="01-12-2016" colour="BK" sex="b" />
+          <Trainer name="G. Sheather" />
+        </Dog>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" reserve="No">
+        <Dog cloth="7" id="163343" uuid="902aa62c-5f10-4c15-a2e7-31c1a1c85d86" name="Nandor Junior">
+          <Breeding sire="Fernando Bale" dam="Avondale Porche" born="01-03-2017" colour="WBK" sex="d" />
+          <Trainer name="R. Brewer" />
+        </Dog>
+      </Trap>
+      <Trap trap="8" vacant="No" wide="No" reserve="No">
+        <Dog cloth="8" id="163345" uuid="5465c8bc-8351-4c18-8ff5-ece44e06cbf2" name="Aircapt Lady">
+          <Breeding sire="Magic Sprite" dam="Irish Marina" born="01-12-2016" colour="BK" sex="b" />
+          <Trainer name="G. Sheather" />
+        </Dog>
+      </Trap>
+    </Race>
+    <ReserveDogs />
+  </Meeting>
+</DogRacing>

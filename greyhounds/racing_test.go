@@ -58,7 +58,7 @@ func TestBulkParseGreyhoundRacing(t *testing.T) {
 			blob, err := ioutil.ReadFile(path)
 			require.NoError(t, err, path)
 			obj, err := ParseFile(blob)
-			assert.NoError(t, err, path)
+			require.NoError(t, err, path)
 
 			assert.True(t, len(obj.Meetings) == 1, "always exactly one meeting perfile")
 			for _, m := range obj.Meetings {

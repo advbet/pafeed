@@ -843,11 +843,12 @@ func (sp *xmlStartingPrice) UnmarshalXML(d *xml.Decoder, start xml.StartElement)
 // UnmarshalXML implements xml.Unmarshaler interface.
 func (j *xmlJockey) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	data := struct {
-		ID            int           `xml:"id,attr"`            // Identifier for jockey
-		Name          string        `xml:"name,attr"`          // The name of the jockey
-		RaceDayChange xmlYesNo      `xml:"raceDayChange,attr"` // Flag to indicate whether the jockey has changed on the race day.
-		Allowance     xmlUnitsValue `xml:"Allowance"`          // The allowance of the jockey
-		Overweight    xmlUnitsValue `xml:"Overweight"`         // Overweight information. Present only if the jockey is too heavy
+		ID            int      `xml:"id,attr"`            // Identifier for jockey
+		Name          string   `xml:"name,attr"`          // The name of the jockey
+		RaceDayChange xmlYesNo `xml:"raceDayChange,attr"` // Flag to indicate whether the jockey has changed on the race day.
+		// Removed due to a bug found in Australian feed
+		// Allowance     xmlUnitsValue `xml:"Allowance"`          // The allowance of the jockey
+		Overweight xmlUnitsValue `xml:"Overweight"` // Overweight information. Present only if the jockey is too heavy
 	}{}
 
 	if err := d.DecodeElement(&data, &start); err != nil {
@@ -857,8 +858,8 @@ func (j *xmlJockey) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 		ID:            data.ID,
 		Name:          data.Name,
 		RaceDayChange: bool(data.RaceDayChange),
-		Allowance:     UnitsValue(data.Allowance),
-		Overweight:    UnitsValue(data.Overweight),
+		// Allowance:     UnitsValue(data.Allowance),
+		Overweight: UnitsValue(data.Overweight),
 	}
 	return nil
 }
@@ -961,7 +962,13 @@ func (t *xmlTimeElement) UnmarshalXML(d *xml.Decoder, start xml.StartElement) er
 
 // UnmarshalXMLAttr implements xml.UnmarshalerAttr intrface.
 func (t *xmlTimeElement) UnmarshalXMLAttr(attr xml.Attr) error {
-	tm, err := time.Parse("20060102T150405-0700", attr.Value)
+	var tm time.Time
+	var err error
+	if len(attr.Value) == 20 {
+		tm, err = time.Parse("20060102T150405-0700", attr.Value)
+	} else {
+		tm, err = time.Parse("20060102T1504-0700", attr.Value)
+	}
 	if err != nil {
 		return fmt.Errorf("parsing %v attribute (%s): %v", attr.Name, attr.Value, err)
 	}

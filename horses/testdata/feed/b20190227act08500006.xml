@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HorseRacing SYSTEM "HorseRacing.dtd"[]>
+<HorseRacing timestamp="20190227T084213+0000">
+  <Meeting id="648" uuid="f665d134-4014-4ae9-b402-36ea5b15ec35" country="Australia" status="Active" date="20190227" course="Ascot" revision="2">
+    <Weather>Fine</Weather>
+    <Race id="4886" uuid="d7568ad0-6dfc-4ac6-b029-d0e355251cc2" raceNumber="6" date="20190227" time="0850+0000" runners="10" handicap="Yes" showcase="No" trifecta="No" stewards="None" status="Parading" revision="6">
+      <Weather>Fine</Weather>
+      <BetMarket marketNumber="1" dtFormed="20190227T0842+0000" deduction="0" deductionType="None" />
+      <Horse id="111252" uuid="5c04827c-3838-4a8e-9a35-a7b74b27ed0c" name="Without Reason" status="Runner">
+        <Cloth number="1" />
+        <Weight units="lbs" value="132" text="9st 6lbs" />
+        <Jockey id="111253" name="Troy Turner" />
+        <Trainer name="Colin Webster" />
+        <Show timestamp="20190227T084211+0000" marketNumber="1">
+          <Price numerator="11" denominator="10" />
+        </Show>
+      </Horse>
+      <Horse id="111254" uuid="57212353-4dcc-456e-89e4-c1cacd61e1bb" name="Apparition" status="Runner">
+        <Cloth number="2" />
+        <Weight units="lbs" value="130" text="9st 4lbs" />
+        <Jockey id="111255" name="Jason Brown" />
+        <Trainer name="Robert &amp; Todd Harvey" />
+        <Show timestamp="20190227T084211+0000" marketNumber="1">
+          <Price numerator="17" denominator="5" />
+        </Show>
+      </Horse>
+      <Horse id="111256" uuid="bb8b63f9-ca38-43cc-9615-5c058644f931" name="Blacktastic" status="Runner">
+        <Cloth number="3" />
+        <Weight units="lbs" value="130" text="9st 4lbs" />
+        <Jockey id="111257" name="Jarrad Noske" />
+        <Trainer name="Jeff Noske" />
+        <Show timestamp="20190227T084211+0000" marketNumber="1">
+          <Price numerator="22" denominator="1" />
+        </Show>
+        <Show timestamp="20190227T084211+0000" marketNumber="1">
+          <Price numerator="25" denominator="1" />
+        </Show>
+      </Horse>
+      <Horse id="111258" uuid="93cf7e5e-e695-4977-8c7b-ff6c8ccc6cef" name="Dalgaranga" status="Runner">
+        <Cloth number="4" />
+        <Weight units="lbs" value="130" text="9st 4lbs" />
+        <Jockey id="111259" name="Steven Parnham" />
+        <Trainer name="Neville Parnham" />
+        <Show timestamp="20190227T084211+0000" marketNumber="1">
+          <Price numerator="33" denominator="1" />
+        </Show>
+      </Horse>
+      <Horse id="111260" uuid="fcdbd6dc-c550-4591-9996-abda19615cc5" name="Bonneville Black" status="NonRunner">
+        <Cloth number="5" />
+        <Weight units="lbs" value="127" text="9st 1lbs" />
+        <Jockey id="111261" name="Shaun O'donnell" />
+        <Trainer name="Stephen Rowe" />
+      </Horse>
+      <Horse id="111262" uuid="336a06a8-5c08-4ed6-a1f6-aacbe496dcde" name="Deel Red" status="Runner">
+        <Cloth number="6" />
+        <Weight units="lbs" value="127" text="9st 1lbs" />
+        <Jockey id="111263" name="Patrick Carbery" />
+        <Trainer name="Simon A Miller" />
+        <Show timestamp="20190227T084211+0000" marketNumber="1">
+          <Price numerator="14" denominator="1" />
+        </Show>
+        <Show timestamp="20190227T084212+0000" marketNumber="1">
+          <Price numerator="14" denominator="1" />
+        </Show>
+      </Horse>
+      <Horse id="111264" uuid="49e99dc4-2893-4a54-90fe-1a96f70370c9" name="Mackenzie Brooke" status="Runner">
+        <Cloth number="7" />
+        <Weight units="lbs" value="127" text="9st 1lbs" />
+        <Jockey id="111265" name="Chris Parnham" />
+        <Trainer name="Adam Durrant" />
+        <Show timestamp="20190227T084211+0000" marketNumber="1">
+          <Price numerator="5" denominator="1" />
+        </Show>
+        <Show timestamp="20190227T084211+0000" marketNumber="1">
+          <Price numerator="11" denominator="2" />
+        </Show>
+      </Horse>
+      <Horse id="111266" uuid="31a9ba05-6588-45b1-b2ce-1d596ece75b5" name="Jovella" status="Runner">
+        <Cloth number="8" />
+        <Weight units="lbs" value="125" text="8st 13lbs" />
+        <Jockey id="111267" name="Daniel Staeck" />
+        <Trainer name="Liz Strempel" />
+        <Show timestamp="20190227T084211+0000" marketNumber="1">
+          <Price numerator="18" denominator="5" />
+        </Show>
+      </Horse>
+      <Horse id="111268" uuid="3702e11e-6961-4eb3-a894-21f8272f8973" name="Matabele" status="Runner">
+        <Cloth number="9" />
+        <Weight units="lbs" value="123" text="8st 11lbs" />
+        <Jockey id="111269" name="Lucy Warwick" />
+        <Trainer name="Justin Warwick" />
+        <Show timestamp="20190227T084211+0000" marketNumber="1">
+          <Price numerator="28" denominator="1" />
+        </Show>
+      </Horse>
+      <Horse id="111270" uuid="f4dfb786-e951-4e00-8659-8d06ddadd3c8" name="Alluring" status="Runner">
+        <Cloth number="10" />
+        <Weight units="lbs" value="121" text="8st 9lbs" />
+        <Jockey id="111271" name="Jordan Turner" />
+        <Trainer name="Neville Parnham" />
+        <Show timestamp="20190227T084211+0000" marketNumber="1">
+          <Price numerator="100" denominator="1" />
+        </Show>
+      </Horse>
+      <Horse id="111272" uuid="58ddd12c-048d-4714-a958-22c6da058c82" name="Get It Hot" status="Runner">
+        <Cloth number="11" />
+        <Weight units="lbs" value="121" text="8st 9lbs" />
+        <Jockey id="111273" name="Bonnie Palise">
+          <Allowance units="lbs" value="7" />
+        </Jockey>
+        <Trainer name="Julie Mitchell" />
+        <Show timestamp="20190227T084211+0000" marketNumber="1">
+          <Price numerator="150" denominator="1" />
+        </Show>
+      </Horse>
+    </Race>
+  </Meeting>
+</HorseRacing>

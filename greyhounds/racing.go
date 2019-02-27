@@ -4,6 +4,7 @@ import (
 	"encoding/xml"
 	"fmt"
 	"math/big"
+	"strings"
 	"time"
 
 	"bitbucket.org/advbet/decimal"
@@ -1032,7 +1033,11 @@ func (t *xmlTimeElement) UnmarshalXMLAttr(attr xml.Attr) error {
 	case 9:
 		tm, err = time.Parse("1504-0700", attr.Value)
 	case 10:
-		tm, err = time.Parse("02/01/2006", attr.Value)
+		if len(strings.Split(attr.Value, "/")) == 3 {
+			tm, err = time.Parse("02/01/2006", attr.Value)
+		} else {
+			tm, err = time.Parse("02-01-2006", attr.Value)
+		}
 	case 11:
 		tm, err = time.Parse("150405-0700", attr.Value)
 	case 17:

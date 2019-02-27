@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE DogRacing SYSTEM "DogRacing.dtd"[]>
+<DogRacing type="Race">
+  <Meeting meetingId="2142" uuid="4b02306f-7993-434b-b4cf-777b21584a30" track="Wentworth Park" country="Australia" date="20190227" state="Active">
+    <Race uuid="f77fe6cc-a264-4cc1-b991-102cd0bc2d9f" revision="5" raceId="34078" raceNumber="3" time="20190227T0847+0000" type="Flat" handicap="No" class="A" distance="520" tricast="No" state="Dormant">
+      <Trap trap="1" vacant="No" wide="No" seeding="Wide" reserve="No">
+        <Dog form="x5221" cloth="1" id="163219" uuid="520f7767-9d0d-4c33-9959-eea4b7ec9105" name="Nangar Diva" />
+        <Show timeStamp="20190227T083911+0000" marketNumber="1">
+          <Price numerator="7" denominator="5" />
+        </Show>
+      </Trap>
+      <Trap trap="2" vacant="No" wide="No" seeding="Wide" reserve="No">
+        <Dog form="f1x1" cloth="2" id="163221" uuid="93588f6a-f657-46dc-8358-e06c7d452991" name="Uncontrolled" />
+        <Show timeStamp="20190227T083911+0000" marketNumber="1">
+          <Price numerator="5" denominator="6" />
+        </Show>
+        <Show timeStamp="20190227T083911+0000" marketNumber="1">
+          <Price numerator="10" denominator="11" />
+        </Show>
+      </Trap>
+      <Trap trap="3" vacant="Yes" wide="No" seeding="Wide" reserve="No" />
+      <Trap trap="4" vacant="No" wide="No" seeding="Wide" reserve="No">
+        <Dog form="58421" cloth="4" id="163225" uuid="629e4f95-4bf5-49d8-a049-0b9b34406f9d" name="Rose Mac" />
+        <Show timeStamp="20190227T083911+0000" marketNumber="1">
+          <Price numerator="4" denominator="1" />
+        </Show>
+      </Trap>
+      <Trap trap="5" vacant="No" wide="No" seeding="Wide" reserve="No">
+        <Dog form="43346" cloth="5" id="163227" uuid="e64b5793-4cfa-4508-af4c-eb10b15614a8" name="Wild Wally" />
+        <Show timeStamp="20190227T083911+0000" marketNumber="1">
+          <Price numerator="18" denominator="1" />
+        </Show>
+      </Trap>
+      <Trap trap="6" vacant="No" wide="No" seeding="Wide" reserve="No">
+        <Dog form="35646" cloth="6" id="163229" uuid="3e3e74d1-0dea-4a22-bdac-6d77cd6c329b" name="Learn From Me" />
+        <Show timeStamp="20190227T083911+0000" marketNumber="1">
+          <Price numerator="100" denominator="1" />
+        </Show>
+      </Trap>
+      <Trap trap="7" vacant="No" wide="No" seeding="Wide" reserve="No">
+        <Dog form="23721" cloth="7" id="163231" uuid="ad8b5247-8a4e-48eb-86be-d65188a23235" name="Stella Marina" />
+        <Show timeStamp="20190227T083911+0000" marketNumber="1">
+          <Price numerator="12" denominator="1" />
+        </Show>
+        <Show timeStamp="20190227T083931+0000" marketNumber="1">
+          <Price numerator="12" denominator="1" />
+        </Show>
+      </Trap>
+      <Trap trap="8" vacant="Yes" wide="No" seeding="Wide" reserve="No" />
+      <NonRunner trap="8">
+        <Dog form="27374" cloth="8" id="163233" uuid="975d3a60-3be8-4b5f-8a84-ae975db3d8df" name="Cruze King" />
+      </NonRunner>
+      <NonRunner trap="3">
+        <Dog form="72458" cloth="3" id="163223" uuid="21981074-6dca-438d-b2ff-ae8620663d8b" name="Mack Cool" />
+      </NonRunner>
+    </Race>
+  </Meeting>
+</DogRacing>

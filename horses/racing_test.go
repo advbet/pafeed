@@ -74,7 +74,7 @@ func TestBulkParseHorseRacing(t *testing.T) {
 			blob, err := ioutil.ReadFile(path)
 			require.NoError(t, err, path)
 			obj, err := ParseRacingFile(blob)
-			assert.NoError(t, err, path)
+			require.NoError(t, err, path)
 
 			assert.True(t, len(obj.Meetings) == 1, "always exactly one meeting perfile")
 			for _, m := range obj.Meetings {
@@ -209,10 +209,10 @@ func TestParseHorseRacing(t *testing.T) {
 								Jockey: Jockey{
 									ID:   1150396,
 									Name: "Harry Burns",
-									Allowance: UnitsValue{
-										Units: "lbs",
-										Value: 7,
-									},
+									// Allowance: UnitsValue{
+									// 	Units: "lbs",
+									// 	Value: 7,
+									// },
 								},
 								Trainer: Trainer{
 									ID:   131079,
@@ -246,10 +246,10 @@ func TestParseHorseRacing(t *testing.T) {
 								Jockey: Jockey{
 									ID:   1156790,
 									Name: "Poppy Bridgwater",
-									Allowance: UnitsValue{
-										Units: "lbs",
-										Value: 7,
-									},
+									// Allowance: UnitsValue{
+									// 	Units: "lbs",
+									// 	Value: 7,
+									// },
 								},
 								Trainer: Trainer{
 									ID:   12102,
@@ -339,10 +339,10 @@ func TestParseHorseRacing(t *testing.T) {
 								Jockey: Jockey{
 									ID:   1140493,
 									Name: "Shelley Birkett",
-									Allowance: UnitsValue{
-										Units: "lbs",
-										Value: 3,
-									},
+									// Allowance: UnitsValue{
+									// 	Units: "lbs",
+									// 	Value: 3,
+									// },
 								},
 								Trainer: Trainer{
 									ID:   14707,
@@ -371,10 +371,10 @@ func TestParseHorseRacing(t *testing.T) {
 								Jockey: Jockey{
 									ID:   1149121,
 									Name: "Paddy Bradley",
-									Allowance: UnitsValue{
-										Units: "lbs",
-										Value: 5,
-									},
+									// Allowance: UnitsValue{
+									// 	Units: "lbs",
+									// 	Value: 5,
+									// },
 								},
 								Trainer: Trainer{
 									ID:   3897,
@@ -734,10 +734,10 @@ func TestParseHorseRacing(t *testing.T) {
 								Jockey: Jockey{
 									ID:   1164129,
 									Name: "Mr P Armson",
-									Allowance: UnitsValue{
-										Units: "lbs",
-										Value: 7,
-									},
+									// Allowance: UnitsValue{
+									// 	Units: "lbs",
+									// 	Value: 7,
+									// },
 								},
 								Trainer: Trainer{
 									ID:   9194,
@@ -779,10 +779,10 @@ func TestParseHorseRacing(t *testing.T) {
 								Jockey: Jockey{
 									ID:   1154755,
 									Name: "Mr Alex Chadwick",
-									Allowance: UnitsValue{
-										Units: "lbs",
-										Value: 7,
-									},
+									// Allowance: UnitsValue{
+									// 	Units: "lbs",
+									// 	Value: 7,
+									// },
 									Overweight: UnitsValue{
 										Units: "lbs",
 										Value: 2,
@@ -944,10 +944,10 @@ func TestParseHorseRacing(t *testing.T) {
 								Jockey: Jockey{
 									ID:   1150129,
 									Name: "Harrison Beswick",
-									Allowance: UnitsValue{
-										Units: "lbs",
-										Value: 7,
-									},
+									// Allowance: UnitsValue{
+									// 	Units: "lbs",
+									// 	Value: 7,
+									// },
 								},
 								Trainer: Trainer{
 									ID:   125032,
