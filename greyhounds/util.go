@@ -4,13 +4,14 @@ import (
 	"encoding/xml"
 	"fmt"
 	"strconv"
+	"strings"
 )
 
 // IsFinalResultsFile given a file name and meeting ID returns true if file
 // should contain final results.
 func IsFinalResultsFile(name string, meetingID int) bool {
 	// The format is: b<date><meetingid><racetime>.xml e.g. b20140601896972052.xml
-	return len(name) == len(fmt.Sprintf("b20140601%d2052.xml", meetingID))
+	return strings.HasPrefix(name, "b") && len(name) == len(fmt.Sprintf("b20140601%d2052.xml", meetingID))
 }
 
 // ParseFile unmarshals XML file contents to DogRacing object.
