@@ -352,6 +352,7 @@ const (
 	RacePhotoSecond      RaceState = "Photo Second"
 	RacePhotoThird       RaceState = "Photo Third"
 	RaceTrapFailure      RaceState = "Trap Failure"
+	RaceHareFailure      RaceState = "Hare Failure"
 )
 
 // List of allowed TrapSeeding values.
@@ -1118,7 +1119,8 @@ func (s RaceState) isValid() bool {
 		RaceFinished,
 		RacePhotoSecond,
 		RacePhotoThird,
-		RaceTrapFailure:
+		RaceTrapFailure,
+		RaceHareFailure:
 		return true
 	default:
 		return false
