@@ -1,6 +1,6 @@
 module github.com/advbet/pafeed
 
-go 1.18
+go 1.17
 
 require (
 	bitbucket.org/advbet/decimal v0.0.0-20171116063410-9a7a79a5a6e1
