@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"bitbucket.org/advbet/decimal"
+	"github.com/advbet/decimal"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

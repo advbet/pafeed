@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"bitbucket.org/advbet/decimal"
+	"github.com/advbet/decimal"
 )
 
 // MessageType is the type of the message (Card or Race)

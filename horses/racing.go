@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"time"
 
-	"bitbucket.org/advbet/decimal"
+	"github.com/advbet/decimal"
 )
 
 // MeetingStatus is the status of whole meeting.

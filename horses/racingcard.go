@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"bitbucket.org/advbet/decimal"
+	"github.com/advbet/decimal"
 )
 
 // RacingCardFile is main data structure in the PA horse racing feed, that
